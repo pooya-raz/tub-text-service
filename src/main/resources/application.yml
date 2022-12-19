@@ -1,0 +1,5 @@
+tub:
+  api-url: 'http://10.164.39.147:8080/tub/api.php'
+  retry-max-attempts: 2
+  retry-backoff-period: '2s'
+
