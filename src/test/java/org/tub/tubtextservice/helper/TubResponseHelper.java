@@ -5,11 +5,10 @@ import org.tub.tubtextservice.model.tubresponse.Category;
 import org.tub.tubtextservice.model.tubresponse.Data;
 import org.tub.tubtextservice.model.tubresponse.Meta;
 import org.tub.tubtextservice.model.tubresponse.PrintRequest;
-import org.tub.tubtextservice.model.tubresponse.Printouts;
 import org.tub.tubtextservice.model.tubresponse.Query;
 import org.tub.tubtextservice.model.tubresponse.Results;
 import org.tub.tubtextservice.model.tubresponse.TubResponse;
-import org.tub.tubtextservice.model.tubresponse.TypeId;
+import org.tub.tubtextservice.model.tubresponse.printouts.TitlePrintouts;
 
 import java.util.List;
 
@@ -19,8 +18,8 @@ public final class TubResponseHelper {
   }
 
   private static List<PrintRequest> createPrintRequests() {
-    final var r1 = new PrintRequest("", "", "", TypeId.WPG, 2L, null);
-    final var r2 = new PrintRequest("Category", "", "", TypeId.WPG, 0L, "");
+    final var r1 = new PrintRequest("", "", "", "_wpg", 2L, null);
+    final var r2 = new PrintRequest("Category", "", "", "_wpg", 0L, "");
     return List.of(r1, r2);
   }
 
@@ -40,8 +39,8 @@ public final class TubResponseHelper {
             "1",
             "");
     final var printout =
-        new Printouts(
-            category,
+        new TitlePrintouts(
+            List.of(category),
             List.of("Treatise (risāla)"),
             List.of("0"),
             List.of("أبواب الجنان المشتمل على رسائل ثمان"),

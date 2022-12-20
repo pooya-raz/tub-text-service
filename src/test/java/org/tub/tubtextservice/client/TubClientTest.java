@@ -11,11 +11,14 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.DynamicPropertyRegistry;
 import org.springframework.test.context.DynamicPropertySource;
 import org.tub.tubtextservice.helper.TubResponseHelper;
+import org.tub.tubtextservice.model.tubresponse.MediaWikiDate;
+import org.tub.tubtextservice.model.tubresponse.printouts.AuthorPrintouts;
 import reactor.test.StepVerifier;
 
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.List;
 
 import static com.github.tomakehurst.wiremock.client.WireMock.configureFor;
 import static com.github.tomakehurst.wiremock.client.WireMock.equalTo;
@@ -54,8 +57,7 @@ class TubClientTest {
   @Test
   void queryTubShouldReturnWithValidJson() throws IOException {
     final var response =
-        Files.readString(
-            Paths.get("src/test/resources/tub/semantic-query/title-three-responses.json"));
+        Files.readString(Paths.get("src/test/resources/tub/semantic-query/title.json"));
     final var expectedResponse = TubResponseHelper.createTubResponse();
 
     server.stubFor(
@@ -74,7 +76,41 @@ class TubClientTest {
                       .get()
                       .getValue()
                       .printouts(),
-                  expectedResponse.query().results().getDataMap().entrySet().stream()
+                  actual.query().results().getDataMap().entrySet().stream()
+                      .findFirst()
+                      .get()
+                      .getValue()
+                      .printouts());
+            })
+        .verifyComplete();
+  }
+
+  @Test
+  void queryTubShouldReturnWithAuthorWhenQueriedForAuthor() throws IOException {
+    final var response =
+        Files.readString(Paths.get("src/test/resources/tub/semantic-query/author.json"));
+    final var expectedResponse =
+        new AuthorPrintouts(
+            List.of("ʿAbbās b. Ḥasan Kāshif al-Ghiṭāʾ"),
+            List.of(1323),
+            List.of(new MediaWikiDate(-2051222400L, "1/1905")),
+            List.of(),
+            List.of(),
+            List.of(),
+            List.of());
+
+    server.stubFor(
+        get(urlPathEqualTo("/"))
+            .withQueryParam("action", equalTo("ask"))
+            .withQueryParam("format", equalTo("json"))
+            .withQueryParam("query", equalTo("author"))
+            .willReturn(okJson(response)));
+    StepVerifier.create(subject.queryTub("ask", "json", "author"))
+        .assertNext(
+            actual -> {
+              assertEquals(
+                  expectedResponse,
+                  actual.query().results().getDataMap().entrySet().stream()
                       .findFirst()
                       .get()
                       .getValue()
