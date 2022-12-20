@@ -10,7 +10,7 @@ public record Printouts(
     List<String> hasNumberOfCommentaries,
     List<String> titleArabic,
     List<String> titleTransliterated,
-    @JsonProperty("Has author(s)") List<Author> hasAuthorS,
-    @JsonProperty("Has translator(s)") List<Object> hasTranslatorS,
+    @JsonProperty("Has author(s)") List<Author> hasAuthors,
+    @JsonProperty("Has translator(s)") List<Object> hasTranslators,
     List<String> hasACatalogueDescription,
     List<Object> hasBaseText) {}
