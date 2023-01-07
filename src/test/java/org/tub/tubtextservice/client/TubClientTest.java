@@ -12,7 +12,9 @@ import org.springframework.test.context.DynamicPropertyRegistry;
 import org.springframework.test.context.DynamicPropertySource;
 import org.tub.tubtextservice.helper.TubResponseHelper;
 import org.tub.tubtextservice.model.tubresponse.MediaWikiDate;
+import org.tub.tubtextservice.model.tubresponse.MediaWikiPageDetails;
 import org.tub.tubtextservice.model.tubresponse.printouts.AuthorPrintouts;
+import org.tub.tubtextservice.model.tubresponse.printouts.ManuscriptPrintouts;
 import reactor.test.StepVerifier;
 
 import java.io.IOException;
@@ -104,6 +106,52 @@ class TubClientTest {
             .withQueryParam("query", equalTo("author"))
             .willReturn(okJson(response)));
     StepVerifier.create(subject.queryTub("ask", "json", "author"))
+        .assertNext(
+            actual ->
+                assertEquals(
+                    expectedResponse,
+                    actual.query().results().getDataMap().entrySet().stream()
+                        .findFirst()
+                        .map(json -> json.getValue().printouts())
+                        .orElse(null)))
+        .verifyComplete();
+  }
+
+  @Test
+  void queryTubShouldReturnWithManuscriptWhenQueriedForManuscript() throws IOException {
+    final var response =
+        Files.readString(Paths.get("src/test/resources/tub/semantic-query/manuscript.json"));
+    final var city =
+        new MediaWikiPageDetails(
+            "Tehran", "http://10.164.39.147:8080/tub/index.php/Tehran", 0, "1", "");
+    final var title =
+        new MediaWikiPageDetails(
+            "Abwāb al-jinān al-mushtamil ʿalā rasāʾil thamān",
+            "http://10.164.39.147:8080/tub/index.php/Abw%C4%81b_al-jin%C4%81n_al-mushtamil_%CA%BFal%C4%81_ras%C4%81%CA%BEil_tham%C4%81n",
+            0,
+            "1",
+            "");
+    final var expectedResponse =
+        new ManuscriptPrintouts(
+            List.of("Majlis"),
+            List.of("Fankha 1:371"),
+            List.of(1699),
+            List.of("17th century"),
+            List.of(1099),
+            List.of("11th century"),
+            List.of(),
+            List.of(),
+            List.of(city),
+            List.of("1195"),
+            List.of(title));
+
+    server.stubFor(
+        get(urlPathEqualTo("/"))
+            .withQueryParam("action", equalTo("ask"))
+            .withQueryParam("format", equalTo("json"))
+            .withQueryParam("query", equalTo("manuscript"))
+            .willReturn(okJson(response)));
+    StepVerifier.create(subject.queryTub("ask", "json", "manuscript"))
         .assertNext(
             actual ->
                 assertEquals(
