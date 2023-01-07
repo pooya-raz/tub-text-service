@@ -15,11 +15,12 @@ import java.util.Optional;
 import java.util.stream.Stream;
 
 public class TubApiService {
+  public static final int STOP = 0;
   private static final String ACTION_ASK = "ask";
   private static final String FORMAT_JSON = "json";
   private final TubClient tubClient;
   private final TubProperties tub;
-  private int offset = 0;
+  private int offset = STOP;
 
   public TubApiService(TubClient tubClient, TubProperties tub) {
     this.tubClient = tubClient;
@@ -38,7 +39,7 @@ public class TubApiService {
   private <T extends Printouts> List<T> getPrintouts(
       final String query, final Class<T> printoutClass) {
     var list = fetchData(query);
-    while (offset != 0) {
+    while (offset != STOP) {
       list = Stream.of(list, fetchData(query + "|offset=" + offset)).flatMap(List::stream).toList();
     }
     return list.stream().map(printoutClass::cast).toList();
@@ -57,7 +58,7 @@ public class TubApiService {
             })
         .orElseGet(
             () -> {
-              offset = 0;
+              offset = STOP;
               return List.of();
             });
   }
