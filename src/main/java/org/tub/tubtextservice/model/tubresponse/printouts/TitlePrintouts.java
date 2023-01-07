@@ -8,11 +8,11 @@ import java.util.List;
 public record TitlePrintouts(
     @JsonProperty("Category") List<MediaWikiPageDetails> category,
     @JsonProperty("Book type") List<String> bookType,
-    @JsonProperty("Has number of commentaries") List<String> hasNumberOfCommentaries,
+    @JsonProperty("Has number of commentaries") List<String> numberOfCommentaries,
     @JsonProperty("Title (Arabic)") List<String> titleArabic,
     @JsonProperty("Title (transliterated)") List<String> titleTransliterated,
-    @JsonProperty("Has author(s)") List<MediaWikiPageDetails> hasAuthors,
-    @JsonProperty("Has translator(s)") List<String> hasTranslators,
-    @JsonProperty("Has a catalogue description") List<String> hasACatalogueDescription,
-    @JsonProperty("Has base text") List<MediaWikiPageDetails> hasBaseText)
+    @JsonProperty("Has author(s)") List<MediaWikiPageDetails> author,
+    @JsonProperty("Has translator(s)") List<String> translator,
+    @JsonProperty("Has a catalogue description") List<String> catalogueDescription,
+    @JsonProperty("Has base text") List<MediaWikiPageDetails> baseText)
     implements Printouts {}
