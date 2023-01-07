@@ -9,7 +9,7 @@ import org.tub.tubtextservice.model.tubresponse.printouts.TitlePrintouts;
 import static com.fasterxml.jackson.annotation.JsonTypeInfo.Id.DEDUCTION;
 
 public record Data(
-    @JsonTypeInfo(use = DEDUCTION) // Intended usage
+    @JsonTypeInfo(use = DEDUCTION)
         @JsonSubTypes({
           @JsonSubTypes.Type(TitlePrintouts.class),
           @JsonSubTypes.Type(AuthorPrintouts.class)

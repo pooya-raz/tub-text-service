@@ -2,4 +2,7 @@ tub:
   api-url: 'http://10.164.39.147:8080/tub/api.php'
   retry-max-attempts: 2
   retry-backoff-period: '2s'
+  query:
+    titles: "[[Category:Author]]|?Full name (transliterated)|?Death (Hijri)|?Death (Gregorian)|?Death (Shamsi)|?Death (Hijri) text|?Death (Gregorian) text|?Death (Shamsi) text|limit=3"
+    authors: "[[Category:Author]]|?Full name (transliterated)|?Death (Hijri)|?Death (Gregorian)|?Death (Shamsi)|?Death (Hijri) text|?Death (Gregorian) text|?Death (Shamsi) text|limit=3"
 

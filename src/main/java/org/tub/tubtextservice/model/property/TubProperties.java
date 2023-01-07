@@ -6,7 +6,4 @@ import java.time.Duration;
 
 @ConfigurationProperties(prefix = "tub")
 public record TubProperties(
-        String apiUrl,
-        Integer retryMaxAttempts,
-        Duration retryBackoffPeriod
-) { }
+    String apiUrl, Integer retryMaxAttempts, Duration retryBackoffPeriod, QueryProperties query) {}

@@ -28,7 +28,7 @@ public class WebClientConfiguration {
     final WebClient webClient =
         builder
             .baseUrl(tubProperties.apiUrl())
-            .filter(logRequest("Fetching data from TUB: " + tubProperties.apiUrl()))
+            .filter(logRequest("Fetching data from TUB: "))
             .filter(retryFilter("Retrying to fetch data from TUB", tubProperties))
             .build();
     final HttpServiceProxyFactory factory =
@@ -53,7 +53,7 @@ public class WebClientConfiguration {
 
   private ExchangeFilterFunction logRequest(String text) {
     return (clientRequest, nextFilter) -> {
-      log.info(text);
+      log.info(text + clientRequest.url());
       return nextFilter.exchange(clientRequest);
     };
   }
