@@ -1,0 +1,8 @@
+{
+  "error": {
+    "query": [
+      "The part \"\"Error\"\" of the query was not understood.\nResults might not be as expected.",
+      "Some subquery has no valid condition."
+    ]
+  }
+}

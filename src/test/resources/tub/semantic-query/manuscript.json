@@ -1,0 +1,163 @@
+{
+  "query-continue-offset": 1,
+  "query": {
+    "printrequests": [
+      {
+        "label": "",
+        "key": "",
+        "redi": "",
+        "typeid": "_wpg",
+        "mode": 2
+      },
+      {
+        "label": "Has a location",
+        "key": "Has_a_location",
+        "redi": "",
+        "typeid": "_txt",
+        "mode": 1,
+        "format": ""
+      },
+      {
+        "label": "Has references",
+        "key": "Has_references",
+        "redi": "",
+        "typeid": "_txt",
+        "mode": 1,
+        "format": ""
+      },
+      {
+        "label": "Has year(Gregorian)",
+        "key": "Has_year(Gregorian)",
+        "redi": "",
+        "typeid": "_num",
+        "mode": 1,
+        "format": ""
+      },
+      {
+        "label": "Has year(Gregorian) text",
+        "key": "Has_year(Gregorian)_text",
+        "redi": "",
+        "typeid": "_txt",
+        "mode": 1,
+        "format": ""
+      },
+      {
+        "label": "Has year(Hijri)",
+        "key": "Has_year(Hijri)",
+        "redi": "",
+        "typeid": "_num",
+        "mode": 1,
+        "format": ""
+      },
+      {
+        "label": "Has year(Hijri) text",
+        "key": "Has_year(Hijri)_text",
+        "redi": "",
+        "typeid": "_txt",
+        "mode": 1,
+        "format": ""
+      },
+      {
+        "label": "Has year(Shamsi)",
+        "key": "Has_year(Shamsi)",
+        "redi": "",
+        "typeid": "_num",
+        "mode": 1,
+        "format": ""
+      },
+      {
+        "label": "Has year(Shamsi) text",
+        "key": "Has_year(Shamsi)_text",
+        "redi": "",
+        "typeid": "_txt",
+        "mode": 1,
+        "format": ""
+      },
+      {
+        "label": "Located in a city",
+        "key": "Located_in_a_city",
+        "redi": "",
+        "typeid": "_wpg",
+        "mode": 1,
+        "format": ""
+      },
+      {
+        "label": "Manuscript number",
+        "key": "Manuscript_number",
+        "redi": "",
+        "typeid": "_txt",
+        "mode": 1,
+        "format": ""
+      },
+      {
+        "label": "Manuscript of title",
+        "key": "Manuscript_of_title",
+        "redi": "",
+        "typeid": "_wpg",
+        "mode": 1,
+        "format": ""
+      }
+    ],
+    "results": {
+      "Manuscript:Abwāb al-jinān al-mushtamil ʿalā rasāʾil thamān (11th/17th century Tehran)": {
+        "printouts": {
+          "Has a location": [
+            "Majlis"
+          ],
+          "Has references": [
+            "Fankha 1:371"
+          ],
+          "Has year(Gregorian)": [
+            1699
+          ],
+          "Has year(Gregorian) text": [
+            "17th century"
+          ],
+          "Has year(Hijri)": [
+            1099
+          ],
+          "Has year(Hijri) text": [
+            "11th century"
+          ],
+          "Has year(Shamsi)": [],
+          "Has year(Shamsi) text": [],
+          "Located in a city": [
+            {
+              "fulltext": "Tehran",
+              "fullurl": "http://10.164.39.147:8080/tub/index.php/Tehran",
+              "namespace": 0,
+              "exists": "1",
+              "displaytitle": ""
+            }
+          ],
+          "Manuscript number": [
+            "1195"
+          ],
+          "Manuscript of title": [
+            {
+              "fulltext": "Abwāb al-jinān al-mushtamil ʿalā rasāʾil thamān",
+              "fullurl": "http://10.164.39.147:8080/tub/index.php/Abw%C4%81b_al-jin%C4%81n_al-mushtamil_%CA%BFal%C4%81_ras%C4%81%CA%BEil_tham%C4%81n",
+              "namespace": 0,
+              "exists": "1",
+              "displaytitle": ""
+            }
+          ]
+        },
+        "fulltext": "Manuscript:Abwāb al-jinān al-mushtamil ʿalā rasāʾil thamān (11th/17th century Tehran)",
+        "fullurl": "http://10.164.39.147:8080/tub/index.php/Manuscript:Abw%C4%81b_al-jin%C4%81n_al-mushtamil_%CA%BFal%C4%81_ras%C4%81%CA%BEil_tham%C4%81n_(11th/17th_century_Tehran)",
+        "namespace": 3002,
+        "exists": "1",
+        "displaytitle": ""
+      }
+    },
+    "serializer": "SMW\\Serializers\\QueryResultSerializer",
+    "version": 2,
+    "meta": {
+      "hash": "3857ed77f11a0cd3a6f9573b9a564a6e",
+      "count": 1,
+      "offset": 0,
+      "source": "",
+      "time": "0.050205"
+    }
+  }
+}

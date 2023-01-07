@@ -114,36 +114,4 @@ class TubClientTest {
                         .orElse(null)))
         .verifyComplete();
   }
-
-  @Test
-  void queryTubShouldReturnWithAuthorWhenQueriedForMultipleAuthors() throws IOException {
-    final var response =
-        Files.readString(Paths.get("src/test/resources/tub/semantic-query/authors.json"));
-    final var expectedResponse =
-        new AuthorPrintouts(
-            List.of("ʿAbbās b. Ḥasan Kāshif al-Ghiṭāʾ"),
-            List.of(1323),
-            List.of(new MediaWikiDate(-2051222400L, "1/1905")),
-            List.of(),
-            List.of(),
-            List.of(),
-            List.of());
-
-    server.stubFor(
-        get(urlPathEqualTo("/"))
-            .withQueryParam("action", equalTo("ask"))
-            .withQueryParam("format", equalTo("json"))
-            .withQueryParam("query", equalTo("author"))
-            .willReturn(okJson(response)));
-    StepVerifier.create(subject.queryTub("ask", "json", "author"))
-        .assertNext(
-            actual ->
-                assertEquals(
-                    expectedResponse,
-                    actual.query().results().getDataMap().entrySet().stream()
-                        .findFirst()
-                        .map(json -> json.getValue().printouts())
-                        .orElse(null)))
-        .verifyComplete();
-  }
 }
