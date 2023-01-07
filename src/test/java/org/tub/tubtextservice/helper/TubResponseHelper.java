@@ -1,8 +1,7 @@
 package org.tub.tubtextservice.helper;
 
-import org.tub.tubtextservice.model.tubresponse.Author;
-import org.tub.tubtextservice.model.tubresponse.Category;
 import org.tub.tubtextservice.model.tubresponse.Data;
+import org.tub.tubtextservice.model.tubresponse.MediaWikiPageDetails;
 import org.tub.tubtextservice.model.tubresponse.Meta;
 import org.tub.tubtextservice.model.tubresponse.PrintRequest;
 import org.tub.tubtextservice.model.tubresponse.Query;
@@ -25,14 +24,14 @@ public final class TubResponseHelper {
 
   public static TubResponse createTubResponse() {
     final var category =
-        new Category(
+        new MediaWikiPageDetails(
             "Category:Manuscript-only title",
             "http://10.164.39.147:8080/tub/index.php/Category:Manuscript-only_title",
             14,
             "1",
             "");
     final var author =
-        new Author(
+        new MediaWikiPageDetails(
             "Muḥammad b. Faraj al-Ḥimyarī al-Najafī",
             "http://10.164.39.147:8080/tub/index.php/Mu%E1%B8%A5ammad_b._Faraj_al-%E1%B8%A4imyar%C4%AB_al-Najaf%C4%AB",
             0,
