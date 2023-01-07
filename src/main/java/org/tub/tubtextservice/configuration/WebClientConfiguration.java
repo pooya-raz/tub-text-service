@@ -8,7 +8,6 @@ import org.springframework.web.reactive.function.client.ExchangeFilterFunction;
 import org.springframework.web.reactive.function.client.WebClient;
 import org.springframework.web.reactive.function.client.support.WebClientAdapter;
 import org.springframework.web.service.invoker.HttpServiceProxyFactory;
-import org.tub.tubtextservice.client.TodoClient;
 import org.tub.tubtextservice.client.TubClient;
 import org.tub.tubtextservice.model.property.TubProperties;
 import reactor.core.publisher.Mono;
@@ -35,15 +34,6 @@ public class WebClientConfiguration {
     final HttpServiceProxyFactory factory =
         HttpServiceProxyFactory.builder(WebClientAdapter.forClient(webClient)).build();
     return factory.createClient(TubClient.class);
-  }
-
-  @Bean
-  TodoClient todoClient() {
-    WebClient webClient =
-        WebClient.builder().baseUrl("https://jsonplaceholder.typicode.com").build();
-    HttpServiceProxyFactory factory =
-        HttpServiceProxyFactory.builder(WebClientAdapter.forClient(webClient)).build();
-    return factory.createClient(TodoClient.class);
   }
 
   private ExchangeFilterFunction retryFilter(String text, TubProperties properties) {
