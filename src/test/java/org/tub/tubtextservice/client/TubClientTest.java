@@ -14,6 +14,7 @@ import org.tub.tubtextservice.helper.TubResponseHelper;
 import org.tub.tubtextservice.model.tubresponse.MediaWikiDate;
 import org.tub.tubtextservice.model.tubresponse.MediaWikiPageDetails;
 import org.tub.tubtextservice.model.tubresponse.printouts.AuthorPrintouts;
+import org.tub.tubtextservice.model.tubresponse.printouts.EditionPrintouts;
 import org.tub.tubtextservice.model.tubresponse.printouts.ManuscriptPrintouts;
 import reactor.test.StepVerifier;
 
@@ -144,6 +145,55 @@ class TubClientTest {
             List.of(city),
             List.of("1195"),
             List.of(title));
+
+    server.stubFor(
+        get(urlPathEqualTo("/"))
+            .withQueryParam("action", equalTo("ask"))
+            .withQueryParam("format", equalTo("json"))
+            .withQueryParam("query", equalTo("manuscript"))
+            .willReturn(okJson(response)));
+    StepVerifier.create(subject.queryTub("ask", "json", "manuscript"))
+        .assertNext(
+            actual ->
+                assertEquals(
+                    expectedResponse,
+                    actual.query().results().getDataMap().entrySet().stream()
+                        .findFirst()
+                        .map(json -> json.getValue().printouts())
+                        .orElse(null)))
+        .verifyComplete();
+  }
+
+  @Test
+  void queryTubShouldCorrectlyParseEditionPrintouts() throws IOException {
+    final var response =
+        Files.readString(Paths.get("src/test/resources/tub/semantic-query/edition.json"));
+    final var city =
+        new MediaWikiPageDetails(
+            "Tehran", "http://10.164.39.147:8080/tub/index.php/Tehran", 0, "1", "");
+    final var title =
+        new MediaWikiPageDetails(
+            "Anīs al-mujtahidīn",
+            "http://10.164.39.147:8080/tub/index.php/An%C4%ABs_al-mujtahid%C4%ABn",
+            0,
+            "1",
+            "");
+    final var expectedResponse =
+        new EditionPrintouts(
+            List.of("Anīs al-mujtahidīn"),
+            List.of("أنيس المجتهدين"),
+            List.of(2009),
+            List.of("2009-10"),
+            List.of(1430),
+            List.of("1430-31"),
+            List.of(1388),
+            List.of("1388"),
+            List.of(title),
+            List.of(),
+            List.of("Bustān-i Kitāb"),
+            List.of(),
+            List.of(),
+            List.of(city));
 
     server.stubFor(
         get(urlPathEqualTo("/"))

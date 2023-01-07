@@ -1,0 +1,194 @@
+{
+  "query-continue-offset": 10,
+  "query": {
+    "printrequests": [
+      {
+        "label": "",
+        "key": "",
+        "redi": "",
+        "typeid": "_wpg",
+        "mode": 2
+      },
+      {
+        "label": "Title (transliterated)",
+        "key": "Title_(transliterated)",
+        "redi": "",
+        "typeid": "_txt",
+        "mode": 1,
+        "format": ""
+      },
+      {
+        "label": "Title (Arabic)",
+        "key": "Title_(Arabic)",
+        "redi": "",
+        "typeid": "_txt",
+        "mode": 1,
+        "format": ""
+      },
+      {
+        "label": "Has year(Gregorian)",
+        "key": "Has_year(Gregorian)",
+        "redi": "",
+        "typeid": "_num",
+        "mode": 1,
+        "format": ""
+      },
+      {
+        "label": "Has year(Gregorian) text",
+        "key": "Has_year(Gregorian)_text",
+        "redi": "",
+        "typeid": "_txt",
+        "mode": 1,
+        "format": ""
+      },
+      {
+        "label": "Has year(Hijri)",
+        "key": "Has_year(Hijri)",
+        "redi": "",
+        "typeid": "_num",
+        "mode": 1,
+        "format": ""
+      },
+      {
+        "label": "Has year(Hijri) text",
+        "key": "Has_year(Hijri)_text",
+        "redi": "",
+        "typeid": "_txt",
+        "mode": 1,
+        "format": ""
+      },
+      {
+        "label": "Has year(Shamsi)",
+        "key": "Has_year(Shamsi)",
+        "redi": "",
+        "typeid": "_num",
+        "mode": 1,
+        "format": ""
+      },
+      {
+        "label": "Has year(Shamsi) text",
+        "key": "Has_year(Shamsi)_text",
+        "redi": "",
+        "typeid": "_txt",
+        "mode": 1,
+        "format": ""
+      },
+      {
+        "label": "Published edition of title",
+        "key": "Published_edition_of_title",
+        "redi": "",
+        "typeid": "_wpg",
+        "mode": 1,
+        "format": ""
+      },
+      {
+        "label": "Has editor(s)",
+        "key": "Has_editor(s)",
+        "redi": "",
+        "typeid": "_txt",
+        "mode": 1,
+        "format": ""
+      },
+      {
+        "label": "Has a publisher",
+        "key": "Has_a_publisher",
+        "redi": "",
+        "typeid": "_txt",
+        "mode": 1,
+        "format": ""
+      },
+      {
+        "label": "Has a description",
+        "key": "Has_a_description",
+        "redi": "",
+        "typeid": "_txt",
+        "mode": 1,
+        "format": ""
+      },
+      {
+        "label": "Edition type",
+        "key": "Edition_type",
+        "redi": "",
+        "typeid": "_txt",
+        "mode": 1,
+        "format": ""
+      },
+      {
+        "label": "City",
+        "key": "City",
+        "redi": "",
+        "typeid": "_wpg",
+        "mode": 1,
+        "format": ""
+      }
+    ],
+    "results": {
+      "Edition:Anīs al-mujtahidīn 1": {
+        "printouts": {
+          "Title (transliterated)": [
+            "Anīs al-mujtahidīn"
+          ],
+          "Title (Arabic)": [
+            "أنيس المجتهدين"
+          ],
+          "Has year(Gregorian)": [
+            2009
+          ],
+          "Has year(Gregorian) text": [
+            "2009-10"
+          ],
+          "Has year(Hijri)": [
+            1430
+          ],
+          "Has year(Hijri) text": [
+            "1430-31"
+          ],
+          "Has year(Shamsi)": [
+            1388
+          ],
+          "Has year(Shamsi) text": [
+            "1388"
+          ],
+          "Published edition of title": [
+            {
+              "fulltext": "Anīs al-mujtahidīn",
+              "fullurl": "http://10.164.39.147:8080/tub/index.php/An%C4%ABs_al-mujtahid%C4%ABn",
+              "namespace": 0,
+              "exists": "1",
+              "displaytitle": ""
+            }
+          ],
+          "Has editor(s)": [],
+          "Has a publisher": [
+            "Bustān-i Kitāb"
+          ],
+          "Has a description": [],
+          "Edition type": [],
+          "City": [
+            {
+              "fulltext": "Tehran",
+              "fullurl": "http://10.164.39.147:8080/tub/index.php/Tehran",
+              "namespace": 0,
+              "exists": "1",
+              "displaytitle": ""
+            }
+          ]
+        },
+        "fulltext": "Edition:Anīs al-mujtahidīn 1",
+        "fullurl": "http://10.164.39.147:8080/tub/index.php/Edition:An%C4%ABs_al-mujtahid%C4%ABn_1",
+        "namespace": 3000,
+        "exists": "1",
+        "displaytitle": ""
+      }
+    },
+    "serializer": "SMW\\Serializers\\QueryResultSerializer",
+    "version": 2,
+    "meta": {
+      "hash": "a867f15f3feb8964e59c84c08aaa047e",
+      "count": 10,
+      "offset": 0,
+      "source": "",
+      "time": "0.096098"
+    }
+  }
+}
