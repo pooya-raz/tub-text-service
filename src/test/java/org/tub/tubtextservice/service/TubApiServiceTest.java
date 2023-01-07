@@ -20,7 +20,9 @@ import org.tub.tubtextservice.model.tubresponse.printouts.Printouts;
 import org.tub.tubtextservice.model.tubresponse.printouts.TitlePrintouts;
 import reactor.core.publisher.Mono;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.when;
@@ -36,6 +38,8 @@ class TubApiServiceTest {
   public static final String EDITIONS = "editions";
   public static final AuthorPrintouts AUTHOR_PRINTOUTS =
       new AuthorPrintouts(List.of("Jim"), null, null, null, null, null, null);
+  public static final Map<String, AuthorPrintouts> AUTHOR_MAP =
+      createMap(AUTHOR_PRINTOUTS, AuthorPrintouts.class);
   public static final EditionPrintouts EDITION_PRINTOUTS =
       new EditionPrintouts(
           List.of("Edition"),
@@ -52,9 +56,13 @@ class TubApiServiceTest {
           null,
           null,
           null);
+  public static final Map<String, EditionPrintouts> EDITION_MAP =
+      createMap(EDITION_PRINTOUTS, EditionPrintouts.class);
   public static final ManuscriptPrintouts MANUSCRIPT_PRINTOUTS =
       new ManuscriptPrintouts(
           null, null, null, null, null, null, null, null, null, List.of("1"), null);
+  public static final Map<String, ManuscriptPrintouts> MANUSCRIPT_MAP =
+      createMap(MANUSCRIPT_PRINTOUTS, ManuscriptPrintouts.class);
   public static final TitlePrintouts TITLE_PRINTOUTS =
       new TitlePrintouts(null, null, null, null, List.of("title"), null, null, null, null);
   private TubApiService subject;
@@ -78,6 +86,30 @@ class TubApiServiceTest {
     return getTubResponse(data, 0);
   }
 
+  private static <T extends Printouts> Map<String, T> createMap(
+      T printouts, Class<T> printoutsClass) {
+    final var printoutsMap = new HashMap<String, T>();
+    if (printoutsClass.isInstance(AuthorPrintouts.class)) {
+      assert printouts instanceof AuthorPrintouts;
+      final var authorPrintouts = (AuthorPrintouts) printouts;
+      printoutsMap.put(
+          authorPrintouts.fullNameTransliterated().get(0), printoutsClass.cast(printouts));
+    }
+    if (printoutsClass.isInstance(EditionPrintouts.class)) {
+      assert printouts instanceof EditionPrintouts;
+      final var edition = (EditionPrintouts) printouts;
+      printoutsMap.put(
+          edition.publishedEditionOfTitle().get(0).fulltext(), printoutsClass.cast(printouts));
+    }
+    if (printoutsClass.isInstance(ManuscriptPrintouts.class)) {
+      assert printouts instanceof ManuscriptPrintouts;
+      final var manuscript = (ManuscriptPrintouts) printouts;
+      printoutsMap.put(
+          manuscript.manuscriptOfTitle().get(0).fulltext(), printoutsClass.cast(printouts));
+    }
+    return printoutsMap;
+  }
+
   @BeforeEach
   void setUpBeforeEach() {
     final var queries = new QueryProperties(TITLES, AUTHORS, MANUSCRIPTS, EDITIONS);
@@ -87,12 +119,9 @@ class TubApiServiceTest {
 
   @Test
   void getDataShouldGetDataForTubCategories() {
+
     final var expected =
-        new TubData(
-            List.of(TITLE_PRINTOUTS),
-            List.of(AUTHOR_PRINTOUTS),
-            List.of(MANUSCRIPT_PRINTOUTS),
-            List.of(EDITION_PRINTOUTS));
+        new TubData(List.of(TITLE_PRINTOUTS), AUTHOR_MAP, MANUSCRIPT_MAP, EDITION_MAP);
     final var titleResponse = getResponse(TITLE_PRINTOUTS);
     final var authorResponse = getResponse(AUTHOR_PRINTOUTS);
     final var manuscriptResponse = getResponse(MANUSCRIPT_PRINTOUTS);
@@ -109,10 +138,7 @@ class TubApiServiceTest {
   void getDataShouldGetGetMoreDataIfThereIsOffset() {
     final var expected =
         new TubData(
-            List.of(TITLE_PRINTOUTS, TITLE_PRINTOUTS),
-            List.of(AUTHOR_PRINTOUTS),
-            List.of(MANUSCRIPT_PRINTOUTS),
-            List.of(EDITION_PRINTOUTS));
+            List.of(TITLE_PRINTOUTS, TITLE_PRINTOUTS), AUTHOR_MAP, MANUSCRIPT_MAP, EDITION_MAP);
     final var titleResponseWithOffset = getResponse(TITLE_PRINTOUTS, 1);
     final var titleResponse = getResponse(TITLE_PRINTOUTS, 0);
     final var authorResponse = getResponse(AUTHOR_PRINTOUTS);

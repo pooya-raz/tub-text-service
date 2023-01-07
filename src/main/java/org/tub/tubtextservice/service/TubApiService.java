@@ -10,7 +10,9 @@ import org.tub.tubtextservice.model.tubresponse.printouts.ManuscriptPrintouts;
 import org.tub.tubtextservice.model.tubresponse.printouts.Printouts;
 import org.tub.tubtextservice.model.tubresponse.printouts.TitlePrintouts;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Stream;
 
@@ -27,13 +29,45 @@ public class TubApiService {
     this.tub = tub;
   }
 
+  private static <T extends Printouts> Map<String, T> createMap(
+      List<T> printouts, Class<T> printoutsClass) {
+    final var printoutsMap = new HashMap<String, T>();
+    printouts.forEach(
+        p -> {
+          if (printoutsClass.isInstance(AuthorPrintouts.class)) {
+            final var authorPrintouts = (AuthorPrintouts) p;
+            printoutsMap.put(
+                authorPrintouts.fullNameTransliterated().get(0), printoutsClass.cast(printouts));
+          }
+          if (printoutsClass.isInstance(EditionPrintouts.class)) {
+            final var edition = (EditionPrintouts) p;
+            printoutsMap.put(
+                edition.publishedEditionOfTitle().get(0).fulltext(),
+                printoutsClass.cast(printouts));
+          }
+          if (printoutsClass.isInstance(ManuscriptPrintouts.class)) {
+            final var manuscript = (ManuscriptPrintouts) p;
+            printoutsMap.put(
+                manuscript.manuscriptOfTitle().get(0).fulltext(), printoutsClass.cast(printouts));
+          }
+        });
+    return printoutsMap;
+  }
+
   public TubData getData() {
     final var titles = getPrintouts(tub.query().titles(), TitlePrintouts.class);
-    final var authors = getPrintouts(tub.query().authors(), AuthorPrintouts.class);
-    final var manuscripts = getPrintouts(tub.query().manuscripts(), ManuscriptPrintouts.class);
-    final var editions = getPrintouts(tub.query().editions(), EditionPrintouts.class);
+    final var authors = getMapPrintouts(tub.query().authors(), AuthorPrintouts.class);
+    final var manuscripts = getMapPrintouts(tub.query().manuscripts(), ManuscriptPrintouts.class);
+    final var editions = getMapPrintouts(tub.query().editions(), EditionPrintouts.class);
 
     return new TubData(titles, authors, manuscripts, editions);
+  }
+
+  private <T extends Printouts> Map<String, T> getMapPrintouts(
+      String query, Class<T> printoutsClass) {
+    final var printouts =
+        getPrintouts(query, printoutsClass).stream().map(printoutsClass::cast).toList();
+    return createMap(printouts, printoutsClass);
   }
 
   private <T extends Printouts> List<T> getPrintouts(

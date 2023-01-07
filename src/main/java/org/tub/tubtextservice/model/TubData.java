@@ -6,9 +6,10 @@ import org.tub.tubtextservice.model.tubresponse.printouts.ManuscriptPrintouts;
 import org.tub.tubtextservice.model.tubresponse.printouts.TitlePrintouts;
 
 import java.util.List;
+import java.util.Map;
 
 public record TubData(
     List<TitlePrintouts> titles,
-    List<AuthorPrintouts> authors,
-    List<ManuscriptPrintouts> manuscripts,
-    List<EditionPrintouts> editions) {}
+    Map<String, AuthorPrintouts> authors,
+    Map<String, ManuscriptPrintouts> manuscripts,
+    Map<String, EditionPrintouts> editions) {}
