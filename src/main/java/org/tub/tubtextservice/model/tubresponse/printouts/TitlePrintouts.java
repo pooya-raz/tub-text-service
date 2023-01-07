@@ -12,7 +12,7 @@ public record TitlePrintouts(
     @JsonProperty("Title (Arabic)") List<String> titleArabic,
     @JsonProperty("Title (transliterated)") List<String> titleTransliterated,
     @JsonProperty("Has author(s)") List<MediaWikiPageDetails> hasAuthors,
-    @JsonProperty("Has translator(s)") List<MediaWikiPageDetails> hasTranslators,
+    @JsonProperty("Has translator(s)") List<String> hasTranslators,
     @JsonProperty("Has a catalogue description") List<String> hasACatalogueDescription,
     @JsonProperty("Has base text") List<MediaWikiPageDetails> hasBaseText)
     implements Printouts {}

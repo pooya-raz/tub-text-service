@@ -3,7 +3,7 @@ tub:
   retry-max-attempts: 2
   retry-backoff-period: '2s'
   query:
-    titles: "[[Category:Author]]|?Full name (transliterated)|?Death (Hijri)|?Death (Gregorian)|?Death (Shamsi)|?Death (Hijri) text|?Death (Gregorian) text|?Death (Shamsi) text|limit=1000"
+    titles: "[[Category:Title]]|?Category|?Book type|?Has number of commentaries|?Title (Arabic)|?Title (transliterated)|?Has author(s)|?Has translator(s)|?Has a catalogue description|?Has base text |limit=1000"
     authors: "[[Category:Author]]|?Full name (transliterated)|?Death (Hijri)|?Death (Gregorian)|?Death (Shamsi)|?Death (Hijri) text|?Death (Gregorian) text|?Death (Shamsi) text|limit=3"
     manuscripts: "[[Category:Manuscript]]|?Has a location|?Has references|?Has year(Gregorian)|?Has year(Gregorian) text|?Has year(Hijri)|?Has year(Hijri) text|?Has year(Shamsi)|?Has year(Shamsi) text|?Located in a city|?Manuscript number|?Manuscript of title|limit=3"
     editions: "[[Category:Edition]]|?Title (transliterated)|?Title (Arabic)|?Has year(Gregorian)|?Has year(Gregorian) text|?Has year(Hijri)|?Has year(Hijri) text|?Has year(Shamsi)|?Has year(Shamsi) text|?Published edition of title|?Has editor(s)|?Has a publisher|?Has a description|?Edition type|?City|limit=1000"
