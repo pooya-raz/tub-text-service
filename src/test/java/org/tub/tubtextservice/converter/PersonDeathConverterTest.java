@@ -25,7 +25,7 @@ class PersonDeathConverterTest {
   }
 
   @Test
-  void convertShouldWork() {
+  void convertShouldReturnAuthorWhenIntYears() {
     final var expected = new HijriDeath("687", "1288");
     final var author =
         new AuthorPrintouts(
@@ -37,6 +37,38 @@ class PersonDeathConverterTest {
             List.of(),
             List.of());
     Mockito.when(mediaWikiDateConvertor.convert(Mockito.any())).thenReturn("1288");
+    final var actual = subject.convert(author);
+    assertThat(actual).isEqualTo(expected);
+  }
+
+  @Test
+  void convertShouldReturnAuthorWhenStringYears() {
+    final var expected = new HijriDeath("687", "1288");
+    final var author =
+        new AuthorPrintouts(
+            List.of("Test"),
+            List.of(),
+            List.of(),
+            List.of(),
+            List.of("687"),
+            List.of("d. 1288"),
+            List.of());
+    final var actual = subject.convert(author);
+    assertThat(actual).isEqualTo(expected);
+  }
+
+  @Test
+  void convertShouldRemoveTextBeforeYearHijri() {
+    final var expected = new HijriDeath("687", "1288");
+    final var author =
+        new AuthorPrintouts(
+            List.of("Test"),
+            List.of(),
+            List.of(),
+            List.of(),
+            List.of("687"),
+            List.of("1288"),
+            List.of());
     final var actual = subject.convert(author);
     assertThat(actual).isEqualTo(expected);
   }

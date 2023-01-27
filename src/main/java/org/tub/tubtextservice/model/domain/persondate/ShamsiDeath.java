@@ -1,3 +1,10 @@
 package org.tub.tubtextservice.model.domain.persondate;
 
-public record ShamsiDeath(String shamsi, String gregorian) implements PersonDeath {}
+import org.tub.tubtextservice.utility.NonNumericTextStripper;
+
+public record ShamsiDeath(String shamsi, String gregorian) implements PersonDeath {
+
+  public ShamsiDeath {
+    gregorian = NonNumericTextStripper.stripNonNumericText(gregorian);
+  }
+}
