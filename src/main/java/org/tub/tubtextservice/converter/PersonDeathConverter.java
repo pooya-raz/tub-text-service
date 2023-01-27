@@ -4,7 +4,10 @@ import org.springframework.core.convert.converter.Converter;
 import org.tub.tubtextservice.model.domain.persondate.HijriDeath;
 import org.tub.tubtextservice.model.domain.persondate.PersonDeath;
 import org.tub.tubtextservice.model.domain.persondate.ShamsiDeath;
+import org.tub.tubtextservice.model.tubresponse.MediaWikiDate;
 import org.tub.tubtextservice.model.tubresponse.printouts.AuthorPrintouts;
+
+import java.util.List;
 
 public class PersonDeathConverter implements Converter<AuthorPrintouts, PersonDeath> {
 
@@ -19,29 +22,36 @@ public class PersonDeathConverter implements Converter<AuthorPrintouts, PersonDe
     var shamsi = "";
     var gregorian = "";
 
-    if (!source.deathHijri().isEmpty()) {
-      hijri = source.deathHijri().get(0).toString();
-    }
-    if (!source.deathShamsi().isEmpty()) {
-      shamsi = source.deathShamsi().get(0).toString();
-    }
-    if (!source.deathGregorian().isEmpty()) {
-      gregorian = mediaWikiDateConvertor.convert(source.deathGregorian().get(0));
-    }
+    hijri = getYear(source.deathHijri(), source.deathHijriText());
+    shamsi = getYear(source.deathShamsi(), source.deathShamsiText());
+    gregorian = getGregorianYear(source.deathGregorian(), source.deathGregorianText());
 
-    if (!source.deathHijriText().isEmpty()) {
-      hijri = source.deathHijriText().get(0);
-    }
-
-    if (!source.deathShamsiText().isEmpty()) {
-      shamsi = source.deathShamsiText().get(0);
-    }
-    if (!source.deathGregorianText().isEmpty()) {
-      gregorian = source.deathGregorianText().get(0);
-    }
     if (shamsi.isEmpty()) {
       return new HijriDeath(hijri, gregorian);
     }
     return new ShamsiDeath(shamsi, gregorian);
+  }
+
+  private String getYear(List<Integer> hijri, List<String> hijriText) {
+    var year = "";
+    if (!hijri.isEmpty()) {
+      year = hijri.get(0).toString();
+    }
+    if (!hijriText.isEmpty()) {
+      year = hijriText.get(0);
+    }
+    return year;
+  }
+
+  private String getGregorianYear(List<MediaWikiDate> gregorian, List<String> gregorianText) {
+    var year = "";
+
+    if (!gregorian.isEmpty()) {
+      year = mediaWikiDateConvertor.convert(gregorian.get(0));
+    }
+    if (!gregorianText.isEmpty()) {
+      year = gregorianText.get(0);
+    }
+    return year;
   }
 }
