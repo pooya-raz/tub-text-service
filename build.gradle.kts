@@ -16,6 +16,7 @@ repositories {
 val nettyResolverDnsVersion = "4.1.85"
 val wireMockVersion = "2.35.0"
 val logbackVersion = "7.2"
+val enablePreview = "--enable-preview"
 
 dependencies {
     //Spring Boot
@@ -40,4 +41,9 @@ dependencies {
 
 tasks.withType<Test> {
     useJUnitPlatform()
+    jvmArgs(enablePreview)
+}
+
+tasks.withType<JavaCompile> {
+    options.compilerArgs.add(enablePreview)
 }
