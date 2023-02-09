@@ -11,7 +11,7 @@ class MediaWikiDateConvertorTest {
   @Test
   void convertShouldReturnCorrectYear() {
 
-    final var expected = 1905;
+    final var expected = "1905";
     final var mediawikiDate = new MediaWikiDate(-2051222400L, "");
     final var actual = mediaWikiDateConvertor.convert(mediawikiDate);
     assertThat(actual).isEqualTo(expected);

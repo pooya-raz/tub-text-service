@@ -17,6 +17,8 @@ val nettyResolverDnsVersion = "4.1.85"
 val wireMockVersion = "2.35.0"
 val logbackVersion = "7.2"
 val enablePreview = "--enable-preview"
+val commonsCollectionsVersion = "4.4"
+val commonsLang3Version = "3.12.0"
 
 dependencies {
     //Spring Boot
@@ -36,6 +38,10 @@ dependencies {
 
     // Mac M1 Dependency
     implementation("io.netty:netty-resolver-dns-native-macos:${nettyResolverDnsVersion}.Final:osx-aarch_64")
+
+    // Commons-collections
+    implementation("org.apache.commons:commons-collections4:${commonsCollectionsVersion}")
+    implementation("org.apache.commons:commons-lang3:${commonsLang3Version}")
 
 }
 
