@@ -1,4 +1,4 @@
-package org.tub.tubtextservice.model.domain.persondate;
+package org.tub.tubtextservice.model.domain.year.persondate;
 
 import org.tub.tubtextservice.utility.NonNumericTextStripper;
 

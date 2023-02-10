@@ -1,6 +1,7 @@
 package org.tub.tubtextservice.model.domain.persondate;
 
 import org.junit.jupiter.api.Test;
+import org.tub.tubtextservice.model.domain.year.persondate.HijriDeath;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

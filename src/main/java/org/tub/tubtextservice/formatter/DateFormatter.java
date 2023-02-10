@@ -1,7 +1,7 @@
 package org.tub.tubtextservice.formatter;
 
-import org.tub.tubtextservice.model.domain.persondate.PersonDeath;
-import org.tub.tubtextservice.model.domain.persondate.ShamsiDeath;
+import org.tub.tubtextservice.model.domain.year.persondate.PersonDeath;
+import org.tub.tubtextservice.model.domain.year.persondate.ShamsiDeath;
 
 public final class DateFormatter {
 

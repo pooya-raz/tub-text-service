@@ -1,31 +1,18 @@
 package org.tub.tubtextservice.converter;
 
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.extension.ExtendWith;
-import org.mockito.Mock;
-import org.mockito.Mockito;
-import org.mockito.junit.jupiter.MockitoExtension;
-import org.tub.tubtextservice.model.domain.persondate.HijriDeath;
+import org.tub.tubtextservice.model.domain.year.persondate.HijriDeath;
 import org.tub.tubtextservice.model.tubresponse.printouts.AuthorPrintouts;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-@ExtendWith(MockitoExtension.class)
 class PersonDeathConverterTest {
-  PersonDeathConverter subject;
-  @Mock MediaWikiDateConvertor mediaWikiDateConvertor;
-
-  @BeforeEach
-  void setUpBeforeEach() {
-    subject = new PersonDeathConverter(mediaWikiDateConvertor);
-  }
+  private final PersonDeathConverter subject = new PersonDeathConverter();
 
   @Test
   void convertShouldReturnAuthorWhenIntYears() {
-    final var expected = new HijriDeath("687", "1288");
+    final var expected = new HijriDeath("687", "1970");
     final var author = AuthorPrintouts.builder().deathHijri(687).deathGregorian(1L).build();
-    Mockito.when(mediaWikiDateConvertor.convert(Mockito.any())).thenReturn("1288");
     final var actual = subject.convert(author);
     assertThat(actual).isEqualTo(expected);
   }
