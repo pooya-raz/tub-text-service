@@ -1,20 +1,25 @@
 package org.tub.tubtextservice.formatter;
 
-import org.tub.tubtextservice.model.domain.persondate.HijriDeath;
 import org.tub.tubtextservice.model.domain.persondate.PersonDeath;
 import org.tub.tubtextservice.model.domain.persondate.ShamsiDeath;
 
 public final class DateFormatter {
 
   public static String format(PersonDeath personDeath) {
-    switch (personDeath) {
-      case HijriDeath hijriDeath -> {
-        return "(d. %s/%s)".formatted(hijriDeath.hijri(), hijriDeath.gregorian());
-      }
-      case ShamsiDeath shamsiDeath -> {
-        return "(d. %sSh/%s)".formatted(shamsiDeath.shamsi(), shamsiDeath.gregorian());
-      }
+    final var template = createTemplate(personDeath);
+    return template.formatted(personDeath.year(), personDeath.gregorian());
+  }
+
+  private static String createTemplate(PersonDeath personDeath) {
+    var prependedText = "d. ";
+    var nonGregorian = "%s";
+    final var gregorian = "%s";
+    if(personDeath instanceof ShamsiDeath){
+      nonGregorian = gregorian + "Sh";
     }
-    return null;
+    if(personDeath.year().startsWith("fl. ")){
+      prependedText = "";
+    }
+    return "(" + prependedText + nonGregorian + "/" + gregorian + ")";
   }
 }
