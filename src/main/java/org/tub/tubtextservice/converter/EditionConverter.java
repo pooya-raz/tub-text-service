@@ -5,12 +5,12 @@ import org.tub.tubtextservice.model.domain.Edition;
 import org.tub.tubtextservice.model.tubresponse.MediaWikiPageDetails;
 import org.tub.tubtextservice.model.tubresponse.printouts.EditionPrintouts;
 
-public class EditionConvertor implements Converter<EditionPrintouts, Edition> {
+public class EditionConverter implements Converter<EditionPrintouts, Edition> {
 
-    private final EditionDateConvertor editionDateConvertor;
+    private final TubDateConverter tubDateConverter;
 
-    public EditionConvertor(EditionDateConvertor editionDateConvertor) {
-        this.editionDateConvertor = editionDateConvertor;
+    public EditionConverter(TubDateConverter tubDateConverter) {
+        this.tubDateConverter = tubDateConverter;
     }
 
     @Override
@@ -23,7 +23,7 @@ public class EditionConvertor implements Converter<EditionPrintouts, Edition> {
                 .description(editionPrintouts.description().stream().findFirst().orElse(null))
                 .editionType(editionPrintouts.editionType().stream().findFirst().orElse(null))
                 .placeOfPublication(editionPrintouts.city().stream().findFirst().map(MediaWikiPageDetails::fulltext).orElse(null))
-                .date(editionDateConvertor.convert(editionPrintouts))
+                .date(tubDateConverter.convert(editionPrintouts))
                 .build();
     }
 }

@@ -21,7 +21,7 @@ public record EditionPrintouts(
     @JsonProperty("Has a description") List<String> description,
     @JsonProperty("Edition type") List<String> editionType,
     @JsonProperty("City") List<MediaWikiPageDetails> city)
-    implements Printouts {
+    implements DatedPrintouts {
 
   public static Builder builder() {
     return new Builder();

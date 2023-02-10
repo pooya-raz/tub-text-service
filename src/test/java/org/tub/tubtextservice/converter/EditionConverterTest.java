@@ -15,16 +15,16 @@ import static org.mockito.Mockito.when;
 
 
 @ExtendWith(MockitoExtension.class)
-class EditionConvertorTest {
+class EditionConverterTest {
 
-    private EditionConvertor subject;
+    private EditionConverter subject;
 
     @Mock
-    private EditionDateConvertor editionDateConverter;
+    private TubDateConverter editionDateConverter;
 
     @BeforeEach
     void setUpBeforeEach() {
-        subject = new EditionConvertor(editionDateConverter);
+        subject = new EditionConverter(editionDateConverter);
     }
 
     @Test
