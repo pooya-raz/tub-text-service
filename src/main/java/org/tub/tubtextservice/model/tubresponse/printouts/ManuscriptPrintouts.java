@@ -42,38 +42,13 @@ public record ManuscriptPrintouts(
             return this;
         }
 
-        public Builder references(String references){
-            this.references.add(references);
-            return this;
-        }
-
         public Builder yearGregorian(Integer yearGregorian){
             this.yearGregorian.add(yearGregorian);
             return this;
         }
 
-        public Builder yearGregorianText(String yearGregorianText){
-            this.yearGregorianText.add(yearGregorianText);
-            return this;
-        }
-
         public Builder yearHijri(Integer yearHijri){
             this.yearHijri.add(yearHijri);
-            return this;
-        }
-
-        public Builder yearHijriText(String yearHijriText){
-            this.yearHijriText.add(yearHijriText);
-            return this;
-        }
-
-        public Builder yearShamsi(Integer yearShamsi){
-            this.yearShamsi.add(yearShamsi);
-            return this;
-        }
-
-        public Builder yearShamsiText(String yearShamsiText){
-            this.yearShamsiText.add(yearShamsiText);
             return this;
         }
 
@@ -87,7 +62,8 @@ public record ManuscriptPrintouts(
             return this;
         }
 
-        public Builder manuscriptOfTitle(MediaWikiPageDetails manuscriptOfTitle){
+        public Builder manuscriptOfTitle(String title){
+            final var manuscriptOfTitle = MediaWikiPageDetails.builder().fulltext(title).build();
             this.manuscriptOfTitle.add(manuscriptOfTitle);
             return this;
         }

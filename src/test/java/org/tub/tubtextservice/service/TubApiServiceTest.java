@@ -6,7 +6,6 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.tub.tubtextservice.client.TubClient;
-import org.tub.tubtextservice.model.TubData;
 import org.tub.tubtextservice.model.property.QueryProperties;
 import org.tub.tubtextservice.model.property.TubProperties;
 import org.tub.tubtextservice.model.tubresponse.Data;
@@ -20,10 +19,6 @@ import org.tub.tubtextservice.model.tubresponse.printouts.Printouts;
 import org.tub.tubtextservice.model.tubresponse.printouts.TitlePrintouts;
 import reactor.core.publisher.Mono;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.when;
 
@@ -36,78 +31,27 @@ class TubApiServiceTest {
   public static final String AUTHORS = "authors";
   public static final String MANUSCRIPTS = "manuscripts";
   public static final String EDITIONS = "editions";
-  public static final AuthorPrintouts AUTHOR_PRINTOUTS =
-      new AuthorPrintouts(List.of("Jim"), null, null, null, null, null, null);
-  public static final Map<String, AuthorPrintouts> AUTHOR_MAP =
-      createMap(AUTHOR_PRINTOUTS, AuthorPrintouts.class);
-  public static final EditionPrintouts EDITION_PRINTOUTS =
-      new EditionPrintouts(
-          List.of("Edition"),
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null);
-  public static final Map<String, EditionPrintouts> EDITION_MAP =
-      createMap(EDITION_PRINTOUTS, EditionPrintouts.class);
-  public static final ManuscriptPrintouts MANUSCRIPT_PRINTOUTS =
-      new ManuscriptPrintouts(
-          null, null, null, null, null, null, null, null, null, List.of("1"), null);
-  public static final Map<String, ManuscriptPrintouts> MANUSCRIPT_MAP =
-      createMap(MANUSCRIPT_PRINTOUTS, ManuscriptPrintouts.class);
-  public static final TitlePrintouts TITLE_PRINTOUTS =
-      new TitlePrintouts(null, null, null, null, List.of("title"), null, null, null, null);
+  public static final AuthorPrintouts AUTHOR_PRINTOUTS = AuthorPrintouts.builder().fullNameTransliterated("Jim").build();
+  public static final TubResponse AUTHOR_RESPONSE = getTubResponse(AUTHOR_PRINTOUTS);
+  public static final EditionPrintouts EDITION_PRINTOUTS = EditionPrintouts.builder().titleTransliterated("Edition").publishedEditionOfTitle("Title").build();
+  public static final TubResponse EDITION_RESPONSE = getTubResponse(EDITION_PRINTOUTS);
+  public static final ManuscriptPrintouts MANUSCRIPT_PRINTOUTS =ManuscriptPrintouts.builder().manuscriptOfTitle("Title").manuscriptNumber("1").build();
+  public static final TubResponse MANUSCRIPT_RESPONSE = getTubResponse(MANUSCRIPT_PRINTOUTS);
+  public static final TitlePrintouts TITLE_PRINTOUTS = TitlePrintouts.builder().titleTransliterated("Title").build();
+  public static final TubResponse TITLE_RESPONSE = getTubResponse(TITLE_PRINTOUTS);
   private TubApiService subject;
 
   @Mock private TubClient tubClient;
 
-  private static TubResponse getTubResponse(Data data, int offset) {
+  private static TubResponse getTubResponse(Printouts printouts, int offset) {
+    final var data = Data.builder().printouts(printouts).build();
     final var results = new Results();
     results.setDataMap("1", data);
     final var query = new Query(null, results, null, null, null);
     return new TubResponse(offset, query);
   }
-
-  private static TubResponse getResponse(Printouts printouts, int offset) {
-    final var data = new Data(printouts, null, null, null, null, null);
-    return getTubResponse(data, offset);
-  }
-
-  private static TubResponse getResponse(Printouts printouts) {
-    final var data = new Data(printouts, null, null, null, null, null);
-    return getTubResponse(data, 0);
-  }
-
-  private static <T extends Printouts> Map<String, T> createMap(
-      T printouts, Class<T> printoutsClass) {
-    final var printoutsMap = new HashMap<String, T>();
-    if (printoutsClass.isInstance(AuthorPrintouts.class)) {
-      assert printouts instanceof AuthorPrintouts;
-      final var authorPrintouts = (AuthorPrintouts) printouts;
-      printoutsMap.put(
-          authorPrintouts.fullNameTransliterated().get(0), printoutsClass.cast(printouts));
-    }
-    if (printoutsClass.isInstance(EditionPrintouts.class)) {
-      assert printouts instanceof EditionPrintouts;
-      final var edition = (EditionPrintouts) printouts;
-      printoutsMap.put(
-          edition.publishedEditionOfTitle().get(0).fulltext(), printoutsClass.cast(printouts));
-    }
-    if (printoutsClass.isInstance(ManuscriptPrintouts.class)) {
-      assert printouts instanceof ManuscriptPrintouts;
-      final var manuscript = (ManuscriptPrintouts) printouts;
-      printoutsMap.put(
-          manuscript.manuscriptOfTitle().get(0).fulltext(), printoutsClass.cast(printouts));
-    }
-    return printoutsMap;
+  private static TubResponse getTubResponse(Printouts printouts) {
+    return getTubResponse(printouts, 0);
   }
 
   @BeforeEach
@@ -119,37 +63,26 @@ class TubApiServiceTest {
 
   @Test
   void getDataShouldGetDataForTubCategories() {
-
-    final var expected =
-        new TubData(List.of(TITLE_PRINTOUTS), AUTHOR_MAP, MANUSCRIPT_MAP, EDITION_MAP);
-    final var titleResponse = getResponse(TITLE_PRINTOUTS);
-    final var authorResponse = getResponse(AUTHOR_PRINTOUTS);
-    final var manuscriptResponse = getResponse(MANUSCRIPT_PRINTOUTS);
-    final var editionResponse = getResponse(EDITION_PRINTOUTS);
-    when(tubClient.queryTub(ASK, JSON, TITLES)).thenReturn(Mono.just(titleResponse));
-    when(tubClient.queryTub(ASK, JSON, AUTHORS)).thenReturn(Mono.just(authorResponse));
-    when(tubClient.queryTub(ASK, JSON, MANUSCRIPTS)).thenReturn(Mono.just(manuscriptResponse));
-    when(tubClient.queryTub(ASK, JSON, EDITIONS)).thenReturn(Mono.just(editionResponse));
+    when(tubClient.queryTub(ASK, JSON, TITLES)).thenReturn(Mono.just(TITLE_RESPONSE));
+    when(tubClient.queryTub(ASK, JSON, AUTHORS)).thenReturn(Mono.just(AUTHOR_RESPONSE));
+    when(tubClient.queryTub(ASK, JSON, MANUSCRIPTS)).thenReturn(Mono.just(MANUSCRIPT_RESPONSE));
+    when(tubClient.queryTub(ASK, JSON, EDITIONS)).thenReturn(Mono.just(EDITION_RESPONSE));
     final var actual = subject.getData();
-    assertThat(actual).isEqualTo(expected);
+    assertThat(actual.authors().get("Jim")).isEqualTo(AUTHOR_PRINTOUTS);
+    assertThat(actual.titles().get(0)).isEqualTo(TITLE_PRINTOUTS);
+    assertThat(actual.editions().get("Title")).isEqualTo(EDITION_PRINTOUTS);
+    assertThat(actual.manuscripts().get("Title")).isEqualTo(MANUSCRIPT_PRINTOUTS);
   }
 
   @Test
   void getDataShouldGetGetMoreDataIfThereIsOffset() {
-    final var expected =
-        new TubData(
-            List.of(TITLE_PRINTOUTS, TITLE_PRINTOUTS), AUTHOR_MAP, MANUSCRIPT_MAP, EDITION_MAP);
-    final var titleResponseWithOffset = getResponse(TITLE_PRINTOUTS, 1);
-    final var titleResponse = getResponse(TITLE_PRINTOUTS, 0);
-    final var authorResponse = getResponse(AUTHOR_PRINTOUTS);
-    final var manuscriptResponse = getResponse(MANUSCRIPT_PRINTOUTS);
-    final var editionResponse = getResponse(EDITION_PRINTOUTS);
+    final var titleResponseWithOffset = getTubResponse(TITLE_PRINTOUTS, 1);
     when(tubClient.queryTub(ASK, JSON, TITLES)).thenReturn(Mono.just(titleResponseWithOffset));
-    when(tubClient.queryTub(ASK, JSON, TITLES + "|offset=1")).thenReturn(Mono.just(titleResponse));
-    when(tubClient.queryTub(ASK, JSON, AUTHORS)).thenReturn(Mono.just(authorResponse));
-    when(tubClient.queryTub(ASK, JSON, MANUSCRIPTS)).thenReturn(Mono.just(manuscriptResponse));
-    when(tubClient.queryTub(ASK, JSON, EDITIONS)).thenReturn(Mono.just(editionResponse));
+    when(tubClient.queryTub(ASK, JSON, TITLES + "|offset=1")).thenReturn(Mono.just(TITLE_RESPONSE));
+    when(tubClient.queryTub(ASK, JSON, AUTHORS)).thenReturn(Mono.just(AUTHOR_RESPONSE));
+    when(tubClient.queryTub(ASK, JSON, MANUSCRIPTS)).thenReturn(Mono.just(MANUSCRIPT_RESPONSE));
+    when(tubClient.queryTub(ASK, JSON, EDITIONS)).thenReturn(Mono.just(EDITION_RESPONSE));
     final var actual = subject.getData();
-    assertThat(actual.titles().size()).isEqualTo(expected.titles().size());
+    assertThat(actual.titles().size()).isEqualTo(2);
   }
 }

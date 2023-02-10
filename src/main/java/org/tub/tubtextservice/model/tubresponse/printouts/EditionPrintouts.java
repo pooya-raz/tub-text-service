@@ -85,8 +85,9 @@ public record EditionPrintouts(
       return this;
     }
 
-    public Builder publishedEditionOfTitle(MediaWikiPageDetails publishedEditionOfTitle) {
-      this.publishedEditionOfTitle.add(publishedEditionOfTitle);
+    public Builder publishedEditionOfTitle(String title) {
+      final var mediaWikiPageDetails = MediaWikiPageDetails.builder().fulltext(title).build();
+      this.publishedEditionOfTitle.add(mediaWikiPageDetails);
       return this;
     }
 

@@ -38,6 +38,7 @@ class EditionConverterTest {
                 .yearHijri(678)
                 .yearGregorian(1400)
                 .editionType("Modern Print")
+                .editors("Editors")
                 .build();
         final var expected = Edition.builder()
                 .titleTransliterated("editionName")
@@ -46,6 +47,7 @@ class EditionConverterTest {
                 .placeOfPublication("City")
                 .description("Description")
                 .editionType("Modern Print")
+                .editor("Editors")
                 .date(new HijriDate("678", "1400")).build();
 
         when(editionDateConverter.convert(editionPrintouts)).thenReturn(new HijriDate("678", "1400"));

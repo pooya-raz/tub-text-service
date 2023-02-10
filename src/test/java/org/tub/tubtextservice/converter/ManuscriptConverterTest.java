@@ -28,7 +28,7 @@ class ManuscriptConverterTest {
   void convertShouldReturnManuscript() {
     final var manuscriptPrintouts =
         ManuscriptPrintouts.builder()
-            .manuscriptOfTitle(MediaWikiPageDetails.builder().fulltext("Title").build())
+            .manuscriptOfTitle("Title")
             .yearHijri(680)
             .yearGregorian(1648)
             .manuscriptNumber("12")

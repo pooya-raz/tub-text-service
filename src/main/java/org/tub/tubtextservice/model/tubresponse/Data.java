@@ -23,4 +23,27 @@ public record Data(
     String fullUrl,
     Integer namespace,
     String exists,
-    String displayTitle) {}
+    String displayTitle) {
+
+        public static Builder builder() {
+            return new Builder();
+        }
+
+        public static final class Builder{
+            Printouts printouts;
+            String fullText;
+            String fullUrl;
+            Integer namespace;
+            String exists;
+            String displayTitle;
+
+            public Builder printouts(Printouts printouts){
+                this.printouts = printouts;
+                return this;
+            }
+
+            public Data build(){
+                return new Data(printouts, fullText, fullUrl, namespace, exists, displayTitle);
+            }
+        }
+}

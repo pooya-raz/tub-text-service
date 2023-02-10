@@ -14,6 +14,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
+import java.util.UUID;
 import java.util.stream.Stream;
 
 public class TubApiService {
@@ -34,21 +35,17 @@ public class TubApiService {
     final var printoutsMap = new HashMap<String, T>();
     printouts.forEach(
         p -> {
-          if (printoutsClass.isInstance(AuthorPrintouts.class)) {
-            final var authorPrintouts = (AuthorPrintouts) p;
-            printoutsMap.put(
-                authorPrintouts.fullNameTransliterated().get(0), printoutsClass.cast(printouts));
-          }
-          if (printoutsClass.isInstance(EditionPrintouts.class)) {
-            final var edition = (EditionPrintouts) p;
-            printoutsMap.put(
+          switch (p) {
+            case AuthorPrintouts authorPrintouts -> printoutsMap.put(
+                authorPrintouts.fullNameTransliterated().get(0), printoutsClass.cast(p));
+            case EditionPrintouts edition -> printoutsMap.put(
                 edition.publishedEditionOfTitle().get(0).fulltext(),
-                printoutsClass.cast(printouts));
-          }
-          if (printoutsClass.isInstance(ManuscriptPrintouts.class)) {
-            final var manuscript = (ManuscriptPrintouts) p;
-            printoutsMap.put(
-                manuscript.manuscriptOfTitle().get(0).fulltext(), printoutsClass.cast(printouts));
+                printoutsClass.cast(p));
+            case ManuscriptPrintouts manuscript -> printoutsMap.put(
+                manuscript.manuscriptOfTitle().get(0).fulltext(), printoutsClass.cast(p));
+            case TitlePrintouts title -> printoutsMap.put(
+                title.titleTransliterated().stream().findFirst().orElse(UUID.randomUUID().toString()),
+                printoutsClass.cast(p));
           }
         });
     return printoutsMap;
