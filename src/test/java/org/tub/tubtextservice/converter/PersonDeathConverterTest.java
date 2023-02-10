@@ -7,10 +7,7 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.tub.tubtextservice.model.domain.persondate.HijriDeath;
-import org.tub.tubtextservice.model.tubresponse.MediaWikiDate;
 import org.tub.tubtextservice.model.tubresponse.printouts.AuthorPrintouts;
-
-import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -27,15 +24,7 @@ class PersonDeathConverterTest {
   @Test
   void convertShouldReturnAuthorWhenIntYears() {
     final var expected = new HijriDeath("687", "1288");
-    final var author =
-        new AuthorPrintouts(
-            List.of("Test"),
-            List.of(687),
-            List.of(new MediaWikiDate(1L, "")),
-            List.of(),
-            List.of(),
-            List.of(),
-            List.of());
+    final var author = AuthorPrintouts.builder().deathHijri(687).deathGregorian(1L).build();
     Mockito.when(mediaWikiDateConvertor.convert(Mockito.any())).thenReturn("1288");
     final var actual = subject.convert(author);
     assertThat(actual).isEqualTo(expected);
@@ -44,15 +33,14 @@ class PersonDeathConverterTest {
   @Test
   void convertShouldReturnAuthorWhenStringYears() {
     final var expected = new HijriDeath("687", "1288");
-    final var author =
-        new AuthorPrintouts(
-            List.of("Test"),
-            List.of(),
-            List.of(),
-            List.of(),
-            List.of("687"),
-            List.of("d. 1288"),
-            List.of());
+    final var author = AuthorPrintouts.builder().deathHijriText("687").deathGregorianText("1288").build();
+    final var actual = subject.convert(author);
+    assertThat(actual).isEqualTo(expected);
+  }
+  @Test
+  void convertShouldReturnAuthorWhenStringYearsWithNonNumeric() {
+    final var expected = new HijriDeath("8th century", "14th century");
+    final var author = AuthorPrintouts.builder().deathHijriText("8th century").deathGregorianText("14th century").build();
     final var actual = subject.convert(author);
     assertThat(actual).isEqualTo(expected);
   }
@@ -60,15 +48,7 @@ class PersonDeathConverterTest {
   @Test
   void convertShouldRemoveTextBeforeYearHijri() {
     final var expected = new HijriDeath("687", "1288");
-    final var author =
-        new AuthorPrintouts(
-            List.of("Test"),
-            List.of(),
-            List.of(),
-            List.of(),
-            List.of("687"),
-            List.of("1288"),
-            List.of());
+    final var author = AuthorPrintouts.builder().deathHijriText("687").deathGregorianText("1288").build();
     final var actual = subject.convert(author);
     assertThat(actual).isEqualTo(expected);
   }
