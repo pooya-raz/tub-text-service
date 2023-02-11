@@ -4,8 +4,9 @@ import org.junit.jupiter.api.Test;
 import org.tub.tubtextservice.model.domain.Category;
 import org.tub.tubtextservice.model.domain.Title;
 import org.tub.tubtextservice.model.domain.TitleType;
-import org.tub.tubtextservice.model.tubresponse.MediaWikiPageDetails;
-import org.tub.tubtextservice.model.tubresponse.printouts.TitlePrintouts;
+import org.tub.tubtextservice.service.tubapi.model.tubresponse.MediaWikiPageDetails;
+import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.TitlePrintouts;
+import org.tub.tubtextservice.service.tubapi.converter.EntryConverter;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

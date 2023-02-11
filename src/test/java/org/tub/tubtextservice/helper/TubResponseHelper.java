@@ -1,13 +1,13 @@
 package org.tub.tubtextservice.helper;
 
-import org.tub.tubtextservice.model.tubresponse.Data;
-import org.tub.tubtextservice.model.tubresponse.MediaWikiPageDetails;
-import org.tub.tubtextservice.model.tubresponse.Meta;
-import org.tub.tubtextservice.model.tubresponse.PrintRequest;
-import org.tub.tubtextservice.model.tubresponse.Query;
-import org.tub.tubtextservice.model.tubresponse.Results;
-import org.tub.tubtextservice.model.tubresponse.TubResponse;
-import org.tub.tubtextservice.model.tubresponse.printouts.TitlePrintouts;
+import org.tub.tubtextservice.service.tubapi.model.tubresponse.Data;
+import org.tub.tubtextservice.service.tubapi.model.tubresponse.MediaWikiPageDetails;
+import org.tub.tubtextservice.service.tubapi.model.tubresponse.Meta;
+import org.tub.tubtextservice.service.tubapi.model.tubresponse.PrintRequest;
+import org.tub.tubtextservice.service.tubapi.model.tubresponse.Query;
+import org.tub.tubtextservice.service.tubapi.model.tubresponse.Results;
+import org.tub.tubtextservice.service.tubapi.model.tubresponse.TubResponse;
+import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.TitlePrintouts;
 
 import java.util.List;
 

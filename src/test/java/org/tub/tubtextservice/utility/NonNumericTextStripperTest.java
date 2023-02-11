@@ -1,6 +1,7 @@
 package org.tub.tubtextservice.utility;
 
 import org.junit.jupiter.api.Test;
+import org.tub.tubtextservice.service.tubapi.utility.NonNumericTextStripper;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

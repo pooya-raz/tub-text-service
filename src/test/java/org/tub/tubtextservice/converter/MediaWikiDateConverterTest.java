@@ -1,7 +1,8 @@
 package org.tub.tubtextservice.converter;
 
 import org.junit.jupiter.api.Test;
-import org.tub.tubtextservice.model.tubresponse.MediaWikiDate;
+import org.tub.tubtextservice.service.tubapi.model.tubresponse.MediaWikiDate;
+import org.tub.tubtextservice.service.tubapi.converter.MediaWikiDateConverter;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

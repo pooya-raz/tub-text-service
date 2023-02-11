@@ -11,11 +11,12 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.DynamicPropertyRegistry;
 import org.springframework.test.context.DynamicPropertySource;
 import org.tub.tubtextservice.helper.TubResponseHelper;
-import org.tub.tubtextservice.model.tubresponse.MediaWikiDate;
-import org.tub.tubtextservice.model.tubresponse.MediaWikiPageDetails;
-import org.tub.tubtextservice.model.tubresponse.printouts.AuthorPrintouts;
-import org.tub.tubtextservice.model.tubresponse.printouts.EditionPrintouts;
-import org.tub.tubtextservice.model.tubresponse.printouts.ManuscriptPrintouts;
+import org.tub.tubtextservice.service.tubapi.client.TubClient;
+import org.tub.tubtextservice.service.tubapi.model.tubresponse.MediaWikiDate;
+import org.tub.tubtextservice.service.tubapi.model.tubresponse.MediaWikiPageDetails;
+import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.AuthorPrintouts;
+import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.EditionPrintouts;
+import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.ManuscriptPrintouts;
 import reactor.test.StepVerifier;
 
 import java.io.IOException;

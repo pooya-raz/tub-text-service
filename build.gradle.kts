@@ -19,6 +19,7 @@ val logbackVersion = "7.2"
 val enablePreview = "--enable-preview"
 val commonsCollectionsVersion = "4.4"
 val commonsLang3Version = "3.12.0"
+val poiVersion = "5.2.3"
 
 dependencies {
     //Spring Boot
@@ -42,6 +43,9 @@ dependencies {
     // Commons-collections
     implementation("org.apache.commons:commons-collections4:${commonsCollectionsVersion}")
     implementation("org.apache.commons:commons-lang3:${commonsLang3Version}")
+
+    // Office documents
+    implementation("org.apache.poi:poi-ooxml:${poiVersion}")
 
 }
 
