@@ -4,6 +4,7 @@ import org.tub.tubtextservice.client.TubClient;
 import org.tub.tubtextservice.model.TubData;
 import org.tub.tubtextservice.model.property.TubProperties;
 import org.tub.tubtextservice.model.tubresponse.Data;
+import org.tub.tubtextservice.model.tubresponse.MediaWikiPageDetails;
 import org.tub.tubtextservice.model.tubresponse.printouts.AuthorPrintouts;
 import org.tub.tubtextservice.model.tubresponse.printouts.EditionPrintouts;
 import org.tub.tubtextservice.model.tubresponse.printouts.ManuscriptPrintouts;
@@ -30,27 +31,6 @@ public class TubApiService {
     this.tub = tub;
   }
 
-  private static <T extends Printouts> Map<String, T> createMap(
-      List<T> printouts, Class<T> printoutsClass) {
-    final var printoutsMap = new HashMap<String, T>();
-    printouts.forEach(
-        p -> {
-          switch (p) {
-            case AuthorPrintouts authorPrintouts -> printoutsMap.put(
-                authorPrintouts.fullNameTransliterated().get(0), printoutsClass.cast(p));
-            case EditionPrintouts edition -> printoutsMap.put(
-                edition.publishedEditionOfTitle().get(0).fulltext(),
-                printoutsClass.cast(p));
-            case ManuscriptPrintouts manuscript -> printoutsMap.put(
-                manuscript.manuscriptOfTitle().get(0).fulltext(), printoutsClass.cast(p));
-            case TitlePrintouts title -> printoutsMap.put(
-                title.titleTransliterated().stream().findFirst().orElse(UUID.randomUUID().toString()),
-                printoutsClass.cast(p));
-          }
-        });
-    return printoutsMap;
-  }
-
   public TubData getData() {
     final var titles = getPrintouts(tub.query().titles(), TitlePrintouts.class);
     final var authors = getMapPrintouts(tub.query().authors(), AuthorPrintouts.class);
@@ -64,7 +44,39 @@ public class TubApiService {
       String query, Class<T> printoutsClass) {
     final var printouts =
         getPrintouts(query, printoutsClass).stream().map(printoutsClass::cast).toList();
-    return createMap(printouts, printoutsClass);
+    return createMap(printouts);
+  }
+
+  private <T extends Printouts> Map<String, T> createMap(List<T> printouts) {
+    final var printoutsMap = new HashMap<String, T>();
+    printouts.forEach(
+        p -> {
+          switch (p) {
+            case AuthorPrintouts authorPrintouts -> printoutsMap.put(
+                authorPrintouts.fullNameTransliterated().stream()
+                    .findFirst()
+                    .orElse(UUID.randomUUID().toString()),
+                p);
+            case EditionPrintouts edition -> printoutsMap.put(
+                edition.publishedEditionOfTitle().stream()
+                    .findFirst()
+                    .map(MediaWikiPageDetails::fulltext)
+                    .orElse(UUID.randomUUID().toString()),
+                p);
+            case ManuscriptPrintouts manuscript -> printoutsMap.put(
+                manuscript.manuscriptOfTitle().stream()
+                    .findFirst()
+                    .map(MediaWikiPageDetails::fulltext)
+                    .orElse(UUID.randomUUID().toString()),
+                p);
+            case TitlePrintouts title -> printoutsMap.put(
+                title.titleTransliterated().stream()
+                    .findFirst()
+                    .orElse(UUID.randomUUID().toString()),
+                p);
+          }
+        });
+    return printoutsMap;
   }
 
   private <T extends Printouts> List<T> getPrintouts(

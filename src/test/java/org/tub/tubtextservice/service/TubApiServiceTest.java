@@ -85,4 +85,19 @@ class TubApiServiceTest {
     final var actual = subject.getData();
     assertThat(actual.titles().size()).isEqualTo(2);
   }
+
+  @Test
+  void getDataShouldUseDefaultKeyWhenMissing(){
+    final var authorResponse = getTubResponse(AuthorPrintouts.builder().build());
+    final var manuscriptResponse = getTubResponse(ManuscriptPrintouts.builder().build());
+    final var editionResponse = getTubResponse(EditionPrintouts.builder().build());
+    when(tubClient.queryTub(ASK, JSON, TITLES)).thenReturn(Mono.just(TITLE_RESPONSE));
+    when(tubClient.queryTub(ASK, JSON, AUTHORS)).thenReturn(Mono.just(authorResponse));
+    when(tubClient.queryTub(ASK, JSON, MANUSCRIPTS)).thenReturn(Mono.just(manuscriptResponse));
+    when(tubClient.queryTub(ASK, JSON, EDITIONS)).thenReturn(Mono.just(editionResponse));
+    final var actual = subject.getData();
+    assertThat(actual.authors().size()).isEqualTo(1);
+    assertThat(actual.manuscripts().size()).isEqualTo(1);
+    assertThat(actual.editions().size()).isEqualTo(1);
+  }
 }
