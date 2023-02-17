@@ -1,12 +1,12 @@
 package org.tub.tubtextservice.service.tubapi;
 
-import org.tub.tubtextservice.service.tubapi.model.TubData;
+import org.tub.tubtextservice.model.property.TubProperties;
+import org.tub.tubtextservice.service.tubapi.client.TubClient;
+import org.tub.tubtextservice.service.tubapi.model.TubPrintOuts;
 import org.tub.tubtextservice.service.tubapi.model.tubresponse.Data;
+import org.tub.tubtextservice.service.tubapi.model.tubresponse.MediaWikiPageDetails;
 import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.AuthorPrintouts;
 import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.EditionPrintouts;
-import org.tub.tubtextservice.service.tubapi.client.TubClient;
-import org.tub.tubtextservice.model.property.TubProperties;
-import org.tub.tubtextservice.service.tubapi.model.tubresponse.MediaWikiPageDetails;
 import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.ManuscriptPrintouts;
 import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.Printouts;
 import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.TitlePrintouts;
@@ -18,9 +18,7 @@ import java.util.Optional;
 import java.util.UUID;
 import java.util.stream.Stream;
 
-/**
- * The service for the TUB API.
- * */
+/** The service for the TUB API. */
 public class TubApiService {
   public static final int STOP = 0;
   private static final String ACTION_ASK = "ask";
@@ -36,15 +34,16 @@ public class TubApiService {
 
   /**
    * Gets the data from the TUB API.
+   *
    * @return the data from the TUB API in the domain model.
    */
-  public TubData getData() {
+  public TubPrintOuts getData() {
     final var titles = getPrintouts(tub.query().titles(), TitlePrintouts.class);
     final var authors = getMapPrintouts(tub.query().authors(), AuthorPrintouts.class);
     final var manuscripts = getMapPrintouts(tub.query().manuscripts(), ManuscriptPrintouts.class);
     final var editions = getMapPrintouts(tub.query().editions(), EditionPrintouts.class);
 
-    return new TubData(titles, authors, manuscripts, editions);
+    return new TubPrintOuts(titles, authors, manuscripts, editions);
   }
 
   private <T extends Printouts> Map<String, T> getMapPrintouts(

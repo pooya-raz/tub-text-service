@@ -20,56 +20,67 @@ public record ManuscriptPrintouts(
     @JsonProperty("Manuscript of title") List<MediaWikiPageDetails> manuscriptOfTitle)
     implements DatedPrintouts {
 
-    public static Builder builder() {
-        return new Builder();
+  public static Builder builder() {
+    return new Builder();
+  }
+
+  public static final class Builder {
+    List<String> location = new ArrayList<>();
+    List<String> references = new ArrayList<>();
+    List<Integer> yearGregorian = new ArrayList<>();
+    List<String> yearGregorianText = new ArrayList<>();
+    List<Integer> yearHijri = new ArrayList<>();
+    List<String> yearHijriText = new ArrayList<>();
+    List<Integer> yearShamsi = new ArrayList<>();
+    List<String> yearShamsiText = new ArrayList<>();
+    List<MediaWikiPageDetails> city = new ArrayList<>();
+    List<String> manuscriptNumber = new ArrayList<>();
+    List<MediaWikiPageDetails> manuscriptOfTitle = new ArrayList<>();
+
+    public Builder location(String location) {
+      this.location.add(location);
+      return this;
     }
 
-    public static final class Builder{
-        List<String> location = new ArrayList<>();
-        List<String> references = new ArrayList<>();
-        List<Integer> yearGregorian = new ArrayList<>();
-        List<String> yearGregorianText = new ArrayList<>();
-        List<Integer> yearHijri = new ArrayList<>();
-        List<String> yearHijriText = new ArrayList<>();
-        List<Integer> yearShamsi = new ArrayList<>();
-        List<String> yearShamsiText = new ArrayList<>();
-        List<MediaWikiPageDetails> city = new ArrayList<>();
-        List<String> manuscriptNumber = new ArrayList<>();
-        List<MediaWikiPageDetails> manuscriptOfTitle = new ArrayList<>();
-
-        public Builder location(String location){
-            this.location.add(location);
-            return this;
-        }
-
-        public Builder yearGregorian(Integer yearGregorian){
-            this.yearGregorian.add(yearGregorian);
-            return this;
-        }
-
-        public Builder yearHijri(Integer yearHijri){
-            this.yearHijri.add(yearHijri);
-            return this;
-        }
-
-        public Builder city(MediaWikiPageDetails city){
-            this.city.add(city);
-            return this;
-        }
-
-        public Builder manuscriptNumber(String manuscriptNumber){
-            this.manuscriptNumber.add(manuscriptNumber);
-            return this;
-        }
-
-        public Builder manuscriptOfTitle(String title){
-            final var manuscriptOfTitle = MediaWikiPageDetails.builder().fulltext(title).build();
-            this.manuscriptOfTitle.add(manuscriptOfTitle);
-            return this;
-        }
-
-        public ManuscriptPrintouts build(){
-            return new ManuscriptPrintouts(location, references, yearGregorian, yearGregorianText, yearHijri, yearHijriText, yearShamsi, yearShamsiText, city, manuscriptNumber, manuscriptOfTitle);
-        }
+    public Builder yearGregorian(Integer yearGregorian) {
+      this.yearGregorian.add(yearGregorian);
+      return this;
     }
+
+    public Builder yearHijri(Integer yearHijri) {
+      this.yearHijri.add(yearHijri);
+      return this;
+    }
+
+    public Builder city(String city) {
+      this.city.add(MediaWikiPageDetails.builder().fulltext(city).build());
+      return this;
+    }
+
+    public Builder manuscriptNumber(String manuscriptNumber) {
+      this.manuscriptNumber.add(manuscriptNumber);
+      return this;
+    }
+
+    public Builder manuscriptOfTitle(String title) {
+      final var manuscriptOfTitle = MediaWikiPageDetails.builder().fulltext(title).build();
+      this.manuscriptOfTitle.add(manuscriptOfTitle);
+      return this;
+    }
+
+    public ManuscriptPrintouts build() {
+      return new ManuscriptPrintouts(
+          location,
+          references,
+          yearGregorian,
+          yearGregorianText,
+          yearHijri,
+          yearHijriText,
+          yearShamsi,
+          yearShamsiText,
+          city,
+          manuscriptNumber,
+          manuscriptOfTitle);
+    }
+  }
 }

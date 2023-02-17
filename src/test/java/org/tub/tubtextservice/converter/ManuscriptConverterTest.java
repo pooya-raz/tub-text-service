@@ -7,10 +7,9 @@ import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.tub.tubtextservice.model.domain.Manuscript;
 import org.tub.tubtextservice.model.domain.year.editiondate.HijriDate;
-import org.tub.tubtextservice.service.tubapi.model.tubresponse.MediaWikiPageDetails;
-import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.ManuscriptPrintouts;
 import org.tub.tubtextservice.service.tubapi.converter.ManuscriptConverter;
 import org.tub.tubtextservice.service.tubapi.converter.TubDateConverter;
+import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.ManuscriptPrintouts;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.when;
@@ -35,7 +34,7 @@ class ManuscriptConverterTest {
             .yearGregorian(1648)
             .manuscriptNumber("12")
             .location("Location")
-            .city(MediaWikiPageDetails.builder().fulltext("City").build())
+            .city("City")
             .build();
     final var expected = new Manuscript("Location", "City", "12", new HijriDate("680", "1648"));
     when(tubDateConverter.convert(manuscriptPrintouts)).thenReturn(new HijriDate("680", "1648"));

@@ -8,7 +8,7 @@ import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.TitlePr
 import java.util.List;
 import java.util.Map;
 
-public record TubData(
+public record TubPrintOuts(
     List<TitlePrintouts> titles,
     Map<String, AuthorPrintouts> authors,
     Map<String, ManuscriptPrintouts> manuscripts,
