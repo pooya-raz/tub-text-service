@@ -5,7 +5,6 @@ import org.tub.tubtextservice.model.domain.Category;
 import org.tub.tubtextservice.model.domain.Title;
 import org.tub.tubtextservice.model.domain.TitleType;
 import org.tub.tubtextservice.service.tubapi.converter.TitleConverter;
-import org.tub.tubtextservice.service.tubapi.model.tubresponse.MediaWikiPageDetails;
 import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.TitlePrintouts;
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -19,9 +18,9 @@ class TitleConverterTest {
         TitlePrintouts.builder()
             .titleTransliterated("titleTransliterated")
             .titleArabic("titleArabic")
-            .category(MediaWikiPageDetails.builder().fulltext("Category:Edited title").build())
+            .category("Category:Edited title")
             .bookType("Monograph")
-            .baseText(MediaWikiPageDetails.builder().fulltext("Base text").build())
+            .baseText("Base text")
             .build();
 
     final var expected =

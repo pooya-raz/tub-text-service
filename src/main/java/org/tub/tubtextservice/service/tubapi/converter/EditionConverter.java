@@ -1,10 +1,12 @@
 package org.tub.tubtextservice.service.tubapi.converter;
 
 import org.springframework.core.convert.converter.Converter;
+import org.springframework.stereotype.Component;
 import org.tub.tubtextservice.model.domain.Edition;
 import org.tub.tubtextservice.service.tubapi.model.tubresponse.MediaWikiPageDetails;
 import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.EditionPrintouts;
 
+@Component
 public class EditionConverter implements Converter<EditionPrintouts, Edition> {
 
     private final TubDateConverter tubDateConverter;

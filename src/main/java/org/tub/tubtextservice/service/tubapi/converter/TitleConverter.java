@@ -1,11 +1,13 @@
 package org.tub.tubtextservice.service.tubapi.converter;
 
 import org.springframework.core.convert.converter.Converter;
+import org.springframework.stereotype.Component;
 import org.tub.tubtextservice.model.domain.Category;
 import org.tub.tubtextservice.model.domain.Title;
 import org.tub.tubtextservice.model.domain.TitleType;
 import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.TitlePrintouts;
 
+@Component
 public class TitleConverter implements Converter<TitlePrintouts, Title> {
 
   @Override

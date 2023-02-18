@@ -14,7 +14,7 @@ public record AuthorPrintouts(
     @JsonProperty("Death (Hijri) text") List<String> deathHijriText,
     @JsonProperty("Death (Gregorian) text") List<String> deathGregorianText,
     @JsonProperty("Death (Shamsi) text") List<String> deathShamsiText)
-    implements Printouts {
+    implements PersonPrintouts {
 
   public static Builder builder() {
     return new Builder();

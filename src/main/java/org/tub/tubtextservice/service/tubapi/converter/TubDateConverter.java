@@ -1,5 +1,6 @@
 package org.tub.tubtextservice.service.tubapi.converter;
 
+import org.springframework.stereotype.Component;
 import org.tub.tubtextservice.model.domain.year.editiondate.EditionDate;
 import org.tub.tubtextservice.model.domain.year.editiondate.HijriDate;
 import org.tub.tubtextservice.model.domain.year.editiondate.ShamsiDate;
@@ -12,6 +13,7 @@ import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.DatedPr
 
 import java.util.List;
 
+@Component
 public class TubDateConverter {
 
   private String hijri;
