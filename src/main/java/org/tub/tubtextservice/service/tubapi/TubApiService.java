@@ -4,18 +4,17 @@ import org.tub.tubtextservice.model.property.TubProperties;
 import org.tub.tubtextservice.service.tubapi.client.TubClient;
 import org.tub.tubtextservice.service.tubapi.model.TubPrintOuts;
 import org.tub.tubtextservice.service.tubapi.model.tubresponse.Data;
-import org.tub.tubtextservice.service.tubapi.model.tubresponse.MediaWikiPageDetails;
 import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.AuthorPrintouts;
 import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.EditionPrintouts;
 import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.ManuscriptPrintouts;
 import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.Printouts;
 import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.TitlePrintouts;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
-import java.util.UUID;
 import java.util.stream.Stream;
 
 /** The service for the TUB API. */
@@ -46,43 +45,57 @@ public class TubApiService {
     return new TubPrintOuts(titles, authors, manuscripts, editions);
   }
 
-  private <T extends Printouts> Map<String, T> getMapPrintouts(
+  private <T extends Printouts> Map<String, ArrayList<T>> getMapPrintouts(
       String query, Class<T> printoutsClass) {
     final var printouts =
         getPrintouts(query, printoutsClass).stream().map(printoutsClass::cast).toList();
     return createMap(printouts);
   }
 
-  private <T extends Printouts> Map<String, T> createMap(List<T> printouts) {
-    final var printoutsMap = new HashMap<String, T>();
+  private <T extends Printouts> Map<String, ArrayList<T>> createMap(List<T> printouts) {
+    final var map = new HashMap<String, ArrayList<T>>();
     printouts.forEach(
-        p -> {
-          switch (p) {
-            case AuthorPrintouts authorPrintouts -> printoutsMap.put(
-                authorPrintouts.fullNameTransliterated().stream()
-                    .findFirst()
-                    .orElse(UUID.randomUUID().toString()),
-                p);
-            case EditionPrintouts edition -> printoutsMap.put(
-                edition.publishedEditionOfTitle().stream()
-                    .findFirst()
-                    .map(MediaWikiPageDetails::fulltext)
-                    .orElse(UUID.randomUUID().toString()),
-                p);
-            case ManuscriptPrintouts manuscript -> printoutsMap.put(
-                manuscript.manuscriptOfTitle().stream()
-                    .findFirst()
-                    .map(MediaWikiPageDetails::fulltext)
-                    .orElse(UUID.randomUUID().toString()),
-                p);
-            case TitlePrintouts title -> printoutsMap.put(
-                title.titleTransliterated().stream()
-                    .findFirst()
-                    .orElse(UUID.randomUUID().toString()),
-                p);
+        printout -> {
+          switch (printout) {
+            case AuthorPrintouts author -> {
+              if (author.fullNameTransliterated().isEmpty()) {
+                return;
+              }
+              final var key = author.fullNameTransliterated().get(0);
+              addToMap(map, key, printout);
+            }
+
+            case EditionPrintouts edition -> {
+              if (edition.publishedEditionOfTitle().isEmpty()) {
+                return;
+              }
+              final var key = edition.publishedEditionOfTitle().get(0).fulltext();
+              addToMap(map, key, printout);
+            }
+
+            case ManuscriptPrintouts manuscript -> {
+              if (manuscript.manuscriptOfTitle().isEmpty()) {
+                return;
+              }
+              final var key = manuscript.manuscriptOfTitle().get(0).fulltext();
+              addToMap(map, key, printout);
+            }
+            case TitlePrintouts titlePrintouts -> {
+              // Nothing to do here
+            }
           }
         });
-    return printoutsMap;
+    return map;
+  }
+
+  private <T extends Printouts> void addToMap(HashMap<String, ArrayList<T>> map, String key, T printout){
+    if (!map.containsKey(key)) {
+      final var list = new ArrayList<T>();
+      list.add(printout);
+      map.put(key, list);
+    }else {
+      map.get(key).add(printout);
+    }
   }
 
   private <T extends Printouts> List<T> getPrintouts(

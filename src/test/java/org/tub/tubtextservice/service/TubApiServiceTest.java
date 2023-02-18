@@ -20,6 +20,8 @@ import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.TitlePr
 import org.tub.tubtextservice.service.tubapi.TubApiService;
 import reactor.core.publisher.Mono;
 
+import java.util.List;
+
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.when;
 
@@ -69,10 +71,10 @@ class TubApiServiceTest {
     when(tubClient.queryTub(ASK, JSON, MANUSCRIPTS)).thenReturn(Mono.just(MANUSCRIPT_RESPONSE));
     when(tubClient.queryTub(ASK, JSON, EDITIONS)).thenReturn(Mono.just(EDITION_RESPONSE));
     final var actual = subject.getData();
-    assertThat(actual.authors().get("Jim")).isEqualTo(AUTHOR_PRINTOUTS);
+    assertThat(actual.authors().get("Jim")).isEqualTo(List.of(AUTHOR_PRINTOUTS));
     assertThat(actual.titles().get(0)).isEqualTo(TITLE_PRINTOUTS);
-    assertThat(actual.editions().get("Title")).isEqualTo(EDITION_PRINTOUTS);
-    assertThat(actual.manuscripts().get("Title")).isEqualTo(MANUSCRIPT_PRINTOUTS);
+    assertThat(actual.editions().get("Title")).isEqualTo(List.of(EDITION_PRINTOUTS));
+    assertThat(actual.manuscripts().get("Title")).isEqualTo(List.of(MANUSCRIPT_PRINTOUTS));
   }
 
   @Test
@@ -88,7 +90,7 @@ class TubApiServiceTest {
   }
 
   @Test
-  void getDataShouldUseDefaultKeyWhenMissing(){
+  void getDataShouldNotAddMapIfKeyIsMissing(){
     final var authorResponse = getTubResponse(AuthorPrintouts.builder().build());
     final var manuscriptResponse = getTubResponse(ManuscriptPrintouts.builder().build());
     final var editionResponse = getTubResponse(EditionPrintouts.builder().build());
@@ -97,8 +99,8 @@ class TubApiServiceTest {
     when(tubClient.queryTub(ASK, JSON, MANUSCRIPTS)).thenReturn(Mono.just(manuscriptResponse));
     when(tubClient.queryTub(ASK, JSON, EDITIONS)).thenReturn(Mono.just(editionResponse));
     final var actual = subject.getData();
-    assertThat(actual.authors().size()).isEqualTo(1);
-    assertThat(actual.manuscripts().size()).isEqualTo(1);
-    assertThat(actual.editions().size()).isEqualTo(1);
+    assertThat(actual.authors().size()).isEqualTo(0);
+    assertThat(actual.manuscripts().size()).isEqualTo(0);
+    assertThat(actual.editions().size()).isEqualTo(0);
   }
 }
