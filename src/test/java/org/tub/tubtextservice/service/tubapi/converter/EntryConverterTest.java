@@ -14,7 +14,6 @@ import org.tub.tubtextservice.model.domain.person.Author;
 import org.tub.tubtextservice.model.domain.year.editiondate.HijriDate;
 import org.tub.tubtextservice.model.domain.year.persondate.HijriDeath;
 import org.tub.tubtextservice.service.tubapi.model.TubPrintOuts;
-import org.tub.tubtextservice.service.tubapi.model.tubresponse.MediaWikiPageDetails;
 import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.AuthorPrintouts;
 import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.EditionPrintouts;
 import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.ManuscriptPrintouts;
@@ -37,7 +36,7 @@ class EntryConverterTest {
   private final TitlePrintouts TITLE =
       TitlePrintouts.builder()
           .titleTransliterated(TITLE_TRANSLITERATED)
-          .category(MediaWikiPageDetails.builder().fulltext("Edited").build())
+          .category("Edited")
           .titleArabic(TITLE_ARABIC)
           .bookType("Monograph")
           .author("author")

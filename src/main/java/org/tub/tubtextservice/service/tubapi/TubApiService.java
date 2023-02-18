@@ -9,6 +9,7 @@ import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.Edition
 import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.ManuscriptPrintouts;
 import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.Printouts;
 import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.TitlePrintouts;
+import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.TranslatorPrintouts;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -81,6 +82,9 @@ public class TubApiService {
               addToMap(map, key, printout);
             }
             case TitlePrintouts titlePrintouts -> {
+              // Nothing to do here
+            }
+            case TranslatorPrintouts translatorPrintouts -> {
               // Nothing to do here
             }
           }
