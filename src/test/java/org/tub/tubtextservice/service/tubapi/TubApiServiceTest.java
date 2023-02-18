@@ -1,4 +1,4 @@
-package org.tub.tubtextservice.service;
+package org.tub.tubtextservice.service.tubapi;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -17,7 +17,6 @@ import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.Edition
 import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.ManuscriptPrintouts;
 import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.Printouts;
 import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.TitlePrintouts;
-import org.tub.tubtextservice.service.tubapi.TubApiService;
 import reactor.core.publisher.Mono;
 
 import java.util.List;
