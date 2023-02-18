@@ -25,25 +25,30 @@ public record Data(
     String exists,
     String displayTitle) {
 
-        public static Builder builder() {
-            return new Builder();
-        }
+  public static Builder builder() {
+    return new Builder();
+  }
 
-        public static final class Builder{
-            Printouts printouts;
-            String fullText;
-            String fullUrl;
-            Integer namespace;
-            String exists;
-            String displayTitle;
+  public static final class Builder {
+    Printouts printouts;
+    String fullText;
+    String fullUrl;
+    Integer namespace;
+    String exists;
+    String displayTitle;
 
-            public Builder printouts(Printouts printouts){
-                this.printouts = printouts;
-                return this;
-            }
+    public Builder printouts(Printouts printouts) {
+      this.printouts = printouts;
+      return this;
+    }
 
-            public Data build(){
-                return new Data(printouts, fullText, fullUrl, namespace, exists, displayTitle);
-            }
-        }
+    public Builder fullText(String fullText) {
+      this.fullText = fullText;
+      return this;
+    }
+
+    public Data build() {
+      return new Data(printouts, fullText, fullUrl, namespace, exists, displayTitle);
+    }
+  }
 }

@@ -70,6 +70,7 @@ class EntryConverterTest {
   private final Map<String, ArrayList<AuthorPrintouts>> mapAuthorPrintout = new HashMap<>();
   private final Map<String, ArrayList<ManuscriptPrintouts>> mapManuscriptPrintout = new HashMap<>();
   private final Map<String, ArrayList<EditionPrintouts>> mapEditionPrintout = new HashMap<>();
+  private final Map<String, ArrayList<TitlePrintouts>> titlePrintouts= new HashMap<>();
   private EntryConverter subject;
   @Mock private ManuscriptConverter manuscriptConverter;
   @Mock private TubDateConverter tubDateConverter;
@@ -91,9 +92,13 @@ class EntryConverterTest {
     editionList.add(EDITION_PRINTOUT);
     mapEditionPrintout.put(TITLE_TRANSLITERATED, editionList);
 
+   final var titleList = new ArrayList<TitlePrintouts>();
+    titleList.add(TITLE);
+    titlePrintouts.put(TITLE_TRANSLITERATED, titleList);
+
     printouts =
         new TubPrintOuts(
-            List.of(TITLE), mapAuthorPrintout, mapManuscriptPrintout, mapEditionPrintout);
+            titlePrintouts, mapAuthorPrintout, mapManuscriptPrintout, mapEditionPrintout);
   }
 
   @AfterEach

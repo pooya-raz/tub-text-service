@@ -6,11 +6,10 @@ import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.Manuscr
 import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.TitlePrintouts;
 
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Map;
 
 public record TubPrintOuts(
-    List<TitlePrintouts> titles,
+    Map<String, ArrayList<TitlePrintouts>> titles,
     Map<String, ArrayList<AuthorPrintouts>> authors,
     Map<String, ArrayList<ManuscriptPrintouts>> manuscripts,
     Map<String, ArrayList<EditionPrintouts>> editions) {}

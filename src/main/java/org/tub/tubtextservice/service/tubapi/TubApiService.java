@@ -9,7 +9,6 @@ import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.Edition
 import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.ManuscriptPrintouts;
 import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.Printouts;
 import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.TitlePrintouts;
-import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.TranslatorPrintouts;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -38,7 +37,7 @@ public class TubApiService {
    * @return the data from the TUB API in the domain model.
    */
   public TubPrintOuts getData() {
-    final var titles = getPrintouts(tub.query().titles(), TitlePrintouts.class);
+    final var titles = getMapPrintouts(tub.query().titles(), TitlePrintouts.class);
     final var authors = getMapPrintouts(tub.query().authors(), AuthorPrintouts.class);
     final var manuscripts = getMapPrintouts(tub.query().manuscripts(), ManuscriptPrintouts.class);
     final var editions = getMapPrintouts(tub.query().editions(), EditionPrintouts.class);
@@ -46,81 +45,51 @@ public class TubApiService {
     return new TubPrintOuts(titles, authors, manuscripts, editions);
   }
 
-  private <T extends Printouts> Map<String, ArrayList<T>> getMapPrintouts(
-      String query, Class<T> printoutsClass) {
-    final var printouts =
-        getPrintouts(query, printoutsClass).stream().map(printoutsClass::cast).toList();
-    return createMap(printouts);
-  }
-
-  private <T extends Printouts> Map<String, ArrayList<T>> createMap(List<T> printouts) {
-    final var map = new HashMap<String, ArrayList<T>>();
-    printouts.forEach(
-        printout -> {
-          switch (printout) {
-            case AuthorPrintouts author -> {
-              if (author.fullNameTransliterated().isEmpty()) {
-                return;
-              }
-              final var key = author.fullNameTransliterated().get(0);
-              addToMap(map, key, printout);
-            }
-
-            case EditionPrintouts edition -> {
-              if (edition.publishedEditionOfTitle().isEmpty()) {
-                return;
-              }
-              final var key = edition.publishedEditionOfTitle().get(0).fulltext();
-              addToMap(map, key, printout);
-            }
-
-            case ManuscriptPrintouts manuscript -> {
-              if (manuscript.manuscriptOfTitle().isEmpty()) {
-                return;
-              }
-              final var key = manuscript.manuscriptOfTitle().get(0).fulltext();
-              addToMap(map, key, printout);
-            }
-            case TitlePrintouts titlePrintouts -> {
-              // Nothing to do here
-            }
-            case TranslatorPrintouts translatorPrintouts -> {
-              // Nothing to do here
-            }
-          }
-        });
-    return map;
-  }
-
-  private <T extends Printouts> void addToMap(HashMap<String, ArrayList<T>> map, String key, T printout){
-    if (!map.containsKey(key)) {
-      final var list = new ArrayList<T>();
-      list.add(printout);
-      map.put(key, list);
-    }else {
-      map.get(key).add(printout);
-    }
-  }
-
-  private <T extends Printouts> List<T> getPrintouts(
-      final String query, final Class<T> printoutClass) {
+  private List<Data> getTubData(final String query) {
     var list = fetchData(query);
     while (offset != STOP) {
       list = Stream.of(list, fetchData(query + "|offset=" + offset)).flatMap(List::stream).toList();
     }
-    return list.stream().map(printoutClass::cast).toList();
+    return list;
   }
 
-  private List<Printouts> fetchData(final String query) {
+  private <T extends Printouts> Map<String, ArrayList<T>> getMapPrintouts(
+      String query, Class<T> printoutsClass) {
+    final var printouts = getTubData(query);
+    return createMap(printouts, printoutsClass);
+  }
+
+  private <T extends Printouts> Map<String, ArrayList<T>> createMap(
+      List<Data> dataList, Class<T> printoutsClass) {
+    final var map = new HashMap<String, ArrayList<T>>();
+    dataList.forEach(
+        data -> {
+          final var printout = printoutsClass.cast(data.printouts());
+          final var key = data.fullText();
+          addToMap(map, key, printout);
+        });
+    return map;
+  }
+
+  private <T extends Printouts> void addToMap(
+      HashMap<String, ArrayList<T>> map, String key, T printout) {
+    if (!map.containsKey(key)) {
+      final var list = new ArrayList<T>();
+      list.add(printout);
+      map.put(key, list);
+    } else {
+      map.get(key).add(printout);
+    }
+  }
+
+  private List<Data> fetchData(final String query) {
     if (query == null) return List.of();
     final var result = tubClient.queryTub(ACTION_ASK, FORMAT_JSON, query).block();
     return Optional.ofNullable(result)
         .map(
             r -> {
               offset = result.queryContinueOffset();
-              return r.query().results().getDataMap().values().stream()
-                  .map(Data::printouts)
-                  .toList();
+              return r.query().results().getDataMap().values().stream().toList();
             })
         .orElseGet(
             () -> {
