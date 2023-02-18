@@ -35,8 +35,8 @@ public record TitlePrintouts(
 
     public Builder() {}
 
-    public Builder category(MediaWikiPageDetails category) {
-      this.category.add(category);
+    public Builder category(final String category) {
+      this.category.add(MediaWikiPageDetails.builder().fulltext(category).build());
       return this;
     }
 
@@ -75,8 +75,8 @@ public record TitlePrintouts(
       return this;
     }
 
-    public Builder baseText(MediaWikiPageDetails baseText) {
-      this.baseText.add(baseText);
+    public Builder baseText(final String baseText) {
+      this.baseText.add(MediaWikiPageDetails.builder().fulltext(baseText).build());
       return this;
     }
 
