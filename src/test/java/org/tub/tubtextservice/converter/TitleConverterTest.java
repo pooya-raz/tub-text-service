@@ -1,7 +1,7 @@
 package org.tub.tubtextservice.converter;
 
 import org.junit.jupiter.api.Test;
-import org.tub.tubtextservice.model.domain.Category;
+import org.tub.tubtextservice.model.domain.StatusOfPublication;
 import org.tub.tubtextservice.model.domain.Title;
 import org.tub.tubtextservice.model.domain.TitleType;
 import org.tub.tubtextservice.service.tubapi.converter.TitleConverter;
@@ -27,7 +27,7 @@ class TitleConverterTest {
         Title.builder()
             .titleTransliterated("titleTransliterated")
             .titleArabic("titleArabic")
-            .category(Category.Edited)
+            .category(StatusOfPublication.Edited)
             .titleType(TitleType.Monograph)
             .baseText("Base text")
             .build();
