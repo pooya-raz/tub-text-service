@@ -10,6 +10,18 @@ import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.TitlePr
 
 import static com.fasterxml.jackson.annotation.JsonTypeInfo.Id.DEDUCTION;
 
+/**
+ * Collection of data returned by Semantic Mediawiki.
+ *
+ * @param printouts the semantic data of the Wiki article.
+ * @param fullText the title of the Wiki article and a unique identifier
+ * @param fullUrl
+ * @param namespace
+ * @param exists
+ * @param displayTitle an alternate title of the page. Generally left blank. @see <a
+ *     href="https://www.semantic-mediawiki.org/wiki/Help:Display_title">Semantic Mediawiki -
+ *     Help:Display title</a>
+ */
 public record Data(
     @JsonTypeInfo(use = DEDUCTION)
         @JsonSubTypes({
@@ -31,23 +43,10 @@ public record Data(
 
   public static final class Builder {
     Printouts printouts;
-
-    /**
-     * {@code fulltext} is the title of the Wiki article, and is used as a unique identifier by
-     * MediaWiki.
-     */
     String fullText;
-
     String fullUrl;
     Integer namespace;
     String exists;
-
-    /**
-     * Alternate title of the page. Generally left blank.
-     *
-     * @see <a href="https://www.semantic-mediawiki.org/wiki/Help:Display_title">Semantic Mediawiki
-     *     - Help:Display title</a>
-     */
     String displayTitle;
 
     public Builder printouts(Printouts printouts) {
