@@ -1,6 +1,7 @@
 package org.tub.tubtextservice.service.tubapi;
 
 import org.springframework.lang.NonNull;
+import org.tub.tubtextservice.model.domain.Entry;
 import org.tub.tubtextservice.model.property.TubProperties;
 import org.tub.tubtextservice.service.tubapi.client.TubClient;
 import org.tub.tubtextservice.service.tubapi.model.TubPrintOuts;
@@ -31,12 +32,12 @@ public class TubApiService {
   }
 
   /**
-   * Retrieves the data from the TUB API. Separate queries are required for each category which are
-   * organised as {@link Printouts}.
+   * Retrieves the data from the TUB API and returns a collections of maps. Maps are required to
+   * construct the {@link Entry}.
    *
    * @return the {@link Printouts} from the TUB API as maps with the {@link Data#fullText()} as the
-   *     key. The fulltext is the title of the Wiki article, and is used as a unique identifier by
-   *     MediaWiki.
+   *     key. {@code fulltext} is the title of the Wiki article, and is used as a unique identifier
+   *     by MediaWiki.
    */
   public TubPrintOuts getData() {
     final var titles = getMapPrintouts(tub.query().titles(), TitlePrintouts.class);
