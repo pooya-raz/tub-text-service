@@ -22,6 +22,6 @@ public class TubWordControl {
    */
   public XWPFDocument createWordDocumentFromTub() {
     final var tubData = tubApiService.getData();
-    return tubWordService.createWordDocument(tubData);
+    return tubWordService.createWordDocument(null);
   }
 }

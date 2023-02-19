@@ -29,7 +29,7 @@ class TubWordControlTest {
   void shouldCreateAWordFile() {
     final var tubData = new TubPrintouts(null, null, null, null);
     when(tubApiService.getData()).thenReturn(tubData);
-    when(tubWordService.createWordDocument(tubData)).thenReturn(new XWPFDocument());
+    when(tubWordService.createWordDocument(null)).thenReturn(new XWPFDocument());
     final var actual = subject.createWordDocumentFromTub();
     System.out.println(actual.getDocument());
     assertThat(actual.getDocument()).isNotNull();
