@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 import org.tub.tubtextservice.model.domain.Entry;
 import org.tub.tubtextservice.model.property.TubProperties;
 import org.tub.tubtextservice.service.tubapi.client.TubClient;
-import org.tub.tubtextservice.service.tubapi.model.TubPrintOuts;
+import org.tub.tubtextservice.service.tubapi.model.TubPrintouts;
 import org.tub.tubtextservice.service.tubapi.model.tubresponse.Data;
 import org.tub.tubtextservice.service.tubapi.model.tubresponse.TubResponse;
 import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.AuthorPrintouts;
@@ -25,37 +25,37 @@ import java.util.stream.Stream;
 public class TubApiService implements ApiService {
 
   private final TubClient tubClient;
-  private final TubProperties tub;
+  private final TubProperties properties;
 
-  public TubApiService(TubClient tubClient, TubProperties tub) {
+  public TubApiService(TubClient tubClient, TubProperties properties) {
     this.tubClient = tubClient;
-    this.tub = tub;
+    this.properties = properties;
   }
 
   /**
-   * Retrieves the data from the TUB API and returns a collections of maps. Maps are required to
-   * construct the {@link Entry}.
+   * Retrieves the data from the TUB API and returns a collections of maps required to construct the
+   * {@link Entry}. It sends Semantic Mediawiki queries that are defined in the {@link
+   * TubProperties}.
    *
-   * @return the {@link Printouts} from the TUB API as maps with the {@link Data#fullText()} as the
-   *     key. {@code fulltext} is the title of the Wiki article, and is used as a unique identifier
-   *     by MediaWiki.
+   * @return {@link Printouts} from the TUB API as maps with the {@link Data#fullText()} as the key.
    */
-  public TubPrintOuts getData() {
-    final var titles = getMapPrintouts(tub.query().titles(), TitlePrintouts.class);
-    final var authors = getMapPrintouts(tub.query().authors(), AuthorPrintouts.class);
-    final var manuscripts = getMapPrintouts(tub.query().manuscripts(), ManuscriptPrintouts.class);
-    final var editions = getMapPrintouts(tub.query().editions(), EditionPrintouts.class);
+  public TubPrintouts getData() {
+    final var titles = getMapPrintouts(properties.query().titles(), TitlePrintouts.class);
+    final var authors = getMapPrintouts(properties.query().authors(), AuthorPrintouts.class);
+    final var manuscripts =
+        getMapPrintouts(properties.query().manuscripts(), ManuscriptPrintouts.class);
+    final var editions = getMapPrintouts(properties.query().editions(), EditionPrintouts.class);
 
-    return new TubPrintOuts(titles, authors, manuscripts, editions);
+    return new TubPrintouts(titles, authors, manuscripts, editions);
   }
 
   /**
-   * Main workflow for retrieving the printouts from the TUB API. Gets the data from the TUB API and
-   * then converts it to a map.
+   * This method is the main workflow for retrieving the printouts from the TUB API. It first gets
+   * the data from the TUB API and then converts it to a map.
    *
-   * @param query the Semantic MediaWiki query to be executed.
-   * @param printoutsClass the class of the {@link Printouts} to be cast to.
-   * @return a map of the {@link Printouts}. See {@link MapCreator}.
+   * @param query The Semantic MediaWiki query to be executed.
+   * @param printoutsClass The class of the {@link Printouts} to be cast to.
+   * @return A map of the {@link Printouts}.
    */
   private <T extends Printouts> Map<String, ArrayList<T>> getMapPrintouts(
       String query, Class<T> printoutsClass) {
@@ -65,13 +65,12 @@ public class TubApiService implements ApiService {
   }
 
   /**
-   * Creates a map with the {@link Data#fullText()} as the key and the {@link Printouts} as the
-   * value
+   * Responsible for creating a map with the {@link Data#fullText()} as the key and the {@link
+   * Printouts} as the value
    */
   private static class MapCreator {
     /**
-     * Creates a map with the {@link Data#fullText()} as the key and the {@link Printouts} as the
-     * value.
+     * Creates the required map from the data retrieved from the TUB API.
      *
      * @param dataList the list of {@link Data} to be converted to a map.
      * @param printoutsClass the class of the {@link Printouts} to be cast to.
@@ -109,7 +108,7 @@ public class TubApiService implements ApiService {
     }
   }
 
-  /** Retrieves the data from the TUB API. */
+  /** Responsible fore retrieving the data from the TUB API. */
   private class TubDataFetcher {
 
     /** The stop value is used to stop the retrieval of data from the TUB API. */

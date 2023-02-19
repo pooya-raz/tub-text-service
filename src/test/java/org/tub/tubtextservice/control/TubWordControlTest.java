@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
-import org.tub.tubtextservice.service.tubapi.model.TubPrintOuts;
+import org.tub.tubtextservice.service.tubapi.model.TubPrintouts;
 import org.tub.tubtextservice.service.tubapi.service.TubApiService;
 import org.tub.tubtextservice.service.word.TubWordService;
 
@@ -27,7 +27,7 @@ class TubWordControlTest {
 
   @Test
   void shouldCreateAWordFile() {
-    final var tubData = new TubPrintOuts(null, null, null, null);
+    final var tubData = new TubPrintouts(null, null, null, null);
     when(tubApiService.getData()).thenReturn(tubData);
     when(tubWordService.createWordDocument(tubData)).thenReturn(new XWPFDocument());
     final var actual = subject.createWordDocumentFromTub();

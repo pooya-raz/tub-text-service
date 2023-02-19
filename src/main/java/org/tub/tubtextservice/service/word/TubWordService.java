@@ -1,7 +1,7 @@
 package org.tub.tubtextservice.service.word;
 
 import org.apache.poi.xwpf.usermodel.XWPFDocument;
-import org.tub.tubtextservice.service.tubapi.model.TubPrintOuts;
+import org.tub.tubtextservice.service.tubapi.model.TubPrintouts;
 
 /** A service that generates word documents from TUB data. */
 public class TubWordService {
@@ -12,7 +12,7 @@ public class TubWordService {
    * @param tubPrintOuts TUB data in domain model
    * @return a word document
    */
-  public XWPFDocument createWordDocument(final TubPrintOuts tubPrintOuts) {
+  public XWPFDocument createWordDocument(final TubPrintouts tubPrintOuts) {
     return new XWPFDocument();
   }
 }

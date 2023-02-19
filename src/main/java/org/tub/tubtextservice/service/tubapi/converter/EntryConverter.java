@@ -6,7 +6,7 @@ import org.tub.tubtextservice.model.domain.Manuscript;
 import org.tub.tubtextservice.model.domain.TitleType;
 import org.tub.tubtextservice.model.domain.person.Author;
 import org.tub.tubtextservice.model.domain.person.Person;
-import org.tub.tubtextservice.service.tubapi.model.TubPrintOuts;
+import org.tub.tubtextservice.service.tubapi.model.TubPrintouts;
 import org.tub.tubtextservice.service.tubapi.model.tubresponse.MediaWikiPageDetails;
 import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.AuthorPrintouts;
 import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.EditionPrintouts;
@@ -34,7 +34,7 @@ public class EntryConverter {
     this.editionConverter = editionConverter;
   }
 
-  public Entry convert(TitlePrintouts title, final TubPrintOuts printOuts) {
+  public Entry convert(TitlePrintouts title, final TubPrintouts printOuts) {
     final var person = getPerson(printOuts.authors(), title.author().get(0));
     final var titleName = title.titleTransliterated().stream().findFirst().orElse("");
     final var titleOriginal = title.titleArabic().stream().findFirst().orElse("");

@@ -13,7 +13,7 @@ import org.tub.tubtextservice.model.domain.TitleType;
 import org.tub.tubtextservice.model.domain.person.Author;
 import org.tub.tubtextservice.model.domain.year.editiondate.HijriDate;
 import org.tub.tubtextservice.model.domain.year.persondate.HijriDeath;
-import org.tub.tubtextservice.service.tubapi.model.TubPrintOuts;
+import org.tub.tubtextservice.service.tubapi.model.TubPrintouts;
 import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.AuthorPrintouts;
 import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.EditionPrintouts;
 import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.ManuscriptPrintouts;
@@ -70,12 +70,12 @@ class EntryConverterTest {
   private final Map<String, ArrayList<AuthorPrintouts>> mapAuthorPrintout = new HashMap<>();
   private final Map<String, ArrayList<ManuscriptPrintouts>> mapManuscriptPrintout = new HashMap<>();
   private final Map<String, ArrayList<EditionPrintouts>> mapEditionPrintout = new HashMap<>();
-  private final Map<String, ArrayList<TitlePrintouts>> titlePrintouts= new HashMap<>();
+  private final Map<String, ArrayList<TitlePrintouts>> titlePrintouts = new HashMap<>();
   private EntryConverter subject;
   @Mock private ManuscriptConverter manuscriptConverter;
   @Mock private TubDateConverter tubDateConverter;
   @Mock private EditionConverter editionConverter;
-  private TubPrintOuts printouts;
+  private TubPrintouts printouts;
 
   @BeforeEach
   void setUpBeforeEach() {
@@ -92,12 +92,12 @@ class EntryConverterTest {
     editionList.add(EDITION_PRINTOUT);
     mapEditionPrintout.put(TITLE_TRANSLITERATED, editionList);
 
-   final var titleList = new ArrayList<TitlePrintouts>();
+    final var titleList = new ArrayList<TitlePrintouts>();
     titleList.add(TITLE);
     titlePrintouts.put(TITLE_TRANSLITERATED, titleList);
 
     printouts =
-        new TubPrintOuts(
+        new TubPrintouts(
             titlePrintouts, mapAuthorPrintout, mapManuscriptPrintout, mapEditionPrintout);
   }
 
@@ -113,8 +113,8 @@ class EntryConverterTest {
 
     final var expected =
         new Entry(
-                TITLE_TRANSLITERATED,
-                TITLE_ARABIC,
+            TITLE_TRANSLITERATED,
+            TITLE_ARABIC,
             AUTHOR,
             List.of(MANUSCRIPT),
             List.of(EDITION),
@@ -134,8 +134,8 @@ class EntryConverterTest {
 
     final var expected =
         new Entry(
-                TITLE_TRANSLITERATED,
-                TITLE_ARABIC,
+            TITLE_TRANSLITERATED,
+            TITLE_ARABIC,
             AUTHOR,
             List.of(MANUSCRIPT),
             List.of(EDITION, EDITION),
@@ -155,8 +155,8 @@ class EntryConverterTest {
 
     final var expected =
         new Entry(
-                TITLE_TRANSLITERATED,
-                TITLE_ARABIC,
+            TITLE_TRANSLITERATED,
+            TITLE_ARABIC,
             AUTHOR,
             List.of(MANUSCRIPT, MANUSCRIPT),
             List.of(EDITION),
@@ -169,21 +169,17 @@ class EntryConverterTest {
     assertThat(actual).isEqualTo(expected);
   }
 
-    @Test
-  void convertShouldReturnEntryWithoutEditionsOrManuscripts(){
+  @Test
+  void convertShouldReturnEntryWithoutEditionsOrManuscripts() {
     mapManuscriptPrintout.clear();
     mapEditionPrintout.clear();
 
-    final var expected = new Entry(
-            TITLE_TRANSLITERATED,
-            TITLE_ARABIC,
-        AUTHOR,
-        List.of(),
-        List.of(),
-        TitleType.Monograph);
+    final var expected =
+        new Entry(
+            TITLE_TRANSLITERATED, TITLE_ARABIC, AUTHOR, List.of(), List.of(), TitleType.Monograph);
 
     when(tubDateConverter.convert(AUTHOR_PRINTOUT)).thenReturn(new HijriDeath(YEAR, GREGORIAN));
     final var actual = subject.convert(TITLE, printouts);
     assertThat(actual).isEqualTo(expected);
-    }
+  }
 }

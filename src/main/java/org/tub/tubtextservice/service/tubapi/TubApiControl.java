@@ -1,6 +1,6 @@
 package org.tub.tubtextservice.service.tubapi;
 
-import org.tub.tubtextservice.service.tubapi.model.TubPrintOuts;
+import org.tub.tubtextservice.service.tubapi.model.TubPrintouts;
 import org.tub.tubtextservice.service.tubapi.service.TubApiService;
 
 import java.util.List;
@@ -13,7 +13,7 @@ public class TubApiControl {
     this.tubApiService = tubApiService;
   }
 
-  public List<TubPrintOuts> getPrintouts() {
+  public List<TubPrintouts> getPrintouts() {
     return null;
   }
 }
