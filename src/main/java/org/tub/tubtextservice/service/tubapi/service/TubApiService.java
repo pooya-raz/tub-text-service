@@ -1,6 +1,7 @@
-package org.tub.tubtextservice.service.tubapi;
+package org.tub.tubtextservice.service.tubapi.service;
 
 import org.springframework.lang.NonNull;
+import org.springframework.stereotype.Service;
 import org.tub.tubtextservice.model.domain.Entry;
 import org.tub.tubtextservice.model.property.TubProperties;
 import org.tub.tubtextservice.service.tubapi.client.TubClient;
@@ -19,9 +20,9 @@ import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Stream;
-
 /** The service responsible for retrieving data from the TUB API. */
-public class TubApiService {
+@Service
+public class TubApiService implements ApiService {
 
   private final TubClient tubClient;
   private final TubProperties tub;

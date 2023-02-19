@@ -6,8 +6,8 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
-import org.tub.tubtextservice.service.tubapi.TubApiService;
 import org.tub.tubtextservice.service.tubapi.model.TubPrintOuts;
+import org.tub.tubtextservice.service.tubapi.service.TubApiService;
 import org.tub.tubtextservice.service.word.TubWordService;
 
 import static org.assertj.core.api.Assertions.assertThat;

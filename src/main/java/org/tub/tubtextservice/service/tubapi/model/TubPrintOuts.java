@@ -12,4 +12,5 @@ public record TubPrintOuts(
     Map<String, ArrayList<TitlePrintouts>> titles,
     Map<String, ArrayList<AuthorPrintouts>> authors,
     Map<String, ArrayList<ManuscriptPrintouts>> manuscripts,
-    Map<String, ArrayList<EditionPrintouts>> editions) {}
+    Map<String, ArrayList<EditionPrintouts>> editions)
+    implements ApiData {}

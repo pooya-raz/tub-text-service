@@ -17,6 +17,7 @@ import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.Edition
 import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.ManuscriptPrintouts;
 import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.Printouts;
 import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.TitlePrintouts;
+import org.tub.tubtextservice.service.tubapi.service.TubApiService;
 import reactor.core.publisher.Mono;
 
 import java.util.List;
