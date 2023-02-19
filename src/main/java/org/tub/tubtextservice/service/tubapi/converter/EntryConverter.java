@@ -11,6 +11,7 @@ import org.tub.tubtextservice.service.tubapi.model.tubresponse.MediaWikiPageDeta
 import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.AuthorPrintouts;
 import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.EditionPrintouts;
 import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.ManuscriptPrintouts;
+import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.Printouts;
 import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.TitlePrintouts;
 
 import java.util.ArrayList;
@@ -18,6 +19,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 
+/** Converts a {@link TubPrintouts} to a {@link Entry}. */
 public class EntryConverter {
 
   private final ManuscriptConverter manuscriptConverter;
@@ -34,28 +36,35 @@ public class EntryConverter {
     this.editionConverter = editionConverter;
   }
 
-  public Entry convert(TitlePrintouts title, final TubPrintouts printOuts) {
-    final var person = getPerson(printOuts.authors(), title.author().get(0));
+  /**
+   * Converts Semantic Mediawiki's domain model {@link Printouts} to the domain model {@link Entry}
+   * for a particular {@code title}. The {@link Entry} is constructed from the categories in the TUB
+   * wiki which are held in the fields of {@link TubPrintouts}.
+   *
+   * @param title the title for which the {@link Entry} is constructed
+   * @param tubPrintouts the data that is retrieved from Semantic MediaWiki
+   * @return an {@link Entry}
+   */
+  public Entry convert(TitlePrintouts title, final TubPrintouts tubPrintouts) {
+    final var person = getPerson(tubPrintouts.authors(), title.author().get(0));
     final var titleName = title.titleTransliterated().stream().findFirst().orElse("");
     final var titleOriginal = title.titleArabic().stream().findFirst().orElse("");
-    final var manuscripts = getManuscripts(printOuts.manuscripts(), titleName);
-    final var editions = getEditions(printOuts.editions(), titleName);
+    final var manuscripts = getManuscripts(tubPrintouts.manuscripts(), titleName);
+    final var editions = getEditions(tubPrintouts.editions(), titleName);
     final var titleType =
         TitleType.valueOfTub(title.bookType().stream().findFirst().orElse("Unknown"));
     return new Entry(titleName, titleOriginal, person, manuscripts, editions, titleType);
   }
 
   private Person getPerson(
-      final Map<String, ArrayList<AuthorPrintouts>> authorPrintoutsMap,
+      final Map<String, AuthorPrintouts> authorPrintoutsMap,
       final MediaWikiPageDetails authorPage) {
     if (authorPage == null) {
       return null;
     }
     final var authorName = authorPage.fulltext();
     final var authorPrintout = authorPrintoutsMap.get(authorName);
-    final var author =
-        authorPrintout.stream().findFirst().orElse(AuthorPrintouts.builder().build());
-    final var personDeath = tubDateConverter.convert(author);
+    final var personDeath = tubDateConverter.convert(authorPrintout);
     return new Author(authorName, personDeath);
   }
 

@@ -15,7 +15,7 @@ public record EditionPrintouts(
     @JsonProperty("Has year(Hijri) text") List<String> yearHijriText,
     @JsonProperty("Has year(Shamsi)") List<Integer> yearShamsi,
     @JsonProperty("Has year(Shamsi) text") List<String> yearShamsiText,
-    @JsonProperty("Published edition of title") List<MediaWikiPageDetails> publishedEditionOfTitle,
+    @JsonProperty("Published edition of title") List<MediaWikiPageDetails> editionOfTitle,
     @JsonProperty("Has editor(s)") List<String> editors,
     @JsonProperty("Has a publisher") List<String> publisher,
     @JsonProperty("Has a description") List<String> description,

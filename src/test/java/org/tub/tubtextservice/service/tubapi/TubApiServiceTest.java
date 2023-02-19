@@ -81,8 +81,8 @@ class TubApiServiceTest {
     when(tubClient.queryTub(ASK, JSON, MANUSCRIPTS)).thenReturn(Mono.just(MANUSCRIPT_RESPONSE));
     when(tubClient.queryTub(ASK, JSON, EDITIONS)).thenReturn(Mono.just(EDITION_RESPONSE));
     final var actual = subject.getData();
-    assertThat(actual.authors().get(AUTHOR_NAME)).isEqualTo(List.of(AUTHOR_PRINTOUTS));
-    assertThat(actual.titles().get(TITLE)).isEqualTo(List.of(TITLE_PRINTOUTS));
+    assertThat(actual.authors().get(AUTHOR_NAME)).isEqualTo(AUTHOR_PRINTOUTS);
+    assertThat(actual.titles().get(TITLE)).isEqualTo(TITLE_PRINTOUTS);
     assertThat(actual.editions().get(TITLE)).isEqualTo(List.of(EDITION_PRINTOUTS));
     assertThat(actual.manuscripts().get(TITLE)).isEqualTo(List.of(MANUSCRIPT_PRINTOUTS));
   }

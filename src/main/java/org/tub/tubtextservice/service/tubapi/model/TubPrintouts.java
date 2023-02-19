@@ -22,8 +22,8 @@ import java.util.Map;
  *     ManuscriptPrintouts#manuscriptOfTitle()} which refers to the key of a title. One title can
  *     have multiple manuscripts.
  * @param editions editions in TUB. The key is the value in {@link
- *     EditionPrintouts#publishedEditionOfTitle()} which refers to the key of a title. One title can
- *     have multiple editions.
+ *     EditionPrintouts#editionOfTitle()} which refers to the key of a title. One title can have
+ *     multiple editions.
  */
 public record TubPrintouts(
     Map<String, TitlePrintouts> titles,

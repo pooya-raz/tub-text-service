@@ -67,10 +67,10 @@ class EntryConverterTest {
       new Manuscript(TITLE_TRANSLITERATED, "city", "location", new HijriDate(YEAR, GREGORIAN));
   private final Edition EDITION =
       new Edition(TITLE_TRANSLITERATED, null, null, null, null, null, null, null);
-  private final Map<String, ArrayList<AuthorPrintouts>> mapAuthorPrintout = new HashMap<>();
+  private final Map<String, AuthorPrintouts> mapAuthorPrintout = new HashMap<>();
   private final Map<String, ArrayList<ManuscriptPrintouts>> mapManuscriptPrintout = new HashMap<>();
   private final Map<String, ArrayList<EditionPrintouts>> mapEditionPrintout = new HashMap<>();
-  private final Map<String, ArrayList<TitlePrintouts>> titlePrintouts = new HashMap<>();
+  private final Map<String, TitlePrintouts> titlePrintouts = new HashMap<>();
   private EntryConverter subject;
   @Mock private ManuscriptConverter manuscriptConverter;
   @Mock private TubDateConverter tubDateConverter;
@@ -80,9 +80,7 @@ class EntryConverterTest {
   @BeforeEach
   void setUpBeforeEach() {
     subject = new EntryConverter(manuscriptConverter, tubDateConverter, editionConverter);
-    final var authorList = new ArrayList<AuthorPrintouts>();
-    authorList.add(AUTHOR_PRINTOUT);
-    mapAuthorPrintout.put("author", authorList);
+    mapAuthorPrintout.put("author", AUTHOR_PRINTOUT);
 
     final var mapList = new ArrayList<ManuscriptPrintouts>();
     mapList.add(MANUSCRIPT_PRINTOUT);
@@ -92,9 +90,7 @@ class EntryConverterTest {
     editionList.add(EDITION_PRINTOUT);
     mapEditionPrintout.put(TITLE_TRANSLITERATED, editionList);
 
-    final var titleList = new ArrayList<TitlePrintouts>();
-    titleList.add(TITLE);
-    titlePrintouts.put(TITLE_TRANSLITERATED, titleList);
+    titlePrintouts.put(TITLE_TRANSLITERATED, TITLE);
 
     printouts =
         new TubPrintouts(

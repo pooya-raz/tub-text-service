@@ -1,6 +1,5 @@
 package org.tub.tubtextservice.service.tubapi.service;
 
-import org.springframework.lang.NonNull;
 import org.springframework.stereotype.Service;
 import org.tub.tubtextservice.model.domain.Entry;
 import org.tub.tubtextservice.model.property.TubProperties;
@@ -33,61 +32,94 @@ public class TubApiService implements ApiService {
   }
 
   /**
-   * Retrieves the data from the TUB API and returns a collections of maps required to construct the
+   * Retrieves the data from the TUB API and returns a collection of maps required to construct the
    * {@link Entry}. It sends Semantic Mediawiki queries that are defined in the {@link
    * TubProperties}.
    *
    * @return {@link Printouts} from the TUB API as maps with the {@link Data#fullText()} as the key.
    */
   public TubPrintouts getData() {
-    final var titles = getMapPrintouts(properties.query().titles(), TitlePrintouts.class);
-    final var authors = getMapPrintouts(properties.query().authors(), AuthorPrintouts.class);
-    final var manuscripts =
-        getMapPrintouts(properties.query().manuscripts(), ManuscriptPrintouts.class);
-    final var editions = getMapPrintouts(properties.query().editions(), EditionPrintouts.class);
-
-    return new TubPrintouts(titles, authors, manuscripts, editions);
-  }
-
-  /**
-   * This method is the main workflow for retrieving the printouts from the TUB API. It first gets
-   * the data from the TUB API and then converts it to a map.
-   *
-   * @param query The Semantic MediaWiki query to be executed.
-   * @param printoutsClass The class of the {@link Printouts} to be cast to.
-   * @return A map of the {@link Printouts}.
-   */
-  private <T extends Printouts> Map<String, ArrayList<T>> getMapPrintouts(
-      String query, Class<T> printoutsClass) {
     final var dataFetcher = new TubDataFetcher();
-    final var data = dataFetcher.getAllData(query);
-    return MapCreator.createMap(data, printoutsClass);
+    final var titlePrintouts = dataFetcher.getAllData(properties.query().titles());
+    final var authorPrintouts = dataFetcher.getAllData(properties.query().authors());
+    final var manuscriptPrintouts = dataFetcher.getAllData(properties.query().manuscripts());
+    final var editionPrintouts = dataFetcher.getAllData(properties.query().editions());
+
+    final var titles = MapCreator.createMapTitles(titlePrintouts);
+    final var authors = MapCreator.createMapAuthor(authorPrintouts);
+    final var manuscripts = MapCreator.createMapManuscript(manuscriptPrintouts);
+    final var editions = MapCreator.createMapEdition(editionPrintouts);
+    return new TubPrintouts(titles, authors, manuscripts, editions);
   }
 
   /**
    * Responsible for creating a map with the {@link Data#fullText()} as the key and the {@link
    * Printouts} as the value
+   *
+   * @implNote There are repetitive methods in this class. Couldn't think of a better way to do
+   *     this.
    */
   private static class MapCreator {
+
     /**
-     * Creates the required map from the data retrieved from the TUB API.
+     * Creates the required map for TitlePrintouts.
      *
      * @param dataList the list of {@link Data} to be converted to a map.
-     * @param printoutsClass the class of the {@link Printouts} to be cast to.
-     * @return the map with the {@link Data#fullText()} as the key and the {@link Printouts} as the
-     *     value.
+     * @return map with the {@link Data#fullText()} as the key and the {@link TitlePrintouts} as the
+     *     value
      */
-    private static <T extends Printouts> Map<String, ArrayList<T>> createMap(
-        @NonNull final List<Data> dataList, @NonNull final Class<T> printoutsClass) {
-      final var map = new HashMap<String, ArrayList<T>>();
+    private static Map<String, TitlePrintouts> createMapTitles(List<Data> dataList) {
+      final var mapTitle = new HashMap<String, TitlePrintouts>();
       dataList.forEach(
           data -> {
-            final var printout = printoutsClass.cast(data.printouts());
+            final var printout = (TitlePrintouts) data.printouts();
             final var key = data.fullText();
-            addToMap(map, key, printout);
+            mapTitle.putIfAbsent(key, printout);
           });
-      return map;
+      return mapTitle;
     }
+
+    /**
+     * Creates the required map for AuthorPrintouts.
+     *
+     * @param dataList the list of {@link Data} to be converted to a map.
+     * @return map with the {@link Data#fullText()} as the key and the {@link TitlePrintouts} as the
+     *     value
+     */
+    private static Map<String, AuthorPrintouts> createMapAuthor(List<Data> dataList) {
+      final var mapTitle = new HashMap<String, AuthorPrintouts>();
+      dataList.forEach(
+          data -> {
+            final var printout = (AuthorPrintouts) data.printouts();
+            final var key = data.fullText();
+            mapTitle.putIfAbsent(key, printout);
+          });
+      return mapTitle;
+    }
+
+    private static Map<String, ArrayList<ManuscriptPrintouts>> createMapManuscript(
+        List<Data> dataList) {
+      final var mapTitle = new HashMap<String, ArrayList<ManuscriptPrintouts>>();
+      dataList.forEach(
+          data -> {
+            final var printout = (ManuscriptPrintouts) data.printouts();
+            final var key = printout.manuscriptOfTitle().get(0).fulltext();
+            addToMap(mapTitle, key, printout);
+          });
+      return mapTitle;
+    }
+
+    private static Map<String, ArrayList<EditionPrintouts>> createMapEdition(List<Data> dataList) {
+      final var mapTitle = new HashMap<String, ArrayList<EditionPrintouts>>();
+      dataList.forEach(
+          data -> {
+            final var printout = (EditionPrintouts) data.printouts();
+            final var key = printout.editionOfTitle().get(0).fulltext();
+            addToMap(mapTitle, key, printout);
+          });
+      return mapTitle;
+    }
+
     /**
      * Adds the {@code printouts} to the {@code map} with the given {@code key}. Adds to the list if
      * the key already exists.
