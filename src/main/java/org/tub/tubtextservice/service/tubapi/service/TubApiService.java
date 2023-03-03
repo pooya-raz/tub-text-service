@@ -144,7 +144,7 @@ public class TubApiService implements ApiService {
   private class TubDataFetcher {
 
     /** The stop value is used to stop the retrieval of data from the TUB API. */
-    public final int STOP = 0;
+    public static final int STOP = 0;
 
     /**
      * The offset is used to retrieve the data in batches. The offset is the number of items to

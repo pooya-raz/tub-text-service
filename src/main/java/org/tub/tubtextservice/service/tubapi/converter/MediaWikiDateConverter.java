@@ -6,7 +6,7 @@ import java.time.LocalDate;
 
 public class MediaWikiDateConverter {
   private MediaWikiDateConverter() {
-    throw new IllegalStateException("Utility class");
+    throw new IllegalStateException("Utility class and cannot be instantiated");
   }
 
   public static String convert(MediaWikiDate source) {
