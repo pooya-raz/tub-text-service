@@ -4,7 +4,7 @@ public enum TitleType {
   MONOGRAPH,
   COMMENTARY,
   GLOSS,
-  MARGINAl_NOTES,
+  MARGINNOTES,
   TREATISE,
   SUMMARY,
   POEM,
@@ -18,7 +18,7 @@ public enum TitleType {
       case "Monograph" -> MONOGRAPH;
       case "Commentary (sharḥ)" -> COMMENTARY;
       case "Gloss (ḥāshīyah)" -> GLOSS;
-      case "Marginal notes (taʿlīqa)" -> MARGINAl_NOTES;
+      case "Marginal notes (taʿlīqa)" -> MARGINNOTES;
       case "Treatise (risāla)" -> TREATISE;
       case "Summary (khulāṣa/mukhtaṣar)" -> SUMMARY;
       case "Poem (manẓūma)" -> POEM;
