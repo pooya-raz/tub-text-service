@@ -1,16 +1,16 @@
 package org.tub.tubtextservice.model.domain;
 
 public enum StatusOfPublication {
-    Edited,
-    ManuscriptOnly,
-    NonExtant,
-    Unknown;
+    EDITED,
+    MANUSCRIPT_ONLY,
+    NON_EXTANT,
+    UNKNOWN;
     public static StatusOfPublication valueOfTub(String name){
         return switch(name){
-            case "Category:Edited title" -> Edited;
-            case "Category:Manuscript-only title" -> ManuscriptOnly;
-            case "Category:Non-extant title" -> NonExtant;
-            default -> Unknown;
+            case "Category:Edited title" -> EDITED;
+            case "Category:Manuscript-only title" -> MANUSCRIPT_ONLY;
+            case "Category:Non-extant title" -> NON_EXTANT;
+            default -> UNKNOWN;
         };
     }
 }

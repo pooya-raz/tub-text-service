@@ -27,7 +27,7 @@ class TitleConverterTest {
         Title.builder()
             .titleTransliterated("titleTransliterated")
             .titleArabic("titleArabic")
-            .category(StatusOfPublication.Edited)
+            .category(StatusOfPublication.EDITED)
             .titleType(TitleType.Monograph)
             .baseText("Base text")
             .build();

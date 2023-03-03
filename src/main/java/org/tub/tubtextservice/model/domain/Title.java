@@ -17,7 +17,7 @@ public record Title(
       titleType = TitleType.Unknown;
     }
     if (Objects.isNull(statusOfPublication)) {
-      statusOfPublication = StatusOfPublication.Unknown;
+      statusOfPublication = StatusOfPublication.UNKNOWN;
     }
   }
 

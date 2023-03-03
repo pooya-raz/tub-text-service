@@ -9,7 +9,7 @@ class TitleTest {
   @Test
   void shouldHaveDefaultCategory() {
     Title title = Title.builder().build();
-    assertEquals(StatusOfPublication.Unknown, title.statusOfPublication());
+    assertEquals(StatusOfPublication.UNKNOWN, title.statusOfPublication());
   }
 
   @Test
