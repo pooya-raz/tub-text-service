@@ -18,26 +18,6 @@ public record MediaWikiPageDetails(
             return this;
         }
 
-        public Builder fullurl(String fullurl) {
-            this.fullurl = fullurl;
-            return this;
-        }
-
-        public Builder namespace(Integer namespace) {
-            this.namespace = namespace;
-            return this;
-        }
-
-        public Builder exists(String exists) {
-            this.exists = exists;
-            return this;
-        }
-
-        public Builder displaytitle(String displaytitle) {
-            this.displaytitle = displaytitle;
-            return this;
-        }
-
         public MediaWikiPageDetails build() {
             return new MediaWikiPageDetails(fulltext, fullurl, namespace, exists, displaytitle);
         }
