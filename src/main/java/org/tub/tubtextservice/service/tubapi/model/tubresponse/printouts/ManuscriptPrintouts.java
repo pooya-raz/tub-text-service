@@ -63,8 +63,8 @@ public record ManuscriptPrintouts(
     }
 
     public Builder manuscriptOfTitle(String title) {
-      final var manuscriptOfTitle = MediaWikiPageDetails.builder().fulltext(title).build();
-      this.manuscriptOfTitle.add(manuscriptOfTitle);
+      final var page = MediaWikiPageDetails.builder().fulltext(title).build();
+      this.manuscriptOfTitle.add(page);
       return this;
     }
 
