@@ -44,11 +44,6 @@ public record AuthorPrintouts(
       return this;
     }
 
-    public Builder deathShamsi(Integer deathShamsi) {
-      this.deathShamsi.add(deathShamsi);
-      return this;
-    }
-
     public Builder deathHijriText(String deathHijriText) {
       this.deathHijriText.add(deathHijriText);
       return this;
@@ -56,11 +51,6 @@ public record AuthorPrintouts(
 
     public Builder deathGregorianText(String deathGregorianText) {
       this.deathGregorianText.add(deathGregorianText);
-      return this;
-    }
-
-    public Builder deathShamsiText(String deathShamsiText) {
-      this.deathShamsiText.add(deathShamsiText);
       return this;
     }
 
