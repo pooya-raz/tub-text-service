@@ -5,6 +5,9 @@ import org.tub.tubtextservice.service.tubapi.model.tubresponse.MediaWikiDate;
 import java.time.LocalDate;
 
 public class MediaWikiDateConverter {
+  private MediaWikiDateConverter() {
+    throw new IllegalStateException("Utility class");
+  }
 
   public static String convert(MediaWikiDate source) {
     final var date = LocalDate.ofEpochDay(source.timestamp() / 86400).getYear();
