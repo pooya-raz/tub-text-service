@@ -114,7 +114,7 @@ class EntryConverterTest {
             AUTHOR,
             List.of(MANUSCRIPT),
             List.of(EDITION),
-            TitleType.Monograph);
+            TitleType.MONOGRAPH);
 
     when(manuscriptConverter.convert(MANUSCRIPT_PRINTOUT)).thenReturn(MANUSCRIPT);
     when(tubDateConverter.convert(AUTHOR_PRINTOUT)).thenReturn(new HijriDeath(YEAR, GREGORIAN));
@@ -135,7 +135,7 @@ class EntryConverterTest {
             AUTHOR,
             List.of(MANUSCRIPT),
             List.of(EDITION, EDITION),
-            TitleType.Monograph);
+            TitleType.MONOGRAPH);
 
     when(manuscriptConverter.convert(MANUSCRIPT_PRINTOUT)).thenReturn(MANUSCRIPT);
     when(tubDateConverter.convert(AUTHOR_PRINTOUT)).thenReturn(new HijriDeath(YEAR, GREGORIAN));
@@ -156,7 +156,7 @@ class EntryConverterTest {
             AUTHOR,
             List.of(MANUSCRIPT, MANUSCRIPT),
             List.of(EDITION),
-            TitleType.Monograph);
+            TitleType.MONOGRAPH);
 
     when(manuscriptConverter.convert(MANUSCRIPT_PRINTOUT)).thenReturn(MANUSCRIPT);
     when(tubDateConverter.convert(AUTHOR_PRINTOUT)).thenReturn(new HijriDeath(YEAR, GREGORIAN));
@@ -172,7 +172,7 @@ class EntryConverterTest {
 
     final var expected =
         new Entry(
-            TITLE_TRANSLITERATED, TITLE_ARABIC, AUTHOR, List.of(), List.of(), TitleType.Monograph);
+            TITLE_TRANSLITERATED, TITLE_ARABIC, AUTHOR, List.of(), List.of(), TitleType.MONOGRAPH);
 
     when(tubDateConverter.convert(AUTHOR_PRINTOUT)).thenReturn(new HijriDeath(YEAR, GREGORIAN));
     final var actual = subject.convert(TITLE, printouts);

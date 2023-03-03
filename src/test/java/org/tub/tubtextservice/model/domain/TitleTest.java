@@ -15,6 +15,6 @@ class TitleTest {
   @Test
   void shouldHaveDefaultTitleType() {
     Title title = Title.builder().build();
-    assertEquals(TitleType.Unknown, title.titleType());
+    assertEquals(TitleType.UNKNOWN, title.titleType());
   }
 }

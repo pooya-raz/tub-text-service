@@ -14,7 +14,7 @@ public record Title(
     String baseText) {
   public Title {
     if (Objects.isNull(titleType)) {
-      titleType = TitleType.Unknown;
+      titleType = TitleType.UNKNOWN;
     }
     if (Objects.isNull(statusOfPublication)) {
       statusOfPublication = StatusOfPublication.UNKNOWN;
