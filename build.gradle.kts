@@ -5,6 +5,7 @@ plugins {
     id("org.springframework.boot") version "3.0.0"
     id("io.spring.dependency-management") version "1.1.0"
     id("org.sonarqube") version "4.0.0.2929"
+    id("jacoco")
 }
 
 group = "org.tub"
@@ -53,8 +54,18 @@ dependencies {
 tasks.withType<Test> {
     useJUnitPlatform()
     jvmArgs(enablePreview)
+    finalizedBy("jacocoTestReport")
 }
 
 tasks.withType<JavaCompile> {
     options.compilerArgs.add(enablePreview)
+}
+
+tasks.jacocoTestReport {
+    reports {
+        html.required.set(true)
+        xml.required.set(true)
+        csv.required.set(false)
+        finalizedBy("jacocoTestCoverageVerification")
+    }
 }
