@@ -13,8 +13,6 @@ public record MediaWikiPageDetails(
         String exists;
         String displaytitle;
 
-        public Builder() {}
-
         public Builder fulltext(String fulltext) {
             this.fulltext = fulltext;
             return this;

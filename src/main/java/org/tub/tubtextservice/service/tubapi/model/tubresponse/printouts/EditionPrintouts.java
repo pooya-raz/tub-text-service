@@ -43,8 +43,6 @@ public record EditionPrintouts(
     List<String> editionType = new ArrayList<>();
     List<MediaWikiPageDetails> city = new ArrayList<>();
 
-    public Builder() {}
-
     public Builder titleTransliterated(String titleTransliterated) {
       this.titleTransliterated.add(titleTransliterated);
       return this;

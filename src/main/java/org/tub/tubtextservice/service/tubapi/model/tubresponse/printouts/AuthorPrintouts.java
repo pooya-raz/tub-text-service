@@ -29,8 +29,6 @@ public record AuthorPrintouts(
     List<String> deathGregorianText = new ArrayList<>();
     List<String> deathShamsiText = new ArrayList<>();
 
-    public Builder() {}
-
     public Builder fullNameTransliterated(String fullNameTransliterated) {
       this.fullNameTransliterated.add(fullNameTransliterated);
       return this;
