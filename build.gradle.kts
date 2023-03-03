@@ -33,7 +33,6 @@ dependencies {
     // Logging
     implementation("net.logstash.logback:logstash-logback-encoder:${logbackVersion}")
 
-
     // Testing
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testImplementation("io.projectreactor:reactor-test")
@@ -63,9 +62,6 @@ tasks.withType<JavaCompile> {
 
 tasks.jacocoTestReport {
     reports {
-        html.required.set(true)
         xml.required.set(true)
-        csv.required.set(false)
-        finalizedBy("jacocoTestCoverageVerification")
     }
 }
