@@ -33,8 +33,6 @@ public record TitlePrintouts(
     List<String> catalogueDescription = new ArrayList<>();
     List<MediaWikiPageDetails> baseText = new ArrayList<>();
 
-    public Builder() {}
-
     public Builder category(final String category) {
       this.category.add(MediaWikiPageDetails.builder().fulltext(category).build());
       return this;
@@ -42,11 +40,6 @@ public record TitlePrintouts(
 
     public Builder bookType(String bookType) {
       this.bookType.add(bookType);
-      return this;
-    }
-
-    public Builder numberOfCommentaries(String numberOfCommentaries) {
-      this.numberOfCommentaries.add(numberOfCommentaries);
       return this;
     }
 
@@ -62,16 +55,6 @@ public record TitlePrintouts(
 
     public Builder author(String author) {
       this.author.add(MediaWikiPageDetails.builder().fulltext(author).build());
-      return this;
-    }
-
-    public Builder translator(String translator) {
-      this.translator.add(translator);
-      return this;
-    }
-
-    public Builder catalogueDescription(String catalogueDescription) {
-      this.catalogueDescription.add(catalogueDescription);
       return this;
     }
 
