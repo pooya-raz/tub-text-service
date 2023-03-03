@@ -17,6 +17,8 @@ import reactor.util.retry.Retry;
 
 import java.time.Duration;
 
+import static net.logstash.logback.argument.StructuredArguments.keyValue;
+
 @Configuration
 public class WebClientConfiguration {
 
@@ -61,7 +63,7 @@ public class WebClientConfiguration {
 
   private ExchangeFilterFunction logRequest() {
     return (clientRequest, nextFilter) -> {
-      log.info("Fetching data from TUB: " + clientRequest.url());
+      log.info("Fetching data from TUB: {}", keyValue("url",clientRequest.url()));
       return nextFilter.exchange(clientRequest);
     };
   }
