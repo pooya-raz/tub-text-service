@@ -16,7 +16,4 @@ public record TitlePrintouts(
     @JsonProperty("Has translator(s)") List<String> translator,
     @JsonProperty("Has a catalogue description") List<String> catalogueDescription,
     @JsonProperty("Has base text") List<MediaWikiPageDetails> baseText)
-    implements Printouts {
-
-
-}
+    implements Printouts {}
