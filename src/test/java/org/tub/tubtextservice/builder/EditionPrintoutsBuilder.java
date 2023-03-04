@@ -67,7 +67,7 @@ public class EditionPrintoutsBuilder {
   }
 
   public EditionPrintoutsBuilder publishedEditionOfTitle(String title) {
-    final var mediaWikiPageDetails = MediaWikiPageDetails.builder().fulltext(title).build();
+    final var mediaWikiPageDetails = MediaWikiPageDetailsBuilder.builder().fulltext(title).build();
     this.publishedEditionOfTitle.add(mediaWikiPageDetails);
     return this;
   }

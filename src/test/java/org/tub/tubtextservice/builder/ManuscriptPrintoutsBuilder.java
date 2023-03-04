@@ -40,7 +40,7 @@ public class ManuscriptPrintoutsBuilder {
   }
 
   public ManuscriptPrintoutsBuilder city(String city) {
-    this.city.add(MediaWikiPageDetails.builder().fulltext(city).build());
+    this.city.add(MediaWikiPageDetailsBuilder.builder().fulltext(city).build());
     return this;
   }
 
@@ -50,7 +50,7 @@ public class ManuscriptPrintoutsBuilder {
   }
 
   public ManuscriptPrintoutsBuilder manuscriptOfTitle(String title) {
-    final var page = MediaWikiPageDetails.builder().fulltext(title).build();
+    final var page = MediaWikiPageDetailsBuilder.builder().fulltext(title).build();
     this.manuscriptOfTitle.add(page);
     return this;
   }

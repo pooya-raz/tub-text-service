@@ -23,7 +23,7 @@ public class TitlePrintoutsBuilder {
   }
 
   public TitlePrintoutsBuilder category(final String category) {
-    this.category.add(MediaWikiPageDetails.builder().fulltext(category).build());
+    this.category.add(MediaWikiPageDetailsBuilder.builder().fulltext(category).build());
     return this;
   }
 
@@ -43,12 +43,12 @@ public class TitlePrintoutsBuilder {
   }
 
   public TitlePrintoutsBuilder author(String author) {
-    this.author.add(MediaWikiPageDetails.builder().fulltext(author).build());
+    this.author.add(MediaWikiPageDetailsBuilder.builder().fulltext(author).build());
     return this;
   }
 
   public TitlePrintoutsBuilder baseText(final String baseText) {
-    this.baseText.add(MediaWikiPageDetails.builder().fulltext(baseText).build());
+    this.baseText.add(MediaWikiPageDetailsBuilder.builder().fulltext(baseText).build());
     return this;
   }
 

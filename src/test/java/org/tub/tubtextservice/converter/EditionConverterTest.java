@@ -6,11 +6,11 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.tub.tubtextservice.builder.EditionPrintoutsBuilder;
+import org.tub.tubtextservice.builder.MediaWikiPageDetailsBuilder;
 import org.tub.tubtextservice.model.domain.Edition;
 import org.tub.tubtextservice.model.domain.year.editiondate.HijriDate;
 import org.tub.tubtextservice.service.tubdata.converter.EditionConverter;
 import org.tub.tubtextservice.service.tubdata.converter.TubDateConverter;
-import org.tub.tubtextservice.service.tubdata.model.tubresponse.MediaWikiPageDetails;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.when;
@@ -34,7 +34,7 @@ class EditionConverterTest {
             .titleTransliterated("editionName")
             .titleArabic("editionPlace")
             .publisher("editionPublisher")
-            .city(MediaWikiPageDetails.builder().fulltext("City").build())
+            .city(MediaWikiPageDetailsBuilder.builder().fulltext("City").build())
             .description("Description")
             .yearHijri(678)
             .yearGregorian(1400)
