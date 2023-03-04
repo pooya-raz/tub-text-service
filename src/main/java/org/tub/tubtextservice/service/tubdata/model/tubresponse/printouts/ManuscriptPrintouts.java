@@ -20,6 +20,20 @@ public record ManuscriptPrintouts(
     @JsonProperty("Manuscript of title") List<MediaWikiPageDetails> manuscriptOfTitle)
     implements DatedPrintouts {
 
+    public ManuscriptPrintouts {
+        location = List.copyOf(location);
+        references = List.copyOf(references);
+        yearGregorian = List.copyOf(yearGregorian);
+        yearGregorianText = List.copyOf(yearGregorianText);
+        yearHijri = List.copyOf(yearHijri);
+        yearHijriText = List.copyOf(yearHijriText);
+        yearShamsi = List.copyOf(yearShamsi);
+        yearShamsiText = List.copyOf(yearShamsiText);
+        city = List.copyOf(city);
+        manuscriptNumber = List.copyOf(manuscriptNumber);
+        manuscriptOfTitle = List.copyOf(manuscriptOfTitle);
+    }
+
   public static Builder builder() {
     return new Builder();
   }

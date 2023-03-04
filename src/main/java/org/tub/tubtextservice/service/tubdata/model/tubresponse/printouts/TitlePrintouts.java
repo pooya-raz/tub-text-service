@@ -18,6 +18,18 @@ public record TitlePrintouts(
     @JsonProperty("Has base text") List<MediaWikiPageDetails> baseText)
     implements Printouts {
 
+    public TitlePrintouts {
+      category = List.copyOf(category);
+        bookType = List.copyOf(bookType);
+        numberOfCommentaries = List.copyOf(numberOfCommentaries);
+        titleArabic = List.copyOf(titleArabic);
+        titleTransliterated = List.copyOf(titleTransliterated);
+        author = List.copyOf(author);
+        translator = List.copyOf(translator);
+        catalogueDescription = List.copyOf(catalogueDescription);
+        baseText = List.copyOf(baseText);
+    }
+
   public static Builder builder() {
     return new Builder();
   }

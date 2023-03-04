@@ -16,6 +16,16 @@ public record AuthorPrintouts(
     @JsonProperty("Death (Shamsi) text") List<String> deathShamsiText)
     implements PersonPrintouts {
 
+  public AuthorPrintouts {
+    fullNameTransliterated = List.copyOf(fullNameTransliterated);
+    deathHijri = List.copyOf(deathHijri);
+    deathGregorian = List.copyOf(deathGregorian);
+    deathShamsi = List.copyOf(deathShamsi);
+    deathHijriText = List.copyOf(deathHijriText);
+    deathGregorianText = List.copyOf(deathGregorianText);
+    deathShamsiText = List.copyOf(deathShamsiText);
+  }
+
   public static Builder builder() {
     return new Builder();
   }

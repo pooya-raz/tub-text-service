@@ -9,4 +9,9 @@ public record Query(
     Results results,
     String serializer,
     Long version,
-    Meta meta) {}
+    Meta meta) {
+
+    public Query {
+        printRequests = List.copyOf(printRequests);
+    }
+}

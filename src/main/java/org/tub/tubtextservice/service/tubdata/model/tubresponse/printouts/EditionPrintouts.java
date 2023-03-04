@@ -23,6 +23,23 @@ public record EditionPrintouts(
     @JsonProperty("City") List<MediaWikiPageDetails> city)
     implements DatedPrintouts {
 
+  public EditionPrintouts {
+    titleTransliterated = List.copyOf(titleTransliterated);
+    titleArabic = List.copyOf(titleArabic);
+    yearGregorian = List.copyOf(yearGregorian);
+    yearGregorianText = List.copyOf(yearGregorianText);
+    yearHijri = List.copyOf(yearHijri);
+    yearHijriText = List.copyOf(yearHijriText);
+    yearShamsi = List.copyOf(yearShamsi);
+    yearShamsiText = List.copyOf(yearShamsiText);
+    editionOfTitle = List.copyOf(editionOfTitle);
+    editors = List.copyOf(editors);
+    publisher = List.copyOf(publisher);
+    description = List.copyOf(description);
+    editionType = List.copyOf(editionType);
+    city = List.copyOf(city);
+  }
+
   public static Builder builder() {
     return new Builder();
   }

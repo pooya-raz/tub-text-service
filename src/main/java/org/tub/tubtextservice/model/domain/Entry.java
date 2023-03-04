@@ -2,6 +2,7 @@ package org.tub.tubtextservice.model.domain;
 
 import org.tub.tubtextservice.model.domain.person.Person;
 
+import java.util.Collection;
 import java.util.List;
 
 public record Entry(
@@ -12,6 +13,11 @@ public record Entry(
     List<Edition> editions,
     TitleType titleType) {
 
+  public Entry {
+    manuscripts = List.copyOf(manuscripts);
+    editions = List.copyOf(editions);
+  }
+
   public static Builder builder() {
     return new Builder();
   }
@@ -20,8 +26,8 @@ public record Entry(
     private String titleTransliterated;
     private String titleOriginal;
     private Person person;
-    private List<Manuscript> manuscripts;
-    private List<Edition> editions;
+    private List<Manuscript> manuscripts = List.of();
+    private List<Edition> editions = List.of();
     private TitleType titleType;
 
     public Builder titleTransliterated(String titleTransliterated) {
@@ -39,13 +45,13 @@ public record Entry(
       return this;
     }
 
-    public Builder manuscripts(List<Manuscript> manuscripts) {
-      this.manuscripts = manuscripts;
+    public Builder manuscripts(Collection<Manuscript> manuscripts) {
+      this.manuscripts = List.copyOf(manuscripts);
       return this;
     }
 
-    public Builder editions(List<Edition> editions) {
-      this.editions = editions;
+    public Builder editions(Collection<Edition> editions) {
+      this.editions = List.copyOf(editions);
       return this;
     }
 

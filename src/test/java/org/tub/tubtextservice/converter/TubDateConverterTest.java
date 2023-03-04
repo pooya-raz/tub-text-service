@@ -41,8 +41,7 @@ class TubDateConverterTest {
 
   @Test
   void convertShouldReturnHijriDateWhenBothHijriAndShamsiArePresentAndShamsiIsNull() {
-    final var edition =
-        EditionPrintouts.builder().yearHijri(1442).yearShamsi(null).yearGregorian(2020).build();
+    final var edition = EditionPrintouts.builder().yearHijri(1442).yearGregorian(2020).build();
     final var actual = subject.convert(edition);
     final var expected = new HijriDate("1442", "2020");
     assertThat(actual).isEqualTo(expected);

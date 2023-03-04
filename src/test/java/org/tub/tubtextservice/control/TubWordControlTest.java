@@ -34,4 +34,5 @@ class TubWordControlTest {
     System.out.println(actual.getDocument());
     assertThat(actual.getDocument()).isNotNull();
   }
+
 }
