@@ -8,6 +8,7 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import org.tub.tubtextservice.builder.AuthorPrintoutsBuilder;
 import org.tub.tubtextservice.builder.EditionPrintoutsBuilder;
 import org.tub.tubtextservice.builder.ManuscriptPrintoutsBuilder;
+import org.tub.tubtextservice.builder.TitlePrintoutsBuilder;
 import org.tub.tubtextservice.model.property.QueryProperties;
 import org.tub.tubtextservice.model.property.TubProperties;
 import org.tub.tubtextservice.service.tubdata.client.TubClient;
@@ -53,7 +54,7 @@ class TubApiServiceTest {
       ManuscriptPrintoutsBuilder.builder().manuscriptOfTitle(TITLE).manuscriptNumber("1").build();
   public static final TubResponse MANUSCRIPT_RESPONSE = getTubResponse(MANUSCRIPT_PRINTOUTS, TITLE);
   public static final TitlePrintouts TITLE_PRINTOUTS =
-      TitlePrintouts.builder().titleTransliterated(TITLE).build();
+      TitlePrintoutsBuilder.builder().titleTransliterated(TITLE).build();
   public static final TubResponse TITLE_RESPONSE = getTubResponse(TITLE_PRINTOUTS, TITLE);
   private TubApiService subject;
 

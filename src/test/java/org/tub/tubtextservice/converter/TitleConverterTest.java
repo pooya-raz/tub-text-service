@@ -2,6 +2,7 @@ package org.tub.tubtextservice.converter;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.tub.tubtextservice.builder.TitlePrintoutsBuilder;
 import org.tub.tubtextservice.model.domain.StatusOfPublication;
 import org.tub.tubtextservice.model.domain.Title;
 import org.tub.tubtextservice.model.domain.TitleType;
@@ -21,7 +22,7 @@ class TitleConverterTest {
   @Test
   void shouldConvertTitlePrintoutsToEntry() {
     TitlePrintouts titlePrintouts =
-        TitlePrintouts.builder()
+        TitlePrintoutsBuilder.builder()
             .titleTransliterated("titleTransliterated")
             .titleArabic("titleArabic")
             .category("Category:Edited title")

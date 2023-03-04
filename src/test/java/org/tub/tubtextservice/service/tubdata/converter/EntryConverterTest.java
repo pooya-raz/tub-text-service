@@ -9,6 +9,7 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import org.tub.tubtextservice.builder.AuthorPrintoutsBuilder;
 import org.tub.tubtextservice.builder.EditionPrintoutsBuilder;
 import org.tub.tubtextservice.builder.ManuscriptPrintoutsBuilder;
+import org.tub.tubtextservice.builder.TitlePrintoutsBuilder;
 import org.tub.tubtextservice.model.domain.Edition;
 import org.tub.tubtextservice.model.domain.Entry;
 import org.tub.tubtextservice.model.domain.Manuscript;
@@ -37,7 +38,7 @@ class EntryConverterTest {
   public static final String YEAR = "687";
   public static final String GREGORIAN = "1288";
   private final TitlePrintouts TITLE =
-      TitlePrintouts.builder()
+      TitlePrintoutsBuilder.builder()
           .titleTransliterated(TITLE_TRANSLITERATED)
           .category("Edited")
           .titleArabic(TITLE_ARABIC)
