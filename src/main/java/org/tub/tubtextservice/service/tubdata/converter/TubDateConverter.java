@@ -16,14 +16,10 @@ import java.util.List;
 @Component
 public class TubDateConverter {
 
-  private String hijri;
-  private String shamsi;
-  private String gregorian;
-
   public EditionDate convert(DatedPrintouts printouts) {
-    hijri = getYear(printouts.yearHijri(), printouts.yearHijriText());
-    shamsi = getYear(printouts.yearShamsi(), printouts.yearShamsiText());
-    gregorian = getYear(printouts.yearGregorian(), printouts.yearGregorianText());
+    final var hijri = getYear(printouts.yearHijri(), printouts.yearHijriText());
+    final var shamsi = getYear(printouts.yearShamsi(), printouts.yearShamsiText());
+    final var gregorian = getYear(printouts.yearGregorian(), printouts.yearGregorianText());
 
     if (!shamsi.isEmpty()) {
       return new ShamsiDate(shamsi, gregorian);
@@ -32,9 +28,10 @@ public class TubDateConverter {
   }
 
   public PersonDeath convert(AuthorPrintouts source) {
-    hijri = getYear(source.deathHijri(), source.deathHijriText());
-    shamsi = getYear(source.deathShamsi(), source.deathShamsiText());
-    gregorian = getYearFromMediaWikiDate(source.deathGregorian(), source.deathGregorianText());
+    final var hijri = getYear(source.deathHijri(), source.deathHijriText());
+    final var shamsi = getYear(source.deathShamsi(), source.deathShamsiText());
+    final var gregorian =
+        getYearFromMediaWikiDate(source.deathGregorian(), source.deathGregorianText());
 
     if (!shamsi.isEmpty()) {
       return new ShamsiDeath(shamsi, gregorian);
