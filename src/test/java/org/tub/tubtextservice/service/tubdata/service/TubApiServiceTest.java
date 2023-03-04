@@ -12,6 +12,7 @@ import org.tub.tubtextservice.builder.TitlePrintoutsBuilder;
 import org.tub.tubtextservice.model.property.QueryProperties;
 import org.tub.tubtextservice.model.property.TubProperties;
 import org.tub.tubtextservice.service.tubdata.client.TubClient;
+import org.tub.tubtextservice.service.tubdata.model.TubPrintouts;
 import org.tub.tubtextservice.service.tubdata.model.tubresponse.Data;
 import org.tub.tubtextservice.service.tubdata.model.tubresponse.Query;
 import org.tub.tubtextservice.service.tubdata.model.tubresponse.Results;
@@ -25,6 +26,7 @@ import reactor.core.publisher.Mono;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.when;
@@ -85,12 +87,16 @@ class TubApiServiceTest {
     when(tubClient.queryTub(ASK, JSON, AUTHORS)).thenReturn(Mono.just(AUTHOR_RESPONSE));
     when(tubClient.queryTub(ASK, JSON, MANUSCRIPTS)).thenReturn(Mono.just(MANUSCRIPT_RESPONSE));
     when(tubClient.queryTub(ASK, JSON, EDITIONS)).thenReturn(Mono.just(EDITION_RESPONSE));
-    final var actual = subject.getData();
-    assertThat(actual.authors()).containsEntry(AUTHOR_NAME, AUTHOR_PRINTOUTS);
-    assertThat(actual.titles()).containsEntry(TITLE, TITLE_PRINTOUTS);
-    assertThat(actual.editions()).containsEntry(TITLE, new ArrayList<>(List.of(EDITION_PRINTOUTS)));
-    assertThat(actual.manuscripts())
-        .containsEntry(TITLE, new ArrayList<>(List.of(MANUSCRIPT_PRINTOUTS)));
+
+    final Map<String, TitlePrintouts> titleMap = Map.of(TITLE, TITLE_PRINTOUTS);
+    final Map<String, AuthorPrintouts> authorMap = Map.of(AUTHOR_NAME, AUTHOR_PRINTOUTS);
+    final Map<String, ArrayList<ManuscriptPrintouts>> manuscriptMap =
+        Map.of(TITLE, new ArrayList<>(List.of(MANUSCRIPT_PRINTOUTS)));
+    final Map<String, ArrayList<EditionPrintouts>> editionMap =
+        Map.of(TITLE, new ArrayList<>(List.of(EDITION_PRINTOUTS)));
+    final var expected = new TubPrintouts(titleMap, authorMap, manuscriptMap, editionMap);
+
+    assertThat(subject.getData()).isEqualTo(expected);
   }
 
   @Test
