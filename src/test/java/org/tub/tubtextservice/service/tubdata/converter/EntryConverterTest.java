@@ -8,6 +8,7 @@ import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.tub.tubtextservice.builder.AuthorPrintoutsBuilder;
 import org.tub.tubtextservice.builder.EditionPrintoutsBuilder;
+import org.tub.tubtextservice.builder.ManuscriptPrintoutsBuilder;
 import org.tub.tubtextservice.model.domain.Edition;
 import org.tub.tubtextservice.model.domain.Entry;
 import org.tub.tubtextservice.model.domain.Manuscript;
@@ -44,7 +45,7 @@ class EntryConverterTest {
           .author("author")
           .build();
   private final ManuscriptPrintouts MANUSCRIPT_PRINTOUT =
-      ManuscriptPrintouts.builder()
+      ManuscriptPrintoutsBuilder.builder()
           .manuscriptOfTitle(TITLE_TRANSLITERATED)
           .city("city")
           .location("location")
