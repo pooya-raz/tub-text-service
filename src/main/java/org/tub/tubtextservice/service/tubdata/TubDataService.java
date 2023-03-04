@@ -23,7 +23,7 @@ public class TubDataService {
    *
    * @return A list of {@link Entry}
    */
-  public List<Entry> getPrintouts() {
+  public List<Entry> getEntries() {
     var printouts = tubApiService.getData();
     return entryConverter.convert(printouts);
   }
