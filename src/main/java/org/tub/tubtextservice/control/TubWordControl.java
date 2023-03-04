@@ -1,7 +1,7 @@
 package org.tub.tubtextservice.control;
 
 import org.apache.poi.xwpf.usermodel.XWPFDocument;
-import org.tub.tubtextservice.service.tubapi.service.TubApiService;
+import org.tub.tubtextservice.service.tubdata.service.TubApiService;
 import org.tub.tubtextservice.service.word.TubWordService;
 
 /** Workflow for generating a Word document from the TUB API. */

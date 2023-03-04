@@ -3,9 +3,9 @@ package org.tub.tubtextservice.controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.tub.tubtextservice.service.tubapi.client.TubClient;
 import org.tub.tubtextservice.model.property.TubProperties;
-import org.tub.tubtextservice.service.tubapi.model.tubresponse.TubResponse;
+import org.tub.tubtextservice.service.tubdata.client.TubClient;
+import org.tub.tubtextservice.service.tubdata.model.tubresponse.TubResponse;
 import reactor.core.publisher.Mono;
 
 @RestController

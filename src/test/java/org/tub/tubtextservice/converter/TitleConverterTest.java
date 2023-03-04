@@ -4,8 +4,8 @@ import org.junit.jupiter.api.Test;
 import org.tub.tubtextservice.model.domain.StatusOfPublication;
 import org.tub.tubtextservice.model.domain.Title;
 import org.tub.tubtextservice.model.domain.TitleType;
-import org.tub.tubtextservice.service.tubapi.converter.TitleConverter;
-import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.TitlePrintouts;
+import org.tub.tubtextservice.service.tubdata.converter.TitleConverter;
+import org.tub.tubtextservice.service.tubdata.model.tubresponse.printouts.TitlePrintouts;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

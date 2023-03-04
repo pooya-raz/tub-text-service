@@ -4,9 +4,9 @@ import org.junit.jupiter.api.Test;
 import org.tub.tubtextservice.model.domain.year.editiondate.HijriDate;
 import org.tub.tubtextservice.model.domain.year.editiondate.ShamsiDate;
 import org.tub.tubtextservice.model.domain.year.persondate.HijriDeath;
-import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.AuthorPrintouts;
-import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.EditionPrintouts;
-import org.tub.tubtextservice.service.tubapi.converter.TubDateConverter;
+import org.tub.tubtextservice.service.tubdata.converter.TubDateConverter;
+import org.tub.tubtextservice.service.tubdata.model.tubresponse.printouts.AuthorPrintouts;
+import org.tub.tubtextservice.service.tubdata.model.tubresponse.printouts.EditionPrintouts;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
