@@ -37,15 +37,27 @@ public class EntryConverter {
   }
 
   /**
-   * Converts Semantic Mediawiki's domain model {@link Printouts} to the domain model {@link Entry}
-   * for a particular {@code title}. The {@link Entry} is constructed from the categories in the TUB
-   * wiki which are held in the fields of {@link TubPrintouts}.
+   * Converts Semantic Mediawiki's domain model {@link Printouts} to the domain model {@link Entry}.
+   * The {@link Entry} is constructed from the categories in the TUB wiki which are held in the
+   * fields of {@link TubPrintouts}.
    *
-   * @param title the title for which the {@link Entry} is constructed
    * @param tubPrintouts the data that is retrieved from Semantic MediaWiki
    * @return an {@link Entry}
    */
-  public Entry convert(TitlePrintouts title, final TubPrintouts tubPrintouts) {
+  public List<Entry> convert(final TubPrintouts tubPrintouts) {
+    return tubPrintouts.titles().values().stream()
+        .map(title -> convertTitle(title, tubPrintouts))
+        .toList();
+  }
+
+  /**
+   * Converts a {@link TitlePrintouts} to an {@link Entry}.
+   *
+   * @param title the title to convert
+   * @param tubPrintouts the data that is retrieved from Semantic MediaWiki
+   * @return Entry
+   */
+  private Entry convertTitle(TitlePrintouts title, final TubPrintouts tubPrintouts) {
     final var person = getPerson(tubPrintouts.authors(), title.author().get(0));
     final var titleName = title.titleTransliterated().stream().findFirst().orElse("");
     final var titleOriginal = title.titleArabic().stream().findFirst().orElse("");

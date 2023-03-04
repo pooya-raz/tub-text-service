@@ -119,8 +119,8 @@ class EntryConverterTest {
     when(manuscriptConverter.convert(MANUSCRIPT_PRINTOUT)).thenReturn(MANUSCRIPT);
     when(tubDateConverter.convert(AUTHOR_PRINTOUT)).thenReturn(new HijriDeath(YEAR, GREGORIAN));
     when(editionConverter.convert(EDITION_PRINTOUT)).thenReturn(EDITION);
-    final var actual = subject.convert(TITLE, printouts);
-    assertThat(actual).isEqualTo(expected);
+    final var actual = subject.convert(printouts);
+    assertThat(actual).isEqualTo(List.of(expected));
   }
 
   @Test
@@ -140,8 +140,8 @@ class EntryConverterTest {
     when(manuscriptConverter.convert(MANUSCRIPT_PRINTOUT)).thenReturn(MANUSCRIPT);
     when(tubDateConverter.convert(AUTHOR_PRINTOUT)).thenReturn(new HijriDeath(YEAR, GREGORIAN));
     when(editionConverter.convert(EDITION_PRINTOUT)).thenReturn(EDITION);
-    final var actual = subject.convert(TITLE, printouts);
-    assertThat(actual).isEqualTo(expected);
+    final var actual = subject.convert(printouts);
+    assertThat(actual).isEqualTo(List.of(expected));
   }
 
   @Test
@@ -161,8 +161,8 @@ class EntryConverterTest {
     when(manuscriptConverter.convert(MANUSCRIPT_PRINTOUT)).thenReturn(MANUSCRIPT);
     when(tubDateConverter.convert(AUTHOR_PRINTOUT)).thenReturn(new HijriDeath(YEAR, GREGORIAN));
     when(editionConverter.convert(EDITION_PRINTOUT)).thenReturn(EDITION);
-    final var actual = subject.convert(TITLE, printouts);
-    assertThat(actual).isEqualTo(expected);
+    final var actual = subject.convert(printouts);
+    assertThat(actual).isEqualTo(List.of(expected));
   }
 
   @Test
@@ -175,7 +175,7 @@ class EntryConverterTest {
             TITLE_TRANSLITERATED, TITLE_ARABIC, AUTHOR, List.of(), List.of(), TitleType.MONOGRAPH);
 
     when(tubDateConverter.convert(AUTHOR_PRINTOUT)).thenReturn(new HijriDeath(YEAR, GREGORIAN));
-    final var actual = subject.convert(TITLE, printouts);
-    assertThat(actual).isEqualTo(expected);
+    final var actual = subject.convert(printouts);
+    assertThat(actual).isEqualTo(List.of(expected));
   }
 }

@@ -8,6 +8,7 @@ import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.Manuscr
 import org.tub.tubtextservice.service.tubapi.model.tubresponse.printouts.TitlePrintouts;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Map;
 
 /**
@@ -30,4 +31,23 @@ public record TubPrintouts(
     Map<String, AuthorPrintouts> authors,
     Map<String, ArrayList<ManuscriptPrintouts>> manuscripts,
     Map<String, ArrayList<EditionPrintouts>> editions)
-    implements ApiData {}
+    implements ApiData {
+
+  public static Builder builder() {
+    return new Builder();
+  }
+
+  public static class Builder {
+    private Map<String, TitlePrintouts> titles;
+
+    public Builder titles(String key, TitlePrintouts title) {
+      this.titles = new HashMap<>();
+      this.titles.put(key, title);
+      return this;
+    }
+
+    public TubPrintouts build() {
+      return new TubPrintouts(titles, null, null, null);
+    }
+  }
+}
