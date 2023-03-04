@@ -44,10 +44,6 @@ public record Data(
   public static final class Builder {
     Printouts printouts;
     String fullText;
-    String fullUrl;
-    Integer namespace;
-    String exists;
-    String displayTitle;
 
     public Builder printouts(Printouts printouts) {
       this.printouts = printouts;
@@ -60,7 +56,7 @@ public record Data(
     }
 
     public Data build() {
-      return new Data(printouts, fullText, fullUrl, namespace, exists, displayTitle);
+      return new Data(printouts, fullText, null, null, null, null);
     }
   }
 }

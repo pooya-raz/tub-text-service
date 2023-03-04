@@ -9,10 +9,6 @@ public record MediaWikiPageDetails(
 
   public static final class Builder {
     String fulltext;
-    String fullurl;
-    Integer namespace;
-    String exists;
-    String displaytitle;
 
     public Builder fulltext(String fulltext) {
       this.fulltext = fulltext;
@@ -20,7 +16,7 @@ public record MediaWikiPageDetails(
     }
 
     public MediaWikiPageDetails build() {
-      return new MediaWikiPageDetails(fulltext, fullurl, namespace, exists, displaytitle);
+      return new MediaWikiPageDetails(fulltext, null, null, null, null);
     }
   }
 }
