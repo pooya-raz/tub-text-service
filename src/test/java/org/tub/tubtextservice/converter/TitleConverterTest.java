@@ -1,5 +1,6 @@
 package org.tub.tubtextservice.converter;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.tub.tubtextservice.model.domain.StatusOfPublication;
 import org.tub.tubtextservice.model.domain.Title;
@@ -10,7 +11,12 @@ import org.tub.tubtextservice.service.tubdata.model.tubresponse.printouts.TitleP
 import static org.assertj.core.api.Assertions.assertThat;
 
 class TitleConverterTest {
-  private final TitleConverter titleConverter = new TitleConverter();
+  private TitleConverter titleConverter;
+
+  @BeforeEach
+  void setUpBeforeEach() {
+    titleConverter = new TitleConverter();
+  }
 
   @Test
   void shouldConvertTitlePrintoutsToEntry() {

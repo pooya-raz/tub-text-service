@@ -1,5 +1,6 @@
 package org.tub.tubtextservice.converter;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.tub.tubtextservice.model.domain.year.editiondate.HijriDate;
 import org.tub.tubtextservice.model.domain.year.editiondate.ShamsiDate;
@@ -12,7 +13,12 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 class TubDateConverterTest {
 
-  private final TubDateConverter subject = new TubDateConverter();
+  private TubDateConverter subject;
+
+  @BeforeEach
+  void setUpBeforeEach() {
+    subject = new TubDateConverter();
+  }
 
   @Test
   void convertShouldReturnHijriDate() {
