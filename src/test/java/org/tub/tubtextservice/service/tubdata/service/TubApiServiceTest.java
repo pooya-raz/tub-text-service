@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
+import org.tub.tubtextservice.builder.AuthorPrintoutsBuilder;
 import org.tub.tubtextservice.model.property.QueryProperties;
 import org.tub.tubtextservice.model.property.TubProperties;
 import org.tub.tubtextservice.service.tubdata.client.TubClient;
@@ -36,7 +37,7 @@ class TubApiServiceTest {
   public static final String EDITIONS = "editions";
   public static final String AUTHOR_NAME = "Jim";
   public static final AuthorPrintouts AUTHOR_PRINTOUTS =
-      AuthorPrintouts.builder().fullNameTransliterated(AUTHOR_NAME).build();
+      AuthorPrintoutsBuilder.builder().fullNameTransliterated(AUTHOR_NAME).build();
   public static final TubResponse AUTHOR_RESPONSE = getTubResponse(AUTHOR_PRINTOUTS, AUTHOR_NAME);
   public static final String TITLE = "Title";
   public static final EditionPrintouts EDITION_PRINTOUTS =

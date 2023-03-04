@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
+import org.tub.tubtextservice.builder.AuthorPrintoutsBuilder;
 import org.tub.tubtextservice.model.domain.Edition;
 import org.tub.tubtextservice.model.domain.Entry;
 import org.tub.tubtextservice.model.domain.Manuscript;
@@ -57,7 +58,7 @@ class EntryConverterTest {
           .yearGregorian(1288)
           .build();
   private final AuthorPrintouts AUTHOR_PRINTOUT =
-      AuthorPrintouts.builder()
+      AuthorPrintoutsBuilder.builder()
           .deathHijri(687)
           .deathGregorian(1288L)
           .fullNameTransliterated("author")
