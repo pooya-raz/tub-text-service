@@ -129,7 +129,7 @@ public class TubApiService implements ApiService {
      * @param printouts the {@link Printouts} to add to the map.
      */
     private static <T extends Printouts> void addToMap(
-        HashMap<String, ArrayList<T>> map, String key, T printouts) {
+        Map<String, ArrayList<T>> map, String key, T printouts) {
       if (!map.containsKey(key)) {
         final var list = new ArrayList<T>();
         list.add(printouts);
