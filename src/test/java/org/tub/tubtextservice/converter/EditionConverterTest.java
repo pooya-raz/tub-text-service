@@ -5,12 +5,12 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
+import org.tub.tubtextservice.builder.EditionPrintoutsBuilder;
 import org.tub.tubtextservice.model.domain.Edition;
 import org.tub.tubtextservice.model.domain.year.editiondate.HijriDate;
 import org.tub.tubtextservice.service.tubdata.converter.EditionConverter;
 import org.tub.tubtextservice.service.tubdata.converter.TubDateConverter;
 import org.tub.tubtextservice.service.tubdata.model.tubresponse.MediaWikiPageDetails;
-import org.tub.tubtextservice.service.tubdata.model.tubresponse.printouts.EditionPrintouts;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.when;
@@ -30,7 +30,7 @@ class EditionConverterTest {
   @Test
   void convertShouldReturnEditionWithHijriDates() {
     final var editionPrintouts =
-        EditionPrintouts.builder()
+        EditionPrintoutsBuilder.builder()
             .titleTransliterated("editionName")
             .titleArabic("editionPlace")
             .publisher("editionPublisher")
@@ -60,7 +60,7 @@ class EditionConverterTest {
 
   @Test
   void convertShouldReturnEditionWithNullFieldsWhenGivenAllNullFields() {
-    final var editionPrintouts = EditionPrintouts.builder().build();
+    final var editionPrintouts = EditionPrintoutsBuilder.builder().build();
     final var expected = Edition.builder().build();
     final var actual = subject.convert(editionPrintouts);
     assertThat(actual).isEqualTo(expected);

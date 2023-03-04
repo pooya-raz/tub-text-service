@@ -7,6 +7,7 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.tub.tubtextservice.builder.AuthorPrintoutsBuilder;
+import org.tub.tubtextservice.builder.EditionPrintoutsBuilder;
 import org.tub.tubtextservice.model.domain.Edition;
 import org.tub.tubtextservice.model.domain.Entry;
 import org.tub.tubtextservice.model.domain.Manuscript;
@@ -51,7 +52,7 @@ class EntryConverterTest {
           .yearGregorian(1288)
           .build();
   private final EditionPrintouts EDITION_PRINTOUT =
-      EditionPrintouts.builder()
+      EditionPrintoutsBuilder.builder()
           .publishedEditionOfTitle(TITLE_TRANSLITERATED)
           .titleTransliterated(TITLE_TRANSLITERATED)
           .yearHijri(687)

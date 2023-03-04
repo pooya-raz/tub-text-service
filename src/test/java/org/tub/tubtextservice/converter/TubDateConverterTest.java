@@ -3,11 +3,11 @@ package org.tub.tubtextservice.converter;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.tub.tubtextservice.builder.AuthorPrintoutsBuilder;
+import org.tub.tubtextservice.builder.EditionPrintoutsBuilder;
 import org.tub.tubtextservice.model.domain.year.editiondate.HijriDate;
 import org.tub.tubtextservice.model.domain.year.editiondate.ShamsiDate;
 import org.tub.tubtextservice.model.domain.year.persondate.HijriDeath;
 import org.tub.tubtextservice.service.tubdata.converter.TubDateConverter;
-import org.tub.tubtextservice.service.tubdata.model.tubresponse.printouts.EditionPrintouts;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -22,7 +22,8 @@ class TubDateConverterTest {
 
   @Test
   void convertShouldReturnHijriDate() {
-    final var edition = EditionPrintouts.builder().yearHijri(1442).yearGregorian(2020).build();
+    final var edition =
+        EditionPrintoutsBuilder.builder().yearHijri(1442).yearGregorian(2020).build();
     final var actual = subject.convert(edition);
     final var expected = new HijriDate("1442", "2020");
     assertThat(actual).isEqualTo(expected);
@@ -30,7 +31,8 @@ class TubDateConverterTest {
 
   @Test
   void convertShouldReturnShamsiDate() {
-    final var edition = EditionPrintouts.builder().yearShamsi(1399).yearGregorian(2020).build();
+    final var edition =
+        EditionPrintoutsBuilder.builder().yearShamsi(1399).yearGregorian(2020).build();
     final var actual = subject.convert(edition);
     final var expected = new ShamsiDate("1399", "2020");
     assertThat(actual).isEqualTo(expected);
@@ -39,7 +41,11 @@ class TubDateConverterTest {
   @Test
   void convertShouldReturnShamsiDateWhenBothHijriAndShamsiArePresent() {
     final var edition =
-        EditionPrintouts.builder().yearHijri(1442).yearShamsi(1399).yearGregorian(2020).build();
+        EditionPrintoutsBuilder.builder()
+            .yearHijri(1442)
+            .yearShamsi(1399)
+            .yearGregorian(2020)
+            .build();
     final var actual = subject.convert(edition);
     final var expected = new ShamsiDate("1399", "2020");
     assertThat(actual).isEqualTo(expected);
@@ -47,7 +53,8 @@ class TubDateConverterTest {
 
   @Test
   void convertShouldReturnHijriDateWhenBothHijriAndShamsiArePresentAndShamsiIsNull() {
-    final var edition = EditionPrintouts.builder().yearHijri(1442).yearGregorian(2020).build();
+    final var edition =
+        EditionPrintoutsBuilder.builder().yearHijri(1442).yearGregorian(2020).build();
     final var actual = subject.convert(edition);
     final var expected = new HijriDate("1442", "2020");
     assertThat(actual).isEqualTo(expected);
@@ -56,7 +63,7 @@ class TubDateConverterTest {
   @Test
   void convertShouldReturnHijriDateWithText() {
     final var edition =
-        EditionPrintouts.builder()
+        EditionPrintoutsBuilder.builder()
             .yearHijri(1442)
             .yearGregorian(2020)
             .yearHijriText("1443")
@@ -69,7 +76,7 @@ class TubDateConverterTest {
   @Test
   void convertShouldReturnShamsiDateWithText() {
     final var edition =
-        EditionPrintouts.builder()
+        EditionPrintoutsBuilder.builder()
             .yearShamsi(1442)
             .yearGregorian(2020)
             .yearShamsiText("1443")
@@ -82,7 +89,7 @@ class TubDateConverterTest {
   @Test
   void convertShouldReturnGregorianDateWithText() {
     final var edition =
-        EditionPrintouts.builder()
+        EditionPrintoutsBuilder.builder()
             .yearHijri(1442)
             .yearGregorian(2020)
             .yearGregorianText("2021")
