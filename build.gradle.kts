@@ -65,3 +65,9 @@ tasks.jacocoTestReport {
         xml.required.set(true)
     }
 }
+
+sonar {
+    properties {
+        property("sonar.projectKey", "tub-text-service")
+    }
+}
