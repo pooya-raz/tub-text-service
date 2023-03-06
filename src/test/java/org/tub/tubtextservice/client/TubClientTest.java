@@ -1,10 +1,6 @@
 package org.tub.tubtextservice.client;
 
-import com.github.tomakehurst.wiremock.WireMockServer;
-import com.github.tomakehurst.wiremock.core.WireMockConfiguration;
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.BeforeEach;
+import com.github.tomakehurst.wiremock.junit5.WireMockTest;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -24,38 +20,24 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.List;
 
-import static com.github.tomakehurst.wiremock.client.WireMock.configureFor;
 import static com.github.tomakehurst.wiremock.client.WireMock.equalTo;
 import static com.github.tomakehurst.wiremock.client.WireMock.get;
 import static com.github.tomakehurst.wiremock.client.WireMock.okJson;
+import static com.github.tomakehurst.wiremock.client.WireMock.stubFor;
 import static com.github.tomakehurst.wiremock.client.WireMock.urlPathEqualTo;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.tub.tubtextservice.WireMockTestConstants.PORT;
+import static org.tub.tubtextservice.WireMockTestConstants.SEMANTIC_SEARCH_PARAMS;
+import static org.tub.tubtextservice.WireMockTestConstants.URL;
 
 @SpringBootTest
+@WireMockTest(httpPort = PORT)
 class TubClientTest {
-  private static WireMockServer server;
   @Autowired private TubClient subject;
-
-  @BeforeAll
-  static void setUpBeforeAll() {
-    server = new WireMockServer(WireMockConfiguration.options().dynamicPort());
-    server.start();
-    configureFor(server.port());
-  }
-
-  @AfterAll
-  static void tearDownAfterAll() {
-    server.shutdown();
-  }
 
   @DynamicPropertySource
   static void properties(final DynamicPropertyRegistry registry) {
-    registry.add("tub.api-url", server::baseUrl);
-  }
-
-  @BeforeEach
-  void setUpBeforeEach() {
-    server.resetAll();
+    registry.add("tub.api-url", () -> URL);
   }
 
   @Test
@@ -64,12 +46,12 @@ class TubClientTest {
         Files.readString(Paths.get("src/test/resources/tub/semantic-query/title.json"));
     final var expectedResponse = TubResponseHelper.createTubResponse();
 
-    server.stubFor(
+    stubFor(
         get(urlPathEqualTo("/"))
-            .withQueryParam("action", equalTo("ask"))
-            .withQueryParam("format", equalTo("json"))
+            .withQueryParams(SEMANTIC_SEARCH_PARAMS)
             .withQueryParam("query", equalTo("query"))
             .willReturn(okJson(response)));
+
     StepVerifier.create(subject.queryTub("ask", "json", "query"))
         .assertNext(
             actual -> {
@@ -101,10 +83,9 @@ class TubClientTest {
             List.of(),
             List.of());
 
-    server.stubFor(
+    stubFor(
         get(urlPathEqualTo("/"))
-            .withQueryParam("action", equalTo("ask"))
-            .withQueryParam("format", equalTo("json"))
+            .withQueryParams(SEMANTIC_SEARCH_PARAMS)
             .withQueryParam("query", equalTo("author"))
             .willReturn(okJson(response)));
     StepVerifier.create(subject.queryTub("ask", "json", "author"))
@@ -147,10 +128,9 @@ class TubClientTest {
             List.of("1195"),
             List.of(title));
 
-    server.stubFor(
+    stubFor(
         get(urlPathEqualTo("/"))
-            .withQueryParam("action", equalTo("ask"))
-            .withQueryParam("format", equalTo("json"))
+            .withQueryParams(SEMANTIC_SEARCH_PARAMS)
             .withQueryParam("query", equalTo("manuscript"))
             .willReturn(okJson(response)));
     StepVerifier.create(subject.queryTub("ask", "json", "manuscript"))
@@ -196,10 +176,9 @@ class TubClientTest {
             List.of(),
             List.of(city));
 
-    server.stubFor(
+    stubFor(
         get(urlPathEqualTo("/"))
-            .withQueryParam("action", equalTo("ask"))
-            .withQueryParam("format", equalTo("json"))
+            .withQueryParams(SEMANTIC_SEARCH_PARAMS)
             .withQueryParam("query", equalTo("manuscript"))
             .willReturn(okJson(response)));
     StepVerifier.create(subject.queryTub("ask", "json", "manuscript"))
