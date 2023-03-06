@@ -1,3 +1,4 @@
+import net.ltgt.gradle.errorprone.CheckSeverity
 import net.ltgt.gradle.errorprone.errorprone
 import org.gradle.api.JavaVersion.VERSION_19
 
@@ -71,7 +72,7 @@ tasks.withType<Test> {
 tasks.withType<JavaCompile> {
     if (!name.lowercase().contains("test")) {
         options.errorprone {
-            check("NullAway", net.ltgt.gradle.errorprone.CheckSeverity.WARN)
+            check("NullAway", CheckSeverity.ERROR)
             option("NullAway:AnnotatedPackages", "com.uber")
         }
     }
