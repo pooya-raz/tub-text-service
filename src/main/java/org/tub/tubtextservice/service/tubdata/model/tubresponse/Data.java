@@ -15,9 +15,9 @@ import static com.fasterxml.jackson.annotation.JsonTypeInfo.Id.DEDUCTION;
  *
  * @param printouts the semantic data of the Wiki article.
  * @param fulltext the title of the Wiki article and a unique identifier
- * @param fullurl
- * @param namespace
- * @param exists
+ * @param fullurl the URL of the Wiki article
+ * @param namespace the namespace of the Wiki article
+ * @param exists whether the Wiki article exists
  * @param displaytitle an alternate title of the page. Generally left blank. @see <a
  *     href="https://www.semantic-mediawiki.org/wiki/Help:Display_title">Semantic Mediawiki -
  *     Help:Display title</a>
@@ -52,20 +52,20 @@ public record Data(
 
   public static final class Builder {
     Printouts printouts;
-    String fullText;
+    String fulltext;
 
     public Builder printouts(Printouts printouts) {
       this.printouts = printouts;
       return this;
     }
 
-    public Builder fullText(String fullText) {
-      this.fullText = fullText;
+    public Builder fulltext(String fulltext) {
+      this.fulltext = fulltext;
       return this;
     }
 
     public Data build() {
-      return new Data(printouts, fullText, null, null, null, null);
+      return new Data(printouts, fulltext, null, null, null, null);
     }
   }
 }

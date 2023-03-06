@@ -63,7 +63,7 @@ class TubApiServiceTest {
   @Mock private TubClient tubClient;
 
   private static TubResponse getTubResponse(Printouts printouts, String fulltext, int offset) {
-    final var data = Data.builder().printouts(printouts).fullText(fulltext).build();
+    final var data = Data.builder().printouts(printouts).fulltext(fulltext).build();
     final var results = new Results();
     results.setDataMap("1", data);
     final var query = new Query(List.of(), results, null, null, null);

@@ -1,3 +1,4 @@
+import net.ltgt.gradle.errorprone.errorprone
 import org.gradle.api.JavaVersion.VERSION_19
 
 plugins {
@@ -6,6 +7,8 @@ plugins {
     id("io.spring.dependency-management") version "1.1.0"
     id("org.sonarqube") version "4.0.0.2929"
     id("jacoco")
+    id("net.ltgt.errorprone") version "3.0.1"
+    id("net.ltgt.nullaway") version "1.5.0"
 }
 
 group = "org.tub"
@@ -48,6 +51,15 @@ dependencies {
     // Office documents
     implementation("org.apache.poi:poi-ooxml:${poiVersion}")
 
+    //NullAway
+    annotationProcessor("com.uber.nullaway:nullaway:0.10.9")
+
+    // Optional, some source of nullability annotations.
+    // Not required on Android if you use the support
+    // library nullability annotations.
+    compileOnly("com.google.code.findbugs:jsr305:3.0.2")
+    errorprone("com.google.errorprone:error_prone_core:2.18.0")
+    errorproneJavac("com.google.errorprone:javac:9+181-r4173-1")
 }
 
 tasks.withType<Test> {
@@ -57,7 +69,18 @@ tasks.withType<Test> {
 }
 
 tasks.withType<JavaCompile> {
+    if (!name.lowercase().contains("test")) {
+        options.errorprone {
+            check("NullAway", net.ltgt.gradle.errorprone.CheckSeverity.WARN)
+            option("NullAway:AnnotatedPackages", "com.uber")
+        }
+    }
     options.compilerArgs.add(enablePreview)
+}
+tasks {
+    compileTestJava {
+        options.errorprone.isEnabled.set(false)
+    }
 }
 
 tasks.jacocoTestReport {

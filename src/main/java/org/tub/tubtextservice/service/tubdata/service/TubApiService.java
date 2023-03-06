@@ -38,6 +38,7 @@ public class TubApiService implements ApiService {
    *
    * @return {@link Printouts} from the TUB API as maps with the {@link Data#fulltext()} as the key.
    */
+  @Override
   public TubPrintouts getData() {
     final var dataFetcher = new TubDataFetcher();
     final var titlePrintouts = dataFetcher.getAllData(properties.query().titles());
