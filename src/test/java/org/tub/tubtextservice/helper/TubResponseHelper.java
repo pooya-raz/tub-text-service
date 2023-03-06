@@ -62,6 +62,6 @@ public final class TubResponseHelper {
     final var query =
         new Query(
             createPrintRequests(), result, "SMW\\Serializers\\QueryResultSerializer", 2L, meta);
-    return new TubResponse(3, query);
+    return new TubResponse(0, query);
   }
 }
