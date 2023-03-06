@@ -50,12 +50,14 @@ public class WebClientConfiguration {
     return (request, next) ->
         next.exchange(request)
             .flatMap(
-                clientResponse ->
-                    Mono.just(clientResponse)
-                        .filter(response -> clientResponse.statusCode().isError())
-                        .flatMap(response -> clientResponse.createException())
-                        .flatMap(Mono::error)
-                        .thenReturn(clientResponse))
+                clientResponse -> {
+                  log.info("Response from TUB: {}", clientResponse.statusCode());
+                  return Mono.just(clientResponse)
+                      .filter(response -> clientResponse.statusCode().isError())
+                      .flatMap(response -> clientResponse.createException())
+                      .flatMap(Mono::error)
+                      .thenReturn(clientResponse);
+                })
             .retryWhen(
                 Retry.backoff(properties.retryMaxAttempts(), properties.retryBackoffPeriod())
                     .doBeforeRetry(retrySignal -> log.warn("Retrying to fetch data from TUB")));
@@ -63,7 +65,10 @@ public class WebClientConfiguration {
 
   private ExchangeFilterFunction logRequest() {
     return (clientRequest, nextFilter) -> {
-      log.info("Fetching data from TUB: {}", keyValue("url", clientRequest.url()));
+      log.info(
+          "Fetching data from TUB: {}, {}",
+          keyValue("method", clientRequest.method()),
+          keyValue("url", clientRequest.url()));
       return nextFilter.exchange(clientRequest);
     };
   }

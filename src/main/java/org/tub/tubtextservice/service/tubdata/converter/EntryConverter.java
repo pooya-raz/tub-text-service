@@ -1,5 +1,6 @@
 package org.tub.tubtextservice.service.tubdata.converter;
 
+import org.springframework.stereotype.Component;
 import org.tub.tubtextservice.model.domain.Edition;
 import org.tub.tubtextservice.model.domain.Entry;
 import org.tub.tubtextservice.model.domain.Manuscript;
@@ -20,6 +21,7 @@ import java.util.Map;
 import java.util.Optional;
 
 /** Converts a {@link TubPrintouts} to a {@link Entry}. */
+@Component
 public class EntryConverter {
 
   private final ManuscriptConverter manuscriptConverter;

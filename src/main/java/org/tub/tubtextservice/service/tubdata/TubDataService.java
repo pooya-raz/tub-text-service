@@ -1,5 +1,6 @@
 package org.tub.tubtextservice.service.tubdata;
 
+import org.springframework.stereotype.Service;
 import org.tub.tubtextservice.model.domain.Entry;
 import org.tub.tubtextservice.service.tubdata.converter.EntryConverter;
 import org.tub.tubtextservice.service.tubdata.service.TubApiService;
@@ -7,6 +8,7 @@ import org.tub.tubtextservice.service.tubdata.service.TubApiService;
 import java.util.List;
 
 /** This class is responsible for the workflow of retrieving data from the TUB API. */
+@Service
 public class TubDataService {
 
   private final TubApiService tubApiService;

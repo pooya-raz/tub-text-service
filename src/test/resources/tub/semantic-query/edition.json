@@ -1,5 +1,5 @@
 {
-  "query-continue-offset": 10,
+  "query-continue-offset": 0,
   "query": {
     "printrequests": [
       {
