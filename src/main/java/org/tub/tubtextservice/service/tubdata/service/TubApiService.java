@@ -36,7 +36,7 @@ public class TubApiService implements ApiService {
    * {@link Entry}. It sends Semantic Mediawiki queries that are defined in the {@link
    * TubProperties}.
    *
-   * @return {@link Printouts} from the TUB API as maps with the {@link Data#fullText()} as the key.
+   * @return {@link Printouts} from the TUB API as maps with the {@link Data#fulltext()} as the key.
    */
   public TubPrintouts getData() {
     final var dataFetcher = new TubDataFetcher();
@@ -53,7 +53,7 @@ public class TubApiService implements ApiService {
   }
 
   /**
-   * Responsible for creating a map with the {@link Data#fullText()} as the key and the {@link
+   * Responsible for creating a map with the {@link Data#fulltext()} as the key and the {@link
    * Printouts} as the value
    *
    * @implNote There are repetitive methods in this class. Couldn't think of a better way to do
@@ -65,7 +65,7 @@ public class TubApiService implements ApiService {
      * Creates the required map for TitlePrintouts.
      *
      * @param dataList the list of {@link Data} to be converted to a map.
-     * @return map with the {@link Data#fullText()} as the key and the {@link TitlePrintouts} as the
+     * @return map with the {@link Data#fulltext()} as the key and the {@link TitlePrintouts} as the
      *     value
      */
     private static Map<String, TitlePrintouts> createMapTitles(List<Data> dataList) {
@@ -73,7 +73,7 @@ public class TubApiService implements ApiService {
       dataList.forEach(
           data -> {
             final var printout = (TitlePrintouts) data.printouts();
-            final var key = data.fullText();
+            final var key = data.fulltext();
             mapTitle.putIfAbsent(key, printout);
           });
       return mapTitle;
@@ -83,7 +83,7 @@ public class TubApiService implements ApiService {
      * Creates the required map for AuthorPrintouts.
      *
      * @param dataList the list of {@link Data} to be converted to a map.
-     * @return map with the {@link Data#fullText()} as the key and the {@link TitlePrintouts} as the
+     * @return map with the {@link Data#fulltext()} as the key and the {@link TitlePrintouts} as the
      *     value
      */
     private static Map<String, AuthorPrintouts> createMapAuthor(List<Data> dataList) {
@@ -91,7 +91,7 @@ public class TubApiService implements ApiService {
       dataList.forEach(
           data -> {
             final var printout = (AuthorPrintouts) data.printouts();
-            final var key = data.fullText();
+            final var key = data.fulltext();
             mapTitle.putIfAbsent(key, printout);
           });
       return mapTitle;
@@ -125,7 +125,7 @@ public class TubApiService implements ApiService {
      * the key already exists.
      *
      * @param map the map to add the {@link Printouts} to.
-     * @param key must be {@link Data#fullText()}.
+     * @param key must be {@link Data#fulltext()}.
      * @param printouts the {@link Printouts} to add to the map.
      */
     private static <T extends Printouts> void addToMap(

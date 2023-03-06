@@ -14,11 +14,11 @@ import static com.fasterxml.jackson.annotation.JsonTypeInfo.Id.DEDUCTION;
  * Collection of data returned by Semantic Mediawiki.
  *
  * @param printouts the semantic data of the Wiki article.
- * @param fullText the title of the Wiki article and a unique identifier
- * @param fullUrl
+ * @param fulltext the title of the Wiki article and a unique identifier
+ * @param fullurl
  * @param namespace
  * @param exists
- * @param displayTitle an alternate title of the page. Generally left blank. @see <a
+ * @param displaytitle an alternate title of the page. Generally left blank. @see <a
  *     href="https://www.semantic-mediawiki.org/wiki/Help:Display_title">Semantic Mediawiki -
  *     Help:Display title</a>
  */
@@ -31,11 +31,20 @@ public record Data(
           @JsonSubTypes.Type(EditionPrintouts.class)
         })
         Printouts printouts,
-    String fullText,
-    String fullUrl,
+    String fulltext,
+    String fullurl,
     Integer namespace,
     String exists,
-    String displayTitle) {
+    String displaytitle) {
+
+  public Data {
+    if (printouts == null) {
+      throw new IllegalArgumentException("printouts must not be null");
+    }
+    if (fulltext == null) {
+      throw new IllegalArgumentException("fulltext must not be null");
+    }
+  }
 
   public static Builder builder() {
     return new Builder();

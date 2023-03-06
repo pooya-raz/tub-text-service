@@ -16,9 +16,9 @@ import java.util.Map;
  * available in the wiki, and are necessary for the construction of an {@link Entry}.
  *
  * @param titles titles in TUB. The key is the title of the Wiki article found in {@link
- *     Data#fullText()}. Since each {@link Entry} is based on one title, it cannot be a list.
+ *     Data#fulltext()}. Since each {@link Entry} is based on one title, it cannot be a list.
  * @param authors authors in TUB. The key is the title of the Wiki article found in {@link
- *     Data#fullText()}.
+ *     Data#fulltext()}.
  * @param manuscripts manuscripts in TUB. The key is the value in {@link
  *     ManuscriptPrintouts#manuscriptOfTitle()} which refers to the key of a title. One title can
  *     have multiple manuscripts.
