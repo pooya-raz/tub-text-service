@@ -13,10 +13,8 @@ import org.tub.tubtextservice.service.tubdata.model.tubresponse.MediaWikiPageDet
 import org.tub.tubtextservice.service.tubdata.model.tubresponse.printouts.AuthorPrintouts;
 import org.tub.tubtextservice.service.tubdata.model.tubresponse.printouts.EditionPrintouts;
 import org.tub.tubtextservice.service.tubdata.model.tubresponse.printouts.ManuscriptPrintouts;
-import reactor.test.StepVerifier;
 
 import java.io.IOException;
-import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.List;
 
@@ -25,10 +23,12 @@ import static com.github.tomakehurst.wiremock.client.WireMock.get;
 import static com.github.tomakehurst.wiremock.client.WireMock.okJson;
 import static com.github.tomakehurst.wiremock.client.WireMock.stubFor;
 import static com.github.tomakehurst.wiremock.client.WireMock.urlPathEqualTo;
+import static java.nio.file.Files.readString;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.tub.tubtextservice.WireMockTestConstants.PORT;
 import static org.tub.tubtextservice.WireMockTestConstants.SEMANTIC_SEARCH_PARAMS;
 import static org.tub.tubtextservice.WireMockTestConstants.URL;
+import static reactor.test.StepVerifier.create;
 
 @SpringBootTest
 @WireMockTest(httpPort = PORT)
@@ -42,8 +42,7 @@ class TubClientTest {
 
   @Test
   void queryTubShouldReturnWithValidJson() throws IOException {
-    final var response =
-        Files.readString(Paths.get("src/test/resources/tub/semantic-query/title.json"));
+    final var response = readString(Paths.get("src/test/resources/tub/semantic-query/title.json"));
     final var expectedResponse = TubResponseHelper.createTubResponse();
 
     stubFor(
@@ -52,7 +51,7 @@ class TubClientTest {
             .withQueryParam("query", equalTo("query"))
             .willReturn(okJson(response)));
 
-    StepVerifier.create(subject.queryTub("ask", "json", "query"))
+    create(subject.queryTub("ask", "json", "query"))
         .assertNext(
             actual -> {
               assertEquals(expectedResponse.queryContinueOffset(), actual.queryContinueOffset());
@@ -71,8 +70,7 @@ class TubClientTest {
 
   @Test
   void queryTubShouldReturnWithAuthorWhenQueriedForAuthor() throws IOException {
-    final var response =
-        Files.readString(Paths.get("src/test/resources/tub/semantic-query/author.json"));
+    final var response = readString(Paths.get("src/test/resources/tub/semantic-query/author.json"));
     final var expectedResponse =
         new AuthorPrintouts(
             List.of("ʿAbbās b. Ḥasan Kāshif al-Ghiṭāʾ"),
@@ -88,7 +86,8 @@ class TubClientTest {
             .withQueryParams(SEMANTIC_SEARCH_PARAMS)
             .withQueryParam("query", equalTo("author"))
             .willReturn(okJson(response)));
-    StepVerifier.create(subject.queryTub("ask", "json", "author"))
+
+    create(subject.queryTub("ask", "json", "author"))
         .assertNext(
             actual ->
                 assertEquals(
@@ -103,7 +102,7 @@ class TubClientTest {
   @Test
   void queryTubShouldReturnWithManuscriptWhenQueriedForManuscript() throws IOException {
     final var response =
-        Files.readString(Paths.get("src/test/resources/tub/semantic-query/manuscript.json"));
+        readString(Paths.get("src/test/resources/tub/semantic-query/manuscript.json"));
     final var city =
         new MediaWikiPageDetails(
             "Tehran", "http://10.164.39.147:8080/tub/index.php/Tehran", 0, "1", "");
@@ -133,7 +132,8 @@ class TubClientTest {
             .withQueryParams(SEMANTIC_SEARCH_PARAMS)
             .withQueryParam("query", equalTo("manuscript"))
             .willReturn(okJson(response)));
-    StepVerifier.create(subject.queryTub("ask", "json", "manuscript"))
+
+    create(subject.queryTub("ask", "json", "manuscript"))
         .assertNext(
             actual ->
                 assertEquals(
@@ -148,7 +148,7 @@ class TubClientTest {
   @Test
   void queryTubShouldCorrectlyParseEditionPrintouts() throws IOException {
     final var response =
-        Files.readString(Paths.get("src/test/resources/tub/semantic-query/edition.json"));
+        readString(Paths.get("src/test/resources/tub/semantic-query/edition.json"));
     final var city =
         new MediaWikiPageDetails(
             "Tehran", "http://10.164.39.147:8080/tub/index.php/Tehran", 0, "1", "");
@@ -181,7 +181,7 @@ class TubClientTest {
             .withQueryParams(SEMANTIC_SEARCH_PARAMS)
             .withQueryParam("query", equalTo("manuscript"))
             .willReturn(okJson(response)));
-    StepVerifier.create(subject.queryTub("ask", "json", "manuscript"))
+    create(subject.queryTub("ask", "json", "manuscript"))
         .assertNext(
             actual ->
                 assertEquals(
