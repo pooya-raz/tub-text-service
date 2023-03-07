@@ -73,28 +73,25 @@ public class EntryConverter {
   private Person getPerson(
       final Map<String, AuthorPrintouts> authorPrintoutsMap,
       final MediaWikiPageDetails authorPage) {
-    if (authorPage == null) {
-      return null;
-    }
-    final var authorName = authorPage.fulltext();
-    final var authorPrintout = authorPrintoutsMap.get(authorName);
-    final var personDeath = tubDateConverter.convert(authorPrintout);
-    return new Author(authorName, personDeath);
+    return Optional.ofNullable(authorPage)
+        .map(MediaWikiPageDetails::fulltext)
+        .map(authorPrintoutsMap::get)
+        .map(tubDateConverter::convert)
+        .map(personDeath -> new Author(authorPage.fulltext(), personDeath))
+        .orElse(null);
   }
 
   private List<Manuscript> getManuscripts(
       final Map<String, ArrayList<ManuscriptPrintouts>> manuscriptPrintoutsMap,
       final String titleName) {
-    final var manuscriptPrintouts = Optional.ofNullable(manuscriptPrintoutsMap.get(titleName));
-    return manuscriptPrintouts
+    return Optional.ofNullable(manuscriptPrintoutsMap.get(titleName))
         .map(printouts -> printouts.stream().map(manuscriptConverter::convert).toList())
         .orElseGet(List::of);
   }
 
   private List<Edition> getEditions(
       final Map<String, ArrayList<EditionPrintouts>> editionPrintoutsMap, final String titleName) {
-    final var editionPrintouts = Optional.ofNullable(editionPrintoutsMap.get(titleName));
-    return editionPrintouts
+    return Optional.ofNullable(editionPrintoutsMap.get(titleName))
         .map(printouts -> printouts.stream().map(editionConverter::convert).toList())
         .orElseGet(List::of);
   }
