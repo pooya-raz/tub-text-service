@@ -1,6 +1,21 @@
 package org.tub.tubtextservice.client;
 
+import static com.github.tomakehurst.wiremock.client.WireMock.equalTo;
+import static com.github.tomakehurst.wiremock.client.WireMock.get;
+import static com.github.tomakehurst.wiremock.client.WireMock.okJson;
+import static com.github.tomakehurst.wiremock.client.WireMock.stubFor;
+import static com.github.tomakehurst.wiremock.client.WireMock.urlPathEqualTo;
+import static java.nio.file.Files.readString;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.tub.tubtextservice.WireMockTestConstants.SEMANTIC_SEARCH_PARAMS;
+import static reactor.test.StepVerifier.create;
+
+import com.github.tomakehurst.wiremock.junit5.WireMockRuntimeInfo;
 import com.github.tomakehurst.wiremock.junit5.WireMockTest;
+import java.io.IOException;
+import java.nio.file.Paths;
+import java.util.List;
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -14,30 +29,20 @@ import org.tub.tubtextservice.service.tubdata.model.tubresponse.printouts.Author
 import org.tub.tubtextservice.service.tubdata.model.tubresponse.printouts.EditionPrintouts;
 import org.tub.tubtextservice.service.tubdata.model.tubresponse.printouts.ManuscriptPrintouts;
 
-import java.io.IOException;
-import java.nio.file.Paths;
-import java.util.List;
-
-import static com.github.tomakehurst.wiremock.client.WireMock.equalTo;
-import static com.github.tomakehurst.wiremock.client.WireMock.get;
-import static com.github.tomakehurst.wiremock.client.WireMock.okJson;
-import static com.github.tomakehurst.wiremock.client.WireMock.stubFor;
-import static com.github.tomakehurst.wiremock.client.WireMock.urlPathEqualTo;
-import static java.nio.file.Files.readString;
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.tub.tubtextservice.WireMockTestConstants.PORT;
-import static org.tub.tubtextservice.WireMockTestConstants.SEMANTIC_SEARCH_PARAMS;
-import static org.tub.tubtextservice.WireMockTestConstants.URL;
-import static reactor.test.StepVerifier.create;
-
 @SpringBootTest
-@WireMockTest(httpPort = PORT)
+@WireMockTest
 class TubClientTest {
+  private static int PORT;
   @Autowired private TubClient subject;
+
+  @BeforeAll
+  static void setUpBeforeAll(WireMockRuntimeInfo wireMockRuntimeInfo) {
+    PORT = wireMockRuntimeInfo.getHttpPort();
+  }
 
   @DynamicPropertySource
   static void properties(final DynamicPropertyRegistry registry) {
-    registry.add("tub.api-url", () -> URL);
+    registry.add("tub.api-url", () -> "http://localhost:" + PORT);
   }
 
   @Test

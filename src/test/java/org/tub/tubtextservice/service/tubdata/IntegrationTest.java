@@ -10,12 +10,12 @@ import static com.github.tomakehurst.wiremock.stubbing.Scenario.STARTED;
 import static java.nio.file.Files.readString;
 import static java.nio.file.Path.of;
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.tub.tubtextservice.WireMockTestConstants.PORT;
 import static org.tub.tubtextservice.WireMockTestConstants.SEMANTIC_SEARCH_PARAMS;
-import static org.tub.tubtextservice.WireMockTestConstants.URL;
 
+import com.github.tomakehurst.wiremock.junit5.WireMockRuntimeInfo;
 import com.github.tomakehurst.wiremock.junit5.WireMockTest;
 import java.io.IOException;
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -23,7 +23,7 @@ import org.springframework.test.context.DynamicPropertyRegistry;
 import org.springframework.test.context.DynamicPropertySource;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-@WireMockTest(httpPort = PORT)
+@WireMockTest
 public class IntegrationTest {
 
   public static final String TITLES = "titles";
@@ -42,11 +42,17 @@ public class IntegrationTest {
   public static final String RETRY = "Retry";
   public static final String SUCCESS = "Success";
   public static final String RETRY_1 = "Retry 1";
+  public static int PORT;
   @Autowired private TubDataService tubDataService;
+
+  @BeforeAll
+  static void setUpBeforeAll(WireMockRuntimeInfo wireMockRuntimeInfo) {
+    PORT = wireMockRuntimeInfo.getHttpPort();
+  }
 
   @DynamicPropertySource
   static void setProperties(DynamicPropertyRegistry registry) {
-    registry.add("tub.api-url", () -> URL + TUB_API_ENDPOINT);
+    registry.add("tub.api-url", () -> "http://localhost:" + PORT + TUB_API_ENDPOINT);
     registry.add("tub.query.titles", () -> TITLES);
     registry.add("tub.query.authors", () -> AUTHORS);
     registry.add("tub.query.editions", () -> EDITIONS);
