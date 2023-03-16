@@ -18,11 +18,11 @@ public final class NonNumericTextStripper {
   }
 
   private static int findFirstNumericIndex(char[] chars) {
-    for (int i = 0; i < chars.length; i++) {
+    for (int i = 0; i < chars.length-1; i++) {
       if (Character.isDigit(chars[i])) {
         return i;
       }
     }
-    return -1;
+    return 0;
   }
 }
