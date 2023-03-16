@@ -16,11 +16,14 @@ import com.github.tomakehurst.wiremock.junit5.WireMockRuntimeInfo;
 import com.github.tomakehurst.wiremock.junit5.WireMockTest;
 import java.io.IOException;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.DynamicPropertyRegistry;
 import org.springframework.test.context.DynamicPropertySource;
+import org.tub.tubtextservice.helper.EntryHelper;
+import org.tub.tubtextservice.model.domain.Entry;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @WireMockTest
@@ -42,6 +45,8 @@ public class IntegrationTest {
   public static final String RETRY = "Retry";
   public static final String SUCCESS = "Success";
   public static final String RETRY_1 = "Retry 1";
+
+  public static final Entry ENTRY = EntryHelper.createEntry();
   public static int PORT;
   @Autowired private TubDataService tubDataService;
 
@@ -60,6 +65,7 @@ public class IntegrationTest {
   }
 
   @Test
+  @DisplayName("Should get entries from TUB API")
   void shouldGetEntries() throws IOException {
     stubForTUB(TITLES, TITLES_JSON);
     stubForTUB(AUTHORS, AUTHORS_JSON);
@@ -67,18 +73,20 @@ public class IntegrationTest {
     stubForTUB(MANUSCRIPTS, MANUSCRIPTS_JSON);
 
     final var actual = tubDataService.getEntries();
-    assertThat(actual).hasSize(1);
+    assertThat(actual).containsExactly(ENTRY);
   }
 
   @Test
+  @DisplayName("Should retry three times")
   void shouldRetryThreeTimes() throws IOException {
     stubForRetry(TITLES, TITLES_JSON);
     stubForTUB(AUTHORS, AUTHORS_JSON);
     stubForTUB(EDITIONS, EDITIONS_JSON);
     stubForTUB(MANUSCRIPTS, MANUSCRIPTS_JSON);
 
+
     final var actual = tubDataService.getEntries();
-    assertThat(actual).hasSize(1);
+    assertThat(actual).containsExactly(ENTRY);
   }
 
   private void stubForTUB(String query, String path) throws IOException {
