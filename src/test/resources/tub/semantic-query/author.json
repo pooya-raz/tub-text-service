@@ -67,10 +67,10 @@
       }
     ],
     "results": {
-      "ʿAbbās b. Ḥasan Kāshif al-Ghiṭāʾ": {
+      "Author": {
         "printouts": {
           "Full name (transliterated)": [
-            "ʿAbbās b. Ḥasan Kāshif al-Ghiṭāʾ"
+            "Author"
           ],
           "Death (Hijri)": [
             1323
@@ -86,7 +86,7 @@
           "Death (Gregorian) text": [],
           "Death (Shamsi) text": []
         },
-        "fulltext": "ʿAbbās b. Ḥasan Kāshif al-Ghiṭāʾ",
+        "fulltext": "Author",
         "fullurl": "http://10.164.39.147:8080/tub/index.php/%CA%BFAbb%C4%81s_b._%E1%B8%A4asan_K%C4%81shif_al-Ghi%E1%B9%AD%C4%81%CA%BE",
         "namespace": 0,
         "exists": "1",

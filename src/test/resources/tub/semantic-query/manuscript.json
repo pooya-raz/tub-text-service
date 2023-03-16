@@ -99,7 +99,7 @@
       }
     ],
     "results": {
-      "Manuscript:Abwāb al-jinān al-mushtamil ʿalā rasāʾil thamān (11th/17th century Tehran)": {
+      "Manuscript:Title Transliterated (11th/17th century Tehran)": {
         "printouts": {
           "Has a location": [
             "Majlis"
@@ -135,7 +135,7 @@
           ],
           "Manuscript of title": [
             {
-              "fulltext": "Abwāb al-jinān al-mushtamil ʿalā rasāʾil thamān",
+              "fulltext": "Title Transliterated",
               "fullurl": "http://10.164.39.147:8080/tub/index.php/Abw%C4%81b_al-jin%C4%81n_al-mushtamil_%CA%BFal%C4%81_ras%C4%81%CA%BEil_tham%C4%81n",
               "namespace": 0,
               "exists": "1",
@@ -143,7 +143,7 @@
             }
           ]
         },
-        "fulltext": "Manuscript:Abwāb al-jinān al-mushtamil ʿalā rasāʾil thamān (11th/17th century Tehran)",
+        "fulltext": "Manuscript:Title Transliterated (11th/17th century Tehran)",
         "fullurl": "http://10.164.39.147:8080/tub/index.php/Manuscript:Abw%C4%81b_al-jin%C4%81n_al-mushtamil_%CA%BFal%C4%81_ras%C4%81%CA%BEil_tham%C4%81n_(11th/17th_century_Tehran)",
         "namespace": 3002,
         "exists": "1",

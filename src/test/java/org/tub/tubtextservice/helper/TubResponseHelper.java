@@ -1,5 +1,6 @@
 package org.tub.tubtextservice.helper;
 
+import java.util.List;
 import org.tub.tubtextservice.service.tubdata.model.tubresponse.Data;
 import org.tub.tubtextservice.service.tubdata.model.tubresponse.MediaWikiPageDetails;
 import org.tub.tubtextservice.service.tubdata.model.tubresponse.Meta;
@@ -8,8 +9,6 @@ import org.tub.tubtextservice.service.tubdata.model.tubresponse.Query;
 import org.tub.tubtextservice.service.tubdata.model.tubresponse.Results;
 import org.tub.tubtextservice.service.tubdata.model.tubresponse.TubResponse;
 import org.tub.tubtextservice.service.tubdata.model.tubresponse.printouts.TitlePrintouts;
-
-import java.util.List;
 
 public final class TubResponseHelper {
   private TubResponseHelper() {
@@ -32,7 +31,7 @@ public final class TubResponseHelper {
             "");
     final var author =
         new MediaWikiPageDetails(
-            "Muḥammad b. Faraj al-Ḥimyarī al-Najafī",
+            "Author",
             "http://10.164.39.147:8080/tub/index.php/Mu%E1%B8%A5ammad_b._Faraj_al-%E1%B8%A4imyar%C4%AB_al-Najaf%C4%AB",
             0,
             "1",
@@ -42,8 +41,8 @@ public final class TubResponseHelper {
             List.of(category),
             List.of("Treatise (risāla)"),
             List.of("0"),
-            List.of("أبواب الجنان المشتمل على رسائل ثمان"),
-            List.of("Abwāb al-jinān al-mushtamil ʿalā rasāʾil thamān"),
+            List.of("Title Arabic"),
+            List.of("Title Transliterated"),
             List.of(author),
             List.of(),
             List.of(),
@@ -51,13 +50,13 @@ public final class TubResponseHelper {
     final var data =
         new Data(
             printout,
-            "Abwāb al-jinān al-mushtamil ʿalā rasāʾil thamān",
+            "Title Transliterated",
             "http://10.164.39.147:8080/tub/index.php/Abw%C4%81b_al-jin%C4%81n_al-mushtamil_%CA%BFal%C4%81_ras%C4%81%CA%BEil_tham%C4%81n",
             0,
             "1",
             "");
     final var result = new Results();
-    result.setDataMap("Abwāb al-jinān al-mushtamil ʿalā rasāʾil thamān", data);
+    result.setDataMap("Title Transliterated", data);
     final var meta = new Meta("5d2b4d4b9222e2c0aecb2d97ff595a19", 3L, 0L, "", "0.297985");
     final var query =
         new Query(

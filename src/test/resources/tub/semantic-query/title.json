@@ -19,7 +19,7 @@
       }
     ],
     "results": {
-      "Abwāb al-jinān al-mushtamil ʿalā rasāʾil thamān": {
+      "Title Transliterated": {
         "printouts": {
           "Category": [
             {
@@ -37,14 +37,14 @@
             "0"
           ],
           "Title (Arabic)": [
-            "أبواب الجنان المشتمل على رسائل ثمان"
+            "Title Arabic"
           ],
           "Title (transliterated)": [
-            "Abwāb al-jinān al-mushtamil ʿalā rasāʾil thamān"
+            "Title Transliterated"
           ],
           "Has author(s)": [
             {
-              "fulltext": "Muḥammad b. Faraj al-Ḥimyarī al-Najafī",
+              "fulltext": "Author",
               "fullurl": "http://10.164.39.147:8080/tub/index.php/Mu%E1%B8%A5ammad_b._Faraj_al-%E1%B8%A4imyar%C4%AB_al-Najaf%C4%AB",
               "namespace": 0,
               "exists": "1",
@@ -55,7 +55,7 @@
           "Has a catalogue description": [],
           "Has base text": []
         },
-        "fulltext": "Abwāb al-jinān al-mushtamil ʿalā rasāʾil thamān",
+        "fulltext": "Title Transliterated",
         "fullurl": "http://10.164.39.147:8080/tub/index.php/Abw%C4%81b_al-jin%C4%81n_al-mushtamil_%CA%BFal%C4%81_ras%C4%81%CA%BEil_tham%C4%81n",
         "namespace": 0,
         "exists": "1",

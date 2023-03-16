@@ -78,7 +78,7 @@ class TubClientTest {
     final var response = readString(Paths.get("src/test/resources/tub/semantic-query/author.json"));
     final var expectedResponse =
         new AuthorPrintouts(
-            List.of("ʿAbbās b. Ḥasan Kāshif al-Ghiṭāʾ"),
+            List.of("Author"),
             List.of(1323),
             List.of(new MediaWikiDate(-2051222400L, "1/1905")),
             List.of(),
@@ -113,7 +113,7 @@ class TubClientTest {
             "Tehran", "http://10.164.39.147:8080/tub/index.php/Tehran", 0, "1", "");
     final var title =
         new MediaWikiPageDetails(
-            "Abwāb al-jinān al-mushtamil ʿalā rasāʾil thamān",
+            "Title Transliterated",
             "http://10.164.39.147:8080/tub/index.php/Abw%C4%81b_al-jin%C4%81n_al-mushtamil_%CA%BFal%C4%81_ras%C4%81%CA%BEil_tham%C4%81n",
             0,
             "1",
@@ -159,15 +159,15 @@ class TubClientTest {
             "Tehran", "http://10.164.39.147:8080/tub/index.php/Tehran", 0, "1", "");
     final var title =
         new MediaWikiPageDetails(
-            "Anīs al-mujtahidīn",
+            "Title Transliterated",
             "http://10.164.39.147:8080/tub/index.php/An%C4%ABs_al-mujtahid%C4%ABn",
             0,
             "1",
             "");
     final var expectedResponse =
         new EditionPrintouts(
-            List.of("Anīs al-mujtahidīn"),
-            List.of("أنيس المجتهدين"),
+            List.of("Title Transliterated"),
+            List.of("Title Arabic"),
             List.of(2009),
             List.of("2009-10"),
             List.of(1430),

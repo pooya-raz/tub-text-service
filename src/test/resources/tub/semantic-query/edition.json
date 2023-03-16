@@ -123,13 +123,13 @@
       }
     ],
     "results": {
-      "Edition:Anīs al-mujtahidīn 1": {
+      "Edition:Title Transliterated": {
         "printouts": {
           "Title (transliterated)": [
-            "Anīs al-mujtahidīn"
+            "Title Transliterated"
           ],
           "Title (Arabic)": [
-            "أنيس المجتهدين"
+            "Title Arabic"
           ],
           "Has year(Gregorian)": [
             2009
@@ -151,7 +151,7 @@
           ],
           "Published edition of title": [
             {
-              "fulltext": "Anīs al-mujtahidīn",
+              "fulltext": "Title Transliterated",
               "fullurl": "http://10.164.39.147:8080/tub/index.php/An%C4%ABs_al-mujtahid%C4%ABn",
               "namespace": 0,
               "exists": "1",
@@ -174,7 +174,7 @@
             }
           ]
         },
-        "fulltext": "Edition:Anīs al-mujtahidīn 1",
+        "fulltext": "Edition:Title Transliterated",
         "fullurl": "http://10.164.39.147:8080/tub/index.php/Edition:An%C4%ABs_al-mujtahid%C4%ABn_1",
         "namespace": 3000,
         "exists": "1",
