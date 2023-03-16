@@ -1,5 +1,9 @@
 package org.tub.tubtextservice.service.tubdata.converter;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import java.util.Optional;
 import org.springframework.stereotype.Component;
 import org.tub.tubtextservice.model.domain.Edition;
 import org.tub.tubtextservice.model.domain.Entry;
@@ -15,12 +19,7 @@ import org.tub.tubtextservice.service.tubdata.model.tubresponse.printouts.Manusc
 import org.tub.tubtextservice.service.tubdata.model.tubresponse.printouts.Printouts;
 import org.tub.tubtextservice.service.tubdata.model.tubresponse.printouts.TitlePrintouts;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-import java.util.Optional;
-
-/** Converts a {@link TubPrintouts} to a {@link Entry}. */
+/** Converts a {@link TubPrintouts} to an {@link Entry}. */
 @Component
 public class EntryConverter {
 
@@ -60,7 +59,8 @@ public class EntryConverter {
    * @return Entry
    */
   private Entry convertTitle(TitlePrintouts title, final TubPrintouts tubPrintouts) {
-    final var person = getPerson(tubPrintouts.authors(), title.author().get(0));
+    final var author = title.author().stream().findFirst().orElse(null);
+    final var person = getPerson(tubPrintouts.authors(), author);
     final var titleName = title.titleTransliterated().stream().findFirst().orElse("");
     final var titleOriginal = title.titleArabic().stream().findFirst().orElse("");
     final var manuscripts = getManuscripts(tubPrintouts.manuscripts(), titleName);
