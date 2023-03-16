@@ -29,6 +29,7 @@ val poiVersion = "5.2.3"
 
 dependencies {
     //Spring Boot
+    implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("org.springframework.boot:spring-boot-starter-webflux")
     implementation("org.springframework.boot:spring-boot-starter-actuator")
     implementation("org.springframework:spring-aspects")
