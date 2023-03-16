@@ -1,5 +1,7 @@
 package org.tub.tubtextservice.service.tubdata.utility;
 
+import org.apache.commons.lang3.StringUtils;
+
 public final class NonNumericTextStripper {
   private NonNumericTextStripper() {
     throw new UnsupportedOperationException(
@@ -7,6 +9,9 @@ public final class NonNumericTextStripper {
   }
 
   public static String stripNonNumericText(String text) {
+    if(StringUtils.isBlank(text)){
+      return text;
+    }
     final var chars = text.toCharArray();
     final var firstNumericIndex = findFirstNumericIndex(chars);
     return text.substring(firstNumericIndex);

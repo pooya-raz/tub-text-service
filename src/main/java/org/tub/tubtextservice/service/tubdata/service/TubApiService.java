@@ -1,5 +1,11 @@
 package org.tub.tubtextservice.service.tubdata.service;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.UUID;
+import java.util.stream.Stream;
 import org.springframework.stereotype.Service;
 import org.tub.tubtextservice.model.domain.Entry;
 import org.tub.tubtextservice.model.property.TubProperties;
@@ -13,12 +19,6 @@ import org.tub.tubtextservice.service.tubdata.model.tubresponse.printouts.Manusc
 import org.tub.tubtextservice.service.tubdata.model.tubresponse.printouts.Printouts;
 import org.tub.tubtextservice.service.tubdata.model.tubresponse.printouts.TitlePrintouts;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Optional;
-import java.util.stream.Stream;
 /** The service responsible for retrieving data from the TUB API. */
 @Service
 public class TubApiService implements ApiService {
@@ -104,7 +104,10 @@ public class TubApiService implements ApiService {
       dataList.forEach(
           data -> {
             final var printout = (ManuscriptPrintouts) data.printouts();
-            final var key = printout.manuscriptOfTitle().get(0).fulltext();
+            var key = UUID.randomUUID().toString();
+            if(printout.manuscriptOfTitle() != null && !printout.manuscriptOfTitle().isEmpty()){
+                key = printout.manuscriptOfTitle().get(0).fulltext();
+            }
             addToMap(mapTitle, key, printout);
           });
       return mapTitle;
@@ -115,7 +118,10 @@ public class TubApiService implements ApiService {
       dataList.forEach(
           data -> {
             final var printout = (EditionPrintouts) data.printouts();
-            final var key = printout.editionOfTitle().get(0).fulltext();
+            var key = UUID.randomUUID().toString();
+              if(printout.editionOfTitle() != null && !printout.editionOfTitle().isEmpty()){
+                  key = printout.editionOfTitle().get(0).fulltext();
+              }
             addToMap(mapTitle, key, printout);
           });
       return mapTitle;
@@ -179,11 +185,15 @@ public class TubApiService implements ApiService {
     private List<Data> fetchData(final String query) {
 
       if (query == null) return List.of();
-      final var result = tubClient.queryTub("ask", "json", query).block();
-      return Optional.ofNullable(result)
+      final var result = tubClient.queryTub("ask", "json", query).blockOptional();
+      return result
           .map(
               r -> {
-                offset = result.queryContinueOffset();
+                if (result.get().queryContinueOffset() != null) {
+                  offset = result.get().queryContinueOffset();
+                } else {
+                  offset = STOP;
+                }
                 return r.query().results().getDataMap().values().stream().toList();
               })
           .orElseGet(
