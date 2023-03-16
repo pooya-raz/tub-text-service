@@ -1,0 +1,75 @@
+{
+  "query-continue-offset": 1,
+  "query": {
+    "printrequests": [
+      {
+        "label": "",
+        "key": "",
+        "redi": "",
+        "typeid": "_wpg",
+        "mode": 2
+      },
+      {
+        "label": "Category",
+        "key": "",
+        "redi": "",
+        "typeid": "_wpg",
+        "mode": 0,
+        "format": ""
+      }
+    ],
+    "results": {
+      "Title Transliterated": {
+        "printouts": {
+          "Category": [
+            {
+              "fulltext": "Category:Manuscript-only title",
+              "fullurl": "http://10.164.39.147:8080/tub/index.php/Category:Manuscript-only_title",
+              "namespace": 14,
+              "exists": "1",
+              "displaytitle": ""
+            }
+          ],
+          "Book type": [
+            "Treatise (risāla)"
+          ],
+          "Has number of commentaries": [
+            "0"
+          ],
+          "Title (Arabic)": [
+            "Title Arabic"
+          ],
+          "Title (transliterated)": [
+            "Title Transliterated"
+          ],
+          "Has author(s)": [
+            {
+              "fulltext": "Author",
+              "fullurl": "http://10.164.39.147:8080/tub/index.php/Mu%E1%B8%A5ammad_b._Faraj_al-%E1%B8%A4imyar%C4%AB_al-Najaf%C4%AB",
+              "namespace": 0,
+              "exists": "1",
+              "displaytitle": ""
+            }
+          ],
+          "Has translator(s)": [],
+          "Has a catalogue description": [],
+          "Has base text": []
+        },
+        "fulltext": "Title Transliterated",
+        "fullurl": "http://10.164.39.147:8080/tub/index.php/Abw%C4%81b_al-jin%C4%81n_al-mushtamil_%CA%BFal%C4%81_ras%C4%81%CA%BEil_tham%C4%81n",
+        "namespace": 0,
+        "exists": "1",
+        "displaytitle": ""
+      }
+    },
+    "serializer": "SMW\\Serializers\\QueryResultSerializer",
+    "version": 2,
+    "meta": {
+      "hash": "5d2b4d4b9222e2c0aecb2d97ff595a19",
+      "count": 3,
+      "offset": 0,
+      "source": "",
+      "time": "0.297985"
+    }
+  }
+}
