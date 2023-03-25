@@ -33,6 +33,7 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-webflux")
     implementation("org.springframework.boot:spring-boot-starter-actuator")
     implementation("org.springframework:spring-aspects")
+    implementation("org.springframework.boot:spring-boot-devtools")
     annotationProcessor("org.springframework.boot:spring-boot-configuration-processor")
 
     // Logging
@@ -49,9 +50,6 @@ dependencies {
     // Commons-collections
     implementation("org.apache.commons:commons-collections4:${commonsCollectionsVersion}")
     implementation("org.apache.commons:commons-lang3:${commonsLang3Version}")
-
-    // Office documents
-    implementation("org.apache.poi:poi-ooxml:${poiVersion}")
 
     //NullAway
     annotationProcessor("com.uber.nullaway:nullaway:0.10.9")

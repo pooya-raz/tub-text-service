@@ -1,4 +1,4 @@
-package org.tub.tubtextservice.service.word.formatter;
+package org.tub.tubtextservice.service.markdown.formatter;
 
 import org.tub.tubtextservice.model.domain.year.persondate.PersonDeath;
 import org.tub.tubtextservice.model.domain.year.persondate.ShamsiDeath;
