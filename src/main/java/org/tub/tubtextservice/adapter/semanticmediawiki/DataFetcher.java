@@ -8,10 +8,10 @@ import org.tub.tubtextservice.adapter.semanticmediawiki.model.response.TubRespon
 
 /** Responsible fore retrieving the data from the TUB API. */
 @Component
-public class DataFetcher {
+class DataFetcher {
 
   /** The stop value is used to stop the retrieval of data from the TUB API. */
-  public static final int STOP = 0;
+  private static final int STOP = 0;
 
   private final SemanticMediaWikiClient semanticMediaWikiClient;
   /**
@@ -19,7 +19,7 @@ public class DataFetcher {
    */
   private int offset = STOP;
 
-  public DataFetcher(SemanticMediaWikiClient semanticMediaWikiClient) {
+   DataFetcher(SemanticMediaWikiClient semanticMediaWikiClient) {
     this.semanticMediaWikiClient = semanticMediaWikiClient;
   }
 
@@ -29,7 +29,7 @@ public class DataFetcher {
    * @param query the query as defined by Semantic MediaWiki.
    * @return the concatenated {@link Data} from the TUB API.
    */
-  public List<Data> getAllData(final String query) {
+   List<Data> getAllData(final String query) {
     var list = fetchData(query);
     while (offset != STOP) {
       list = Stream.of(list, fetchData(query + "|offset=" + offset)).flatMap(List::stream).toList();

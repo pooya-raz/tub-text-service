@@ -7,7 +7,7 @@ import org.tub.tubtextservice.adapter.semanticmediawiki.model.response.TubRespon
 import reactor.core.publisher.Mono;
 
 @HttpExchange()
-public interface SemanticMediaWikiClient {
+interface SemanticMediaWikiClient {
     @GetExchange()
     Mono<TubResponse> queryTub(
             @RequestParam String action, @RequestParam String format, @RequestParam String query);

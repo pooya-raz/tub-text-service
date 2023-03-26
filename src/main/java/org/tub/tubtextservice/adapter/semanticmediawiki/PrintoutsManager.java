@@ -17,12 +17,12 @@ import org.tub.tubtextservice.domain.TubEntry;
 
 /** The service responsible for retrieving data from the TUB API. */
 @Service
-public class PrintoutsManager {
+class PrintoutsManager {
 
   private final DataFetcher dataFetcher;
   private final TubProperties properties;
 
-  public PrintoutsManager(DataFetcher dataFetcher, TubProperties properties) {
+  PrintoutsManager(DataFetcher dataFetcher, TubProperties properties) {
     this.dataFetcher = dataFetcher;
     this.properties = properties;
   }
@@ -34,7 +34,7 @@ public class PrintoutsManager {
    *
    * @return {@link Printouts} from the TUB API as maps with the {@link Data#fulltext()} as the key.
    */
-  public TubPrintouts getPrintouts() {
+  TubPrintouts getPrintouts() {
     final var titlePrintouts = dataFetcher.getAllData(properties.query().titles());
     final var authorPrintouts = dataFetcher.getAllData(properties.query().authors());
     final var manuscriptPrintouts = dataFetcher.getAllData(properties.query().manuscripts());
