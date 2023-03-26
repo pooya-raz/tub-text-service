@@ -24,7 +24,7 @@ import org.springframework.test.context.DynamicPropertyRegistry;
 import org.springframework.test.context.DynamicPropertySource;
 import org.tub.tubtextservice.domain.TubEntry;
 import org.tub.tubtextservice.helper.EntryHelper;
-import org.tub.tubtextservice.usecase.tub.getdata.GetTubData;
+import org.tub.tubtextservice.adapter.semanticmediawiki.SemanticMediaWikiAdapter;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @WireMockTest
@@ -49,7 +49,7 @@ public class GetTubDataIntegrationTest {
 
   public static final TubEntry TUB_ENTRY = EntryHelper.createEntry();
   public static int PORT;
-  @Autowired private GetTubData subject;
+  @Autowired private SemanticMediaWikiAdapter subject;
 
   @BeforeAll
   static void setUpBeforeAll(WireMockRuntimeInfo wireMockRuntimeInfo) {

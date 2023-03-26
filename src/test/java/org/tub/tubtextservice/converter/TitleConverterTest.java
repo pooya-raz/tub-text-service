@@ -8,8 +8,8 @@ import org.tub.tubtextservice.builder.TitlePrintoutsBuilder;
 import org.tub.tubtextservice.domain.StatusOfPublication;
 import org.tub.tubtextservice.domain.Title;
 import org.tub.tubtextservice.domain.TitleType;
-import org.tub.tubtextservice.usecase.tub.convert.TitleConverter;
-import org.tub.tubtextservice.usecase.tub.getdata.model.tubresponse.printouts.TitlePrintouts;
+import org.tub.tubtextservice.adapter.semanticmediawiki.convert.TitleConverter;
+import org.tub.tubtextservice.adapter.semanticmediawiki.model.response.printouts.TitlePrintouts;
 
 class TitleConverterTest {
   private TitleConverter titleConverter;

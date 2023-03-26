@@ -2,8 +2,8 @@ package org.tub.tubtextservice.builder;
 
 import java.util.ArrayList;
 import java.util.List;
-import org.tub.tubtextservice.usecase.tub.getdata.model.tubresponse.MediaWikiPageDetails;
-import org.tub.tubtextservice.usecase.tub.getdata.model.tubresponse.printouts.EditionPrintouts;
+import org.tub.tubtextservice.adapter.semanticmediawiki.model.response.MediaWikiPageDetails;
+import org.tub.tubtextservice.adapter.semanticmediawiki.model.response.printouts.EditionPrintouts;
 
 public class EditionPrintoutsBuilder {
   List<String> titleTransliterated = new ArrayList<>();
