@@ -19,7 +19,7 @@ class DataFetcher {
    */
   private int offset = STOP;
 
-   DataFetcher(SemanticMediaWikiClient semanticMediaWikiClient) {
+  DataFetcher(SemanticMediaWikiClient semanticMediaWikiClient) {
     this.semanticMediaWikiClient = semanticMediaWikiClient;
   }
 
@@ -29,7 +29,7 @@ class DataFetcher {
    * @param query the query as defined by Semantic MediaWiki.
    * @return the concatenated {@link Data} from the TUB API.
    */
-   List<Data> getAllData(final String query) {
+  List<Data> getAllData(final String query) {
     var list = fetchData(query);
     while (offset != STOP) {
       list = Stream.of(list, fetchData(query + "|offset=" + offset)).flatMap(List::stream).toList();
@@ -48,21 +48,13 @@ class DataFetcher {
   private List<Data> fetchData(final String query) {
 
     if (query == null) return List.of();
-    final var result = semanticMediaWikiClient.queryTub("ask", "json", query).blockOptional();
-    return result
-        .map(
-            r -> {
-              if (result.get().queryContinueOffset() != null) {
-                offset = result.get().queryContinueOffset();
-              } else {
-                offset = STOP;
-              }
-              return r.query().results().getDataMap().values().stream().toList();
-            })
-        .orElseGet(
-            () -> {
-              offset = STOP;
-              return List.of();
-            });
+    final var result = semanticMediaWikiClient.queryTub("ask", "json", query);
+    if (result.queryContinueOffset() != null) {
+      offset = result.queryContinueOffset();
+      return result.query().results().getDataMap().values().stream().toList();
+    } else {
+      offset = STOP;
+      return List.of();
+    }
   }
 }
