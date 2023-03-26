@@ -1,6 +1,6 @@
 package org.tub.tubtextservice.domain.year.editiondate;
 
-import org.tub.tubtextservice.common.NonNumericTextStripper;
+import org.tub.tubtextservice.domain.common.NonNumericTextStripper;
 
 public record HijriDate(String year, String gregorian) implements EditionDate {
   public HijriDate {

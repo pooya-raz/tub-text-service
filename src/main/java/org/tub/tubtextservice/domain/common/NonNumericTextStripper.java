@@ -1,4 +1,4 @@
-package org.tub.tubtextservice.common;
+package org.tub.tubtextservice.domain.common;
 
 import org.apache.commons.lang3.StringUtils;
 

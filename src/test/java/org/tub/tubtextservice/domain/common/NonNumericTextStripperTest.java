@@ -1,7 +1,7 @@
-package org.tub.tubtextservice.common;
+package org.tub.tubtextservice.domain.common;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.tub.tubtextservice.common.NonNumericTextStripper.stripNonNumericText;
+import static org.tub.tubtextservice.domain.common.NonNumericTextStripper.stripNonNumericText;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
