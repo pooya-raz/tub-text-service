@@ -92,30 +92,29 @@
         "exists": "1",
         "displaytitle": ""
       },
-    "AuthorShamsi": {
-      "printouts": {
-        "Full name (transliterated)": [
-          "AuthorShamsi"
-        ],
-        "Death (Hijri)": [],
-        "Death (Gregorian)": [
-          {
-            "timestamp": "-2051222400",
-            "raw": "1/1905"
-          }
-        ],
-        "Death (Shamsi)": [1323],
-        "Death (Hijri) text": [],
-        "Death (Gregorian) text": [],
-        "Death (Shamsi) text": []
-      },
-      "fulltext": "AuthorShamsi",
-      "fullurl": "http://10.164.39.147:8080/tub/index.php/%CA%BFAbb%C4%81s_b._%E1%B8%A4asan_K%C4%81shif_al-Ghi%E1%B9%AD%C4%81%CA%BE",
-      "namespace": 0,
-      "exists": "1",
-      "displaytitle": ""
-    }
-  },
+      "AuthorShamsi": {
+        "printouts": {
+          "Full name (transliterated)": [
+            "AuthorShamsi"
+          ],
+          "Death (Hijri)": [],
+          "Death (Gregorian)": [],
+          "Death (Shamsi)": [
+            1323
+          ],
+          "Death (Hijri) text": [],
+          "Death (Gregorian) text": [
+            "1905"
+          ],
+          "Death (Shamsi) text": []
+        },
+        "fulltext": "AuthorShamsi",
+        "fullurl": "http://10.164.39.147:8080/tub/index.php/%CA%BFAbb%C4%81s_b._%E1%B8%A4asan_K%C4%81shif_al-Ghi%E1%B9%AD%C4%81%CA%BE",
+        "namespace": 0,
+        "exists": "1",
+        "displaytitle": ""
+      }
+    },
     "serializer": "SMW\\Serializers\\QueryResultSerializer",
     "version": 2,
     "meta": {
