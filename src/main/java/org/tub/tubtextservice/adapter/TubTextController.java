@@ -5,15 +5,15 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.tub.tubtextservice.domain.TubEntry;
-import org.tub.tubtextservice.usecase.tub.getdata.GetTubData;
+import org.tub.tubtextservice.adapter.semanticmediawiki.SemanticMediaWikiAdapter;
 
 @RestController
 @RequestMapping()
 public class TubTextController {
 
-  private final GetTubData getTubData;
+  private final SemanticMediaWikiAdapter getTubData;
 
-  public TubTextController(GetTubData getTubData) {
+  public TubTextController(SemanticMediaWikiAdapter getTubData) {
     this.getTubData = getTubData;
   }
 

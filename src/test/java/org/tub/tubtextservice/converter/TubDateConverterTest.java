@@ -9,7 +9,7 @@ import org.tub.tubtextservice.builder.EditionPrintoutsBuilder;
 import org.tub.tubtextservice.domain.year.editiondate.HijriDate;
 import org.tub.tubtextservice.domain.year.editiondate.ShamsiDate;
 import org.tub.tubtextservice.domain.year.persondate.HijriDeath;
-import org.tub.tubtextservice.usecase.tub.convert.TubDateConverter;
+import org.tub.tubtextservice.adapter.semanticmediawiki.convert.TubDateConverter;
 
 class TubDateConverterTest {
 

@@ -11,8 +11,8 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import org.tub.tubtextservice.builder.ManuscriptPrintoutsBuilder;
 import org.tub.tubtextservice.domain.Manuscript;
 import org.tub.tubtextservice.domain.year.editiondate.HijriDate;
-import org.tub.tubtextservice.usecase.tub.convert.ManuscriptConverter;
-import org.tub.tubtextservice.usecase.tub.convert.TubDateConverter;
+import org.tub.tubtextservice.adapter.semanticmediawiki.convert.ManuscriptConverter;
+import org.tub.tubtextservice.adapter.semanticmediawiki.convert.TubDateConverter;
 
 @ExtendWith(MockitoExtension.class)
 class ManuscriptConverterTest {

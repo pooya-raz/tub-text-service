@@ -12,8 +12,8 @@ import org.tub.tubtextservice.builder.EditionPrintoutsBuilder;
 import org.tub.tubtextservice.builder.MediaWikiPageDetailsBuilder;
 import org.tub.tubtextservice.domain.Edition;
 import org.tub.tubtextservice.domain.year.editiondate.HijriDate;
-import org.tub.tubtextservice.usecase.tub.convert.EditionConverter;
-import org.tub.tubtextservice.usecase.tub.convert.TubDateConverter;
+import org.tub.tubtextservice.adapter.semanticmediawiki.convert.EditionConverter;
+import org.tub.tubtextservice.adapter.semanticmediawiki.convert.TubDateConverter;
 
 @ExtendWith(MockitoExtension.class)
 class EditionConverterTest {

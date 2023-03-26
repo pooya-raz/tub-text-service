@@ -1,14 +1,14 @@
 package org.tub.tubtextservice.helper;
 
 import java.util.List;
-import org.tub.tubtextservice.usecase.tub.getdata.model.tubresponse.Data;
-import org.tub.tubtextservice.usecase.tub.getdata.model.tubresponse.MediaWikiPageDetails;
-import org.tub.tubtextservice.usecase.tub.getdata.model.tubresponse.Meta;
-import org.tub.tubtextservice.usecase.tub.getdata.model.tubresponse.PrintRequest;
-import org.tub.tubtextservice.usecase.tub.getdata.model.tubresponse.Query;
-import org.tub.tubtextservice.usecase.tub.getdata.model.tubresponse.Results;
-import org.tub.tubtextservice.usecase.tub.getdata.model.tubresponse.TubResponse;
-import org.tub.tubtextservice.usecase.tub.getdata.model.tubresponse.printouts.TitlePrintouts;
+import org.tub.tubtextservice.adapter.semanticmediawiki.model.response.Data;
+import org.tub.tubtextservice.adapter.semanticmediawiki.model.response.MediaWikiPageDetails;
+import org.tub.tubtextservice.adapter.semanticmediawiki.model.response.Meta;
+import org.tub.tubtextservice.adapter.semanticmediawiki.model.response.PrintRequest;
+import org.tub.tubtextservice.adapter.semanticmediawiki.model.response.Query;
+import org.tub.tubtextservice.adapter.semanticmediawiki.model.response.Results;
+import org.tub.tubtextservice.adapter.semanticmediawiki.model.response.TubResponse;
+import org.tub.tubtextservice.adapter.semanticmediawiki.model.response.printouts.TitlePrintouts;
 
 public final class TubResponseHelper {
   private TubResponseHelper() {
