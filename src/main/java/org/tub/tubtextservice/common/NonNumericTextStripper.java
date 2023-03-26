@@ -1,4 +1,4 @@
-package org.tub.tubtextservice.usecase.tub.utility;
+package org.tub.tubtextservice.common;
 
 import org.apache.commons.lang3.StringUtils;
 
