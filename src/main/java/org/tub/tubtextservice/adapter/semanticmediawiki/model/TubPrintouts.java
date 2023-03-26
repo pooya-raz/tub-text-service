@@ -1,7 +1,6 @@
-package org.tub.tubtextservice.adapter.semanticmediawiki;
+package org.tub.tubtextservice.adapter.semanticmediawiki.model;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.Map;
 import org.tub.tubtextservice.adapter.semanticmediawiki.model.response.Data;
 import org.tub.tubtextservice.adapter.semanticmediawiki.model.response.printouts.AuthorPrintouts;
@@ -29,23 +28,4 @@ public record TubPrintouts(
     Map<String, TitlePrintouts> titles,
     Map<String, AuthorPrintouts> authors,
     Map<String, ArrayList<ManuscriptPrintouts>> manuscripts,
-    Map<String, ArrayList<EditionPrintouts>> editions) {
-
-  public static Builder builder() {
-    return new Builder();
-  }
-
-  public static class Builder {
-    private Map<String, TitlePrintouts> titles;
-
-    public Builder titles(String key, TitlePrintouts title) {
-      this.titles = new HashMap<>();
-      this.titles.put(key, title);
-      return this;
-    }
-
-    public TubPrintouts build() {
-      return new TubPrintouts(titles, null, null, null);
-    }
-  }
-}
+    Map<String, ArrayList<EditionPrintouts>> editions) {}
