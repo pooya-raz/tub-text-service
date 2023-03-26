@@ -9,12 +9,11 @@ import org.tub.tubtextservice.usecase.tub.port.GetEntriesPort;
 @Service
 public class SemanticMediaWikiAdapter implements GetEntriesPort {
 
-  private final PrintoutsManager printoutsManager;
+  private final GetPrintouts getPrintouts;
     private final ConvertToEntry convertToEntry;
 
-  public SemanticMediaWikiAdapter(
-      PrintoutsManager printoutsManager, ConvertToEntry convertToEntry) {
-    this.printoutsManager = printoutsManager;
+  public SemanticMediaWikiAdapter(GetPrintouts getPrintouts, ConvertToEntry convertToEntry) {
+    this.getPrintouts = getPrintouts;
         this.convertToEntry = convertToEntry;
     }
 
@@ -25,7 +24,7 @@ public class SemanticMediaWikiAdapter implements GetEntriesPort {
      * @return A list of {@link TubEntry}
      */
     public List<TubEntry> getEntries() {
-    var printouts = printoutsManager.getPrintouts();
+    var printouts = getPrintouts.get();
         return convertToEntry.convert(printouts);
     }
 }

@@ -5,10 +5,12 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.UUID;
+import java.util.stream.Stream;
 import org.springframework.stereotype.Service;
 import org.tub.tubtextservice.adapter.semanticmediawiki.model.TubPrintouts;
 import org.tub.tubtextservice.adapter.semanticmediawiki.model.property.TubProperties;
 import org.tub.tubtextservice.adapter.semanticmediawiki.model.response.Data;
+import org.tub.tubtextservice.adapter.semanticmediawiki.model.response.TubResponse;
 import org.tub.tubtextservice.adapter.semanticmediawiki.model.response.printouts.AuthorPrintouts;
 import org.tub.tubtextservice.adapter.semanticmediawiki.model.response.printouts.EditionPrintouts;
 import org.tub.tubtextservice.adapter.semanticmediawiki.model.response.printouts.ManuscriptPrintouts;
@@ -18,14 +20,14 @@ import org.tub.tubtextservice.domain.TubEntry;
 
 /** The service responsible for retrieving data from the TUB API. */
 @Service
-class PrintoutsManager {
+class GetPrintouts {
 
-  private final DataFetcher dataFetcher;
   private final TubProperties properties;
+  private final SemanticMediaWikiClient client;
 
-  PrintoutsManager(DataFetcher dataFetcher, TubProperties properties) {
-    this.dataFetcher = dataFetcher;
+  GetPrintouts(TubProperties properties, SemanticMediaWikiClient client) {
     this.properties = properties;
+    this.client = client;
   }
 
   /**
@@ -35,7 +37,8 @@ class PrintoutsManager {
    *
    * @return {@link Printouts} from the TUB API as maps with the {@link Data#fulltext()} as the key.
    */
-  TubPrintouts getPrintouts() {
+  TubPrintouts get() {
+    final var dataFetcher = new DataFetcher();
     final var titlePrintouts = dataFetcher.getAllData(properties.query().titles());
     final var authorPrintouts = dataFetcher.getAllData(properties.query().authors());
     final var manuscriptPrintouts = dataFetcher.getAllData(properties.query().manuscripts());
@@ -141,4 +144,51 @@ class PrintoutsManager {
       }
     }
   }
+
+  private class DataFetcher {
+
+    /** The stop value is used to stop the retrieval of data from the TUB API. */
+    private static final int STOP = 0;
+
+    /**
+     * The offset is used to retrieve the data in batches. The offset is the number of items to skip.
+     */
+    private int offset = STOP;
+
+    /**
+     * Concatenates the data from the TUB API that is returned in multiple requests.
+     *
+     * @param query the query as defined by Semantic MediaWiki.
+     * @return the concatenated {@link Data} from the TUB API.
+     */
+    List<Data> getAllData(final String query) {
+      var list = fetchData(query);
+      while (offset != STOP) {
+        list =
+            Stream.of(list, fetchData(query + "|offset=" + offset)).flatMap(List::stream).toList();
+      }
+      return list;
+    }
+
+    /**
+     * Fetches the data from TUB API. The data is batched based on the value of the {@link
+     * DataFetcher#offset}. The offset is initially set to 0 and is only updated if the response
+     * contains a value for {@link TubResponse#queryContinueOffset()}.
+     *
+     * @param query the query as defined by Semantic MediaWiki.
+     * @return the {@link Data} from the TUB API.
+     */
+    private List<Data> fetchData(final String query) {
+
+      if (query == null) return List.of();
+      final var result = client.queryTub("ask", "json", query);
+      if (result.queryContinueOffset() != null) {
+        offset = result.queryContinueOffset();
+        return result.query().results().getDataMap().values().stream().toList();
+      } else {
+        offset = STOP;
+        return List.of();
+      }
+    }
+        }
 }
