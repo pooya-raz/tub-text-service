@@ -60,6 +60,48 @@
         "namespace": 0,
         "exists": "1",
         "displaytitle": ""
+      },
+      "Title Transliterated Shamsi": {
+        "printouts": {
+          "Category": [
+            {
+              "fulltext": "Category:Manuscript-only title",
+              "fullurl": "http://10.164.39.147:8080/tub/index.php/Category:Manuscript-only_title",
+              "namespace": 14,
+              "exists": "1",
+              "displaytitle": ""
+            }
+          ],
+          "Book type": [
+            "Treatise (risāla)"
+          ],
+          "Has number of commentaries": [
+            "0"
+          ],
+          "Title (Arabic)": [
+            "Title Arabic"
+          ],
+          "Title (transliterated)": [
+            "Title Transliterated Shamsi"
+          ],
+          "Has author(s)": [
+            {
+              "fulltext": "AuthorShamsi",
+              "fullurl": "http://10.164.39.147:8080/tub/index.php/Mu%E1%B8%A5ammad_b._Faraj_al-%E1%B8%A4imyar%C4%AB_al-Najaf%C4%AB",
+              "namespace": 0,
+              "exists": "1",
+              "displaytitle": ""
+            }
+          ],
+          "Has translator(s)": [],
+          "Has a catalogue description": [],
+          "Has base text": []
+        },
+        "fulltext": "Title Transliterated Shamsi",
+        "fullurl": "http://10.164.39.147:8080/tub/index.php/Abw%C4%81b_al-jin%C4%81n_al-mushtamil_%CA%BFal%C4%81_ras%C4%81%CA%BEil_tham%C4%81n",
+        "namespace": 0,
+        "exists": "1",
+        "displaytitle": ""
       }
     },
     "serializer": "SMW\\Serializers\\QueryResultSerializer",

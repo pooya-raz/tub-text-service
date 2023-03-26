@@ -15,6 +15,7 @@ import static org.tub.tubtextservice.common.WireMockTestConstants.SEMANTIC_SEARC
 import com.github.tomakehurst.wiremock.junit5.WireMockRuntimeInfo;
 import com.github.tomakehurst.wiremock.junit5.WireMockTest;
 import java.io.IOException;
+import java.util.List;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -22,9 +23,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.DynamicPropertyRegistry;
 import org.springframework.test.context.DynamicPropertySource;
-import org.tub.tubtextservice.domain.TubEntry;
-import org.tub.tubtextservice.common.helper.EntryHelper;
 import org.tub.tubtextservice.adapter.semanticmediawiki.SemanticMediaWikiAdapter;
+import org.tub.tubtextservice.common.helper.EntryHelper;
+import org.tub.tubtextservice.domain.TubEntry;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @WireMockTest
@@ -47,7 +48,7 @@ public class SemanticMediaWikiAdapterTest {
   public static final String SUCCESS = "Success";
   public static final String RETRY_1 = "Retry 1";
 
-  public static final TubEntry TUB_ENTRY = EntryHelper.createEntry();
+  public static final List<TubEntry> TUB_ENTRY = EntryHelper.createEntries();
   public static int PORT;
   @Autowired private SemanticMediaWikiAdapter subject;
 
@@ -74,7 +75,7 @@ public class SemanticMediaWikiAdapterTest {
     stubForTUB(MANUSCRIPTS, MANUSCRIPTS_JSON);
 
     final var actual = subject.getEntries();
-    assertThat(actual).containsExactly(TUB_ENTRY);
+    assertThat(actual).hasSameElementsAs(TUB_ENTRY);
   }
 
   @Test
@@ -86,7 +87,7 @@ public class SemanticMediaWikiAdapterTest {
     stubForTUB(MANUSCRIPTS, MANUSCRIPTS_JSON);
 
     final var actual = subject.getEntries();
-    assertThat(actual).containsExactly(TUB_ENTRY);
+    assertThat(actual).hasSameElementsAs(TUB_ENTRY);
   }
 
   private void stubForTUB(String query, String path) throws IOException {
