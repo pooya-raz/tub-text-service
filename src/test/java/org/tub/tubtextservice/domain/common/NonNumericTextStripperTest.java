@@ -12,14 +12,14 @@ class NonNumericTextStripperTest {
 
   @Test
   @DisplayName("Remove leading text")
-  void stripNonNumericTextShouldRemoveLeadingText() {
+  void test1() {
     final var actual = stripNonNumericText("xxxx" + EXEPECTED);
     assertThat(actual).isEqualTo(EXEPECTED);
   }
 
   @Test
   @DisplayName("Don't remove text after digits")
-  void stripNonNumericTextShouldNotRemoveTextAfterFirstDigit() {
+  void test2() {
     final var expected = EXEPECTED + "xxxx";
     final var actual = stripNonNumericText(expected);
     assertThat(actual).isEqualTo(expected);
@@ -27,14 +27,14 @@ class NonNumericTextStripperTest {
 
   @Test
   @DisplayName("Don't remove text if no non-numeric chars")
-  void stripNonNumericTextShouldNotRemoveTextIfNoNonNumericChars() {
+  void test3() {
     final var actual = stripNonNumericText(EXEPECTED);
     assertThat(actual).isEqualTo(EXEPECTED);
   }
 
   @Test
   @DisplayName("If no digits should return text")
-  void stripNonNumericTextShouldReturnText(){
+  void test4(){
     final var actual = stripNonNumericText("n.d.");
     assertThat(actual).isEqualTo("n.d.");
   }
