@@ -1,17 +1,23 @@
 package org.tub.tubtextservice.model.domain;
 
 public enum TitleType {
-  MONOGRAPH,
-  COMMENTARY,
-  GLOSS,
-  MARGINNOTES,
-  TREATISE,
-  SUMMARY,
-  POEM,
-  REFUTATION,
-  TAQRIRAT,
-  TRANSLATION,
-  UNKNOWN;
+  MONOGRAPH("Monograph"),
+  COMMENTARY("Commentary (sharḥ)"),
+  GLOSS("Gloss (ḥāshīyah)"),
+  MARGINNOTES("Marginal notes (taʿlīqa)"),
+  TREATISE("Treatise (risāla)"),
+  SUMMARY("Summary (khulāṣa/mukhtaṣar)"),
+  POEM("Poem (manẓūma)"),
+  REFUTATION("Refutation (radd)"),
+  TAQRIRAT("Taqrīrāt"),
+  TRANSLATION("Translation"),
+  UNKNOWN("Unknown");
+
+  private final String titleType;
+
+    TitleType(String titleType) {
+     this.titleType = titleType;
+    }
 
   public static TitleType valueOfTub(String name) {
     return switch (name) {
@@ -28,4 +34,8 @@ public enum TitleType {
       default -> UNKNOWN;
     };
   }
+
+    public String getTitleType() {
+        return titleType;
+    }
 }
