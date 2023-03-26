@@ -1,8 +1,11 @@
 package org.tub.tubtextservice.model.domain;
 
-import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.Test;
+import org.tub.tubtextservice.domain.StatusOfPublication;
+import org.tub.tubtextservice.domain.Title;
+import org.tub.tubtextservice.domain.TitleType;
 
 class TitleTest {
 
