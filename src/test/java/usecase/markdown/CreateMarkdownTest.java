@@ -21,7 +21,7 @@ import org.tub.tubtextservice.usecase.markdown.CreateMarkdown;
 class CreateMarkdownTest {
 
   private static String layout;
-  CreateMarkdown markdownService;
+  private CreateMarkdown markdownService;
 
   @BeforeEach
   void setUp() throws IOException {
@@ -42,10 +42,10 @@ class CreateMarkdownTest {
             List.of(),
             TitleType.MONOGRAPH);
     final var actual = markdownService.create(List.of(monograph));
-    assertThat(true).isTrue();
+    assertThat(actual).isEqualTo(expected);
   }
 
-  private String finalMarkdown() throws IOException {
+  private String finalMarkdown() {
     return layout.formatted(
         "Title",
         "Title Arabic",
