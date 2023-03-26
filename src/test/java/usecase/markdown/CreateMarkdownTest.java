@@ -41,7 +41,7 @@ class CreateMarkdownTest {
             List.of(),
             List.of(),
             TitleType.MONOGRAPH);
-    final var actual = markdownService.createText(List.of(monograph));
+    final var actual = markdownService.create(List.of(monograph));
     assertThat(true).isTrue();
   }
 

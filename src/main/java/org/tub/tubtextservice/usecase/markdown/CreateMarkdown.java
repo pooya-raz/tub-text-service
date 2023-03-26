@@ -9,13 +9,13 @@ import org.tub.tubtextservice.domain.TubEntry;
  */
 public class CreateMarkdown {
 
-    /**
-     * Creates a Pandoc flavoured Markdown text.
-     *
-     * @param entries A list of {@link TubEntry} to include in the body of text.
-     * @return Markdown text.
-     */
-  public String createText(List<TubEntry> entries) {
+  /**
+   * Creates a Pandoc flavoured Markdown text.
+   *
+   * @param entries A list of {@link TubEntry} to include in the body of text.
+   * @return Markdown text.
+   */
+  public String create(List<TubEntry> entries) {
 
     final var body = new StringBuilder();
     for (var titleType : TitleType.values()) {
