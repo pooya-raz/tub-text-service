@@ -8,12 +8,12 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
+import org.tub.tubtextservice.adapter.semantic.converter.EditionConverter;
+import org.tub.tubtextservice.adapter.semantic.converter.TubDateConverter;
 import org.tub.tubtextservice.builder.EditionPrintoutsBuilder;
 import org.tub.tubtextservice.builder.MediaWikiPageDetailsBuilder;
 import org.tub.tubtextservice.domain.model.tubentry.Edition;
 import org.tub.tubtextservice.domain.model.tubentry.year.editiondate.HijriDate;
-import org.tub.tubtextservice.domain.tubdata.converter.EditionConverter;
-import org.tub.tubtextservice.domain.tubdata.converter.TubDateConverter;
 
 @ExtendWith(MockitoExtension.class)
 class EditionConverterTest {

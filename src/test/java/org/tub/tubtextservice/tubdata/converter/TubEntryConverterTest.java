@@ -13,26 +13,26 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
+import org.tub.tubtextservice.adapter.semantic.converter.EditionConverter;
+import org.tub.tubtextservice.adapter.semantic.converter.EntryConverter;
+import org.tub.tubtextservice.adapter.semantic.converter.ManuscriptConverter;
+import org.tub.tubtextservice.adapter.semantic.converter.TubDateConverter;
+import org.tub.tubtextservice.adapter.semantic.model.TubPrintouts;
+import org.tub.tubtextservice.adapter.semantic.model.tubresponse.printouts.AuthorPrintouts;
+import org.tub.tubtextservice.adapter.semantic.model.tubresponse.printouts.EditionPrintouts;
+import org.tub.tubtextservice.adapter.semantic.model.tubresponse.printouts.ManuscriptPrintouts;
+import org.tub.tubtextservice.adapter.semantic.model.tubresponse.printouts.TitlePrintouts;
 import org.tub.tubtextservice.builder.AuthorPrintoutsBuilder;
 import org.tub.tubtextservice.builder.EditionPrintoutsBuilder;
 import org.tub.tubtextservice.builder.ManuscriptPrintoutsBuilder;
 import org.tub.tubtextservice.builder.TitlePrintoutsBuilder;
 import org.tub.tubtextservice.domain.model.tubentry.Edition;
-import org.tub.tubtextservice.domain.model.tubentry.TubEntry;
 import org.tub.tubtextservice.domain.model.tubentry.Manuscript;
 import org.tub.tubtextservice.domain.model.tubentry.TitleType;
+import org.tub.tubtextservice.domain.model.tubentry.TubEntry;
 import org.tub.tubtextservice.domain.model.tubentry.person.Author;
 import org.tub.tubtextservice.domain.model.tubentry.year.editiondate.HijriDate;
 import org.tub.tubtextservice.domain.model.tubentry.year.persondate.HijriDeath;
-import org.tub.tubtextservice.domain.tubdata.converter.EditionConverter;
-import org.tub.tubtextservice.domain.tubdata.converter.EntryConverter;
-import org.tub.tubtextservice.domain.tubdata.converter.ManuscriptConverter;
-import org.tub.tubtextservice.domain.tubdata.converter.TubDateConverter;
-import org.tub.tubtextservice.domain.tubdata.model.TubPrintouts;
-import org.tub.tubtextservice.domain.tubdata.model.tubresponse.printouts.AuthorPrintouts;
-import org.tub.tubtextservice.domain.tubdata.model.tubresponse.printouts.EditionPrintouts;
-import org.tub.tubtextservice.domain.tubdata.model.tubresponse.printouts.ManuscriptPrintouts;
-import org.tub.tubtextservice.domain.tubdata.model.tubresponse.printouts.TitlePrintouts;
 
 @ExtendWith(MockitoExtension.class)
 class TubEntryConverterTest {

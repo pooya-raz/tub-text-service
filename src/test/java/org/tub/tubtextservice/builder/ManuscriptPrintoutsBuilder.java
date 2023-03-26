@@ -1,10 +1,9 @@
 package org.tub.tubtextservice.builder;
 
-import org.tub.tubtextservice.domain.tubdata.model.tubresponse.MediaWikiPageDetails;
-import org.tub.tubtextservice.domain.tubdata.model.tubresponse.printouts.ManuscriptPrintouts;
-
 import java.util.ArrayList;
 import java.util.List;
+import org.tub.tubtextservice.adapter.semantic.model.tubresponse.MediaWikiPageDetails;
+import org.tub.tubtextservice.adapter.semantic.model.tubresponse.printouts.ManuscriptPrintouts;
 
 public class ManuscriptPrintoutsBuilder {
 

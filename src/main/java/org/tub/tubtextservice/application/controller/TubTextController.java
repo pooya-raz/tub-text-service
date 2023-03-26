@@ -4,21 +4,21 @@ import java.util.List;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.tub.tubtextservice.adapter.semantic.TubSemanticMediaWikiAdapter;
 import org.tub.tubtextservice.domain.model.tubentry.TubEntry;
-import org.tub.tubtextservice.domain.tubdata.TubDataService;
 
 @RestController
 @RequestMapping()
 public class TubTextController {
 
-  private final TubDataService tubDataService;
+  private final TubSemanticMediaWikiAdapter tubSemanticMediaWikiAdapter;
 
-  public TubTextController(TubDataService tubDataService) {
-    this.tubDataService = tubDataService;
+  public TubTextController(TubSemanticMediaWikiAdapter tubSemanticMediaWikiAdapter) {
+    this.tubSemanticMediaWikiAdapter = tubSemanticMediaWikiAdapter;
   }
 
   @GetMapping("/entry")
   public List<TubEntry> getEntry() {
-    return tubDataService.getEntries();
+    return tubSemanticMediaWikiAdapter.getEntries();
     }
 }

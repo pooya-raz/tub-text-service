@@ -3,8 +3,8 @@ package org.tub.tubtextservice.converter;
 import static org.assertj.core.api.Assertions.assertThat;
 
 import org.junit.jupiter.api.Test;
-import org.tub.tubtextservice.domain.tubdata.converter.MediaWikiDateConverter;
-import org.tub.tubtextservice.domain.tubdata.model.tubresponse.MediaWikiDate;
+import org.tub.tubtextservice.adapter.semantic.converter.MediaWikiDateConverter;
+import org.tub.tubtextservice.adapter.semantic.model.tubresponse.MediaWikiDate;
 
 class MediaWikiDateConverterTest {
   @Test

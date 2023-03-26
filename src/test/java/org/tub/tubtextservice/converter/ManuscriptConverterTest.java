@@ -8,11 +8,11 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
+import org.tub.tubtextservice.adapter.semantic.converter.ManuscriptConverter;
+import org.tub.tubtextservice.adapter.semantic.converter.TubDateConverter;
 import org.tub.tubtextservice.builder.ManuscriptPrintoutsBuilder;
 import org.tub.tubtextservice.domain.model.tubentry.Manuscript;
 import org.tub.tubtextservice.domain.model.tubentry.year.editiondate.HijriDate;
-import org.tub.tubtextservice.domain.tubdata.converter.ManuscriptConverter;
-import org.tub.tubtextservice.domain.tubdata.converter.TubDateConverter;
 
 @ExtendWith(MockitoExtension.class)
 class ManuscriptConverterTest {
