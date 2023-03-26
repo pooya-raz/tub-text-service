@@ -1,7 +1,7 @@
 package org.tub.tubtextservice.builder;
 
-import org.tub.tubtextservice.service.tubdata.model.tubresponse.MediaWikiDate;
-import org.tub.tubtextservice.service.tubdata.model.tubresponse.printouts.AuthorPrintouts;
+import org.tub.tubtextservice.domain.tubdata.model.tubresponse.MediaWikiDate;
+import org.tub.tubtextservice.domain.tubdata.model.tubresponse.printouts.AuthorPrintouts;
 
 import java.util.ArrayList;
 import java.util.List;

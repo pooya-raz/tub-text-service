@@ -1,11 +1,11 @@
 package org.tub.tubtextservice.formatter;
 
-import org.junit.jupiter.api.Test;
-import org.tub.tubtextservice.model.domain.year.persondate.HijriDeath;
-import org.tub.tubtextservice.model.domain.year.persondate.ShamsiDeath;
-import org.tub.tubtextservice.service.markdown.formatter.DateFormatter;
-
 import static org.assertj.core.api.Assertions.assertThat;
+
+import org.junit.jupiter.api.Test;
+import org.tub.tubtextservice.domain.markdown.formatter.DateFormatter;
+import org.tub.tubtextservice.domain.model.tubentry.year.persondate.HijriDeath;
+import org.tub.tubtextservice.domain.model.tubentry.year.persondate.ShamsiDeath;
 
 class DateFormatterTest {
 

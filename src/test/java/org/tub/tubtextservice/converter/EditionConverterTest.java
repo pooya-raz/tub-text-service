@@ -1,5 +1,8 @@
 package org.tub.tubtextservice.converter;
 
+import static org.assertj.core.api.Assertions.assertThat;
+import static org.mockito.Mockito.when;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -7,13 +10,10 @@ import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.tub.tubtextservice.builder.EditionPrintoutsBuilder;
 import org.tub.tubtextservice.builder.MediaWikiPageDetailsBuilder;
-import org.tub.tubtextservice.model.domain.Edition;
-import org.tub.tubtextservice.model.domain.year.editiondate.HijriDate;
-import org.tub.tubtextservice.service.tubdata.converter.EditionConverter;
-import org.tub.tubtextservice.service.tubdata.converter.TubDateConverter;
-
-import static org.assertj.core.api.Assertions.assertThat;
-import static org.mockito.Mockito.when;
+import org.tub.tubtextservice.domain.model.tubentry.Edition;
+import org.tub.tubtextservice.domain.model.tubentry.year.editiondate.HijriDate;
+import org.tub.tubtextservice.domain.tubdata.converter.EditionConverter;
+import org.tub.tubtextservice.domain.tubdata.converter.TubDateConverter;
 
 @ExtendWith(MockitoExtension.class)
 class EditionConverterTest {

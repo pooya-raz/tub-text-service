@@ -1,9 +1,9 @@
 package org.tub.tubtextservice.model.domain.persondate;
 
-import org.junit.jupiter.api.Test;
-import org.tub.tubtextservice.model.domain.year.persondate.ShamsiDeath;
-
 import static org.assertj.core.api.Assertions.assertThat;
+
+import org.junit.jupiter.api.Test;
+import org.tub.tubtextservice.domain.model.tubentry.year.persondate.ShamsiDeath;
 
 class ShamsiDeathTest {
 

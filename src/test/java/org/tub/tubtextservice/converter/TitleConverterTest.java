@@ -1,15 +1,15 @@
 package org.tub.tubtextservice.converter;
 
+import static org.assertj.core.api.Assertions.assertThat;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.tub.tubtextservice.builder.TitlePrintoutsBuilder;
-import org.tub.tubtextservice.model.domain.StatusOfPublication;
-import org.tub.tubtextservice.model.domain.Title;
-import org.tub.tubtextservice.model.domain.TitleType;
-import org.tub.tubtextservice.service.tubdata.converter.TitleConverter;
-import org.tub.tubtextservice.service.tubdata.model.tubresponse.printouts.TitlePrintouts;
-
-import static org.assertj.core.api.Assertions.assertThat;
+import org.tub.tubtextservice.domain.model.tubentry.StatusOfPublication;
+import org.tub.tubtextservice.domain.model.tubentry.Title;
+import org.tub.tubtextservice.domain.model.tubentry.TitleType;
+import org.tub.tubtextservice.domain.tubdata.converter.TitleConverter;
+import org.tub.tubtextservice.domain.tubdata.model.tubresponse.printouts.TitlePrintouts;
 
 class TitleConverterTest {
   private TitleConverter titleConverter;

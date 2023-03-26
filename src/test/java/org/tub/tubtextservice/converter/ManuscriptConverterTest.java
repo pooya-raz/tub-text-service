@@ -1,18 +1,18 @@
 package org.tub.tubtextservice.converter;
 
+import static org.assertj.core.api.Assertions.assertThat;
+import static org.mockito.Mockito.when;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.tub.tubtextservice.builder.ManuscriptPrintoutsBuilder;
-import org.tub.tubtextservice.model.domain.Manuscript;
-import org.tub.tubtextservice.model.domain.year.editiondate.HijriDate;
-import org.tub.tubtextservice.service.tubdata.converter.ManuscriptConverter;
-import org.tub.tubtextservice.service.tubdata.converter.TubDateConverter;
-
-import static org.assertj.core.api.Assertions.assertThat;
-import static org.mockito.Mockito.when;
+import org.tub.tubtextservice.domain.model.tubentry.Manuscript;
+import org.tub.tubtextservice.domain.model.tubentry.year.editiondate.HijriDate;
+import org.tub.tubtextservice.domain.tubdata.converter.ManuscriptConverter;
+import org.tub.tubtextservice.domain.tubdata.converter.TubDateConverter;
 
 @ExtendWith(MockitoExtension.class)
 class ManuscriptConverterTest {
