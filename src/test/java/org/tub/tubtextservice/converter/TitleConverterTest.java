@@ -4,12 +4,12 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.tub.tubtextservice.adapter.semantic.converter.TitleConverter;
-import org.tub.tubtextservice.adapter.semantic.model.tubresponse.printouts.TitlePrintouts;
 import org.tub.tubtextservice.builder.TitlePrintoutsBuilder;
-import org.tub.tubtextservice.domain.model.tubentry.StatusOfPublication;
-import org.tub.tubtextservice.domain.model.tubentry.Title;
-import org.tub.tubtextservice.domain.model.tubentry.TitleType;
+import org.tub.tubtextservice.domain.StatusOfPublication;
+import org.tub.tubtextservice.domain.Title;
+import org.tub.tubtextservice.domain.TitleType;
+import org.tub.tubtextservice.usecase.tub.convert.TitleConverter;
+import org.tub.tubtextservice.usecase.tub.getdata.model.tubresponse.printouts.TitlePrintouts;
 
 class TitleConverterTest {
   private TitleConverter titleConverter;

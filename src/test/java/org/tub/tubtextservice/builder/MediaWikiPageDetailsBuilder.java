@@ -1,6 +1,6 @@
 package org.tub.tubtextservice.builder;
 
-import org.tub.tubtextservice.adapter.semantic.model.tubresponse.MediaWikiPageDetails;
+import org.tub.tubtextservice.usecase.tub.getdata.model.tubresponse.MediaWikiPageDetails;
 
 public class MediaWikiPageDetailsBuilder {
   String fulltext;

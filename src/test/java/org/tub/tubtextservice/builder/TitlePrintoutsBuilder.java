@@ -2,8 +2,8 @@ package org.tub.tubtextservice.builder;
 
 import java.util.ArrayList;
 import java.util.List;
-import org.tub.tubtextservice.adapter.semantic.model.tubresponse.MediaWikiPageDetails;
-import org.tub.tubtextservice.adapter.semantic.model.tubresponse.printouts.TitlePrintouts;
+import org.tub.tubtextservice.usecase.tub.getdata.model.tubresponse.MediaWikiPageDetails;
+import org.tub.tubtextservice.usecase.tub.getdata.model.tubresponse.printouts.TitlePrintouts;
 
 public class TitlePrintoutsBuilder {
 

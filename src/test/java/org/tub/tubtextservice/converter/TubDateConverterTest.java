@@ -4,12 +4,12 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.tub.tubtextservice.adapter.semantic.converter.TubDateConverter;
 import org.tub.tubtextservice.builder.AuthorPrintoutsBuilder;
 import org.tub.tubtextservice.builder.EditionPrintoutsBuilder;
-import org.tub.tubtextservice.domain.model.tubentry.year.editiondate.HijriDate;
-import org.tub.tubtextservice.domain.model.tubentry.year.editiondate.ShamsiDate;
-import org.tub.tubtextservice.domain.model.tubentry.year.persondate.HijriDeath;
+import org.tub.tubtextservice.domain.year.editiondate.HijriDate;
+import org.tub.tubtextservice.domain.year.editiondate.ShamsiDate;
+import org.tub.tubtextservice.domain.year.persondate.HijriDeath;
+import org.tub.tubtextservice.usecase.tub.convert.TubDateConverter;
 
 class TubDateConverterTest {
 

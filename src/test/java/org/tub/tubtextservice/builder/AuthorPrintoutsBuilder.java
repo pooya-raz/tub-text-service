@@ -2,8 +2,8 @@ package org.tub.tubtextservice.builder;
 
 import java.util.ArrayList;
 import java.util.List;
-import org.tub.tubtextservice.adapter.semantic.model.tubresponse.MediaWikiDate;
-import org.tub.tubtextservice.adapter.semantic.model.tubresponse.printouts.AuthorPrintouts;
+import org.tub.tubtextservice.usecase.tub.getdata.model.tubresponse.MediaWikiDate;
+import org.tub.tubtextservice.usecase.tub.getdata.model.tubresponse.printouts.AuthorPrintouts;
 
 public class AuthorPrintoutsBuilder {
 

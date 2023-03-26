@@ -3,7 +3,7 @@ package org.tub.tubtextservice.model.domain.persondate;
 import static org.assertj.core.api.Assertions.assertThat;
 
 import org.junit.jupiter.api.Test;
-import org.tub.tubtextservice.domain.model.tubentry.year.persondate.HijriDeath;
+import org.tub.tubtextservice.domain.year.persondate.HijriDeath;
 
 class HijriDeathTest {
   public static final String YEAR_687 = "687";

@@ -21,13 +21,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.DynamicPropertyRegistry;
 import org.springframework.test.context.DynamicPropertySource;
-import org.tub.tubtextservice.adapter.semantic.client.TubClient;
-import org.tub.tubtextservice.adapter.semantic.model.tubresponse.MediaWikiDate;
-import org.tub.tubtextservice.adapter.semantic.model.tubresponse.MediaWikiPageDetails;
-import org.tub.tubtextservice.adapter.semantic.model.tubresponse.printouts.AuthorPrintouts;
-import org.tub.tubtextservice.adapter.semantic.model.tubresponse.printouts.EditionPrintouts;
-import org.tub.tubtextservice.adapter.semantic.model.tubresponse.printouts.ManuscriptPrintouts;
+import org.tub.tubtextservice.adapter.client.TubClient;
 import org.tub.tubtextservice.helper.TubResponseHelper;
+import org.tub.tubtextservice.usecase.tub.getdata.model.tubresponse.MediaWikiDate;
+import org.tub.tubtextservice.usecase.tub.getdata.model.tubresponse.MediaWikiPageDetails;
+import org.tub.tubtextservice.usecase.tub.getdata.model.tubresponse.printouts.AuthorPrintouts;
+import org.tub.tubtextservice.usecase.tub.getdata.model.tubresponse.printouts.EditionPrintouts;
+import org.tub.tubtextservice.usecase.tub.getdata.model.tubresponse.printouts.ManuscriptPrintouts;
 
 @SpringBootTest
 @WireMockTest
