@@ -1,4 +1,4 @@
-package org.tub.tubtextservice.service.markdown;
+package usecase.markdown;
 
 import static java.nio.file.Files.readString;
 import static java.nio.file.Path.of;

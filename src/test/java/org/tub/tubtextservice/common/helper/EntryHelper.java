@@ -1,10 +1,10 @@
-package org.tub.tubtextservice.helper;
+package org.tub.tubtextservice.common.helper;
 
 import java.util.List;
 import org.tub.tubtextservice.domain.Edition;
-import org.tub.tubtextservice.domain.TubEntry;
 import org.tub.tubtextservice.domain.Manuscript;
 import org.tub.tubtextservice.domain.TitleType;
+import org.tub.tubtextservice.domain.TubEntry;
 import org.tub.tubtextservice.domain.person.Author;
 import org.tub.tubtextservice.domain.year.editiondate.HijriDate;
 import org.tub.tubtextservice.domain.year.editiondate.ShamsiDate;

@@ -1,4 +1,4 @@
-package org.tub.tubtextservice.formatter;
+package org.tub.tubtextservice.common.formatter;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

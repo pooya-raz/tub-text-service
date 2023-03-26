@@ -1,4 +1,4 @@
-package org.tub.tubtextservice.tubdata;
+package org.tub.tubtextservice.adapter;
 
 import static com.github.tomakehurst.wiremock.client.WireMock.equalTo;
 import static com.github.tomakehurst.wiremock.client.WireMock.get;
@@ -10,7 +10,7 @@ import static com.github.tomakehurst.wiremock.stubbing.Scenario.STARTED;
 import static java.nio.file.Files.readString;
 import static java.nio.file.Path.of;
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.tub.tubtextservice.WireMockTestConstants.SEMANTIC_SEARCH_PARAMS;
+import static org.tub.tubtextservice.common.WireMockTestConstants.SEMANTIC_SEARCH_PARAMS;
 
 import com.github.tomakehurst.wiremock.junit5.WireMockRuntimeInfo;
 import com.github.tomakehurst.wiremock.junit5.WireMockTest;
@@ -23,12 +23,12 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.DynamicPropertyRegistry;
 import org.springframework.test.context.DynamicPropertySource;
 import org.tub.tubtextservice.domain.TubEntry;
-import org.tub.tubtextservice.helper.EntryHelper;
+import org.tub.tubtextservice.common.helper.EntryHelper;
 import org.tub.tubtextservice.adapter.semanticmediawiki.SemanticMediaWikiAdapter;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @WireMockTest
-public class GetTubDataIntegrationTest {
+public class SemanticMediaWikiAdapterTest {
 
   public static final String TITLES = "titles";
   public static final String AUTHORS = "authors";

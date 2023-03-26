@@ -1,4 +1,4 @@
-package org.tub.tubtextservice;
+package org.tub.tubtextservice.common;
 
 import static com.github.tomakehurst.wiremock.client.WireMock.equalTo;
 

@@ -1,4 +1,4 @@
-package org.tub.tubtextservice.utility;
+package org.tub.tubtextservice.common.utility;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.tub.tubtextservice.usecase.tub.utility.NonNumericTextStripper.stripNonNumericText;
