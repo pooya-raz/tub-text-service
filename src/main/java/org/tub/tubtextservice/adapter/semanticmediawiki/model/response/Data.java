@@ -45,27 +45,4 @@ public record Data(
       throw new IllegalArgumentException("fulltext must not be null");
     }
   }
-
-  public static Builder builder() {
-    return new Builder();
-  }
-
-  public static final class Builder {
-    Printouts printouts;
-    String fulltext;
-
-    public Builder printouts(Printouts printouts) {
-      this.printouts = printouts;
-      return this;
-    }
-
-    public Builder fulltext(String fulltext) {
-      this.fulltext = fulltext;
-      return this;
-    }
-
-    public Data build() {
-      return new Data(printouts, fulltext, null, null, null, null);
-    }
-  }
 }

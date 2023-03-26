@@ -8,13 +8,13 @@ class TitleTest {
 
   @Test
   void shouldHaveDefaultCategory() {
-    Title title = Title.builder().build();
+    final var title = new Title(null, null, null, null, null, null, null);
     assertEquals(StatusOfPublication.UNKNOWN, title.statusOfPublication());
   }
 
   @Test
   void shouldHaveDefaultTitleType() {
-    Title title = Title.builder().build();
+    final var title = new Title(null, null, null, null, null, null, null);
     assertEquals(TitleType.UNKNOWN, title.titleType());
   }
 }

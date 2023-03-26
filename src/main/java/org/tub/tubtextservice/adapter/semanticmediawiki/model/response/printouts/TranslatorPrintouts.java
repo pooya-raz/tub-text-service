@@ -4,7 +4,6 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.List;
 import org.tub.tubtextservice.adapter.semanticmediawiki.model.response.MediaWikiDate;
 
-@SuppressWarnings({"findbugs:EI_EXPOSE_REP", "findbugs:EI_EXPOSE_REP2"})
 public record TranslatorPrintouts(
     @JsonProperty("Full name (transliterated)") List<String> fullNameTransliterated,
     @JsonProperty("Death (Hijri)") List<Integer> deathHijri,
