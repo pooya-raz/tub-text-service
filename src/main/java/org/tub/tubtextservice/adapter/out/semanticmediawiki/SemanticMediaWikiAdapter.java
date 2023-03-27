@@ -9,12 +9,12 @@ import org.tub.tubtextservice.domain.TubEntry;
 @Service
 public class SemanticMediaWikiAdapter implements GetEntriesPort {
 
-  private final GetPrintouts getPrintouts;
-    private final ConvertToEntry convertToEntry;
+  private final TubDataFetcher tubDataFetcher;
+  private final EntryConverter entryConverter;
 
-  public SemanticMediaWikiAdapter(GetPrintouts getPrintouts, ConvertToEntry convertToEntry) {
-    this.getPrintouts = getPrintouts;
-        this.convertToEntry = convertToEntry;
+  public SemanticMediaWikiAdapter(TubDataFetcher tubDataFetcher, EntryConverter entryConverter) {
+    this.tubDataFetcher = tubDataFetcher;
+    this.entryConverter = entryConverter;
     }
 
     /**
@@ -24,8 +24,8 @@ public class SemanticMediaWikiAdapter implements GetEntriesPort {
      * @return A list of {@link TubEntry}
      */
     public EntriesDto getEntries() {
-    var printouts = getPrintouts.get();
-    final var entries = convertToEntry.convert(printouts);
+    var printouts = tubDataFetcher.get();
+    final var entries = entryConverter.convert(printouts);
     return new EntriesDto(entries);
     }
 }

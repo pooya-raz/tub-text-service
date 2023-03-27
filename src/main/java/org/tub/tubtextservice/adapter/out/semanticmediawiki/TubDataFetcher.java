@@ -20,12 +20,12 @@ import org.tub.tubtextservice.domain.TubEntry;
 
 /** The service responsible for retrieving data from the TUB API. */
 @Service
-class GetPrintouts {
+class TubDataFetcher {
 
   private final TubProperties properties;
   private final SemanticMediaWikiClient client;
 
-  GetPrintouts(TubProperties properties, SemanticMediaWikiClient client) {
+  TubDataFetcher(TubProperties properties, SemanticMediaWikiClient client) {
     this.properties = properties;
     this.client = client;
   }

@@ -30,10 +30,10 @@ import org.tub.tubtextservice.domain.year.persondate.ShamsiDeath;
 
 /** Converts a {@link TubPrintouts} to an {@link TubEntry}. */
 @Component
-class ConvertToEntry {
+class EntryConverter {
 
   /**
-   * Converts Semantic Mediawiki's tubentry model {@link Printouts} to the tubentry model {@link TubEntry}.
+   * Converts Semantic Mediawiki's {@link Printouts} to the {@link TubEntry}.
    * The {@link TubEntry} is constructed from the categories in the TUB wiki which are held in the
    * fields of {@link TubPrintouts}.
    *
