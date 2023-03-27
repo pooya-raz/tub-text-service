@@ -1,4 +1,4 @@
-package org.tub.tubtextservice.usecase.markdown;
+package org.tub.tubtextservice.application.usecase.markdown;
 
 import java.util.List;
 import org.tub.tubtextservice.domain.TitleType;

@@ -1,8 +1,8 @@
-package org.tub.tubtextservice.usecase.tub;
+package org.tub.tubtextservice.application.usecase.tub;
 
 import java.util.List;
+import org.tub.tubtextservice.application.usecase.tub.port.GetEntriesPort;
 import org.tub.tubtextservice.domain.TubEntry;
-import org.tub.tubtextservice.usecase.tub.port.GetEntriesPort;
 
 public class GetEntries {
     private final GetEntriesPort getEntriesPort;

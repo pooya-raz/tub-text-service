@@ -5,7 +5,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import org.junit.jupiter.api.Test;
 import org.tub.tubtextservice.domain.year.persondate.HijriDeath;
 import org.tub.tubtextservice.domain.year.persondate.ShamsiDeath;
-import org.tub.tubtextservice.usecase.markdown.formatter.DateFormatter;
+import org.tub.tubtextservice.application.usecase.markdown.formatter.DateFormatter;
 
 class DateFormatterTest {
 

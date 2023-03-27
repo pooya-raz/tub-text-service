@@ -3,7 +3,7 @@ package org.tub.tubtextservice.adapter.out.semanticmediawiki;
 import java.util.List;
 import org.springframework.stereotype.Service;
 import org.tub.tubtextservice.domain.TubEntry;
-import org.tub.tubtextservice.usecase.tub.port.GetEntriesPort;
+import org.tub.tubtextservice.application.usecase.tub.port.GetEntriesPort;
 
 /** This class is responsible for the workflow of retrieving data from the TUB API. */
 @Service

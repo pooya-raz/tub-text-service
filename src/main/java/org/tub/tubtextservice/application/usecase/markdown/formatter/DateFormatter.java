@@ -1,4 +1,4 @@
-package org.tub.tubtextservice.usecase.markdown.formatter;
+package org.tub.tubtextservice.application.usecase.markdown.formatter;
 
 import org.tub.tubtextservice.domain.year.persondate.PersonDeath;
 import org.tub.tubtextservice.domain.year.persondate.ShamsiDeath;

@@ -1,6 +1,6 @@
-package org.tub.tubtextservice.usecase.markdown;
+package org.tub.tubtextservice.application.usecase.markdown;
 
-import org.tub.tubtextservice.usecase.markdown.port.SaveMarkdownPort;
+import org.tub.tubtextservice.application.usecase.markdown.port.SaveMarkdownPort;
 
 public class SaveMarkdown {
 

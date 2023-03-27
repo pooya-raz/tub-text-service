@@ -15,7 +15,7 @@ import org.tub.tubtextservice.domain.TitleType;
 import org.tub.tubtextservice.domain.TubEntry;
 import org.tub.tubtextservice.domain.person.Author;
 import org.tub.tubtextservice.domain.year.persondate.HijriDeath;
-import org.tub.tubtextservice.usecase.markdown.CreateMarkdown;
+import org.tub.tubtextservice.application.usecase.markdown.CreateMarkdown;
 
 @ExtendWith(MockitoExtension.class)
 class CreateMarkdownTest {
