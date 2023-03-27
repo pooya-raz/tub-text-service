@@ -1,11 +1,10 @@
 package org.tub.tubtextservice.adapter.in;
 
-import java.util.List;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.tub.tubtextservice.adapter.out.semanticmediawiki.SemanticMediaWikiAdapter;
-import org.tub.tubtextservice.domain.TubEntry;
+import org.tub.tubtextservice.application.usecase.createdocx.dto.in.EntriesDto;
 
 @RestController
 @RequestMapping()
@@ -18,7 +17,7 @@ public class TubTextController {
   }
 
   @GetMapping("/entry")
-  public List<TubEntry> getEntry() {
+  public EntriesDto getEntry() {
     return getTubData.getEntries();
     }
 }

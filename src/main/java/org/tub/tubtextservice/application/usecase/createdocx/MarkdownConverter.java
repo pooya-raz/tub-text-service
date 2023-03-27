@@ -1,13 +1,13 @@
-package org.tub.tubtextservice.application.usecase.markdown;
+package org.tub.tubtextservice.application.usecase.createdocx;
 
-import java.util.List;
+import org.tub.tubtextservice.application.usecase.createdocx.dto.in.EntriesDto;
 import org.tub.tubtextservice.domain.TitleType;
 import org.tub.tubtextservice.domain.TubEntry;
 
 /**
  * This class is responsible for creating Markdown text from TUB {@link TubEntry}.
  */
-public class CreateMarkdown {
+public class MarkdownConverter {
 
   /**
    * Creates a Pandoc flavoured Markdown text.
@@ -15,7 +15,7 @@ public class CreateMarkdown {
    * @param entries A list of {@link TubEntry} to include in the body of text.
    * @return Markdown text.
    */
-  public String create(List<TubEntry> entries) {
+  public String convert(EntriesDto entries) {
 
     final var body = new StringBuilder();
     for (var titleType : TitleType.values()) {
@@ -28,13 +28,13 @@ public class CreateMarkdown {
    * Creates a section based on the given {@link TitleType}. It creates both the header and the
    * body. The order is based on the order of the {@link TitleType}.
    *
-   * @param entries The entries to include in the section.
+   * @param entriesDto The entries to include in the section.
    * @param titleType The {@link TitleType} of the section.
    * @return the Markdown text of the section.
    */
-  public String createSection(List<TubEntry> entries, TitleType titleType) {
+  public String createSection(EntriesDto entriesDto, TitleType titleType) {
     final var header = createHeader(titleType);
-    final var body = createBody(entries, titleType);
+    final var body = createBody(entriesDto, titleType);
     return header + body;
   }
 
@@ -53,13 +53,13 @@ public class CreateMarkdown {
   /**
    * Creates the body of the section.
    *
-   * @param entries The entries to include in the section.
+   * @param entriesDto The entries to include in the section.
    * @param titleType The {@link TitleType} of the section.
    * @return The body of the section.
    */
-  private String createBody(List<TubEntry> entries, TitleType titleType) {
+  private String createBody(EntriesDto entriesDto, TitleType titleType) {
     final var body = new StringBuilder();
-    for (var entry : entries) {
+    for (var entry : entriesDto.entries()) {
       if (entry.titleType().equals(titleType)) {
         body.append(createEntry(entry, titleType));
       }

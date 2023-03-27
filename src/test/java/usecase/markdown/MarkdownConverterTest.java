@@ -11,21 +11,22 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.junit.jupiter.MockitoExtension;
+import org.tub.tubtextservice.application.usecase.createdocx.MarkdownConverter;
+import org.tub.tubtextservice.application.usecase.createdocx.dto.in.EntriesDto;
 import org.tub.tubtextservice.domain.TitleType;
 import org.tub.tubtextservice.domain.TubEntry;
 import org.tub.tubtextservice.domain.person.Author;
 import org.tub.tubtextservice.domain.year.persondate.HijriDeath;
-import org.tub.tubtextservice.application.usecase.markdown.CreateMarkdown;
 
 @ExtendWith(MockitoExtension.class)
-class CreateMarkdownTest {
+class MarkdownConverterTest {
 
   private static String layout;
-  private CreateMarkdown markdownService;
+  private MarkdownConverter markdownService;
 
   @BeforeEach
   void setUp() throws IOException {
-    markdownService = new CreateMarkdown();
+    markdownService = new MarkdownConverter();
     layout = readString(of("src/test/resources/markdown/layout.md"));
   }
 
@@ -41,7 +42,7 @@ class CreateMarkdownTest {
             List.of(),
             List.of(),
             TitleType.MONOGRAPH);
-    final var actual = markdownService.create(List.of(monograph));
+    final var actual = markdownService.convert(new EntriesDto(List.of(monograph)));
     assertThat(actual).isEqualTo(expected);
   }
 

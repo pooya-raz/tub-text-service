@@ -1,9 +1,9 @@
 package org.tub.tubtextservice.adapter.out.semanticmediawiki;
 
-import java.util.List;
 import org.springframework.stereotype.Service;
+import org.tub.tubtextservice.application.usecase.createdocx.dto.in.EntriesDto;
+import org.tub.tubtextservice.application.usecase.createdocx.port.GetEntriesPort;
 import org.tub.tubtextservice.domain.TubEntry;
-import org.tub.tubtextservice.application.usecase.tub.port.GetEntriesPort;
 
 /** This class is responsible for the workflow of retrieving data from the TUB API. */
 @Service
@@ -23,8 +23,9 @@ public class SemanticMediaWikiAdapter implements GetEntriesPort {
      *
      * @return A list of {@link TubEntry}
      */
-    public List<TubEntry> getEntries() {
+    public EntriesDto getEntries() {
     var printouts = getPrintouts.get();
-        return convertToEntry.convert(printouts);
+    final var entries = convertToEntry.convert(printouts);
+    return new EntriesDto(entries);
     }
 }

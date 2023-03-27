@@ -75,7 +75,7 @@ public class SemanticMediaWikiAdapterTest {
     stubForTUB(MANUSCRIPTS, MANUSCRIPTS_JSON);
 
     final var actual = subject.getEntries();
-    assertThat(actual).hasSameElementsAs(TUB_ENTRY);
+    assertThat(actual.entries()).hasSameElementsAs(TUB_ENTRY);
   }
 
   @Test
@@ -87,7 +87,7 @@ public class SemanticMediaWikiAdapterTest {
     stubForTUB(MANUSCRIPTS, MANUSCRIPTS_JSON);
 
     final var actual = subject.getEntries();
-    assertThat(actual).hasSameElementsAs(TUB_ENTRY);
+    assertThat(actual.entries()).hasSameElementsAs(TUB_ENTRY);
   }
 
   private void stubForTUB(String query, String path) throws IOException {
