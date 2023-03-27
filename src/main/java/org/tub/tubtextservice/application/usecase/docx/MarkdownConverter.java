@@ -12,9 +12,6 @@ public class MarkdownConverter {
   /** Used to create a new line in markdown */
   public static final String DOUBLE_SPACE = "  ";
 
-  /** Indent in markdown */
-  public static final String INDENT = "   ";
-
   /**
    * Creates a Pandoc flavoured Markdown text.
    *
@@ -71,7 +68,7 @@ public class MarkdownConverter {
     }
     return "(" + prependedText + nonGregorian + "/" + gregorian + ")";
   }
-  
+
   private String createEntry(TubEntry tubEntry, TitleType titleType) {
     return switch (titleType) {
       case MONOGRAPH -> createMonograph(tubEntry);
@@ -91,24 +88,24 @@ public class MarkdownConverter {
   private String createMonograph(TubEntry tubEntry) {
     return """
                 1. %s
-                %s
-                %s
-                %s
+                   %s  
+                   %s  
+                   %s
 
-                **Principle Manuscript**
-                * %s
+                   **Principle Manuscripts**
+                   %s
 
-                **Editions**
-                * %s
+                   **Editions**
+                   * %s
 
-                **Commentary**
-                * %s
+                   **Commentary**
+                   * %s
                 """
         .formatted(
             tubEntry.titleTransliterated() + DOUBLE_SPACE,
-            INDENT + tubEntry.titleOriginal() + DOUBLE_SPACE,
-            INDENT + tubEntry.person().name() + DOUBLE_SPACE,
-            INDENT + createPersonDate(tubEntry.person().personDeath()),
+            tubEntry.titleOriginal() + DOUBLE_SPACE,
+            tubEntry.person().name() + DOUBLE_SPACE,
+            createPersonDate(tubEntry.person().personDeath()),
             tubEntry.manuscripts(),
             tubEntry.editions(),
             "commentary");
