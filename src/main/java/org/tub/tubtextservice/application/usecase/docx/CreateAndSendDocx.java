@@ -7,11 +7,15 @@ import org.tub.tubtextservice.application.usecase.docx.port.CreateDocxPort;
 import org.tub.tubtextservice.application.usecase.docx.port.GetEntriesPort;
 import org.tub.tubtextservice.application.usecase.docx.port.SendDocxPort;
 
+/**
+ * This class is the use case for creating and sending a docx file.
+ */
 public class CreateAndSendDocx {
   private final MarkdownConverter markdownConverter;
   private final GetEntriesPort getEntriesPort;
   private final CreateDocxPort createDocxPort;
   private final SendDocxPort sendDocxPort;
+
 
   public CreateAndSendDocx(
       MarkdownConverter markdownConverter,
@@ -24,6 +28,10 @@ public class CreateAndSendDocx {
     this.sendDocxPort = sendDocxPort;
   }
 
+  /**
+   * This method creates a docx file from TUB data and sends it to the user's email address.
+   * @param user the user to send the docx file to
+   */
   public void createDocx(UserDto user) {
     final var entries = getEntriesPort.getEntries();
     final var text = markdownConverter.convert(entries);
