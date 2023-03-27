@@ -8,10 +8,6 @@ import org.tub.tubtextservice.domain.year.persondate.ShamsiDeath;
 
 /** This class is responsible for creating Markdown text from TUB {@link TubEntry}. */
 public class MarkdownConverter {
-
-  /** Used to create a new line in markdown */
-  public static final String DOUBLE_SPACE = "  ";
-
   /**
    * Creates a Pandoc flavoured Markdown text.
    *
@@ -22,54 +18,43 @@ public class MarkdownConverter {
 
     final var body = new StringBuilder();
     for (var titleType : TitleType.values()) {
-      body.append(createSection(entries, titleType));
+      body.append(SectionFormat.create(entries, titleType));
     }
     return body.toString();
   }
+}
 
-  private String createSection(EntriesDto entriesDto, TitleType titleType) {
+class SectionFormat {
+  public static String create(EntriesDto entriesDto, TitleType titleType) {
     final var header = createHeader(titleType);
     final var body = createBody(entriesDto, titleType);
     return header + body;
   }
 
-  private String createHeader(TitleType titleType) {
+  private static String createHeader(TitleType titleType) {
     return """
                 ## %s
 
-                """
-        .formatted(titleType.getTitleType());
+                """.formatted(titleType.getTitleType());
   }
 
-  private String createBody(EntriesDto entriesDto, TitleType titleType) {
+  private static String createBody(EntriesDto entriesDto, TitleType titleType) {
     final var body = new StringBuilder();
     for (var entry : entriesDto.entries()) {
       if (entry.titleType().equals(titleType)) {
-        body.append(createEntry(entry, titleType));
+        body.append(EntryFormat.create(entry, titleType));
       }
     }
     return body.toString();
   }
+}
 
-  public String createPersonDate(PersonDeath personDeath) {
-    final var template = createPersonDateTemplate(personDeath);
-    return template.formatted(personDeath.year(), personDeath.gregorian());
-  }
+class EntryFormat {
+  /** Used to create a new line in markdown */
+  private static final String DOUBLE_SPACE = "  ";
 
-  private String createPersonDateTemplate(PersonDeath personDeath) {
-    var prependedText = "d. ";
-    var nonGregorian = "%s";
-    final var gregorian = "%s";
-    if (personDeath instanceof ShamsiDeath) {
-      nonGregorian = gregorian + "Sh";
-    }
-    if (personDeath.year().startsWith("fl. ")) {
-      prependedText = "";
-    }
-    return "(" + prependedText + nonGregorian + "/" + gregorian + ")";
-  }
-
-  private String createEntry(TubEntry tubEntry, TitleType titleType) {
+  public static String create(TubEntry tubEntry, TitleType titleType) {
+    /** Used to create a new line in markdown */
     return switch (titleType) {
       case MONOGRAPH -> createMonograph(tubEntry);
       case COMMENTARY -> "Commentary";
@@ -85,11 +70,11 @@ public class MarkdownConverter {
     };
   }
 
-  private String createMonograph(TubEntry tubEntry) {
+  private static String createMonograph(TubEntry tubEntry) {
     return """
                 1. %s
-                   %s  
-                   %s  
+                   %s
+                   %s
                    %s
 
                    **Principle Manuscripts**
@@ -105,10 +90,29 @@ public class MarkdownConverter {
             tubEntry.titleTransliterated() + DOUBLE_SPACE,
             tubEntry.titleOriginal() + DOUBLE_SPACE,
             tubEntry.person().name() + DOUBLE_SPACE,
-            createPersonDate(tubEntry.person().personDeath()),
+            DateFormat.create(tubEntry.person().personDeath()),
             tubEntry.manuscripts(),
             tubEntry.editions(),
             "commentary");
   }
+}
 
+class DateFormat {
+  public static String create(PersonDeath personDeath) {
+    final var template = createTemplate(personDeath);
+    return template.formatted(personDeath.year(), personDeath.gregorian());
+  }
+
+  private static String createTemplate(PersonDeath personDeath) {
+    var prependedText = "d. ";
+    var nonGregorian = "%s";
+    final var gregorian = "%s";
+    if (personDeath instanceof ShamsiDeath) {
+      nonGregorian = gregorian + "Sh";
+    }
+    if (personDeath.year().startsWith("fl. ")) {
+      prependedText = "";
+    }
+    return "(" + prependedText + nonGregorian + "/" + gregorian + ")";
+  }
 }
