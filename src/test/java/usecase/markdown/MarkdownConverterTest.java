@@ -6,6 +6,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 import java.io.IOException;
 import java.util.List;
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -24,40 +25,28 @@ class MarkdownConverterTest {
   private static String layout;
   private MarkdownConverter markdownService;
 
-  @BeforeEach
-  void setUp() throws IOException {
-    markdownService = new MarkdownConverter();
+  @BeforeAll
+  static void setUpAll() throws IOException {
     layout = readString(of("src/test/resources/markdown/layout.md"));
+  }
+
+  @BeforeEach
+  void setUp() {
+    markdownService = new MarkdownConverter();
   }
 
   @Test
   @DisplayName("Should return the correct markdown for all sections")
-  void convertShouldReturnMarkdown() throws IOException {
-    final var expected = finalMarkdown();
+  void convertShouldReturnMarkdown() {
     final var monograph =
         new TubEntry(
-            "Title",
+            "Title transliterated",
             "Title Arabic",
-            new Author("Author", new HijriDeath("600", "1200")),
+            new Author("Author", new HijriDeath("436", "1044")),
             List.of(),
             List.of(),
             TitleType.MONOGRAPH);
     final var actual = markdownService.convert(new EntriesDto(List.of(monograph)));
-    assertThat(actual).isEqualTo(expected);
-  }
-
-  private String finalMarkdown() {
-    return layout.formatted(
-        "Title",
-        "Title Arabic",
-        "Author",
-        "600",
-        "1200",
-        "more",
-        "more",
-        "more",
-        "more",
-        "more",
-        "more");
+    assertThat(actual).isEqualTo(layout);
   }
 }

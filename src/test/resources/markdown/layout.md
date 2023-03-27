@@ -1,44 +1,38 @@
 ## Monograph
 
-%s
+1. Title transliterated  
+   Title Arabic  
+   Author  
+   (d. 436/1044)
+
+   **Principle Manuscripts**
+    * Manuscript 1
+    * Manuscript 2
+
+   **Editions**
+    * Edition 1
+    * Edition 2
+
+   **Commentaries**
+    * Commentary 1
+    * Commentary 2
 
 ## Commentary (sharḥ)
 
-%s
-
 ## Gloss (ḥāshīyah)
-
-%s
 
 ## Marginal notes (taʿlīqa)
 
-%s
-
 ## Treatise (risāla)
-
-%s
 
 ## Summary (khulāṣa/mukhtaṣar)
 
-%s
-
 ## Poem (manẓūma)
-
-%s
 
 ## Refutation (radd)
 
-%s
-
 ## Taqrīrāt
-
-%s
 
 ## Translation
 
-%s
-
 ## Unknown
-
-%s
-

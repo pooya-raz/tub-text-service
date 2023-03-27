@@ -3,11 +3,17 @@ package org.tub.tubtextservice.application.usecase.docx;
 import org.tub.tubtextservice.application.usecase.docx.dto.in.EntriesDto;
 import org.tub.tubtextservice.domain.TitleType;
 import org.tub.tubtextservice.domain.TubEntry;
+import org.tub.tubtextservice.domain.year.persondate.PersonDeath;
+import org.tub.tubtextservice.domain.year.persondate.ShamsiDeath;
 
-/**
- * This class is responsible for creating Markdown text from TUB {@link TubEntry}.
- */
+/** This class is responsible for creating Markdown text from TUB {@link TubEntry}. */
 public class MarkdownConverter {
+
+  /** Used to create a new line in markdown */
+  public static final String DOUBLE_SPACE = "  ";
+
+  /** Indent in markdown */
+  public static final String INDENT = "   ";
 
   /**
    * Creates a Pandoc flavoured Markdown text.
@@ -22,41 +28,22 @@ public class MarkdownConverter {
       body.append(createSection(entries, titleType));
     }
     return body.toString();
-    }
+  }
 
-  /**
-   * Creates a section based on the given {@link TitleType}. It creates both the header and the
-   * body. The order is based on the order of the {@link TitleType}.
-   *
-   * @param entriesDto The entries to include in the section.
-   * @param titleType The {@link TitleType} of the section.
-   * @return the Markdown text of the section.
-   */
-  public String createSection(EntriesDto entriesDto, TitleType titleType) {
+  private String createSection(EntriesDto entriesDto, TitleType titleType) {
     final var header = createHeader(titleType);
     final var body = createBody(entriesDto, titleType);
     return header + body;
   }
 
-  /**
-   * Creates the header of the section.
-   *
-   * @param titleType The {@link TitleType} of the section.
-   * @return The header of the section.
-   */
   private String createHeader(TitleType titleType) {
     return """
                 ## %s
-                """.formatted(titleType.getTitleType());
+
+                """
+        .formatted(titleType.getTitleType());
   }
 
-  /**
-   * Creates the body of the section.
-   *
-   * @param entriesDto The entries to include in the section.
-   * @param titleType The {@link TitleType} of the section.
-   * @return The body of the section.
-   */
   private String createBody(EntriesDto entriesDto, TitleType titleType) {
     final var body = new StringBuilder();
     for (var entry : entriesDto.entries()) {
@@ -67,16 +54,27 @@ public class MarkdownConverter {
     return body.toString();
   }
 
-  /**
-   * Creates a single entry based on the given {@link TitleType}.
-   *
-   * @param tubEntry The entry to create.
-   * @param titleType The {@link TitleType} of the section.
-   * @return The entry as Markdown text.
-   */
+  public String createPersonDate(PersonDeath personDeath) {
+    final var template = createPersonDateTemplate(personDeath);
+    return template.formatted(personDeath.year(), personDeath.gregorian());
+  }
+
+  private String createPersonDateTemplate(PersonDeath personDeath) {
+    var prependedText = "d. ";
+    var nonGregorian = "%s";
+    final var gregorian = "%s";
+    if (personDeath instanceof ShamsiDeath) {
+      nonGregorian = gregorian + "Sh";
+    }
+    if (personDeath.year().startsWith("fl. ")) {
+      prependedText = "";
+    }
+    return "(" + prependedText + nonGregorian + "/" + gregorian + ")";
+  }
+  
   private String createEntry(TubEntry tubEntry, TitleType titleType) {
     return switch (titleType) {
-      case MONOGRAPH -> "Monograph";
+      case MONOGRAPH -> createMonograph(tubEntry);
       case COMMENTARY -> "Commentary";
       case GLOSS -> "Gloss";
       case MARGINNOTES -> "Marginnotes";
@@ -89,4 +87,31 @@ public class MarkdownConverter {
       case UNKNOWN -> "Unknown";
     };
   }
+
+  private String createMonograph(TubEntry tubEntry) {
+    return """
+                1. %s
+                %s
+                %s
+                %s
+
+                **Principle Manuscript**
+                * %s
+
+                **Editions**
+                * %s
+
+                **Commentary**
+                * %s
+                """
+        .formatted(
+            tubEntry.titleTransliterated() + DOUBLE_SPACE,
+            INDENT + tubEntry.titleOriginal() + DOUBLE_SPACE,
+            INDENT + tubEntry.person().name() + DOUBLE_SPACE,
+            INDENT + createPersonDate(tubEntry.person().personDeath()),
+            tubEntry.manuscripts(),
+            tubEntry.editions(),
+            "commentary");
+  }
+
 }
