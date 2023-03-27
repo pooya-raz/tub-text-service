@@ -1,19 +1,19 @@
-package org.tub.tubtextservice.application.usecase.createdocx;
+package org.tub.tubtextservice.application.usecase.docx;
 
-import org.tub.tubtextservice.application.usecase.createdocx.dto.in.UserDto;
-import org.tub.tubtextservice.application.usecase.createdocx.dto.out.MarkdownDto;
-import org.tub.tubtextservice.application.usecase.createdocx.dto.out.SendDocxDto;
-import org.tub.tubtextservice.application.usecase.createdocx.port.CreateDocxPort;
-import org.tub.tubtextservice.application.usecase.createdocx.port.GetEntriesPort;
-import org.tub.tubtextservice.application.usecase.createdocx.port.SendDocxPort;
+import org.tub.tubtextservice.application.usecase.docx.dto.in.UserDto;
+import org.tub.tubtextservice.application.usecase.docx.dto.out.MarkdownDto;
+import org.tub.tubtextservice.application.usecase.docx.dto.out.SendDocxDto;
+import org.tub.tubtextservice.application.usecase.docx.port.CreateDocxPort;
+import org.tub.tubtextservice.application.usecase.docx.port.GetEntriesPort;
+import org.tub.tubtextservice.application.usecase.docx.port.SendDocxPort;
 
-public class CreateDocx {
+public class CreateAndSendDocx {
   private final MarkdownConverter markdownConverter;
   private final GetEntriesPort getEntriesPort;
   private final CreateDocxPort createDocxPort;
   private final SendDocxPort sendDocxPort;
 
-  public CreateDocx(
+  public CreateAndSendDocx(
       MarkdownConverter markdownConverter,
       GetEntriesPort getEntriesPort,
       CreateDocxPort createDocxPort,

@@ -1,8 +1,8 @@
 package org.tub.tubtextservice.adapter.out.semanticmediawiki;
 
 import org.springframework.stereotype.Service;
-import org.tub.tubtextservice.application.usecase.createdocx.dto.in.EntriesDto;
-import org.tub.tubtextservice.application.usecase.createdocx.port.GetEntriesPort;
+import org.tub.tubtextservice.application.usecase.docx.dto.in.EntriesDto;
+import org.tub.tubtextservice.application.usecase.docx.port.GetEntriesPort;
 import org.tub.tubtextservice.domain.TubEntry;
 
 /** This class is responsible for the workflow of retrieving data from the TUB API. */

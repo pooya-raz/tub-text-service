@@ -1,6 +1,6 @@
-package org.tub.tubtextservice.application.usecase.createdocx;
+package org.tub.tubtextservice.application.usecase.docx;
 
-import org.tub.tubtextservice.application.usecase.createdocx.dto.in.EntriesDto;
+import org.tub.tubtextservice.application.usecase.docx.dto.in.EntriesDto;
 import org.tub.tubtextservice.domain.TitleType;
 import org.tub.tubtextservice.domain.TubEntry;
 
