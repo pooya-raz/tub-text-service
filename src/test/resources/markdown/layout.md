@@ -6,8 +6,7 @@
    (d. 436/1044)
 
    **Principle Manuscripts**
-    * Manuscript 1
-    * Manuscript 2
+    * Location, City (#1), dated 600/1000
 
    **Editions**
     * Edition 1
