@@ -1,7 +1,10 @@
 package org.tub.tubtextservice.application.usecase.docx;
 
+import java.util.List;
 import java.util.stream.Collectors;
 import org.tub.tubtextservice.application.usecase.docx.dto.in.EntriesDto;
+import org.tub.tubtextservice.domain.Edition;
+import org.tub.tubtextservice.domain.Manuscript;
 import org.tub.tubtextservice.domain.TitleType;
 import org.tub.tubtextservice.domain.TubEntry;
 import org.tub.tubtextservice.domain.year.persondate.PersonDeath;
@@ -45,9 +48,12 @@ public class MarkdownConverter {
   }
 
   private static class SubSectionFormat{
-    private static String createManuscript(final TubEntry tubEntry) {
+    private static String createManuscript(final List<Manuscript> manuscripts) {
+      if (manuscripts.isEmpty()){
+        return "";
+      }
       final var layout = "* %s, %s (#%s), dated %s/%s";
-      return tubEntry.manuscripts().stream()
+      return manuscripts.stream()
               .map(
                       m ->
                               layout.formatted(
@@ -59,9 +65,12 @@ public class MarkdownConverter {
               .collect(Collectors.joining("\n    "));
     }
 
-    private static String createEdition(final TubEntry tubEntry) {
+    private static String createEdition(final List<Edition> editions) {
+      if (editions.isEmpty()){
+        return "";
+      }
       final var layout = "* %s, ed. %s (%s: %s, %s/%s)";
-      return tubEntry.editions().stream()
+      return editions.stream()
               .map(
                       e ->
                               layout.formatted(
@@ -116,8 +125,8 @@ public class MarkdownConverter {
               tubEntry.titleOriginal() + DOUBLE_SPACE,
               tubEntry.person().name() + DOUBLE_SPACE,
               DateFormat.create(tubEntry.person().personDeath()),
-              SubSectionFormat.createManuscript(tubEntry),
-              SubSectionFormat.createEdition(tubEntry),
+              SubSectionFormat.createManuscript(tubEntry.manuscripts()),
+              SubSectionFormat.createEdition(tubEntry.editions()),
               "commentary");
     }
 
