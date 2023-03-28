@@ -7,10 +7,11 @@
 
    **Principle Manuscripts**
     * Location, City (#1), dated 600/1000
+    * Location, City (#1), dated 600/1000
 
    **Editions**
-    * Edition 1
-    * Edition 2
+    * Title, ed. Editor (City: Publisher, 600/1000)
+    * Title, ed. Editor (City: Publisher, 600/1000)
 
    **Commentaries**
     * Commentary 1

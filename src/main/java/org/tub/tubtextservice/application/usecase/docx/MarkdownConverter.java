@@ -56,7 +56,22 @@ public class MarkdownConverter {
                                       m.manuscriptNumber(),
                                       m.date().year(),
                                       m.date().gregorian()))
-              .collect(Collectors.joining(" "));
+              .collect(Collectors.joining("\n    "));
+    }
+
+    private static String createEdition(final TubEntry tubEntry) {
+      final var layout = "* %s, ed. %s (%s: %s, %s/%s)";
+      return tubEntry.editions().stream()
+              .map(
+                      e ->
+                              layout.formatted(
+                                      e.titleTransliterated(),
+                                      e.editor(),
+                                      e.placeOfPublication(),
+                                      e.publisher(),
+                                      e.date().year(),
+                                      e.date().gregorian()))
+              .collect(Collectors.joining("\n    "));
     }
   }
 
@@ -91,7 +106,7 @@ public class MarkdownConverter {
                     %s
 
                    **Editions**
-                   * %s
+                    %s
 
                    **Commentary**
                    * %s
@@ -102,7 +117,7 @@ public class MarkdownConverter {
               tubEntry.person().name() + DOUBLE_SPACE,
               DateFormat.create(tubEntry.person().personDeath()),
               SubSectionFormat.createManuscript(tubEntry),
-              tubEntry.editions(),
+              SubSectionFormat.createEdition(tubEntry),
               "commentary");
     }
 
