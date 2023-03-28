@@ -39,7 +39,7 @@ class CreateAndSendDocxTest {
   @Test
   @DisplayName("should create and send docx")
   void createDocx() {
-    final var entry = new TubEntry(null,null, null, List.of(), List.of(), null);
+    final var entry = new TubEntry(null,null, null, List.of(), List.of(), List.of(),null);
     when(getEntriesPort.getEntries()).thenReturn(new EntriesDto(List.of(entry)));
     when(markdownConverter.convert(any())).thenReturn("text");
     when(createDocxPort.createDocx(any())).thenReturn(new CreateDocxDto("docx".getBytes()));

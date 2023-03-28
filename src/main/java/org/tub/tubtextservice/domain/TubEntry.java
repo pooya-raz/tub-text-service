@@ -9,6 +9,8 @@ public record TubEntry(
     Person person,
     List<Manuscript> manuscripts,
     List<Edition> editions,
+
+    List<Commentary> commentaries,
     TitleType titleType) {
 
   public TubEntry {

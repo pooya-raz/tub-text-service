@@ -14,6 +14,7 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.tub.tubtextservice.application.usecase.docx.MarkdownConverter;
 import org.tub.tubtextservice.application.usecase.docx.dto.in.EntriesDto;
+import org.tub.tubtextservice.domain.Commentary;
 import org.tub.tubtextservice.domain.Edition;
 import org.tub.tubtextservice.domain.Manuscript;
 import org.tub.tubtextservice.domain.TitleType;
@@ -52,6 +53,8 @@ class MarkdownConverterTest {
             null,
             "Edited",
             "City");
+    final var commentary =
+        new Commentary("Title", new Author("Author", new HijriDeath("600", "1000")));
     final var monograph =
         new TubEntry(
             "Title transliterated",
@@ -59,6 +62,7 @@ class MarkdownConverterTest {
             new Author("Author", new HijriDeath("436", "1044")),
             List.of(manuscript, manuscript),
             List.of(edition, edition),
+            List.of(commentary, commentary), // todo implement
             TitleType.MONOGRAPH);
     final var actual = markdownService.convert(new EntriesDto(List.of(monograph)));
     assertThat(actual).isEqualTo(layout);

@@ -15,6 +15,7 @@ import org.tub.tubtextservice.adapter.out.semanticmediawiki.model.response.print
 import org.tub.tubtextservice.adapter.out.semanticmediawiki.model.response.printouts.ManuscriptPrintouts;
 import org.tub.tubtextservice.adapter.out.semanticmediawiki.model.response.printouts.Printouts;
 import org.tub.tubtextservice.adapter.out.semanticmediawiki.model.response.printouts.TitlePrintouts;
+import org.tub.tubtextservice.domain.Commentary;
 import org.tub.tubtextservice.domain.Edition;
 import org.tub.tubtextservice.domain.Manuscript;
 import org.tub.tubtextservice.domain.TitleType;
@@ -60,9 +61,10 @@ class EntryConverter {
     final var titleOriginal = title.titleArabic().stream().findFirst().orElse("");
     final var manuscripts = getManuscripts(tubPrintouts.manuscripts(), titleName);
     final var editions = getEditions(tubPrintouts.editions(), titleName);
+    final List<Commentary> commentaries = List.of(); // todo implement
     final var titleType =
         TitleType.valueOfTub(title.bookType().stream().findFirst().orElse("Unknown"));
-    return new TubEntry(titleName, titleOriginal, person, manuscripts, editions, titleType);
+    return new TubEntry(titleName, titleOriginal, person, manuscripts, editions, commentaries, titleType);
   }
 
   private Person getPerson(

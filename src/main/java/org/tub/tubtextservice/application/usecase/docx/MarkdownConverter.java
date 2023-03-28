@@ -3,6 +3,7 @@ package org.tub.tubtextservice.application.usecase.docx;
 import java.util.List;
 import java.util.stream.Collectors;
 import org.tub.tubtextservice.application.usecase.docx.dto.in.EntriesDto;
+import org.tub.tubtextservice.domain.Commentary;
 import org.tub.tubtextservice.domain.Edition;
 import org.tub.tubtextservice.domain.Manuscript;
 import org.tub.tubtextservice.domain.TitleType;
@@ -48,39 +49,54 @@ public class MarkdownConverter {
   }
 
   private static class SubSectionFormat{
-    private static String createManuscript(final List<Manuscript> manuscripts) {
+    public static final String END_SECTION = "\n    ";
+
+    private static String createManuscripts(final List<Manuscript> manuscripts) {
       if (manuscripts.isEmpty()){
         return "";
       }
       final var layout = "* %s, %s (#%s), dated %s/%s";
       return manuscripts.stream()
-              .map(
-                      m ->
-                              layout.formatted(
-                                      m.location(),
-                                      m.city(),
-                                      m.manuscriptNumber(),
-                                      m.date().year(),
-                                      m.date().gregorian()))
-              .collect(Collectors.joining("\n    "));
+          .map(
+              m ->
+                  layout.formatted(
+                      m.location(),
+                      m.city(),
+                      m.manuscriptNumber(),
+                      m.date().year(),
+                      m.date().gregorian()))
+          .collect(Collectors.joining(END_SECTION));
     }
 
-    private static String createEdition(final List<Edition> editions) {
+    private static String createEditions(final List<Edition> editions) {
       if (editions.isEmpty()){
         return "";
       }
       final var layout = "* %s, ed. %s (%s: %s, %s/%s)";
       return editions.stream()
-              .map(
-                      e ->
-                              layout.formatted(
-                                      e.titleTransliterated(),
-                                      e.editor(),
-                                      e.placeOfPublication(),
-                                      e.publisher(),
-                                      e.date().year(),
-                                      e.date().gregorian()))
-              .collect(Collectors.joining("\n    "));
+          .map(
+              e ->
+                  layout.formatted(
+                      e.titleTransliterated(),
+                      e.editor(),
+                      e.placeOfPublication(),
+                      e.publisher(),
+                      e.date().year(),
+                      e.date().gregorian()))
+          .collect(Collectors.joining(END_SECTION));
+    }
+
+    public static String createCommentaries(final List<Commentary> commentaries) {
+      if (commentaries.isEmpty()){
+        return "";
+      }
+      final var layout = "* %s, %s %s";
+      return commentaries.stream()
+          .map(
+              e ->
+                  layout.formatted(
+                      e.title(), e.author().name(), DateFormat.create(e.author().personDeath())))
+          .collect(Collectors.joining(END_SECTION));
     }
   }
 
@@ -117,17 +133,18 @@ public class MarkdownConverter {
                    **Editions**
                     %s
 
-                   **Commentary**
-                   * %s
+                   **Commentaries**
+                    %s
+                    
                 """
           .formatted(
               tubEntry.titleTransliterated() + DOUBLE_SPACE,
               tubEntry.titleOriginal() + DOUBLE_SPACE,
               tubEntry.person().name() + DOUBLE_SPACE,
               DateFormat.create(tubEntry.person().personDeath()),
-              SubSectionFormat.createManuscript(tubEntry.manuscripts()),
-              SubSectionFormat.createEdition(tubEntry.editions()),
-              "commentary");
+              SubSectionFormat.createManuscripts(tubEntry.manuscripts()),
+              SubSectionFormat.createEditions(tubEntry.editions()),
+              SubSectionFormat.createCommentaries(tubEntry.commentaries()));
     }
 
 

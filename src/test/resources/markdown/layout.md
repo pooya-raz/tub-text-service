@@ -14,8 +14,8 @@
     * Title, ed. Editor (City: Publisher, 600/1000)
 
    **Commentaries**
-    * Commentary 1
-    * Commentary 2
+    * Title, Author (d. 600/1000)
+    * Title, Author (d. 600/1000)
 
 ## Commentary (sharḥ)
 
