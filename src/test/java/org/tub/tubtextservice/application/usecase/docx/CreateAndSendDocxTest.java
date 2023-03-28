@@ -15,6 +15,7 @@ import org.tub.tubtextservice.application.usecase.docx.dto.in.UserDto;
 import org.tub.tubtextservice.application.usecase.docx.port.CreateDocxPort;
 import org.tub.tubtextservice.application.usecase.docx.port.GetEntriesPort;
 import org.tub.tubtextservice.application.usecase.docx.port.SendDocxPort;
+import org.tub.tubtextservice.application.usecase.markdownconverter.MarkdownConverter;
 import org.tub.tubtextservice.domain.TubEntry;
 
 @ExtendWith(MockitoExtension.class)

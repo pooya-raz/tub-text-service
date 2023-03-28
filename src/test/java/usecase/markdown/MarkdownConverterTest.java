@@ -12,7 +12,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.junit.jupiter.MockitoExtension;
-import org.tub.tubtextservice.application.usecase.docx.MarkdownConverter;
+import org.tub.tubtextservice.application.usecase.markdownconverter.MarkdownConverter;
 import org.tub.tubtextservice.application.usecase.docx.dto.in.EntriesDto;
 import org.tub.tubtextservice.domain.Commentary;
 import org.tub.tubtextservice.domain.Edition;

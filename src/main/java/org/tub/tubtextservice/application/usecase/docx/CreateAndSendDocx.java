@@ -6,6 +6,7 @@ import org.tub.tubtextservice.application.usecase.docx.dto.out.SendDocxDto;
 import org.tub.tubtextservice.application.usecase.docx.port.CreateDocxPort;
 import org.tub.tubtextservice.application.usecase.docx.port.GetEntriesPort;
 import org.tub.tubtextservice.application.usecase.docx.port.SendDocxPort;
+import org.tub.tubtextservice.application.usecase.markdownconverter.MarkdownConverter;
 
 /**
  * This class is the use case for creating and sending a docx file.
