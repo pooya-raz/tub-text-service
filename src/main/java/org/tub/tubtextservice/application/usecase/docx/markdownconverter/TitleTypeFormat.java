@@ -1,4 +1,4 @@
-package org.tub.tubtextservice.application.usecase.markdownconverter;
+package org.tub.tubtextservice.application.usecase.docx.markdownconverter;
 
 import org.tub.tubtextservice.domain.TitleType;
 import org.tub.tubtextservice.domain.TubEntry;
@@ -54,6 +54,4 @@ class TitleTypeFormat {
                         SubSectionFormat.createEditions(tubEntry.editions()),
                         SubSectionFormat.createCommentaries(tubEntry.commentaries()));
     }
-
-
 }

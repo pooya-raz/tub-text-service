@@ -1,4 +1,4 @@
-package org.tub.tubtextservice.application.usecase.markdownconverter;
+package org.tub.tubtextservice.application.usecase.docx.markdownconverter;
 
 import java.util.List;
 import java.util.stream.Collectors;

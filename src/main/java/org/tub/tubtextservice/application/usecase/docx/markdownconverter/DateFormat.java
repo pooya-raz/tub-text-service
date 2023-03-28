@@ -1,4 +1,4 @@
-package org.tub.tubtextservice.application.usecase.markdownconverter;
+package org.tub.tubtextservice.application.usecase.docx.markdownconverter;
 
 import org.tub.tubtextservice.domain.year.persondate.PersonDeath;
 import org.tub.tubtextservice.domain.year.persondate.ShamsiDeath;

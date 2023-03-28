@@ -1,4 +1,4 @@
-package org.tub.tubtextservice.application.usecase.markdownconverter;
+package org.tub.tubtextservice.application.usecase.docx.markdownconverter;
 
 import org.tub.tubtextservice.application.usecase.docx.dto.in.EntriesDto;
 import org.tub.tubtextservice.domain.TitleType;
@@ -20,5 +20,4 @@ public class MarkdownConverter {
     }
     return body.toString();
   }
-  }
-
+}
