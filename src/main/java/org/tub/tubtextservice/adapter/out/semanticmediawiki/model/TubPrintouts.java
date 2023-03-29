@@ -17,15 +17,17 @@ import org.tub.tubtextservice.domain.TubEntry;
  *     Data#fulltext()}. Since each {@link TubEntry} is based on one title, it cannot be a list.
  * @param authors authors in TUB. The key is the title of the Wiki article found in {@link
  *     Data#fulltext()}.
- * @param manuscripts manuscripts in TUB. The key is the value in {@link
+ * @param manuscripts manuscripts in TUB. The key is the fulltext in {@link
  *     ManuscriptPrintouts#manuscriptOfTitle()} which refers to the key of a title. One title can
  *     have multiple manuscripts.
- * @param editions editions in TUB. The key is the value in {@link
+ * @param editions editions in TUB. The key is the fulltext in {@link
  *     EditionPrintouts#editionOfTitle()} which refers to the key of a title. One title can have
  *     multiple editions.
+ * @param commentaries any text that has a base text. The key is the fulltext in {@link TitlePrintouts#baseText()}
  */
 public record TubPrintouts(
     Map<String, TitlePrintouts> titles,
     Map<String, AuthorPrintouts> authors,
     Map<String, ArrayList<ManuscriptPrintouts>> manuscripts,
-    Map<String, ArrayList<EditionPrintouts>> editions) {}
+    Map<String, ArrayList<EditionPrintouts>> editions,
+    Map<String, ArrayList<TitlePrintouts>> commentaries) {}

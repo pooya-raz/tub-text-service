@@ -48,7 +48,8 @@ class TubDataFetcher {
     final var authors = MapCreator.createMapAuthor(authorPrintouts);
     final var manuscripts = MapCreator.createMapManuscript(manuscriptPrintouts);
     final var editions = MapCreator.createMapEdition(editionPrintouts);
-    return new TubPrintouts(titles, authors, manuscripts, editions);
+    final var commentaries = MapCreator.createCommentaries(titlePrintouts);
+    return new TubPrintouts(titles, authors, manuscripts, editions, commentaries);
   }
 
   /**
@@ -123,6 +124,20 @@ class TubDataFetcher {
             addToMap(mapTitle, key, printout);
           });
       return mapTitle;
+    }
+
+    private static Map<String, ArrayList<TitlePrintouts>> createCommentaries(List<Data> dataList){
+        final var mapOfCommentaries= new HashMap<String, ArrayList<TitlePrintouts>>();
+        dataList.forEach(
+            data -> {
+              final var printout = (TitlePrintouts) data.printouts();
+              var key = UUID.randomUUID().toString();
+              if (printout.baseText() != null && !printout.baseText().isEmpty()) {
+                key = printout.baseText().get(0).fulltext();
+              }
+              addToMap(mapOfCommentaries, key, printout);
+            });
+        return mapOfCommentaries;
     }
 
     /**

@@ -34,9 +34,9 @@ import org.tub.tubtextservice.domain.year.persondate.ShamsiDeath;
 class EntryConverter {
 
   /**
-   * Converts Semantic Mediawiki's {@link Printouts} to the {@link TubEntry}.
-   * The {@link TubEntry} is constructed from the categories in the TUB wiki which are held in the
-   * fields of {@link TubPrintouts}.
+   * Converts Semantic Mediawiki's {@link Printouts} to the {@link TubEntry}. The {@link TubEntry}
+   * is constructed from the categories in the TUB wiki which are held in the fields of {@link
+   * TubPrintouts}.
    *
    * @param tubPrintouts the data that is retrieved from Semantic MediaWiki
    * @return an {@link TubEntry}
@@ -61,10 +61,11 @@ class EntryConverter {
     final var titleOriginal = title.titleArabic().stream().findFirst().orElse("");
     final var manuscripts = getManuscripts(tubPrintouts.manuscripts(), titleName);
     final var editions = getEditions(tubPrintouts.editions(), titleName);
-    final List<Commentary> commentaries = List.of(); // todo implement
+    final List<Commentary> commentaries = getCommentaries(tubPrintouts, titleName);
     final var titleType =
         TitleType.valueOfTub(title.bookType().stream().findFirst().orElse("Unknown"));
-    return new TubEntry(titleName, titleOriginal, person, manuscripts, editions, commentaries, titleType);
+    return new TubEntry(
+        titleName, titleOriginal, person, manuscripts, editions, commentaries, titleType);
   }
 
   private Person getPerson(
@@ -93,33 +94,53 @@ class EntryConverter {
         .orElseGet(List::of);
   }
 
+  private List<Commentary> getCommentaries(TubPrintouts tubPrintouts, final String title) {
+    return Optional.ofNullable(tubPrintouts.commentaries())
+        .map(commentaryMap -> commentaryMap.get(title))
+        .map(
+            printouts ->
+                printouts.stream()
+                    .map(commentary -> convertCommentary(commentary, tubPrintouts))
+                    .toList())
+        .orElseGet(List::of);
+  }
+
+  Commentary convertCommentary(
+      final TitlePrintouts titlePrintouts, final TubPrintouts tubPrintouts) {
+    final var authorKey = titlePrintouts.author().stream().findFirst().orElse(null);
+    final var author = (Author) getPerson(tubPrintouts.authors(), authorKey);
+    final var title = titlePrintouts.titleTransliterated().stream().findFirst().orElse("");
+
+    return new Commentary(title, author);
+  }
+
   Edition convertEdition(EditionPrintouts editionPrintouts) {
     return Edition.builder()
-            .titleTransliterated(
-                    editionPrintouts.titleTransliterated().stream().findFirst().orElse(null))
-            .titleArabic(editionPrintouts.titleArabic().stream().findFirst().orElse(null))
-            .editor(editionPrintouts.editors().stream().findFirst().orElse(null))
-            .publisher(editionPrintouts.publisher().stream().findFirst().orElse(null))
-            .description(editionPrintouts.description().stream().findFirst().orElse(null))
-            .editionType(editionPrintouts.editionType().stream().findFirst().orElse(null))
-            .placeOfPublication(
-                    editionPrintouts.city().stream()
-                            .findFirst()
-                            .map(MediaWikiPageDetails::fulltext)
-                            .orElse(null))
-            .date(convertDate(editionPrintouts))
-            .build();
+        .titleTransliterated(
+            editionPrintouts.titleTransliterated().stream().findFirst().orElse(null))
+        .titleArabic(editionPrintouts.titleArabic().stream().findFirst().orElse(null))
+        .editor(editionPrintouts.editors().stream().findFirst().orElse(null))
+        .publisher(editionPrintouts.publisher().stream().findFirst().orElse(null))
+        .description(editionPrintouts.description().stream().findFirst().orElse(null))
+        .editionType(editionPrintouts.editionType().stream().findFirst().orElse(null))
+        .placeOfPublication(
+            editionPrintouts.city().stream()
+                .findFirst()
+                .map(MediaWikiPageDetails::fulltext)
+                .orElse(null))
+        .date(convertDate(editionPrintouts))
+        .build();
   }
 
   public Manuscript convertManuscript(ManuscriptPrintouts manuscriptPrintouts) {
     return new Manuscript(
-            manuscriptPrintouts.location().stream().findFirst().orElse(null),
-            manuscriptPrintouts.city().stream()
-                    .findFirst()
-                    .map(MediaWikiPageDetails::fulltext)
-                    .orElse(null),
-            manuscriptPrintouts.manuscriptNumber().stream().findFirst().orElse(null),
-            convertDate(manuscriptPrintouts));
+        manuscriptPrintouts.location().stream().findFirst().orElse(null),
+        manuscriptPrintouts.city().stream()
+            .findFirst()
+            .map(MediaWikiPageDetails::fulltext)
+            .orElse(null),
+        manuscriptPrintouts.manuscriptNumber().stream().findFirst().orElse(null),
+        convertDate(manuscriptPrintouts));
   }
 
   private EditionDate convertDate(DatedPrintouts printouts) {
@@ -137,7 +158,7 @@ class EntryConverter {
     final var hijri = getYear(source.deathHijri(), source.deathHijriText());
     final var shamsi = getYear(source.deathShamsi(), source.deathShamsiText());
     final var gregorian =
-            getYearFromMediaWikiDate(source.deathGregorian(), source.deathGregorianText());
+        getYearFromMediaWikiDate(source.deathGregorian(), source.deathGregorianText());
 
     if (!shamsi.isEmpty()) {
       return new ShamsiDeath(shamsi, gregorian);
@@ -157,7 +178,7 @@ class EntryConverter {
   }
 
   private String getYearFromMediaWikiDate(
-          List<MediaWikiDate> gregorian, List<String> gregorianText) {
+      List<MediaWikiDate> gregorian, List<String> gregorianText) {
     var year = "";
 
     if (!gregorian.isEmpty()) {
@@ -173,4 +194,4 @@ class EntryConverter {
     final var date = LocalDate.ofEpochDay(source.timestamp() / 86400).getYear();
     return String.valueOf(date);
   }
-  }
+}
