@@ -47,13 +47,6 @@ class EntryConverter {
         .toList();
   }
 
-  /**
-   * Converts a {@link TitlePrintouts} to an {@link TubEntry}.
-   *
-   * @param title the title to convert
-   * @param tubPrintouts the data that is retrieved from Semantic MediaWiki
-   * @return Entry
-   */
   private TubEntry convertTitle(TitlePrintouts title, final TubPrintouts tubPrintouts) {
     final var author = title.author().stream().findFirst().orElse(null);
     final var person = getPerson(tubPrintouts.authors(), author);
@@ -105,7 +98,7 @@ class EntryConverter {
         .orElseGet(List::of);
   }
 
-  Commentary convertCommentary(
+  private Commentary convertCommentary(
       final TitlePrintouts titlePrintouts, final TubPrintouts tubPrintouts) {
     final var authorKey = titlePrintouts.author().stream().findFirst().orElse(null);
     final var author = (Author) getPerson(tubPrintouts.authors(), authorKey);
@@ -114,7 +107,7 @@ class EntryConverter {
     return new Commentary(title, author);
   }
 
-  Edition convertEdition(EditionPrintouts editionPrintouts) {
+  private Edition convertEdition(EditionPrintouts editionPrintouts) {
     return Edition.builder()
         .titleTransliterated(
             editionPrintouts.titleTransliterated().stream().findFirst().orElse(null))
@@ -132,7 +125,7 @@ class EntryConverter {
         .build();
   }
 
-  public Manuscript convertManuscript(ManuscriptPrintouts manuscriptPrintouts) {
+  private Manuscript convertManuscript(ManuscriptPrintouts manuscriptPrintouts) {
     return new Manuscript(
         manuscriptPrintouts.location().stream().findFirst().orElse(null),
         manuscriptPrintouts.city().stream()
