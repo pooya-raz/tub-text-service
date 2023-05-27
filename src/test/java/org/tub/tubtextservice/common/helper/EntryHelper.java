@@ -14,6 +14,8 @@ import org.tub.tubtextservice.domain.year.persondate.ShamsiDeath;
 
 public class EntryHelper {
 
+  public static final long timeStamp = -2051222400L;
+
   private EntryHelper() {
     throw new UnsupportedOperationException("Utility class and cannot be instantiated");
   }
@@ -34,7 +36,9 @@ public class EntryHelper {
             null,
             "Tehran");
     final var commentary =
-        new Commentary("Title Transliterated Commentary", new Author("Author", new HijriDeath("1323", "1905")));
+        new Commentary(
+            "Title Transliterated Commentary",
+            new Author("Author", new HijriDeath("1323", "1905")));
     final var entry1 =
         new TubEntry(
             "Title Transliterated",
@@ -43,6 +47,7 @@ public class EntryHelper {
             List.of(manuscript),
             List.of(edition),
             List.of(commentary),
+            timeStamp,
             TitleType.TREATISE);
 
     final var authorShamsi = new Author("AuthorShamsi", new ShamsiDeath("1323", "1905"));
@@ -54,17 +59,19 @@ public class EntryHelper {
             List.of(),
             List.of(),
             List.of(),
+            timeStamp,
             TitleType.TREATISE);
 
-    final var entry3 = new TubEntry(
+    final var entry3 =
+        new TubEntry(
             "Title Transliterated Commentary",
-        "Title Arabic",
-        author,
-        List.of(),
-        List.of(),
-        List.of(),
-        TitleType.TREATISE
-    );
+            "Title Arabic",
+            author,
+            List.of(),
+            List.of(),
+            List.of(),
+            timeStamp,
+            TitleType.TREATISE);
     return List.of(entry1, entry2, entry3);
   }
 }

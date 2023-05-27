@@ -61,6 +61,7 @@ class MarkdownConverterTest {
         List.of(MANUSCRIPT, MANUSCRIPT),
         List.of(EDITION, EDITION),
         List.of(COMMENTARY, COMMENTARY),
+            -29221732800L,
         titleType);
   }
 

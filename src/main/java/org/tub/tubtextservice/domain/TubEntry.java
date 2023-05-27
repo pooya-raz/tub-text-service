@@ -13,6 +13,7 @@ public record TubEntry(
     List<Edition> editions,
 
     List<Commentary> commentaries,
+    Long sortTimeStamp,
     TitleType titleType) {
 
   public TubEntry {

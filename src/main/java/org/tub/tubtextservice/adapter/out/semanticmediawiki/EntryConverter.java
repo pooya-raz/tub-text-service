@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
+import java.util.stream.Collectors;
 import org.springframework.stereotype.Component;
 import org.tub.tubtextservice.adapter.out.semanticmediawiki.model.TubPrintouts;
 import org.tub.tubtextservice.adapter.out.semanticmediawiki.model.response.MediaWikiDate;
@@ -41,15 +42,21 @@ class EntryConverter {
    * @param tubPrintouts the data that is retrieved from Semantic MediaWiki
    * @return an {@link TubEntry}
    */
-  List<TubEntry> convert(final TubPrintouts tubPrintouts) {
+  ArrayList<TubEntry> convert(final TubPrintouts tubPrintouts) {
     return tubPrintouts.titles().values().stream()
         .map(title -> convertTitle(title, tubPrintouts))
-        .toList();
+        .collect(Collectors.toCollection(ArrayList::new));
   }
 
   private TubEntry convertTitle(TitlePrintouts title, final TubPrintouts tubPrintouts) {
     final var author = title.author().stream().findFirst().orElse(null);
-    final var person = getPerson(tubPrintouts.authors(), author);
+    final var authorPrintouts =
+        Optional.ofNullable(author)
+            .map(MediaWikiPageDetails::fulltext)
+            .map(a -> tubPrintouts.authors().get(a))
+            .orElse(null);
+    final var person = getPerson(authorPrintouts);
+    final var sortTimeStamp = getSortTimeStamp(authorPrintouts);
     final var titleName = title.titleTransliterated().stream().findFirst().orElse("");
     final var titleOriginal = title.titleArabic().stream().findFirst().orElse("");
     final var manuscripts = getManuscripts(tubPrintouts.manuscripts(), titleName);
@@ -58,17 +65,29 @@ class EntryConverter {
     final var titleType =
         TitleType.valueOfTub(title.bookType().stream().findFirst().orElse("Unknown"));
     return new TubEntry(
-        titleName, titleOriginal, person, manuscripts, editions, commentaries, titleType);
+        titleName,
+        titleOriginal,
+        person,
+        manuscripts,
+        editions,
+        commentaries,
+        sortTimeStamp,
+        titleType);
   }
 
-  private Person getPerson(
-      final Map<String, AuthorPrintouts> authorPrintoutsMap,
-      final MediaWikiPageDetails authorPage) {
-    return Optional.ofNullable(authorPage)
-        .map(MediaWikiPageDetails::fulltext)
-        .map(authorPrintoutsMap::get)
+  private Long getSortTimeStamp(AuthorPrintouts source) {
+    return Optional.ofNullable(source)
+        .map(AuthorPrintouts::deathGregorian)
+        .map(list -> list.stream().findFirst().orElse(new MediaWikiDate(Long.MAX_VALUE, null)))
+        .map(MediaWikiDate::timestamp)
+        .orElse(Long.MAX_VALUE);
+  }
+
+  private Person getPerson(final AuthorPrintouts authorPrintouts) {
+    return Optional.ofNullable(authorPrintouts)
         .map(this::convertDate)
-        .map(personDeath -> new Author(authorPage.fulltext(), personDeath))
+        .map(
+            personDeath -> new Author(authorPrintouts.fullNameTransliterated().get(0), personDeath))
         .orElse(null);
   }
 
@@ -101,7 +120,12 @@ class EntryConverter {
   private Commentary convertCommentary(
       final TitlePrintouts titlePrintouts, final TubPrintouts tubPrintouts) {
     final var authorKey = titlePrintouts.author().stream().findFirst().orElse(null);
-    final var author = (Author) getPerson(tubPrintouts.authors(), authorKey);
+    final var authorPrintouts =
+        Optional.ofNullable(authorKey)
+            .map(MediaWikiPageDetails::fulltext)
+            .map(a -> tubPrintouts.authors().get(a))
+            .orElse(null);
+    final var author = (Author) getPerson(authorPrintouts);
     final var title = titlePrintouts.titleTransliterated().stream().findFirst().orElse("");
 
     return new Commentary(title, author);

@@ -98,7 +98,12 @@
             "AuthorShamsi"
           ],
           "Death (Hijri)": [],
-          "Death (Gregorian)": [],
+          "Death (Gregorian)": [
+            {
+              "timestamp": "-2051222400",
+              "raw": "1/1905"
+            }
+          ],
           "Death (Shamsi)": [
             1323
           ],
