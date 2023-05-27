@@ -1,6 +1,5 @@
 package org.tub.tubtextservice.adapter.out.semanticmediawiki;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -51,17 +50,6 @@ class TubDataFetcher {
     final var editions = MapCreator.createMapEdition(editionPrintouts);
     final var commentaries = MapCreator.createCommentaries(titlePrintouts);
     return new TubPrintouts(titles, authors, manuscripts, editions, commentaries);
-  }
-
-  private void saveTubResult(String query, TubResponse response) {
-    final var filename = query.substring(0, 20) + query.substring(query.length() - 20) + ".json";
-    System.out.println("Filename: " + filename);
-    final var mapper = new ObjectMapper();
-    try {
-      mapper.writeValue(new java.io.File(filename), response);
-    } catch (Exception e) {
-      e.printStackTrace();
-    }
   }
 
   /**
