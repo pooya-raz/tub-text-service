@@ -80,7 +80,7 @@ class SubSectionFormat {
     if (commentaries.isEmpty()) {
       return "";
     }
-    final var layout = "* %s, %s %s";
+    final var layout = "* *%s*, %s %s";
     final var commentaryMarkdown =
         commentaries.stream()
             .map(

@@ -39,7 +39,8 @@ public class EntryHelper {
     final var commentary =
         new Commentary(
             "Title Transliterated Commentary",
-            new Author("Author", new HijriDeath("1323", "1905")));
+            new Author("Author", new HijriDeath("1323", "1905")),
+                -2051222400L);
     final var entry1 =
         new TubEntry(
             "Title Transliterated",

@@ -41,7 +41,7 @@ class MarkdownConverterTest {
           1000);
   public static final String AUTHOR = "Author";
   public static final Commentary COMMENTARY =
-      new Commentary("Title", new Author(AUTHOR, new HijriDeath("600", "1000")));
+      new Commentary("Title", new Author(AUTHOR, new HijriDeath("600", "1000")), -30610224000L);
   public static final String HIJRI_DEATH = "436";
   public static final String GREGORIAN_DEATH = "1044";
   public static final Manuscript MANUSCRIPT =

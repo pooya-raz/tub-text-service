@@ -5,7 +5,8 @@ import org.tub.tubtextservice.domain.year.persondate.HijriDeath;
 
 public record Commentary(
         String title,
-        Author author
+        Author author,
+        Long sortTimeStamp
 ) {
     public Commentary {
         if (author == null){

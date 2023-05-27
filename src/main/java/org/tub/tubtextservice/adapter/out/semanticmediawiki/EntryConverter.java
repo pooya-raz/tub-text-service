@@ -36,10 +36,12 @@ class EntryConverter {
 
   private final EditionComparator editionComparator;
   private final ManuscriptComparator manuscriptComparator;
+  private final CommentaryComparator commentaryComparator;
 
-  EntryConverter(EditionComparator editionComparator, ManuscriptComparator manuscriptComparator) {
+  EntryConverter(EditionComparator editionComparator, ManuscriptComparator manuscriptComparator, CommentaryComparator commentaryComparator) {
     this.editionComparator = editionComparator;
     this.manuscriptComparator = manuscriptComparator;
+    this.commentaryComparator = commentaryComparator;
   }
 
   /**
@@ -69,12 +71,13 @@ class EntryConverter {
     final var titleOriginal = title.titleArabic().stream().findFirst().orElse("");
     final var manuscripts = getManuscripts(tubPrintouts.manuscripts(), titleName);
     final var editions = getEditions(tubPrintouts.editions(), titleName);
-    final List<Commentary> commentaries = getCommentaries(tubPrintouts, titleName);
+    final var commentaries = getCommentaries(tubPrintouts, titleName);
     final var titleType =
         TitleType.valueOfTub(title.bookType().stream().findFirst().orElse("Unknown"));
 
     editions.sort(editionComparator);
     manuscripts.sort(manuscriptComparator);
+    commentaries.sort(commentaryComparator);
     return new TubEntry(
         titleName,
         titleOriginal,
@@ -125,15 +128,15 @@ class EntryConverter {
         .orElseGet(ArrayList::new);
   }
 
-  private List<Commentary> getCommentaries(TubPrintouts tubPrintouts, final String title) {
+  private ArrayList<Commentary> getCommentaries(TubPrintouts tubPrintouts, final String title) {
     return Optional.ofNullable(tubPrintouts.commentaries())
         .map(commentaryMap -> commentaryMap.get(title))
         .map(
             printouts ->
                 printouts.stream()
                     .map(commentary -> convertCommentary(commentary, tubPrintouts))
-                    .toList())
-        .orElseGet(List::of);
+                    .collect(Collectors.toCollection(ArrayList::new)))
+        .orElseGet(ArrayList::new);
   }
 
   private Commentary convertCommentary(
@@ -146,8 +149,8 @@ class EntryConverter {
             .orElse(null);
     final var author = (Author) getPerson(authorPrintouts);
     final var title = titlePrintouts.titleTransliterated().stream().findFirst().orElse("");
-
-    return new Commentary(title, author);
+    final var sortTimeStamp = getSortTimeStamp(authorPrintouts);
+    return new Commentary(title, author, sortTimeStamp);
   }
 
   private Edition convertEdition(EditionPrintouts editionPrintouts) {
