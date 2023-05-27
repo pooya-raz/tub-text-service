@@ -45,7 +45,7 @@ class MarkdownConverterTest {
   public static final String HIJRI_DEATH = "436";
   public static final String GREGORIAN_DEATH = "1044";
   public static final Manuscript MANUSCRIPT =
-      new Manuscript("Location", "City", "1", new HijriDate("600", "1000"));
+      new Manuscript("Location", "City", "1", new HijriDate("600", "1000"), 1000);
   private static String layout;
   private MarkdownConverter markdownService;
 

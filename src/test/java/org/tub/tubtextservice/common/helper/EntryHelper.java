@@ -24,7 +24,7 @@ public class EntryHelper {
     final var author = new Author("Author", new HijriDeath("1323", "1905"));
 
     final var manuscript =
-        new Manuscript("Majlis", "Tehran", "1195", new HijriDate("11th century", "17th century"));
+        new Manuscript("Majlis", "Tehran", "1195", new HijriDate("11th century", "17th century"), 1699);
     final var edition =
         new Edition(
             "Title Transliterated",

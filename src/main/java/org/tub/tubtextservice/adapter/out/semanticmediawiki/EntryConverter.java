@@ -35,11 +35,12 @@ import org.tub.tubtextservice.domain.year.persondate.ShamsiDeath;
 class EntryConverter {
 
   private final EditionComparator editionComparator;
+  private final ManuscriptComparator manuscriptComparator;
 
-  EntryConverter(EditionComparator editionComparator) {
+  EntryConverter(EditionComparator editionComparator, ManuscriptComparator manuscriptComparator) {
     this.editionComparator = editionComparator;
+    this.manuscriptComparator = manuscriptComparator;
   }
-
 
   /**
    * Converts Semantic Mediawiki's {@link Printouts} to the {@link TubEntry}. The {@link TubEntry}
@@ -68,10 +69,12 @@ class EntryConverter {
     final var titleOriginal = title.titleArabic().stream().findFirst().orElse("");
     final var manuscripts = getManuscripts(tubPrintouts.manuscripts(), titleName);
     final var editions = getEditions(tubPrintouts.editions(), titleName);
-    editions.sort(editionComparator);
     final List<Commentary> commentaries = getCommentaries(tubPrintouts, titleName);
     final var titleType =
         TitleType.valueOfTub(title.bookType().stream().findFirst().orElse("Unknown"));
+
+    editions.sort(editionComparator);
+    manuscripts.sort(manuscriptComparator);
     return new TubEntry(
         titleName,
         titleOriginal,
@@ -99,12 +102,16 @@ class EntryConverter {
         .orElse(null);
   }
 
-  private List<Manuscript> getManuscripts(
+  private ArrayList<Manuscript> getManuscripts(
       final Map<String, ArrayList<ManuscriptPrintouts>> manuscriptPrintoutsMap,
       final String titleName) {
     return Optional.ofNullable(manuscriptPrintoutsMap.get(titleName))
-        .map(printouts -> printouts.stream().map(this::convertManuscript).toList())
-        .orElseGet(List::of);
+        .map(
+            printouts ->
+                printouts.stream()
+                    .map(this::convertManuscript)
+                    .collect(Collectors.toCollection(ArrayList::new)))
+        .orElseGet(ArrayList::new);
   }
 
   private ArrayList<Edition> getEditions(
@@ -171,7 +178,8 @@ class EntryConverter {
             .map(MediaWikiPageDetails::fulltext)
             .orElse(null),
         manuscriptPrintouts.manuscriptNumber().stream().findFirst().orElse(null),
-        convertDate(manuscriptPrintouts));
+        convertDate(manuscriptPrintouts),
+        manuscriptPrintouts.yearGregorian().stream().findFirst().orElse(Integer.MAX_VALUE));
   }
 
   private EditionDate convertDate(DatedPrintouts printouts) {

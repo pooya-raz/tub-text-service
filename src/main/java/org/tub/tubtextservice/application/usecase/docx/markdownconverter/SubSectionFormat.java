@@ -21,15 +21,16 @@ class SubSectionFormat {
     if (manuscripts.isEmpty()) {
       return "";
     }
-    final var layout = "* %s, %s (#%s), dated %s/%s";
+    final var layout = "* %s, %s (%s), dated %s/%s";
     final var manuscriptsMarkdown =
         manuscripts.stream()
+            .limit(5)
             .map(
                 m ->
                     layout.formatted(
                         m.location(),
                         m.city(),
-                        m.manuscriptNumber(),
+                        m.manuscriptNumber() == null ? "N/A" : "#"+m.manuscriptNumber(),
                         m.date().year(),
                         m.date().gregorian()))
             .collect(Collectors.joining(NEWLINE_AND_FOUR_SPACES));
@@ -69,7 +70,7 @@ class SubSectionFormat {
     }
     if (!edition.date().year().isEmpty() && !edition.date().gregorian().isEmpty()) {
       var sh = "";
-      if (edition.date()instanceof ShamsiDate) sh = "SH";
+      if (edition.date() instanceof ShamsiDate) sh = "SH";
       date = edition.date().year() + sh + "/" + edition.date().gregorian();
     }
     return layout.formatted(edition.titleTransliterated(), editor, place, publisher, date);
