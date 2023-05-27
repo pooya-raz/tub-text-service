@@ -23,7 +23,7 @@ class SectionFormat {
     final var body = new StringBuilder();
     for (var entry : entriesDto.entries()) {
       if (entry.titleType().equals(titleType)) {
-        body.append(TitleTypeFormat.create(entry, titleType));
+        body.append(TitleTypeFormat.create(entry));
       }
     }
     return body.toString();
