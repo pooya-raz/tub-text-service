@@ -24,7 +24,7 @@ public class CreateDocx implements CreateDocxPort {
       return null;
     }
     try {
-      String[] cmd = {"pandoc", "-o", outputFilePath, markdownPath};
+      String[] cmd = {"pandoc", "-s", "-o", outputFilePath, markdownPath};
       Runtime.getRuntime().exec(cmd);
     }catch (IOException e) {
       log.info("Error while creating docx file");
