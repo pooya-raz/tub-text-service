@@ -16,36 +16,36 @@ public class CreateDocx implements CreateDocxPort {
   private static final Logger log = Logger.getLogger(CreateDocx.class.getName());
 
   @Override
-  public CreateDocxDto createDocx(MarkdownDto markdownDto) {
-    final var path = saveMarkdown(markdownDto);
+  public CreateDocxDto createDocx(MarkdownDto markdownDto, String directory) {
+    final var markdownPath = saveMarkdown(markdownDto, directory);
     final var system = System.getProperty("os.name").toLowerCase();
-    log.info("Operating System: " + system);
+    final var outputFilePath = directory + "tub.docx";
     if (system.contains("windows")) {
       return null;
     }
     try {
-      String[] cmd = {"pandoc -f markdown -t docx -o test.docx", path};
+      String[] cmd = {"pandoc", "-o", outputFilePath, markdownPath};
       Runtime.getRuntime().exec(cmd);
     }catch (IOException e) {
       log.info("Error while creating docx file");
       e.printStackTrace();
     }
-    return new CreateDocxDto(path);
+    return new CreateDocxDto(markdownPath);
   }
 
-  private String saveMarkdown(MarkdownDto markdownDto) {
-    var path = "";
+  private String saveMarkdown(MarkdownDto markdownDto, String directory) {
+    var filePath = "";
     try {
-      final var file = new File("markdown.md");
+      final var file = new File(directory + "markdown.md");
       final var fileWriter = new FileWriter(file);
       final var printWriter = new PrintWriter(fileWriter);
       printWriter.print(markdownDto.body());
       printWriter.close();
-      path = file.getAbsolutePath();
+      filePath = file.getAbsolutePath();
     } catch (IOException e) {
       log.info("Error while saving markdown file");
       e.printStackTrace();
     }
-    return path;
+    return filePath;
     }
 }

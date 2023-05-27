@@ -16,5 +16,5 @@ public interface CreateDocxPort {
      * @param markdownDto markdown to convert
      * @return Path to the created docx file
      */
-  CreateDocxDto createDocx(MarkdownDto markdownDto);
+  CreateDocxDto createDocx(MarkdownDto markdownDto, String directory);
 }

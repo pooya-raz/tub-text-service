@@ -38,7 +38,7 @@ public class CreateAndSendDocx {
   public void createDocx(UserDto user) {
     final var entries = getEntriesPort.getEntries();
     final var text = markdownConverter.convert(entries);
-    final var createDocxDto = createDocxPort.createDocx(new MarkdownDto(text));
+    final var createDocxDto = createDocxPort.createDocx(new MarkdownDto(text), "src/main/resources/output/");
     sendDocxPort.send(new SendDocxDto(createDocxDto.docx(), user.email()));
   }
 }
