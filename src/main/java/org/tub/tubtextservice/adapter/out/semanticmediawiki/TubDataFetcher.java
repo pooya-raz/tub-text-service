@@ -1,5 +1,6 @@
 package org.tub.tubtextservice.adapter.out.semanticmediawiki;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -50,6 +51,17 @@ class TubDataFetcher {
     final var editions = MapCreator.createMapEdition(editionPrintouts);
     final var commentaries = MapCreator.createCommentaries(titlePrintouts);
     return new TubPrintouts(titles, authors, manuscripts, editions, commentaries);
+  }
+
+  private void saveTubResult(String query, TubResponse response) {
+      final var filename = query.substring(0, 20) + query.substring(query.length() - 20) + ".json";
+    System.out.println("Filename: " + filename);
+    final var mapper = new ObjectMapper();
+    try {
+      mapper.writeValue(new java.io.File(filename), response);
+    } catch (Exception e) {
+      e.printStackTrace();
+    }
   }
 
   /**
@@ -126,18 +138,18 @@ class TubDataFetcher {
       return mapTitle;
     }
 
-    private static Map<String, ArrayList<TitlePrintouts>> createCommentaries(List<Data> dataList){
-        final var mapOfCommentaries= new HashMap<String, ArrayList<TitlePrintouts>>();
-        dataList.forEach(
-            data -> {
-              final var printout = (TitlePrintouts) data.printouts();
-              var key = UUID.randomUUID().toString();
-              if (printout.baseText() != null && !printout.baseText().isEmpty()) {
-                key = printout.baseText().get(0).fulltext();
-              }
-              addToMap(mapOfCommentaries, key, printout);
-            });
-        return mapOfCommentaries;
+    private static Map<String, ArrayList<TitlePrintouts>> createCommentaries(List<Data> dataList) {
+      final var mapOfCommentaries = new HashMap<String, ArrayList<TitlePrintouts>>();
+      dataList.forEach(
+          data -> {
+            final var printout = (TitlePrintouts) data.printouts();
+            var key = UUID.randomUUID().toString();
+            if (printout.baseText() != null && !printout.baseText().isEmpty()) {
+              key = printout.baseText().get(0).fulltext();
+            }
+            addToMap(mapOfCommentaries, key, printout);
+          });
+      return mapOfCommentaries;
     }
 
     /**
@@ -166,7 +178,8 @@ class TubDataFetcher {
     private static final int STOP = 0;
 
     /**
-     * The offset is used to retrieve the data in batches. The offset is the number of items to skip.
+     * The offset is used to retrieve the data in batches. The offset is the number of items to
+     * skip.
      */
     private int offset = STOP;
 
@@ -194,7 +207,6 @@ class TubDataFetcher {
      * @return the {@link Data} from the TUB API.
      */
     private List<Data> fetchData(final String query) {
-
       if (query == null) return List.of();
       final var result = client.queryTub("ask", "json", query);
       if (result.queryContinueOffset() != null) {
@@ -205,5 +217,5 @@ class TubDataFetcher {
         return List.of();
       }
     }
-        }
+  }
 }
