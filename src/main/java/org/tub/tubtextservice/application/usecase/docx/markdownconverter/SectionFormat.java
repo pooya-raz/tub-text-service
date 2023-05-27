@@ -8,9 +8,8 @@ class SectionFormat {
     throw new UnsupportedOperationException("SectionFormat is a utility class and cannot be instantiated");
   }
   static String create(final EntriesDto entriesDto, TitleType titleType) {
-    final var header = createHeader(titleType);
-    final var body = createBody(entriesDto, titleType);
-    return header + body;
+    return createHeader(titleType)+
+      createBody(entriesDto, titleType);
   }
 
   private static String createHeader(final TitleType titleType) {
