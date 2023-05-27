@@ -26,6 +26,25 @@ import org.tub.tubtextservice.domain.year.persondate.HijriDeath;
 @ExtendWith(MockitoExtension.class)
 class MarkdownConverterTest {
 
+  public static final String TITLE_TRANSLITERATED = "Title transliterated";
+  public static final String TITLE_ARABIC = "Title Arabic";
+  public static final Edition EDITION =
+      new Edition(
+          "Title",
+          TITLE_ARABIC,
+          new HijriDate("600", "1000"),
+          "Editor",
+          "Publisher",
+          null,
+          "Edited",
+          "City");
+  public static final String AUTHOR = "Author";
+  public static final Commentary COMMENTARY =
+      new Commentary("Title", new Author(AUTHOR, new HijriDeath("600", "1000")));
+  public static final String HIJRI_DEATH = "436";
+  public static final String GREGORIAN_DEATH = "1044";
+  public static final Manuscript MANUSCRIPT =
+      new Manuscript("Location", "City", "1", new HijriDate("600", "1000"));
   private static String layout;
   private MarkdownConverter markdownService;
 
@@ -34,47 +53,39 @@ class MarkdownConverterTest {
     layout = readString(of("src/test/resources/markdown/layout.md"));
   }
 
+  private static TubEntry getEntry(TitleType titleType) {
+    return new TubEntry(
+        TITLE_TRANSLITERATED,
+        TITLE_ARABIC,
+        new Author(AUTHOR, new HijriDeath(HIJRI_DEATH, GREGORIAN_DEATH)),
+        List.of(MANUSCRIPT, MANUSCRIPT),
+        List.of(EDITION, EDITION),
+        List.of(COMMENTARY, COMMENTARY),
+        titleType);
+  }
+
   @BeforeEach
   void setUp() {
     markdownService = new MarkdownConverter();
   }
 
   @Test
-  @DisplayName("GIVEN a monograph WHEN converted to markdown THEN return correct markdown for a monograph")
+  @DisplayName(
+      "GIVEN a monograph WHEN converted to markdown THEN return correct markdown for a monograph")
   void convertShouldReturnMarkdown() {
-    final var manuscript = new Manuscript("Location", "City", "1", new HijriDate("600", "1000"));
-    final var edition =
-        new Edition(
-            "Title",
-            "Title Arabic",
-            new HijriDate("600", "1000"),
-            "Editor",
-            "Publisher",
-            null,
-            "Edited",
-            "City");
-    final var commentary =
-        new Commentary("Title", new Author("Author", new HijriDeath("600", "1000")));
-    final var monograph =
-        new TubEntry(
-            "Title transliterated",
-            "Title Arabic",
-            new Author("Author", new HijriDeath("436", "1044")),
-            List.of(manuscript, manuscript),
-            List.of(edition, edition),
-            List.of(commentary, commentary),
-            TitleType.MONOGRAPH);
-
-    final var commentaryEntry =
-            new TubEntry(
-                    "Title transliterated",
-                    "Title Arabic",
-                    new Author("Author", new HijriDeath("436", "1044")),
-                    List.of(manuscript, manuscript),
-                    List.of(edition, edition),
-                    List.of(),
-                    TitleType.COMMENTARY);
-    final var actual = markdownService.convert(new EntriesDto(List.of(monograph, commentaryEntry)));
+    final var actual =
+        markdownService.convert(
+            new EntriesDto(
+                List.of(
+                    getEntry(TitleType.MONOGRAPH),
+                    getEntry(TitleType.COMMENTARY),
+                    getEntry(TitleType.GLOSS),
+                    getEntry(TitleType.MARGINNOTES),
+                    getEntry(TitleType.TREATISE),
+                    getEntry(TitleType.SUMMARY),
+                    getEntry(TitleType.POEM),
+                    getEntry(TitleType.REFUTATION),
+                    getEntry(TitleType.TAQRIRAT))));
     assertThat(actual).isEqualTo(layout);
   }
 }
