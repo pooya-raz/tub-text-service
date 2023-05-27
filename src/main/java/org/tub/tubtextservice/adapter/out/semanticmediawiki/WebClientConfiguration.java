@@ -39,7 +39,7 @@ public class WebClientConfiguration {
             .codecs(codecs -> codecs.defaultCodecs().maxInMemorySize(size))
             .build();
     final var factory =
-        HttpServiceProxyFactory.builder(WebClientAdapter.forClient(webClient)).build();
+        HttpServiceProxyFactory.builder(WebClientAdapter.forClient(webClient)).blockTimeout(Duration.ofMinutes(2)).build();
     return factory.createClient(SemanticMediaWikiClient.class);
   }
 
