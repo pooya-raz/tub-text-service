@@ -15,14 +15,14 @@ class DateFormat {
     }
 
     private static String createTemplate(final PersonDeath personDeath) {
-        var prependedText = "d. ";
+        var prependedText = "";
         var nonGregorian = "%s";
         final var gregorian = "%s";
         if (personDeath instanceof ShamsiDeath) {
             nonGregorian = gregorian + "Sh";
         }
-        if (personDeath.year().startsWith("fl. ")) {
-            prependedText = "";
+        if (personDeath.year().startsWith("after") || personDeath.year().startsWith("before")) {
+            prependedText = "d. ";
         }
         return "(" + prependedText + nonGregorian + "/" + gregorian + ")";
     }
