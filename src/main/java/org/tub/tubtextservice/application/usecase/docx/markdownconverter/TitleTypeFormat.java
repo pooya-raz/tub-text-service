@@ -16,7 +16,7 @@ class TitleTypeFormat {
   static String create(final TubEntry tubEntry, final TitleType titleType) {
     return switch (titleType) {
       case MONOGRAPH -> createMonograph(tubEntry);
-      case COMMENTARY -> "Commentary";
+      case COMMENTARY -> createCommentaries(tubEntry);
       case GLOSS -> "Gloss";
       case MARGINNOTES -> "Marginnotes";
       case TREATISE -> "Treatise";
@@ -54,5 +54,28 @@ class TitleTypeFormat {
             SubSectionFormat.createManuscripts(tubEntry.manuscripts()),
             SubSectionFormat.createEditions(tubEntry.editions()),
             SubSectionFormat.createCommentaries(tubEntry.commentaries()));
+  }
+
+  private static String createCommentaries(final TubEntry tubEntry) {
+    return """
+                1. %s
+                   %s
+                   %s
+                   %s
+
+                   **Principle Manuscripts**
+                    %s
+
+                   **Editions**
+                    %s
+
+                """
+            .formatted(
+                    tubEntry.titleTransliterated() + DOUBLE_SPACE,
+                    tubEntry.titleOriginal() + DOUBLE_SPACE,
+                    tubEntry.person().name() + DOUBLE_SPACE,
+                    DateFormat.create(tubEntry.person().personDeath()),
+                    SubSectionFormat.createManuscripts(tubEntry.manuscripts()),
+                    SubSectionFormat.createEditions(tubEntry.editions()));
   }
 }

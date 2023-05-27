@@ -12,8 +12,8 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.junit.jupiter.MockitoExtension;
-import org.tub.tubtextservice.application.usecase.docx.markdownconverter.MarkdownConverter;
 import org.tub.tubtextservice.application.usecase.docx.dto.in.EntriesDto;
+import org.tub.tubtextservice.application.usecase.docx.markdownconverter.MarkdownConverter;
 import org.tub.tubtextservice.domain.Commentary;
 import org.tub.tubtextservice.domain.Edition;
 import org.tub.tubtextservice.domain.Manuscript;
@@ -40,7 +40,7 @@ class MarkdownConverterTest {
   }
 
   @Test
-  @DisplayName("Should return the correct markdown for all sections")
+  @DisplayName("GIVEN a monograph WHEN converted to markdown THEN return correct markdown for a monograph")
   void convertShouldReturnMarkdown() {
     final var manuscript = new Manuscript("Location", "City", "1", new HijriDate("600", "1000"));
     final var edition =
@@ -62,9 +62,19 @@ class MarkdownConverterTest {
             new Author("Author", new HijriDeath("436", "1044")),
             List.of(manuscript, manuscript),
             List.of(edition, edition),
-            List.of(commentary, commentary), // todo implement
+            List.of(commentary, commentary),
             TitleType.MONOGRAPH);
-    final var actual = markdownService.convert(new EntriesDto(List.of(monograph)));
+
+    final var commentaryEntry =
+            new TubEntry(
+                    "Title transliterated",
+                    "Title Arabic",
+                    new Author("Author", new HijriDeath("436", "1044")),
+                    List.of(manuscript, manuscript),
+                    List.of(edition, edition),
+                    List.of(),
+                    TitleType.COMMENTARY);
+    final var actual = markdownService.convert(new EntriesDto(List.of(monograph, commentaryEntry)));
     assertThat(actual).isEqualTo(layout);
   }
 }
