@@ -21,20 +21,27 @@ class SubSectionFormat {
     if (manuscripts.isEmpty()) {
       return "";
     }
-    final var layout = "* %s, %s (%s), dated %s/%s";
+
     final var manuscriptsMarkdown =
         manuscripts.stream()
             .limit(5)
-            .map(
-                m ->
-                    layout.formatted(
-                        m.location(),
-                        m.city(),
-                        m.manuscriptNumber() == null ? "N/A" : "#"+m.manuscriptNumber(),
-                        m.date().year(),
-                        m.date().gregorian()))
+            .map(SubSectionFormat::createManuscript)
             .collect(Collectors.joining(NEWLINE_AND_FOUR_SPACES));
     return createSubSectionMarkdown("**Principle Manuscripts**", manuscriptsMarkdown);
+  }
+  private static String createManuscript(Manuscript manuscript){
+    final var layout = "* %s, %s (%s)%s";
+    final var number = manuscript.manuscriptNumber() == null ? "N/A" : "#"+manuscript.manuscriptNumber();
+    var date ="";
+    if(manuscript.date() != null && !manuscript.date().year().isBlank() && !manuscript.date().gregorian().isBlank()){
+      var sh = manuscript.date() instanceof ShamsiDate ? "SH" : "";
+      date = ", " + manuscript.date().year() + sh + "/" + manuscript.date().gregorian();
+    }
+    return layout.formatted(
+            manuscript.location(),
+            manuscript.city(),
+            number,
+            date);
   }
 
   static String createEditions(final List<Edition> editions) {
