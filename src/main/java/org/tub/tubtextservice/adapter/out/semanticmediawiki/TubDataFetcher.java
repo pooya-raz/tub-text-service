@@ -54,7 +54,7 @@ class TubDataFetcher {
   }
 
   private void saveTubResult(String query, TubResponse response) {
-      final var filename = query.substring(0, 20) + query.substring(query.length() - 20) + ".json";
+    final var filename = query.substring(0, 20) + query.substring(query.length() - 20) + ".json";
     System.out.println("Filename: " + filename);
     final var mapper = new ObjectMapper();
     try {
@@ -192,8 +192,8 @@ class TubDataFetcher {
     List<Data> getAllData(final String query) {
       var list = fetchData(query);
       while (offset != STOP) {
-        list =
-            Stream.of(list, fetchData(query + "|offset=" + offset)).flatMap(List::stream).toList();
+        final var offsetList = fetchData(query + "|offset=" + offset);
+        list = Stream.of(list, offsetList).flatMap(List::stream).toList();
       }
       return list;
     }
@@ -211,11 +211,10 @@ class TubDataFetcher {
       final var result = client.queryTub("ask", "json", query);
       if (result.queryContinueOffset() != null) {
         offset = result.queryContinueOffset();
-        return result.query().results().getDataMap().values().stream().toList();
       } else {
         offset = STOP;
-        return List.of();
       }
+      return result.query().results().getDataMap().values().stream().toList();
     }
   }
 }

@@ -35,9 +35,7 @@ public class SemanticMediaWikiAdapterTest {
   public static final String AUTHORS = "authors";
   public static final String EDITIONS = "editions";
   public static final String MANUSCRIPTS = "manuscripts";
-
   public static final String TUB_API_ENDPOINT = "/tub/api.php";
-
   public static final String QUERY = "query";
   public static final String TITLES_JSON = "src/test/resources/tub/semantic-query/title.json";
   public static final String AUTHORS_JSON = "src/test/resources/tub/semantic-query/author.json";

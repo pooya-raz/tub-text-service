@@ -70,9 +70,8 @@ class MarkdownConverterTest {
   }
 
   @Test
-  @DisplayName(
-      "GIVEN a monograph WHEN converted to markdown THEN return correct markdown for a monograph")
-  void convertShouldReturnMarkdown() {
+  @DisplayName("should convert EntriesDTO to markdown")
+  void test1() {
     final var actual =
         markdownService.convert(
             new EntriesDto(
