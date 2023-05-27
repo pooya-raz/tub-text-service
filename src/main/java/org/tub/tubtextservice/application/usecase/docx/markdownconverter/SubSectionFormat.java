@@ -34,7 +34,7 @@ class SubSectionFormat {
     final var number = manuscript.manuscriptNumber() == null ? "N/A" : "#"+manuscript.manuscriptNumber();
     var date ="";
     if(manuscript.date() != null && !manuscript.date().year().isBlank() && !manuscript.date().gregorian().isBlank()){
-      var sh = manuscript.date() instanceof ShamsiDate ? "SH" : "";
+      var sh = manuscript.date() instanceof ShamsiDate ? "Sh" : "";
       date = ", " + manuscript.date().year() + sh + "/" + manuscript.date().gregorian();
     }
     return layout.formatted(
@@ -77,7 +77,7 @@ class SubSectionFormat {
     }
     if (!edition.date().year().isEmpty() && !edition.date().gregorian().isEmpty()) {
       var sh = "";
-      if (edition.date() instanceof ShamsiDate) sh = "SH";
+      if (edition.date() instanceof ShamsiDate) sh = "Sh";
       date = edition.date().year() + sh + "/" + edition.date().gregorian();
     }
     return layout.formatted(edition.titleTransliterated(), editor, place, publisher, date);
