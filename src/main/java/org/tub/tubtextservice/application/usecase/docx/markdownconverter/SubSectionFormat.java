@@ -1,10 +1,13 @@
 package org.tub.tubtextservice.application.usecase.docx.markdownconverter;
 
 import java.util.List;
+import java.util.Objects;
+import java.util.Optional;
 import java.util.stream.Collectors;
 import org.tub.tubtextservice.domain.Commentary;
 import org.tub.tubtextservice.domain.Edition;
 import org.tub.tubtextservice.domain.Manuscript;
+import org.tub.tubtextservice.domain.year.editiondate.ShamsiDate;
 
 class SubSectionFormat {
   public static final String NEWLINE_AND_FOUR_SPACES = "\n    ";
@@ -37,20 +40,39 @@ class SubSectionFormat {
     if (editions.isEmpty()) {
       return "";
     }
-    final var layout = "* %s, ed. %s (%s: %s, %s/%s)";
     final var editionsMarkdown =
         editions.stream()
-            .map(
-                e ->
-                    layout.formatted(
-                        e.titleTransliterated(),
-                        e.editor(),
-                        e.placeOfPublication(),
-                        e.publisher(),
-                        e.date().year(),
-                        e.date().gregorian()))
+            .filter(Objects::nonNull)
+            .map(SubSectionFormat::createEdition)
             .collect(Collectors.joining(NEWLINE_AND_FOUR_SPACES));
     return createSubSectionMarkdown("**Editions**", editionsMarkdown);
+  }
+
+  static String createEdition(final Edition edition) {
+    final var layout = "* *%s*%s (%s %s, %s)";
+    var editor = "";
+    var place = "n.plac.,";
+    var date = "n.d.";
+    var publisher = Optional.ofNullable(edition.publisher()).orElse("n.pub");
+
+    if (edition.editor() != null && !edition.editor().isBlank()) {
+      editor = ", ed. " + edition.editor();
+    }
+    if (edition.placeOfPublication() != null && !edition.placeOfPublication().isBlank()) {
+      place = edition.placeOfPublication() + ":";
+    }
+    if (!edition.date().year().isEmpty()) {
+      date = edition.date().year();
+    }
+    if (!edition.date().gregorian().isEmpty()) {
+      date = edition.date().gregorian();
+    }
+    if (!edition.date().year().isEmpty() && !edition.date().gregorian().isEmpty()) {
+      var sh = "";
+      if (edition.date()instanceof ShamsiDate) sh = "SH";
+      date = edition.date().year() + sh + "/" + edition.date().gregorian();
+    }
+    return layout.formatted(edition.titleTransliterated(), editor, place, publisher, date);
   }
 
   static String createCommentaries(final List<Commentary> commentaries) {
