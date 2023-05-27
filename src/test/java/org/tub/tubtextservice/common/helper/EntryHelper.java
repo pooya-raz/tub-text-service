@@ -34,7 +34,8 @@ public class EntryHelper {
             "Bustān-i Kitāb",
             null,
             null,
-            "Tehran");
+            "Tehran",
+                2009);
     final var commentary =
         new Commentary(
             "Title Transliterated Commentary",

@@ -34,6 +34,13 @@ import org.tub.tubtextservice.domain.year.persondate.ShamsiDeath;
 @Component
 class EntryConverter {
 
+  private final EditionComparator editionComparator;
+
+  EntryConverter(EditionComparator editionComparator) {
+    this.editionComparator = editionComparator;
+  }
+
+
   /**
    * Converts Semantic Mediawiki's {@link Printouts} to the {@link TubEntry}. The {@link TubEntry}
    * is constructed from the categories in the TUB wiki which are held in the fields of {@link
@@ -61,6 +68,7 @@ class EntryConverter {
     final var titleOriginal = title.titleArabic().stream().findFirst().orElse("");
     final var manuscripts = getManuscripts(tubPrintouts.manuscripts(), titleName);
     final var editions = getEditions(tubPrintouts.editions(), titleName);
+    editions.sort(editionComparator);
     final List<Commentary> commentaries = getCommentaries(tubPrintouts, titleName);
     final var titleType =
         TitleType.valueOfTub(title.bookType().stream().findFirst().orElse("Unknown"));
@@ -99,11 +107,15 @@ class EntryConverter {
         .orElseGet(List::of);
   }
 
-  private List<Edition> getEditions(
+  private ArrayList<Edition> getEditions(
       final Map<String, ArrayList<EditionPrintouts>> editionPrintoutsMap, final String titleName) {
     return Optional.ofNullable(editionPrintoutsMap.get(titleName))
-        .map(printouts -> printouts.stream().map(this::convertEdition).toList())
-        .orElseGet(List::of);
+        .map(
+            printouts ->
+                printouts.stream()
+                    .map(this::convertEdition)
+                    .collect(Collectors.toCollection(ArrayList::new)))
+        .orElseGet(ArrayList::new);
   }
 
   private List<Commentary> getCommentaries(TubPrintouts tubPrintouts, final String title) {
@@ -146,6 +158,8 @@ class EntryConverter {
                 .map(MediaWikiPageDetails::fulltext)
                 .orElse(null))
         .date(convertDate(editionPrintouts))
+        .sortYearGregorian(
+            editionPrintouts.yearGregorian().stream().findFirst().orElse(Integer.MAX_VALUE))
         .build();
   }
 

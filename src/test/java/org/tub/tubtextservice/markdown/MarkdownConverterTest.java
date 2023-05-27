@@ -37,7 +37,8 @@ class MarkdownConverterTest {
           "Publisher",
           null,
           "Edited",
-          "City");
+          "City",
+          1000);
   public static final String AUTHOR = "Author";
   public static final Commentary COMMENTARY =
       new Commentary("Title", new Author(AUTHOR, new HijriDeath("600", "1000")));
@@ -61,7 +62,7 @@ class MarkdownConverterTest {
         List.of(MANUSCRIPT, MANUSCRIPT),
         List.of(EDITION, EDITION),
         List.of(COMMENTARY, COMMENTARY),
-            -29221732800L,
+        -29221732800L,
         titleType);
   }
 

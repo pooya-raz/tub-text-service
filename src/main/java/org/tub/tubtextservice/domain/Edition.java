@@ -10,7 +10,8 @@ public record Edition(
     String publisher,
     String description,
     String editionType,
-    String placeOfPublication) {
+    String placeOfPublication,
+    Integer sortYearGregorian) {
 
     public static Builder builder(){
         return new Builder();
@@ -24,6 +25,7 @@ public record Edition(
         String description;
         String editionType;
         String placeOfPublication;
+        Integer sortYearGregorian;
 
         public Builder titleTransliterated(String titleTransliterated){
             this.titleTransliterated = titleTransliterated;
@@ -57,6 +59,11 @@ public record Edition(
             this.placeOfPublication = placeOfPublication;
             return this;
         }
+
+        public Builder sortYearGregorian(Integer sortYearGregorian){
+            this.sortYearGregorian = sortYearGregorian;
+            return this;
+        }
         public Edition build(){
             return new Edition(
                 titleTransliterated,
@@ -66,7 +73,8 @@ public record Edition(
                 publisher,
                 description,
                 editionType,
-                placeOfPublication
+                placeOfPublication,
+                sortYearGregorian
             );
         }
     }
