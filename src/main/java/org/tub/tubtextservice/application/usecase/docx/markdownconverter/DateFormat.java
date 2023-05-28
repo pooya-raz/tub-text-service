@@ -11,6 +11,9 @@ class DateFormat {
   }
 
   static String create(final PersonDeath personDeath) {
+    if (personDeath == null ||(personDeath.year().isBlank() && personDeath.gregorian().isBlank())) {
+      return "";
+    }
     var prependedText = "";
     var nonGregorian = personDeath.year();
     final var gregorian = personDeath.gregorian();
