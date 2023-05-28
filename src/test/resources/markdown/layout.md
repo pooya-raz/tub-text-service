@@ -1,3 +1,7 @@
+```{=openxml}
+<w:p><w:r><w:br w:type="page"/></w:r></w:p>
+```
+
 ## Monograph
 
 1. Title transliterated  
@@ -16,6 +20,10 @@
    **Commentaries**
     * *Title*, Author (d. 600/1000)
     * *Title*, Author (d. 600/1000)
+
+```{=openxml}
+<w:p><w:r><w:br w:type="page"/></w:r></w:p>
+```
 
 ## Commentary (sharḥ)
 
@@ -36,6 +44,10 @@
     * *Title*, Author (d. 600/1000)
     * *Title*, Author (d. 600/1000)
 
+```{=openxml}
+<w:p><w:r><w:br w:type="page"/></w:r></w:p>
+```
+
 ## Gloss (ḥāshīya)
 
 1. Title transliterated  
@@ -54,6 +66,10 @@
    **Commentaries**
     * *Title*, Author (d. 600/1000)
     * *Title*, Author (d. 600/1000)
+
+```{=openxml}
+<w:p><w:r><w:br w:type="page"/></w:r></w:p>
+```
 
 ## Marginal notes (taʿlīqa)
 
@@ -74,6 +90,10 @@
     * *Title*, Author (d. 600/1000)
     * *Title*, Author (d. 600/1000)
 
+```{=openxml}
+<w:p><w:r><w:br w:type="page"/></w:r></w:p>
+```
+
 ## Treatise (risāla)
 
 1. Title transliterated  
@@ -92,6 +112,10 @@
    **Commentaries**
     * *Title*, Author (d. 600/1000)
     * *Title*, Author (d. 600/1000)
+
+```{=openxml}
+<w:p><w:r><w:br w:type="page"/></w:r></w:p>
+```
 
 ## Summary (khulāṣa/mukhtaṣar)
 
@@ -112,6 +136,10 @@
     * *Title*, Author (d. 600/1000)
     * *Title*, Author (d. 600/1000)
 
+```{=openxml}
+<w:p><w:r><w:br w:type="page"/></w:r></w:p>
+```
+
 ## Poem (manẓūma)
 
 1. Title transliterated  
@@ -130,6 +158,10 @@
    **Commentaries**
     * *Title*, Author (d. 600/1000)
     * *Title*, Author (d. 600/1000)
+
+```{=openxml}
+<w:p><w:r><w:br w:type="page"/></w:r></w:p>
+```
 
 ## Refutation (radd)
 
@@ -150,6 +182,10 @@
     * *Title*, Author (d. 600/1000)
     * *Title*, Author (d. 600/1000)
 
+```{=openxml}
+<w:p><w:r><w:br w:type="page"/></w:r></w:p>
+```
+
 ## Taqrīrāt
 
 1. Title transliterated  
@@ -169,7 +205,15 @@
     * *Title*, Author (d. 600/1000)
     * *Title*, Author (d. 600/1000)
 
+```{=openxml}
+<w:p><w:r><w:br w:type="page"/></w:r></w:p>
+```
+
 ## Translation
+
+```{=openxml}
+<w:p><w:r><w:br w:type="page"/></w:r></w:p>
+```
 
 ## Unknown
 
