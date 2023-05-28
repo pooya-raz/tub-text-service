@@ -13,10 +13,14 @@ class SectionFormat {
   }
 
   private static String createHeader(final TitleType titleType) {
+    var title = titleType.getTitleType();
+    if(title.equals("Gloss (ḥāshīyah)")){
+      title = "Gloss (ḥāshīya)";
+    }
     return """
               ## %s
 
-              """.formatted(titleType.getTitleType());
+              """.formatted(title);
   }
 
   private static String createBody(final EntriesDto entriesDto, TitleType titleType) {

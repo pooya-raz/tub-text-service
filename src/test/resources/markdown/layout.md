@@ -36,7 +36,7 @@
     * *Title*, Author (d. 600/1000)
     * *Title*, Author (d. 600/1000)
 
-## Gloss (ḥāshīyah)
+## Gloss (ḥāshīya)
 
 1. Title transliterated  
    Title Arabic  
