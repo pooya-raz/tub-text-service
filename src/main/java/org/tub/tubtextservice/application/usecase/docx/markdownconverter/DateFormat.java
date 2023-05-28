@@ -19,7 +19,7 @@ class DateFormat {
         var nonGregorian = "%s";
         final var gregorian = "%s";
         if (personDeath instanceof ShamsiDeath) {
-            nonGregorian = gregorian + "Sh";
+            nonGregorian = nonGregorian+ "Sh";
         }
         if (personDeath.year().startsWith("after") || personDeath.year().startsWith("before")) {
             prependedText = "d. ";
