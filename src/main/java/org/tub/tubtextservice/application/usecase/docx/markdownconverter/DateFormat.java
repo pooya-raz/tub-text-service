@@ -11,14 +11,9 @@ class DateFormat {
   }
 
   static String create(final PersonDeath personDeath) {
-    final var template = createTemplate(personDeath);
-    return template.formatted(personDeath.year(), personDeath.gregorian());
-  }
-
-  private static String createTemplate(final PersonDeath personDeath) {
     var prependedText = "";
-    var nonGregorian = "%s";
-    final var gregorian = "%s";
+    var nonGregorian = personDeath.year();
+    final var gregorian = personDeath.gregorian();
     if (personDeath instanceof ShamsiDeath) {
       nonGregorian = nonGregorian + "Sh";
     }
@@ -27,6 +22,10 @@ class DateFormat {
         || personDeath.year().startsWith("before")
         || (!personDeath.year().isBlank() && Character.isDigit(personDeath.year().charAt(0)))) {
       prependedText = "d. ";
+    }
+    if (personDeath.year().startsWith("c.")){
+        nonGregorian = nonGregorian.replace("c.", "*c.*");
+        prependedText = "d. ";
     }
     return "(" + prependedText + nonGregorian + "/" + gregorian + ")";
   }
