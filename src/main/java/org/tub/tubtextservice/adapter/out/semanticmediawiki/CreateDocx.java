@@ -24,9 +24,17 @@ public class CreateDocx implements CreateDocxPort {
       return null;
     }
     try {
-      String[] cmd = {"pandoc", "-s", "-o", outputFilePath, markdownPath};
+      String[] cmd = {
+        "pandoc",
+        "-o",
+        outputFilePath,
+        "--reference-doc",
+        "src/main/resources/template.docx",
+        "--table-of-contents",
+        markdownPath
+      };
       Runtime.getRuntime().exec(cmd);
-    }catch (IOException e) {
+    } catch (IOException e) {
       log.info("Error while creating docx file");
       e.printStackTrace();
     }
@@ -47,5 +55,5 @@ public class CreateDocx implements CreateDocxPort {
       e.printStackTrace();
     }
     return filePath;
-    }
+  }
 }

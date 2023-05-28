@@ -17,7 +17,13 @@ public class MarkdownConverter {
   public String convert(final EntriesDto entries) {
 
     final var body = new StringBuilder();
+    final var pagebreak = """
+    ```{=openxml}
+    <w:p><w:r><w:br w:type="page"/></w:r></w:p>
+    ```
+    """;
     for (var titleType : TitleType.values()) {
+      body.append(pagebreak);
       body.append(SectionFormat.create(entries, titleType));
     }
     return body.toString();
