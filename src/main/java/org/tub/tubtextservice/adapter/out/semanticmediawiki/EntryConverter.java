@@ -38,7 +38,10 @@ class EntryConverter {
   private final ManuscriptComparator manuscriptComparator;
   private final CommentaryComparator commentaryComparator;
 
-  EntryConverter(EditionComparator editionComparator, ManuscriptComparator manuscriptComparator, CommentaryComparator commentaryComparator) {
+  EntryConverter(
+      EditionComparator editionComparator,
+      ManuscriptComparator manuscriptComparator,
+      CommentaryComparator commentaryComparator) {
     this.editionComparator = editionComparator;
     this.manuscriptComparator = manuscriptComparator;
     this.commentaryComparator = commentaryComparator;
@@ -65,7 +68,15 @@ class EntryConverter {
             .map(MediaWikiPageDetails::fulltext)
             .map(a -> tubPrintouts.authors().get(a))
             .orElse(null);
-    final var person = getPerson(authorPrintouts);
+    final var translator = title.translator().stream().findFirst().orElse(null);
+    final var translatorPrintouts =
+        Optional.ofNullable(translator)
+            .map(a -> tubPrintouts.translators().get(a))
+            .orElse(null);
+    var person = getPerson(authorPrintouts);
+    if (translator != null) {
+      person = getPerson(translatorPrintouts);
+    }
     final var sortTimeStamp = getSortTimeStamp(authorPrintouts);
     final var titleName = title.titleTransliterated().stream().findFirst().orElse("");
     final var titleOriginal = title.titleArabic().stream().findFirst().orElse("");
@@ -147,7 +158,15 @@ class EntryConverter {
             .map(MediaWikiPageDetails::fulltext)
             .map(a -> tubPrintouts.authors().get(a))
             .orElse(null);
-    final var author = (Author) getPerson(authorPrintouts);
+    var author = (Author) getPerson(authorPrintouts);
+    final var translator = titlePrintouts.translator().stream().findFirst().orElse(null);
+    final var translatorPrintouts =
+            Optional.ofNullable(translator)
+                    .map(a -> tubPrintouts.translators().get(a))
+                    .orElse(null);
+    if (translator != null) {
+      author = (Author) getPerson(translatorPrintouts);
+    }
     final var title = titlePrintouts.titleTransliterated().stream().findFirst().orElse("");
     final var sortTimeStamp = getSortTimeStamp(authorPrintouts);
     return new Commentary(title, author, sortTimeStamp);

@@ -30,4 +30,6 @@ public record TubPrintouts(
     Map<String, AuthorPrintouts> authors,
     Map<String, ArrayList<ManuscriptPrintouts>> manuscripts,
     Map<String, ArrayList<EditionPrintouts>> editions,
-    Map<String, ArrayList<TitlePrintouts>> commentaries) {}
+    Map<String, ArrayList<TitlePrintouts>> commentaries,
+    Map<String, AuthorPrintouts> translators
+    ) {}

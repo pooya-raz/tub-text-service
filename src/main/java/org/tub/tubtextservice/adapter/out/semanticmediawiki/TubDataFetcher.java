@@ -43,13 +43,15 @@ class TubDataFetcher {
     final var authorPrintouts = dataFetcher.getAllData(properties.query().authors());
     final var manuscriptPrintouts = dataFetcher.getAllData(properties.query().manuscripts());
     final var editionPrintouts = dataFetcher.getAllData(properties.query().editions());
+    final var translatorPrintouts  = dataFetcher.getAllData(properties.query().translators());
 
     final var titles = MapCreator.createMapTitles(titlePrintouts);
     final var authors = MapCreator.createMapAuthor(authorPrintouts);
     final var manuscripts = MapCreator.createMapManuscript(manuscriptPrintouts);
     final var editions = MapCreator.createMapEdition(editionPrintouts);
     final var commentaries = MapCreator.createCommentaries(titlePrintouts);
-    return new TubPrintouts(titles, authors, manuscripts, editions, commentaries);
+    final var translators = MapCreator.createMapAuthor(translatorPrintouts);
+    return new TubPrintouts(titles, authors, manuscripts, editions, commentaries, translators);
   }
 
   /**
@@ -96,6 +98,7 @@ class TubDataFetcher {
           });
       return mapTitle;
     }
+
 
     private static Map<String, ArrayList<ManuscriptPrintouts>> createMapManuscript(
         List<Data> dataList) {

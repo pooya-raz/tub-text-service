@@ -35,7 +35,7 @@ class SubSectionFormat {
     var date ="";
     if(manuscript.date() != null && !manuscript.date().year().isBlank() && !manuscript.date().gregorian().isBlank()){
       var sh = manuscript.date() instanceof ShamsiDate ? "Sh" : "";
-      date = ", " + manuscript.date().year() + sh + "/" + manuscript.date().gregorian();
+      date = ", dated " + manuscript.date().year() + sh + "/" + manuscript.date().gregorian();
     }
     return layout.formatted(
             manuscript.location(),

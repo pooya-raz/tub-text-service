@@ -28,9 +28,11 @@ public class IntegrationTest {
     public static final String AUTHORS = "authors";
     public static final String EDITIONS = "editions";
     public static final String MANUSCRIPTS = "manuscripts";
+    public static final String TRANSLATORS = "translators";
     public static final String TUB_API_ENDPOINT = "/tub/api.php";
     public static final String QUERY = "query";
     public static final String AUTHOR_JSON= "src/test/resources/tub/response/author-offset-0.json";
+    public static final String TRANSLATOR_JSON= "src/test/resources/tub/response/translator-offset-0.json";
     public static final String EDITION_JSON= "src/test/resources/tub/response/edition-offset-0.json";
     public static final String TITLES_JSON = "src/test/resources/tub/response/title-offset-0.json";
     public static final String TITLES_1000_JSON = "src/test/resources/tub/response/title-offset-1000.json";
@@ -50,6 +52,7 @@ public class IntegrationTest {
         registry.add("tub.api-url", () -> "http://localhost:" + WIREMOCK_PORT + TUB_API_ENDPOINT);
         registry.add("tub.query.titles", () -> TITLES);
         registry.add("tub.query.authors", () -> AUTHORS);
+        registry.add("tub.query.translators", () -> TRANSLATORS);
         registry.add("tub.query.editions", () -> EDITIONS);
         registry.add("tub.query.manuscripts", () -> MANUSCRIPTS);
     }
@@ -68,6 +71,7 @@ public class IntegrationTest {
         stubForTUB(MANUSCRIPTS + OFFSET + 3000, MANUSCRIPT_3000_JSON);
         stubForTUB(AUTHORS, AUTHOR_JSON);
         stubForTUB(EDITIONS, EDITION_JSON);
+        stubForTUB(TRANSLATORS, TRANSLATOR_JSON);
 
         webtestclient.get().uri("/entry").exchange().expectStatus().isOk();
         assertThat(true).isTrue();

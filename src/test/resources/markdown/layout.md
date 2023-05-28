@@ -10,12 +10,12 @@
     * Location, City (#1), dated 600/1000
 
    **Editions**
-    * Title, ed. Editor (City: Publisher, 600/1000)
-    * Title, ed. Editor (City: Publisher, 600/1000)
+    * *Title*, ed. Editor (City: Publisher, 600/1000)
+    * *Title*, ed. Editor (City: Publisher, 600/1000)
 
    **Commentaries**
-    * Title, Author (d. 600/1000)
-    * Title, Author (d. 600/1000)
+    * *Title*, Author (d. 600/1000)
+    * *Title*, Author (d. 600/1000)
 
 ## Commentary (sharḥ)
 
@@ -29,12 +29,12 @@
     * Location, City (#1), dated 600/1000
 
    **Editions**
-    * Title, ed. Editor (City: Publisher, 600/1000)
-    * Title, ed. Editor (City: Publisher, 600/1000)
+    * *Title*, ed. Editor (City: Publisher, 600/1000)
+    * *Title*, ed. Editor (City: Publisher, 600/1000)
 
    **Commentaries**
-    * Title, Author (d. 600/1000)
-    * Title, Author (d. 600/1000)
+    * *Title*, Author (d. 600/1000)
+    * *Title*, Author (d. 600/1000)
 
 ## Gloss (ḥāshīyah)
 
@@ -48,12 +48,12 @@
     * Location, City (#1), dated 600/1000
 
    **Editions**
-    * Title, ed. Editor (City: Publisher, 600/1000)
-    * Title, ed. Editor (City: Publisher, 600/1000)
+    * *Title*, ed. Editor (City: Publisher, 600/1000)
+    * *Title*, ed. Editor (City: Publisher, 600/1000)
 
    **Commentaries**
-    * Title, Author (d. 600/1000)
-    * Title, Author (d. 600/1000)
+    * *Title*, Author (d. 600/1000)
+    * *Title*, Author (d. 600/1000)
 
 ## Marginal notes (taʿlīqa)
 
@@ -67,12 +67,12 @@
     * Location, City (#1), dated 600/1000
 
    **Editions**
-    * Title, ed. Editor (City: Publisher, 600/1000)
-    * Title, ed. Editor (City: Publisher, 600/1000)
+    * *Title*, ed. Editor (City: Publisher, 600/1000)
+    * *Title*, ed. Editor (City: Publisher, 600/1000)
 
    **Commentaries**
-    * Title, Author (d. 600/1000)
-    * Title, Author (d. 600/1000)
+    * *Title*, Author (d. 600/1000)
+    * *Title*, Author (d. 600/1000)
 
 ## Treatise (risāla)
 
@@ -86,12 +86,12 @@
     * Location, City (#1), dated 600/1000
 
    **Editions**
-    * Title, ed. Editor (City: Publisher, 600/1000)
-    * Title, ed. Editor (City: Publisher, 600/1000)
+    * *Title*, ed. Editor (City: Publisher, 600/1000)
+    * *Title*, ed. Editor (City: Publisher, 600/1000)
 
    **Commentaries**
-    * Title, Author (d. 600/1000)
-    * Title, Author (d. 600/1000)
+    * *Title*, Author (d. 600/1000)
+    * *Title*, Author (d. 600/1000)
 
 ## Summary (khulāṣa/mukhtaṣar)
 
@@ -105,12 +105,12 @@
     * Location, City (#1), dated 600/1000
 
    **Editions**
-    * Title, ed. Editor (City: Publisher, 600/1000)
-    * Title, ed. Editor (City: Publisher, 600/1000)
+    * *Title*, ed. Editor (City: Publisher, 600/1000)
+    * *Title*, ed. Editor (City: Publisher, 600/1000)
 
    **Commentaries**
-    * Title, Author (d. 600/1000)
-    * Title, Author (d. 600/1000)
+    * *Title*, Author (d. 600/1000)
+    * *Title*, Author (d. 600/1000)
 
 ## Poem (manẓūma)
 
@@ -124,12 +124,12 @@
     * Location, City (#1), dated 600/1000
 
    **Editions**
-    * Title, ed. Editor (City: Publisher, 600/1000)
-    * Title, ed. Editor (City: Publisher, 600/1000)
+    * *Title*, ed. Editor (City: Publisher, 600/1000)
+    * *Title*, ed. Editor (City: Publisher, 600/1000)
 
    **Commentaries**
-    * Title, Author (d. 600/1000)
-    * Title, Author (d. 600/1000)
+    * *Title*, Author (d. 600/1000)
+    * *Title*, Author (d. 600/1000)
 
 ## Refutation (radd)
 
@@ -143,12 +143,12 @@
     * Location, City (#1), dated 600/1000
 
    **Editions**
-    * Title, ed. Editor (City: Publisher, 600/1000)
-    * Title, ed. Editor (City: Publisher, 600/1000)
+    * *Title*, ed. Editor (City: Publisher, 600/1000)
+    * *Title*, ed. Editor (City: Publisher, 600/1000)
 
    **Commentaries**
-    * Title, Author (d. 600/1000)
-    * Title, Author (d. 600/1000)
+    * *Title*, Author (d. 600/1000)
+    * *Title*, Author (d. 600/1000)
 
 ## Taqrīrāt
 
@@ -162,12 +162,12 @@
     * Location, City (#1), dated 600/1000
 
    **Editions**
-    * Title, ed. Editor (City: Publisher, 600/1000)
-    * Title, ed. Editor (City: Publisher, 600/1000)
+    * *Title*, ed. Editor (City: Publisher, 600/1000)
+    * *Title*, ed. Editor (City: Publisher, 600/1000)
 
    **Commentaries**
-    * Title, Author (d. 600/1000)
-    * Title, Author (d. 600/1000)
+    * *Title*, Author (d. 600/1000)
+    * *Title*, Author (d. 600/1000)
 
 ## Translation
 

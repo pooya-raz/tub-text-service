@@ -33,12 +33,14 @@ public class SemanticMediaWikiAdapterTest {
 
   public static final String TITLES = "titles";
   public static final String AUTHORS = "authors";
+    public static final String TRANSLATORS = "translators";
   public static final String EDITIONS = "editions";
   public static final String MANUSCRIPTS = "manuscripts";
   public static final String TUB_API_ENDPOINT = "/tub/api.php";
   public static final String QUERY = "query";
   public static final String TITLES_JSON = "src/test/resources/tub/semantic-query/title.json";
   public static final String AUTHORS_JSON = "src/test/resources/tub/semantic-query/author.json";
+  public static final String TRANSLATOR_JSON = "src/test/resources/tub/semantic-query/translator.json";
   public static final String EDITIONS_JSON = "src/test/resources/tub/semantic-query/edition.json";
   public static final String MANUSCRIPTS_JSON =
       "src/test/resources/tub/semantic-query/manuscript.json";
@@ -62,6 +64,7 @@ public class SemanticMediaWikiAdapterTest {
     registry.add("tub.query.authors", () -> AUTHORS);
     registry.add("tub.query.editions", () -> EDITIONS);
     registry.add("tub.query.manuscripts", () -> MANUSCRIPTS);
+    registry.add("tub.query.translators", () -> TRANSLATORS);
   }
 
   @Test
@@ -71,6 +74,7 @@ public class SemanticMediaWikiAdapterTest {
     stubForTUB(AUTHORS, AUTHORS_JSON);
     stubForTUB(EDITIONS, EDITIONS_JSON);
     stubForTUB(MANUSCRIPTS, MANUSCRIPTS_JSON);
+    stubForTUB(TRANSLATORS, TRANSLATOR_JSON);
 
     final var actual = subject.getEntries();
     assertThat(actual.entries()).hasSameElementsAs(TUB_ENTRY);
@@ -83,6 +87,7 @@ public class SemanticMediaWikiAdapterTest {
     stubForTUB(AUTHORS, AUTHORS_JSON);
     stubForTUB(EDITIONS, EDITIONS_JSON);
     stubForTUB(MANUSCRIPTS, MANUSCRIPTS_JSON);
+    stubForTUB(TRANSLATORS, TRANSLATOR_JSON);
 
     final var actual = subject.getEntries();
     assertThat(actual.entries()).hasSameElementsAs(TUB_ENTRY);

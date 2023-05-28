@@ -5,25 +5,29 @@ import org.tub.tubtextservice.domain.year.persondate.ShamsiDeath;
 
 class DateFormat {
 
-    private DateFormat() {
-        throw new UnsupportedOperationException("DateFormat is a utility class and cannot be instantiated");
+  private DateFormat() {
+    throw new UnsupportedOperationException(
+        "DateFormat is a utility class and cannot be instantiated");
+  }
+
+  static String create(final PersonDeath personDeath) {
+    final var template = createTemplate(personDeath);
+    return template.formatted(personDeath.year(), personDeath.gregorian());
+  }
+
+  private static String createTemplate(final PersonDeath personDeath) {
+    var prependedText = "";
+    var nonGregorian = "%s";
+    final var gregorian = "%s";
+    if (personDeath instanceof ShamsiDeath) {
+      nonGregorian = nonGregorian + "Sh";
     }
 
-    static String create(final PersonDeath personDeath) {
-        final var template = createTemplate(personDeath);
-        return template.formatted(personDeath.year(), personDeath.gregorian());
+    if (personDeath.year().startsWith("after")
+        || personDeath.year().startsWith("before")
+        || (!personDeath.year().isBlank() && Character.isDigit(personDeath.year().charAt(0)))) {
+      prependedText = "d. ";
     }
-
-    private static String createTemplate(final PersonDeath personDeath) {
-        var prependedText = "";
-        var nonGregorian = "%s";
-        final var gregorian = "%s";
-        if (personDeath instanceof ShamsiDeath) {
-            nonGregorian = nonGregorian+ "Sh";
-        }
-        if (personDeath.year().startsWith("after") || personDeath.year().startsWith("before")) {
-            prependedText = "d. ";
-        }
-        return "(" + prependedText + nonGregorian + "/" + gregorian + ")";
-    }
+    return "(" + prependedText + nonGregorian + "/" + gregorian + ")";
+  }
 }

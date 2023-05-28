@@ -1,0 +1,141 @@
+{
+  "query": {
+    "printrequests": [
+      {
+        "label": "",
+        "key": "",
+        "redi": "",
+        "typeid": "_wpg",
+        "mode": 2
+      },
+      {
+        "label": "Full name (transliterated)",
+        "key": "Full_name_(transliterated)",
+        "redi": "",
+        "typeid": "_txt",
+        "mode": 1,
+        "format": ""
+      },
+      {
+        "label": "Death (Hijri)",
+        "key": "Death_(Hijri)",
+        "redi": "",
+        "typeid": "_num",
+        "mode": 1,
+        "format": ""
+      },
+      {
+        "label": "Death (Gregorian)",
+        "key": "Death_(Gregorian)",
+        "redi": "",
+        "typeid": "_dat",
+        "mode": 1,
+        "format": ""
+      },
+      {
+        "label": "Death (Shamsi)",
+        "key": "Death_(Shamsi)",
+        "redi": "",
+        "typeid": "_num",
+        "mode": 1,
+        "format": ""
+      },
+      {
+        "label": "Death (Hijri) text",
+        "key": "Death_(Hijri)_text",
+        "redi": "",
+        "typeid": "_txt",
+        "mode": 1,
+        "format": ""
+      },
+      {
+        "label": "Death (Gregorian) text",
+        "key": "Death_(Gregorian)_text",
+        "redi": "",
+        "typeid": "_txt",
+        "mode": 1,
+        "format": ""
+      },
+      {
+        "label": "Death (Shamsi) text",
+        "key": "Death_(Shamsi)_text",
+        "redi": "",
+        "typeid": "_txt",
+        "mode": 1,
+        "format": ""
+      }
+    ],
+    "results": {
+      "Bil\u0101l \u1e24usayn Ja\u02bffar\u012b": {
+        "printouts": {
+          "Full name (transliterated)": [
+            "Bil\u0101l \u1e24usayn Ja\u02bffar\u012b"
+          ],
+          "Death (Hijri)": [],
+          "Death (Gregorian)": [],
+          "Death (Shamsi)": [],
+          "Death (Hijri) text": [],
+          "Death (Gregorian) text": [],
+          "Death (Shamsi) text": []
+        },
+        "fulltext": "Bil\u0101l \u1e24usayn Ja\u02bffar\u012b",
+        "fullurl": "http://10.164.39.147:8080/tub/index.php/Bil%C4%81l_%E1%B8%A4usayn_Ja%CA%BFfar%C4%AB",
+        "namespace": 0,
+        "exists": "1",
+        "displaytitle": ""
+      },
+      "Mahd\u012b Anjawinizh\u0101d": {
+        "printouts": {
+          "Full name (transliterated)": [
+            "Mahd\u012b Anjawinizh\u0101d"
+          ],
+          "Death (Hijri)": [],
+          "Death (Gregorian)": [],
+          "Death (Shamsi)": [],
+          "Death (Hijri) text": [],
+          "Death (Gregorian) text": [],
+          "Death (Shamsi) text": []
+        },
+        "fulltext": "Mahd\u012b Anjawinizh\u0101d",
+        "fullurl": "http://10.164.39.147:8080/tub/index.php/Mahd%C4%AB_Anjawinizh%C4%81d",
+        "namespace": 0,
+        "exists": "1",
+        "displaytitle": ""
+      },
+      "Mu\u1e25ammad Ri\u1e0d\u0101 al-Tafr\u012bsh\u012b al-N\u0101q\u016bs\u0101n\u012b": {
+        "printouts": {
+          "Full name (transliterated)": [
+            "Mu\u1e25ammad Ri\u1e0d\u0101 al-Tafr\u012bsh\u012b al-N\u0101q\u016bs\u0101n\u012b"
+          ],
+          "Death (Hijri)": [
+            1364
+          ],
+          "Death (Gregorian)": [
+            {
+              "timestamp": "-820540800",
+              "raw": "1/1944"
+            }
+          ],
+          "Death (Shamsi)": [],
+          "Death (Hijri) text": [],
+          "Death (Gregorian) text": [],
+          "Death (Shamsi) text": []
+        },
+        "fulltext": "Mu\u1e25ammad Ri\u1e0d\u0101 al-Tafr\u012bsh\u012b al-N\u0101q\u016bs\u0101n\u012b",
+        "fullurl": "http://10.164.39.147:8080/tub/index.php/Mu%E1%B8%A5ammad_Ri%E1%B8%8D%C4%81_al-Tafr%C4%ABsh%C4%AB_al-N%C4%81q%C5%ABs%C4%81n%C4%AB",
+        "namespace": 0,
+        "exists": "1",
+        "displaytitle": ""
+      }
+    },
+    "serializer": "SMW\\Serializers\\QueryResultSerializer",
+    "version": 2,
+    "meta": {
+      "hash": "438fc5c67edd06442048a079c28f6812",
+      "count": 3,
+      "offset": 0,
+      "source": "",
+      "time": "0.352823"
+    }
+  }
+}
