@@ -31,101 +31,98 @@ import org.tub.tubtextservice.domain.TubEntry;
 @WireMockTest
 public class SemanticMediaWikiAdapterTest {
 
-  public static final String TITLES = "titles";
-  public static final String AUTHORS = "authors";
+    public static final String TITLES = "titles";
+    public static final String AUTHORS = "authors";
     public static final String TRANSLATORS = "translators";
-  public static final String EDITIONS = "editions";
-  public static final String MANUSCRIPTS = "manuscripts";
-  public static final String TUB_API_ENDPOINT = "/tub/api.php";
-  public static final String QUERY = "query";
-  public static final String TITLES_JSON = "src/test/resources/tub/semantic-query/title.json";
-  public static final String AUTHORS_JSON = "src/test/resources/tub/semantic-query/author.json";
-  public static final String TRANSLATOR_JSON = "src/test/resources/tub/semantic-query/translator.json";
-  public static final String EDITIONS_JSON = "src/test/resources/tub/semantic-query/edition.json";
-  public static final String MANUSCRIPTS_JSON =
-      "src/test/resources/tub/semantic-query/manuscript.json";
-  public static final String RETRY = "Retry";
-  public static final String SUCCESS = "Success";
-  public static final String RETRY_1 = "Retry 1";
+    public static final String EDITIONS = "editions";
+    public static final String MANUSCRIPTS = "manuscripts";
+    public static final String TUB_API_ENDPOINT = "/tub/api.php";
+    public static final String QUERY = "query";
+    public static final String TITLES_JSON = "src/test/resources/tub/semantic-query/title.json";
+    public static final String AUTHORS_JSON = "src/test/resources/tub/semantic-query/author.json";
+    public static final String TRANSLATOR_JSON = "src/test/resources/tub/semantic-query/translator.json";
+    public static final String EDITIONS_JSON = "src/test/resources/tub/semantic-query/edition.json";
+    public static final String MANUSCRIPTS_JSON = "src/test/resources/tub/semantic-query/manuscript.json";
+    public static final String RETRY = "Retry";
+    public static final String SUCCESS = "Success";
+    public static final String RETRY_1 = "Retry 1";
 
-  public static final List<TubEntry> TUB_ENTRY = EntryHelper.createEntries();
-  public static int PORT;
-  @Autowired private SemanticMediaWikiAdapter subject;
+    public static final List<TubEntry> TUB_ENTRY = EntryHelper.createEntries();
+    public static int PORT;
 
-  @BeforeAll
-  static void setUpBeforeAll(WireMockRuntimeInfo wireMockRuntimeInfo) {
-    PORT = wireMockRuntimeInfo.getHttpPort();
-  }
+    @Autowired
+    private SemanticMediaWikiAdapter subject;
 
-  @DynamicPropertySource
-  static void setProperties(DynamicPropertyRegistry registry) {
-    registry.add("tub.api-url", () -> "http://localhost:" + PORT + TUB_API_ENDPOINT);
-    registry.add("tub.query.titles", () -> TITLES);
-    registry.add("tub.query.authors", () -> AUTHORS);
-    registry.add("tub.query.editions", () -> EDITIONS);
-    registry.add("tub.query.manuscripts", () -> MANUSCRIPTS);
-    registry.add("tub.query.translators", () -> TRANSLATORS);
-  }
+    @BeforeAll
+    static void setUpBeforeAll(WireMockRuntimeInfo wireMockRuntimeInfo) {
+        PORT = wireMockRuntimeInfo.getHttpPort();
+    }
 
-  @Test
-  @DisplayName("Should get entries from TUB API")
-  void shouldGetEntries() throws IOException {
-    stubForTUB(TITLES, TITLES_JSON);
-    stubForTUB(AUTHORS, AUTHORS_JSON);
-    stubForTUB(EDITIONS, EDITIONS_JSON);
-    stubForTUB(MANUSCRIPTS, MANUSCRIPTS_JSON);
-    stubForTUB(TRANSLATORS, TRANSLATOR_JSON);
+    @DynamicPropertySource
+    static void setProperties(DynamicPropertyRegistry registry) {
+        registry.add("tub.api-url", () -> "http://localhost:" + PORT + TUB_API_ENDPOINT);
+        registry.add("tub.query.titles", () -> TITLES);
+        registry.add("tub.query.authors", () -> AUTHORS);
+        registry.add("tub.query.editions", () -> EDITIONS);
+        registry.add("tub.query.manuscripts", () -> MANUSCRIPTS);
+        registry.add("tub.query.translators", () -> TRANSLATORS);
+    }
 
-    final var actual = subject.getEntries();
-    assertThat(actual.entries()).hasSameElementsAs(TUB_ENTRY);
-  }
+    @Test
+    @DisplayName("Should get entries from TUB API")
+    void shouldGetEntries() throws IOException {
+        stubForTUB(TITLES, TITLES_JSON);
+        stubForTUB(AUTHORS, AUTHORS_JSON);
+        stubForTUB(EDITIONS, EDITIONS_JSON);
+        stubForTUB(MANUSCRIPTS, MANUSCRIPTS_JSON);
+        stubForTUB(TRANSLATORS, TRANSLATOR_JSON);
 
-  @Test
-  @DisplayName("Should retry three times")
-  void shouldRetryThreeTimes() throws IOException {
-    stubForRetry(TITLES, TITLES_JSON);
-    stubForTUB(AUTHORS, AUTHORS_JSON);
-    stubForTUB(EDITIONS, EDITIONS_JSON);
-    stubForTUB(MANUSCRIPTS, MANUSCRIPTS_JSON);
-    stubForTUB(TRANSLATORS, TRANSLATOR_JSON);
+        final var actual = subject.getEntries();
+        assertThat(actual.entries()).hasSameElementsAs(TUB_ENTRY);
+    }
 
-    final var actual = subject.getEntries();
-    assertThat(actual.entries()).hasSameElementsAs(TUB_ENTRY);
-  }
+    @Test
+    @DisplayName("Should retry three times")
+    void shouldRetryThreeTimes() throws IOException {
+        stubForRetry(TITLES, TITLES_JSON);
+        stubForTUB(AUTHORS, AUTHORS_JSON);
+        stubForTUB(EDITIONS, EDITIONS_JSON);
+        stubForTUB(MANUSCRIPTS, MANUSCRIPTS_JSON);
+        stubForTUB(TRANSLATORS, TRANSLATOR_JSON);
 
-  private void stubForTUB(String query, String path) throws IOException {
-    final var jsonString = readString(of(path));
-    stubFor(
-        get(urlPathEqualTo(TUB_API_ENDPOINT))
-            .withQueryParams(SEMANTIC_SEARCH_PARAMS)
-            .withQueryParam(QUERY, equalTo(query))
-            .willReturn(okJson(jsonString)));
-  }
+        final var actual = subject.getEntries();
+        assertThat(actual.entries()).hasSameElementsAs(TUB_ENTRY);
+    }
 
-  private void stubForRetry(String query, String path) throws IOException {
-    final var jsonString = readString(of(path));
-    stubFor(
-        get(urlPathEqualTo(TUB_API_ENDPOINT))
-            .inScenario(RETRY)
-            .whenScenarioStateIs(STARTED)
-            .withQueryParams(SEMANTIC_SEARCH_PARAMS)
-            .withQueryParam(QUERY, equalTo(query))
-            .willReturn(status(500))
-            .willSetStateTo(RETRY_1));
-    stubFor(
-        get(urlPathEqualTo(TUB_API_ENDPOINT))
-            .inScenario(RETRY)
-            .whenScenarioStateIs(RETRY_1)
-            .withQueryParams(SEMANTIC_SEARCH_PARAMS)
-            .withQueryParam(QUERY, equalTo(query))
-            .willReturn(status(500))
-            .willSetStateTo(SUCCESS));
-    stubFor(
-        get(urlPathEqualTo(TUB_API_ENDPOINT))
-            .inScenario(RETRY)
-            .whenScenarioStateIs(SUCCESS)
-            .withQueryParams(SEMANTIC_SEARCH_PARAMS)
-            .withQueryParam(QUERY, equalTo(query))
-            .willReturn(okJson(jsonString)));
-  }
+    private void stubForTUB(String query, String path) throws IOException {
+        final var jsonString = readString(of(path));
+        stubFor(get(urlPathEqualTo(TUB_API_ENDPOINT))
+                .withQueryParams(SEMANTIC_SEARCH_PARAMS)
+                .withQueryParam(QUERY, equalTo(query))
+                .willReturn(okJson(jsonString)));
+    }
+
+    private void stubForRetry(String query, String path) throws IOException {
+        final var jsonString = readString(of(path));
+        stubFor(get(urlPathEqualTo(TUB_API_ENDPOINT))
+                .inScenario(RETRY)
+                .whenScenarioStateIs(STARTED)
+                .withQueryParams(SEMANTIC_SEARCH_PARAMS)
+                .withQueryParam(QUERY, equalTo(query))
+                .willReturn(status(500))
+                .willSetStateTo(RETRY_1));
+        stubFor(get(urlPathEqualTo(TUB_API_ENDPOINT))
+                .inScenario(RETRY)
+                .whenScenarioStateIs(RETRY_1)
+                .withQueryParams(SEMANTIC_SEARCH_PARAMS)
+                .withQueryParam(QUERY, equalTo(query))
+                .willReturn(status(500))
+                .willSetStateTo(SUCCESS));
+        stubFor(get(urlPathEqualTo(TUB_API_ENDPOINT))
+                .inScenario(RETRY)
+                .whenScenarioStateIs(SUCCESS)
+                .withQueryParams(SEMANTIC_SEARCH_PARAMS)
+                .withQueryParam(QUERY, equalTo(query))
+                .willReturn(okJson(jsonString)));
+    }
 }

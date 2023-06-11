@@ -26,10 +26,9 @@ import org.tub.tubtextservice.domain.TubEntry;
  * @param commentaries any text that has a base text. The key is the fulltext in {@link TitlePrintouts#baseText()}
  */
 public record TubPrintouts(
-    Map<String, TitlePrintouts> titles,
-    Map<String, AuthorPrintouts> authors,
-    Map<String, ArrayList<ManuscriptPrintouts>> manuscripts,
-    Map<String, ArrayList<EditionPrintouts>> editions,
-    Map<String, ArrayList<TitlePrintouts>> commentaries,
-    Map<String, AuthorPrintouts> translators
-    ) {}
+        Map<String, TitlePrintouts> titles,
+        Map<String, AuthorPrintouts> authors,
+        Map<String, ArrayList<ManuscriptPrintouts>> manuscripts,
+        Map<String, ArrayList<EditionPrintouts>> editions,
+        Map<String, ArrayList<TitlePrintouts>> commentaries,
+        Map<String, AuthorPrintouts> translators) {}

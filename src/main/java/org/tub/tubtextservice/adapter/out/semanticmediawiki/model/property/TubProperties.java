@@ -5,4 +5,4 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 
 @ConfigurationProperties(prefix = "tub")
 public record TubProperties(
-    String apiUrl, Integer retryMaxAttempts, Duration retryBackoffPeriod, QueryProperties query) {}
+        String apiUrl, Integer retryMaxAttempts, Duration retryBackoffPeriod, QueryProperties query) {}

@@ -14,31 +14,30 @@ import org.tub.tubtextservice.application.usecase.docx.port.SendDocxPort;
  */
 @Service
 public class CreateAndSendDocx {
-  private final MarkdownConverter markdownConverter;
-  private final GetEntriesPort getEntriesPort;
-  private final CreateDocxPort createDocxPort;
-  private final SendDocxPort sendDocxPort;
+    private final MarkdownConverter markdownConverter;
+    private final GetEntriesPort getEntriesPort;
+    private final CreateDocxPort createDocxPort;
+    private final SendDocxPort sendDocxPort;
 
+    public CreateAndSendDocx(
+            MarkdownConverter markdownConverter,
+            GetEntriesPort getEntriesPort,
+            CreateDocxPort createDocxPort,
+            SendDocxPort sendDocxPort) {
+        this.markdownConverter = markdownConverter;
+        this.getEntriesPort = getEntriesPort;
+        this.createDocxPort = createDocxPort;
+        this.sendDocxPort = sendDocxPort;
+    }
 
-  public CreateAndSendDocx(
-      MarkdownConverter markdownConverter,
-      GetEntriesPort getEntriesPort,
-      CreateDocxPort createDocxPort,
-      SendDocxPort sendDocxPort) {
-    this.markdownConverter = markdownConverter;
-    this.getEntriesPort = getEntriesPort;
-    this.createDocxPort = createDocxPort;
-    this.sendDocxPort = sendDocxPort;
-  }
-
-  /**
-   * This method creates a docx file from TUB data and sends it to the user's email address.
-   * @param user the user to send the docx file to
-   */
-  public void createDocx(UserDto user) {
-    final var entries = getEntriesPort.getEntries();
-    final var text = markdownConverter.convert(entries);
-    final var createDocxDto = createDocxPort.createDocx(new MarkdownDto(text), "src/main/resources/output/");
-    sendDocxPort.send(new SendDocxDto(createDocxDto.docx(), user.email()));
-  }
+    /**
+     * This method creates a docx file from TUB data and sends it to the user's email address.
+     * @param user the user to send the docx file to
+     */
+    public void createDocx(UserDto user) {
+        final var entries = getEntriesPort.getEntries();
+        final var text = markdownConverter.convert(entries);
+        final var createDocxDto = createDocxPort.createDocx(new MarkdownDto(text), "src/main/resources/output/");
+        sendDocxPort.send(new SendDocxDto(createDocxDto.docx(), user.email()));
+    }
 }

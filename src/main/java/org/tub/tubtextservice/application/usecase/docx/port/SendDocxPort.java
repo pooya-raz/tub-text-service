@@ -13,5 +13,5 @@ public interface SendDocxPort {
      * Sends the docx file to the user.
      * @param sendDocxDto dto to be sent
      */
-  void send(SendDocxDto sendDocxDto);
+    void send(SendDocxDto sendDocxDto);
 }

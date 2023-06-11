@@ -21,29 +21,32 @@ import org.tub.tubtextservice.domain.TubEntry;
 @ExtendWith(MockitoExtension.class)
 class CreateAndSendDocxTest {
 
-  private CreateAndSendDocx subject;
+    private CreateAndSendDocx subject;
 
-  @Mock private GetEntriesPort getEntriesPort;
+    @Mock
+    private GetEntriesPort getEntriesPort;
 
-  @Mock private CreateDocxPort createDocxPort;
+    @Mock
+    private CreateDocxPort createDocxPort;
 
-  @Mock private SendDocxPort sendDocxPort;
+    @Mock
+    private SendDocxPort sendDocxPort;
 
-  @Mock private MarkdownConverter markdownConverter;
+    @Mock
+    private MarkdownConverter markdownConverter;
 
-  @BeforeEach
-  void setUp() {
-    subject =
-        new CreateAndSendDocx(markdownConverter, getEntriesPort, createDocxPort, sendDocxPort);
-}
+    @BeforeEach
+    void setUp() {
+        subject = new CreateAndSendDocx(markdownConverter, getEntriesPort, createDocxPort, sendDocxPort);
+    }
 
-  @Test
-  @DisplayName("should create and send docx")
-  void createDocx() {
-    final var entry = new TubEntry(null,null, null, List.of(), List.of(), List.of(),null, null);
-    when(getEntriesPort.getEntries()).thenReturn(new EntriesDto(List.of(entry)));
-    when(markdownConverter.convert(any())).thenReturn("text");
-    when(createDocxPort.createDocx(any(), any())).thenReturn(new CreateDocxDto("docx".getBytes()));
-    subject.createDocx(new UserDto("test@email.com"));
-  }
+    @Test
+    @DisplayName("should create and send docx")
+    void createDocx() {
+        final var entry = new TubEntry(null, null, null, List.of(), List.of(), List.of(), null, null);
+        when(getEntriesPort.getEntries()).thenReturn(new EntriesDto(List.of(entry)));
+        when(markdownConverter.convert(any())).thenReturn("text");
+        when(createDocxPort.createDocx(any(), any())).thenReturn(new CreateDocxDto("docx".getBytes()));
+        subject.createDocx(new UserDto("test@email.com"));
+    }
 }

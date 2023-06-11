@@ -10,15 +10,15 @@ import org.tub.tubtextservice.application.usecase.docx.dto.in.UserDto;
 @RequestMapping()
 public class TubTextController {
 
-  private final CreateAndSendDocx createAndSendDocx;
+    private final CreateAndSendDocx createAndSendDocx;
 
-  public TubTextController(CreateAndSendDocx createAndSendDocx) {
-    this.createAndSendDocx = createAndSendDocx;
-  }
+    public TubTextController(CreateAndSendDocx createAndSendDocx) {
+        this.createAndSendDocx = createAndSendDocx;
+    }
 
-  @GetMapping("/entry")
-  public void getEntry() {
-    final var user = new UserDto("test");
-    createAndSendDocx.createDocx(user);
+    @GetMapping("/entry")
+    public void getEntry() {
+        final var user = new UserDto("test");
+        createAndSendDocx.createDocx(user);
     }
 }

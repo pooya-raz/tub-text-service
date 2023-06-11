@@ -23,26 +23,26 @@ import org.tub.tubtextservice.adapter.out.semanticmediawiki.model.response.print
  *     Help:Display title</a>
  */
 public record Data(
-    @JsonTypeInfo(use = DEDUCTION)
-        @JsonSubTypes({
-          @JsonSubTypes.Type(TitlePrintouts.class),
-          @JsonSubTypes.Type(AuthorPrintouts.class),
-          @JsonSubTypes.Type(ManuscriptPrintouts.class),
-          @JsonSubTypes.Type(EditionPrintouts.class)
-        })
-        Printouts printouts,
-    String fulltext,
-    String fullurl,
-    Integer namespace,
-    String exists,
-    String displaytitle) {
+        @JsonTypeInfo(use = DEDUCTION)
+                @JsonSubTypes({
+                    @JsonSubTypes.Type(TitlePrintouts.class),
+                    @JsonSubTypes.Type(AuthorPrintouts.class),
+                    @JsonSubTypes.Type(ManuscriptPrintouts.class),
+                    @JsonSubTypes.Type(EditionPrintouts.class)
+                })
+                Printouts printouts,
+        String fulltext,
+        String fullurl,
+        Integer namespace,
+        String exists,
+        String displaytitle) {
 
-  public Data {
-    if (printouts == null) {
-      throw new IllegalArgumentException("printouts must not be null");
+    public Data {
+        if (printouts == null) {
+            throw new IllegalArgumentException("printouts must not be null");
+        }
+        if (fulltext == null) {
+            throw new IllegalArgumentException("fulltext must not be null");
+        }
     }
-    if (fulltext == null) {
-      throw new IllegalArgumentException("fulltext must not be null");
-    }
-  }
 }

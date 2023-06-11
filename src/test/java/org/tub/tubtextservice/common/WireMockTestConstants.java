@@ -7,8 +7,9 @@ import java.util.Map;
 
 public class WireMockTestConstants {
     public static final Map<String, StringValuePattern> SEMANTIC_SEARCH_PARAMS =
-      Map.of("action", equalTo("ask"), "format", equalTo("json"));
-  private WireMockTestConstants() {
-    throw new IllegalStateException("Utility class");
-}
+            Map.of("action", equalTo("ask"), "format", equalTo("json"));
+
+    private WireMockTestConstants() {
+        throw new IllegalStateException("Utility class");
+    }
 }

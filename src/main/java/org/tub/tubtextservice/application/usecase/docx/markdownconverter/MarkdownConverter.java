@@ -8,25 +8,25 @@ import org.tub.tubtextservice.domain.TubEntry;
 /** This class is responsible for creating Markdown text from TUB {@link TubEntry}. */
 @Service
 public class MarkdownConverter {
-  /**
-   * Creates a Pandoc flavoured Markdown text.
-   *
-   * @param entries A list of {@link TubEntry} to include in the body of text.
-   * @return Markdown text.
-   */
-  public String convert(final EntriesDto entries) {
+    /**
+     * Creates a Pandoc flavoured Markdown text.
+     *
+     * @param entries A list of {@link TubEntry} to include in the body of text.
+     * @return Markdown text.
+     */
+    public String convert(final EntriesDto entries) {
 
-    final var body = new StringBuilder();
-    final var pagebreak = """
+        final var body = new StringBuilder();
+        final var pagebreak = """
     ```{=openxml}
     <w:p><w:r><w:br w:type="page"/></w:r></w:p>
     ```
-    
+
     """;
-    for (var titleType : TitleType.values()) {
-      body.append(pagebreak);
-      body.append(SectionFormat.create(entries, titleType));
+        for (var titleType : TitleType.values()) {
+            body.append(pagebreak);
+            body.append(SectionFormat.create(entries, titleType));
+        }
+        return body.toString();
     }
-    return body.toString();
-  }
 }

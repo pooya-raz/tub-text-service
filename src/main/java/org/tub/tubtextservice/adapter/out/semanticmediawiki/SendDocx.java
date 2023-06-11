@@ -9,6 +9,7 @@ import org.tub.tubtextservice.application.usecase.docx.port.SendDocxPort;
 public class SendDocx implements SendDocxPort {
 
     Logger log = Logger.getLogger(SendDocx.class.getName());
+
     @Override
     public void send(SendDocxDto sendDocxDto) {
         log.info("Sending docx file");

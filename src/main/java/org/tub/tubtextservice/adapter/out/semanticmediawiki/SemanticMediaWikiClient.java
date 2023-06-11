@@ -8,6 +8,5 @@ import org.tub.tubtextservice.adapter.out.semanticmediawiki.model.response.TubRe
 @HttpExchange()
 interface SemanticMediaWikiClient {
     @GetExchange()
-    TubResponse queryTub(
-            @RequestParam String action, @RequestParam String format, @RequestParam String query);
+    TubResponse queryTub(@RequestParam String action, @RequestParam String format, @RequestParam String query);
 }

@@ -9,8 +9,7 @@ import org.tub.tubtextservice.adapter.out.semanticmediawiki.model.property.TubPr
 @EnableConfigurationProperties(TubProperties.class)
 public class TubtextserviceApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(TubtextserviceApplication.class, args);
-	}
-
+    public static void main(String[] args) {
+        SpringApplication.run(TubtextserviceApplication.class, args);
+    }
 }

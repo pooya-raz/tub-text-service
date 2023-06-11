@@ -31,19 +31,19 @@ public class IntegrationTest {
     public static final String TRANSLATORS = "translators";
     public static final String TUB_API_ENDPOINT = "/tub/api.php";
     public static final String QUERY = "query";
-    public static final String AUTHOR_JSON= "src/test/resources/tub/response/author-offset-0.json";
-    public static final String TRANSLATOR_JSON= "src/test/resources/tub/response/translator-offset-0.json";
-    public static final String EDITION_JSON= "src/test/resources/tub/response/edition-offset-0.json";
+    public static final String AUTHOR_JSON = "src/test/resources/tub/response/author-offset-0.json";
+    public static final String TRANSLATOR_JSON = "src/test/resources/tub/response/translator-offset-0.json";
+    public static final String EDITION_JSON = "src/test/resources/tub/response/edition-offset-0.json";
     public static final String TITLES_JSON = "src/test/resources/tub/response/title-offset-0.json";
     public static final String TITLES_1000_JSON = "src/test/resources/tub/response/title-offset-1000.json";
-    public static final String MANUSCRIPT_JSON= "src/test/resources/tub/response/manuscript-offset-0.json";
+    public static final String MANUSCRIPT_JSON = "src/test/resources/tub/response/manuscript-offset-0.json";
     public static final String MANUSCRIPT_1000_JSON = "src/test/resources/tub/response/manuscript-offset-1000.json";
     public static final String MANUSCRIPT_2000_JSON = "src/test/resources/tub/response/manuscript-offset-2000.json";
     public static final String MANUSCRIPT_3000_JSON = "src/test/resources/tub/response/manuscript-offset-3000.json";
     private static final String OFFSET = "|offset=";
 
-
     public static int WIREMOCK_PORT;
+
     @Autowired
     private WebTestClient webtestclient;
 
@@ -56,6 +56,7 @@ public class IntegrationTest {
         registry.add("tub.query.editions", () -> EDITIONS);
         registry.add("tub.query.manuscripts", () -> MANUSCRIPTS);
     }
+
     @BeforeAll
     static void setUpBeforeAll(WireMockRuntimeInfo wireMockRuntimeInfo) {
         WIREMOCK_PORT = wireMockRuntimeInfo.getHttpPort();
@@ -64,7 +65,7 @@ public class IntegrationTest {
     @Test
     void test() throws IOException {
         stubForTUB(TITLES, TITLES_JSON);
-        stubForTUB(TITLES+OFFSET+1000, TITLES_1000_JSON);
+        stubForTUB(TITLES + OFFSET + 1000, TITLES_1000_JSON);
         stubForTUB(MANUSCRIPTS, MANUSCRIPT_JSON);
         stubForTUB(MANUSCRIPTS + OFFSET + 1000, MANUSCRIPT_1000_JSON);
         stubForTUB(MANUSCRIPTS + OFFSET + 2000, MANUSCRIPT_2000_JSON);
@@ -79,10 +80,9 @@ public class IntegrationTest {
 
     private void stubForTUB(String query, String path) throws IOException {
         final var jsonString = readString(of(path));
-        stubFor(
-                get(urlPathEqualTo(TUB_API_ENDPOINT))
-                        .withQueryParams(SEMANTIC_SEARCH_PARAMS)
-                        .withQueryParam(QUERY, equalTo(query))
-                        .willReturn(okJson(jsonString)));
+        stubFor(get(urlPathEqualTo(TUB_API_ENDPOINT))
+                .withQueryParams(SEMANTIC_SEARCH_PARAMS)
+                .withQueryParam(QUERY, equalTo(query))
+                .willReturn(okJson(jsonString)));
     }
 }

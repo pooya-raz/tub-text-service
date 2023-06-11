@@ -17,6 +17,6 @@ class CreateDocxTest {
 
     @Test
     void createDocx() {
-    subject.createDocx(new MarkdownDto("# Header" ), "src/test/resources/output/");
-  }
+        subject.createDocx(new MarkdownDto("# Header"), "src/test/resources/output/");
+    }
 }

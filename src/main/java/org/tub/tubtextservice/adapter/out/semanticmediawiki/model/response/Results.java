@@ -6,14 +6,14 @@ import java.util.Map;
 
 public class Results {
 
-  private final Map<String, Data> dataMap = new HashMap<>();
+    private final Map<String, Data> dataMap = new HashMap<>();
 
-  public Map<String, Data> getDataMap() {
-    return dataMap;
-  }
+    public Map<String, Data> getDataMap() {
+        return dataMap;
+    }
 
-  @JsonAnySetter
-  public void setDataMap(String key, Data data) {
-    this.dataMap.put(key, data);
-  }
+    @JsonAnySetter
+    public void setDataMap(String key, Data data) {
+        this.dataMap.put(key, data);
+    }
 }

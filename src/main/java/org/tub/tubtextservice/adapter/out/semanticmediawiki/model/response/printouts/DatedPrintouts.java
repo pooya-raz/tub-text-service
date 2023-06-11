@@ -2,18 +2,17 @@ package org.tub.tubtextservice.adapter.out.semanticmediawiki.model.response.prin
 
 import java.util.List;
 
-public sealed interface DatedPrintouts extends Printouts
-    permits ManuscriptPrintouts, EditionPrintouts {
+public sealed interface DatedPrintouts extends Printouts permits ManuscriptPrintouts, EditionPrintouts {
 
-  List<Integer> yearHijri();
+    List<Integer> yearHijri();
 
-  List<String> yearHijriText();
+    List<String> yearHijriText();
 
-  List<Integer> yearShamsi();
+    List<Integer> yearShamsi();
 
-  List<String> yearShamsiText();
+    List<String> yearShamsiText();
 
-  List<Integer> yearGregorian();
+    List<Integer> yearGregorian();
 
-  List<String> yearGregorianText();
+    List<String> yearGregorianText();
 }

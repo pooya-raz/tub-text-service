@@ -26,67 +26,55 @@ import org.tub.tubtextservice.domain.year.persondate.HijriDeath;
 @ExtendWith(MockitoExtension.class)
 class MarkdownConverterTest {
 
-  public static final String TITLE_TRANSLITERATED = "Title transliterated";
-  public static final String TITLE_ARABIC = "Title Arabic";
-  public static final Edition EDITION =
-      new Edition(
-          "Title",
-          TITLE_ARABIC,
-          new HijriDate("600", "1000"),
-          "Editor",
-          "Publisher",
-          null,
-          "Edited",
-          "City",
-          1000);
-  public static final String AUTHOR = "Author";
-  public static final Commentary COMMENTARY =
-      new Commentary("Title", new Author(AUTHOR, new HijriDeath("600", "1000")), -30610224000L);
-  public static final String HIJRI_DEATH = "436";
-  public static final String GREGORIAN_DEATH = "1044";
-  public static final Manuscript MANUSCRIPT =
-      new Manuscript("Location", "City", "1", new HijriDate("600", "1000"), 1000);
-  private static String layout;
-  private MarkdownConverter markdownService;
+    public static final String TITLE_TRANSLITERATED = "Title transliterated";
+    public static final String TITLE_ARABIC = "Title Arabic";
+    public static final Edition EDITION = new Edition(
+            "Title", TITLE_ARABIC, new HijriDate("600", "1000"), "Editor", "Publisher", null, "Edited", "City", 1000);
+    public static final String AUTHOR = "Author";
+    public static final Commentary COMMENTARY =
+            new Commentary("Title", new Author(AUTHOR, new HijriDeath("600", "1000")), -30610224000L);
+    public static final String HIJRI_DEATH = "436";
+    public static final String GREGORIAN_DEATH = "1044";
+    public static final Manuscript MANUSCRIPT =
+            new Manuscript("Location", "City", "1", new HijriDate("600", "1000"), 1000);
+    private static String layout;
+    private MarkdownConverter markdownService;
 
-  @BeforeAll
-  static void setUpAll() throws IOException {
-    layout = readString(of("src/test/resources/markdown/layout.md"));
-  }
+    @BeforeAll
+    static void setUpAll() throws IOException {
+        layout = readString(of("src/test/resources/markdown/layout.md"));
+    }
 
-  private static TubEntry getEntry(TitleType titleType) {
-    return new TubEntry(
-        TITLE_TRANSLITERATED,
-        TITLE_ARABIC,
-        new Author(AUTHOR, new HijriDeath(HIJRI_DEATH, GREGORIAN_DEATH)),
-        List.of(MANUSCRIPT, MANUSCRIPT),
-        List.of(EDITION, EDITION),
-        List.of(COMMENTARY, COMMENTARY),
-        -29221732800L,
-        titleType);
-  }
+    private static TubEntry getEntry(TitleType titleType) {
+        return new TubEntry(
+                TITLE_TRANSLITERATED,
+                TITLE_ARABIC,
+                new Author(AUTHOR, new HijriDeath(HIJRI_DEATH, GREGORIAN_DEATH)),
+                List.of(MANUSCRIPT, MANUSCRIPT),
+                List.of(EDITION, EDITION),
+                List.of(COMMENTARY, COMMENTARY),
+                -29221732800L,
+                titleType);
+    }
 
-  @BeforeEach
-  void setUp() {
-    markdownService = new MarkdownConverter();
-  }
+    @BeforeEach
+    void setUp() {
+        markdownService = new MarkdownConverter();
+    }
 
-  @Test
-  @DisplayName("should convert EntriesDTO to markdown")
-  void test1() {
-    final var actual =
-        markdownService.convert(
-            new EntriesDto(
-                List.of(
-                    getEntry(TitleType.MONOGRAPH),
-                    getEntry(TitleType.COMMENTARY),
-                    getEntry(TitleType.GLOSS),
-                    getEntry(TitleType.MARGINNOTES),
-                    getEntry(TitleType.TREATISE),
-                    getEntry(TitleType.SUMMARY),
-                    getEntry(TitleType.POEM),
-                    getEntry(TitleType.REFUTATION),
-                    getEntry(TitleType.TAQRIRAT))));
-    assertThat(actual).isEqualTo(layout);
-  }
+    @Test
+    @DisplayName("should convert EntriesDTO to markdown")
+    void test1() {
+        final var actual = markdownService.convert(new EntriesDto(List.of(
+                getEntry(TitleType.MONOGRAPH),
+                getEntry(TitleType.COMMENTARY),
+                getEntry(TitleType.GLOSS),
+                getEntry(TitleType.MARGINNOTES),
+                getEntry(TitleType.TREATISE),
+                getEntry(TitleType.SUMMARY),
+                getEntry(TitleType.POEM),
+                getEntry(TitleType.REFUTATION),
+                getEntry(TitleType.TAQRIRAT))));
+        assertThat(actual).isEqualTo(layout);
+    }
 }

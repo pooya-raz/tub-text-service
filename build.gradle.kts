@@ -10,6 +10,7 @@ plugins {
     id("jacoco")
     id("net.ltgt.errorprone") version "3.0.1"
     id("net.ltgt.nullaway") version "1.5.0"
+    id("com.diffplug.spotless") version "6.19.0"
 }
 
 group = "org.tub"
@@ -92,5 +93,13 @@ tasks.jacocoTestReport {
 sonar {
     properties {
         property("sonar.projectKey", "tub-text-service")
+    }
+}
+
+spotless {
+    java {
+        importOrder()
+        removeUnusedImports()
+        palantirJavaFormat()
     }
 }
