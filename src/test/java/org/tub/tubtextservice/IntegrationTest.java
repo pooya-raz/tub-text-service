@@ -1,5 +1,17 @@
 package org.tub.tubtextservice;
 
+import com.github.tomakehurst.wiremock.junit5.WireMockRuntimeInfo;
+import com.github.tomakehurst.wiremock.junit5.WireMockTest;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.DynamicPropertyRegistry;
+import org.springframework.test.context.DynamicPropertySource;
+import org.springframework.test.web.reactive.server.WebTestClient;
+
+import java.io.IOException;
+
 import static com.github.tomakehurst.wiremock.client.WireMock.equalTo;
 import static com.github.tomakehurst.wiremock.client.WireMock.get;
 import static com.github.tomakehurst.wiremock.client.WireMock.okJson;
@@ -9,17 +21,6 @@ import static java.nio.file.Files.readString;
 import static java.nio.file.Path.of;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.tub.tubtextservice.common.WireMockTestConstants.SEMANTIC_SEARCH_PARAMS;
-
-import com.github.tomakehurst.wiremock.junit5.WireMockRuntimeInfo;
-import com.github.tomakehurst.wiremock.junit5.WireMockTest;
-import java.io.IOException;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.DynamicPropertyRegistry;
-import org.springframework.test.context.DynamicPropertySource;
-import org.springframework.test.web.reactive.server.WebTestClient;
 
 @WireMockTest
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
@@ -75,7 +76,9 @@ public class IntegrationTest {
         stubForTUB(TRANSLATORS, TRANSLATOR_JSON);
 
         webtestclient.get().uri("/entry").exchange().expectStatus().isOk();
-        assertThat(true).isTrue();
+        final var actualMarkdown = readString(of("src/main/resources/output/markdown.md"));
+        final var expectedMarkdown = readString(of("src/test/resources/markdown/markdown.md"));
+        assertThat(actualMarkdown).isEqualTo(expectedMarkdown);
     }
 
     private void stubForTUB(String query, String path) throws IOException {
