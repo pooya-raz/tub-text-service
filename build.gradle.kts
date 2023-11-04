@@ -1,11 +1,11 @@
 import net.ltgt.gradle.errorprone.CheckSeverity
 import net.ltgt.gradle.errorprone.errorprone
-import org.gradle.api.JavaVersion.VERSION_19
+import org.gradle.api.JavaVersion.VERSION_20
 
 plugins {
     java
-    id("org.springframework.boot") version "3.1.0"
-    id("io.spring.dependency-management") version "1.1.0"
+    id("org.springframework.boot") version "3.1.5"
+    id("io.spring.dependency-management") version "1.1.3"
     id("org.sonarqube") version "4.0.0.2929"
     id("jacoco")
     id("net.ltgt.errorprone") version "3.0.1"
@@ -15,7 +15,7 @@ plugins {
 
 group = "org.tub"
 version = "0.0.1-SNAPSHOT"
-java.sourceCompatibility = VERSION_19
+java.sourceCompatibility = VERSION_20
 
 repositories {
     mavenCentral()
@@ -26,7 +26,6 @@ val logbackVersion = "7.2"
 val enablePreview = "--enable-preview"
 val commonsCollectionsVersion = "4.4"
 val commonsLang3Version = "3.12.0"
-val poiVersion = "5.2.3"
 
 dependencies {
     //Spring Boot
