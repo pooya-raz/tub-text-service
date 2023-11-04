@@ -1,4 +1,4 @@
-package org.tub.tubtextservice.adapter.out.semanticmediawiki;
+package org.tub.tubtextservice.adapter.out.file;
 
 import java.io.File;
 import java.io.FileWriter;

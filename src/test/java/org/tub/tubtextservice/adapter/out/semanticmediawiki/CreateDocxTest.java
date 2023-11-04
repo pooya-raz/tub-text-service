@@ -1,9 +1,8 @@
 package org.tub.tubtextservice.adapter.out.semanticmediawiki;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.tub.tubtextservice.adapter.out.file.CreateDocx;
 import org.tub.tubtextservice.application.usecase.docx.dto.out.MarkdownDto;
 
 class CreateDocxTest {

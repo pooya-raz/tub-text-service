@@ -1,4 +1,4 @@
-package org.tub.tubtextservice.adapter.out.semanticmediawiki;
+package org.tub.tubtextservice.adapter.out.email;
 
 import java.util.logging.Logger;
 import org.springframework.stereotype.Component;
