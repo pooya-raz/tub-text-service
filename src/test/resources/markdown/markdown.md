@@ -781,10 +781,20 @@
    Muḥammad Muḥsin b. Bāqir al-Burūjirdī  
    (d. 13th century/18th-19th century)
 
+   **Principle Manuscripts**
+    * Ilāhiyyāt, Mashhad (#14893)
+
 1. Khulāṣat al-uṣūl  
    خلاصة الأصول  
    Muḥammad Taqī b. ʿAlī al-ʿAqdāʾī  
    (d. 13th century/18th-19th century)
+
+   **Principle Manuscripts**
+    * Majlis, Tehran (#14066), dated 1244/1828
+    * Marwī, Tehran (#1042), dated 13th century/19th century
+    * Saryazdī, Yazd (#173/1), dated 13th century/19th century
+    * Marʿashī, Qum (#1258)
+    * Wazīrī, Yazd (#2253)
 
 1. al-Fuṣūl al-muhimma fī mabānī l-aḥkām al-sharʿiyya  
    الفصول المهمة في مباني الأحكام الشرعية  
@@ -800,10 +810,18 @@
    Jawād b. ʿAlī Muḥammad al-Mūsawī  
    (d. 13th century/18th-19th century)
 
+   **Principle Manuscripts**
+    * AQR, Mashhad (#8163)
+
 1. al-Fuṣūṣ al-gharawiyya fī l-uṣūl al-fiqhiyya  
    الفصوص الغروية في الأصول الفقهية  
    Ismāʿīl b. Muḥammad Bāqir  
    (d. 13th century/18th-19th century)
+
+   **Principle Manuscripts**
+    * AQR, Mashhad (#10081), dated Rajab 1314/1896
+    * Gulpāygānī, Qum (#15/174-6/2934), dated 13th century/19th century
+    * Gulpāygānī, Qum (#15/174-2934/3), dated 13th century/19th century
 
 1. al-Fawāʾid al-ḥāʾiriyya  
    الفوائد الحائرية  
@@ -912,11 +930,8 @@
    (d. 12th century/18th century)
 
    **Principle Manuscripts**
-    * Gawharshād, Mashhad (#1417), dated 1274/1857-8
-    * KG, Najaf (#5662), dated 1277/1860-1
-    * Ḥuqūq, Tehran (#349/2), dated 1277/1860-1
-    * Ḥuqūq, Tehran (#349/3), dated 13th century/19th century
-    * Madrasa-yi Ṣadr-i Bāzār, Isfahan (#807), dated 13th century/19th century
+    * AQR, Mashhad (#36549), dated 1260/1840-1
+    * AQR, Mashhad (#25934)
 
 1. al-Basātīn  
    البساتين  
@@ -1032,6 +1047,12 @@
    Asadallāh b. Ismāʿīl al-Dizfūlī al-Kāẓimī  
    (d. 1234 or 1237/1818-9 or 1821-2)
 
+   **Principle Manuscripts**
+    * Millī, Tehran (#26053)
+    * Maʿṣūmīyya, Qum (#707)
+    * AQR, Mashhad (#23544), dated 13th century/19th century
+    * Marʿashī, Qum (#5262)
+
 1. Kashf al-qināʿ ʿan wujūh ḥujjiyyat al-ijmāʿ  
    كشف القناع عن وجوه حجية الإجماع  
    Asadallāh b. Ismāʿīl al-Dizfūlī al-Kāẓimī  
@@ -1053,7 +1074,7 @@
    (d. 1234/1818-19)
 
    **Principle Manuscripts**
-    * AQR, Mashhad (N/A)
+    * Madrasa-yi Sulṭānī, Kashan (#198), dated 1234/1819
 
 1. al-Durar al-ghariyya fī l-masāʾil al-uṣūliyya/al-Durar al-ghariyya fī uṣūl al-aḥkām al-ilāhiyya  
    الدرر الغرية في المسائل الأصولية/الدرر الغرية في أصول الأحكام الإلهية  
@@ -1074,7 +1095,7 @@
    (d. 1238/1822-3)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * Madrasa-yi Gharb, Hamadan (#1100/1)
 
 1. Munyat al-muḥaṣṣalīn  
    منية المحصلين  
@@ -1124,13 +1145,6 @@
    حقائق الأصول  
    ʿAbd al-Raḥīm b. ʿAlī al-Najafābādī al-Iṣfahānī  
    (d. after 1243/1828)
-
-   **Principle Manuscripts**
-    * Marʿashī, Qum (#10410), dated 1240/1825
-    * Majlis, Tehran (#13611), dated 1241/1826
-    * Fayḍiyya, Qum (#162), dated 1280/1863
-    * Imām Jumʿa, Zanjan (#N/A)
-    * Millī, Tehran (#25346)
 
 1. Ḥaqāʾiq al-uṣūl  
    حقائق الأصول  
@@ -1200,7 +1214,7 @@
    (d. 1245/1829)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * Millī, Tehran (#25083)
 
 1. Miftāḥ al-aḥkām/Mafātīḥ al-aḥkām  
    مفتاح الأحكام/مفاتيح الأحكام  
@@ -1382,6 +1396,9 @@
    Muḥammad Jaʿfar b. Āqā Buzurg al-Shūshtarī  
    (d. 1261/1845)
 
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#7917)
+
 1. Khazāʾin al-ʿulūm  
    خزائن العلوم  
    Muḥammad Jaʿfar b. Sayf al-Dīn al-Astarābādī  
@@ -1400,7 +1417,9 @@
    (d. *c.* 1262/1845-6)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * Shāh Chirāg, Shiraz (#832/10)
+    * Shāh Chirāg, Shiraz (#832/5)
+    * Shāh Chirāg, Shiraz (#832/4)
 
 1. Natāʾij al-afkār  
    نتائج الأفكار  
@@ -1456,6 +1475,13 @@
    Muḥammad Taqī b. Muḥammad al-Barghānī  
    (d. 1264/1847-8)
 
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#1469), dated 1238/1823
+    * Marʿashī, Qum (#4513/2)
+    * Marwī, Tehran (#241)
+    * Marʿashī, Qum (#7255/2)
+    * Majlis, Tehran (#14341)
+
 1. al-Masāʾil al-muhimma fī uṣūl al-aʾimma  
    المسائل المهمة في أصول الأئمة  
    Muḥammad ʿAlī b. Maqṣūd ʿAlī al-Māzandarānī  
@@ -1480,11 +1506,7 @@
    (d. 1267/1850-1)
 
    **Principle Manuscripts**
-    * Majlis, Tehran (#4303/6), dated 1211/1766
-    * AQR, Mashhad (#36770), dated 1199/1784
-    * Markaz-i Iḥyāʾ, Qum (#277/18), dated 1197-1200/1782-5
-    * Malek, Tehran (#733/5), dated 1201/1786
-    * AQR, Mashhad (#37670/2), dated 1210/1795
+    * Millī, Tehran (#4696), dated 13th century/19th century
 
 1. al-Maqālāt al-wāfiya bi-muʿẓam al-maṭālib al-uṣūliyya  
    المقالات الوافية بمعظم المطالب الأصولية  
@@ -1518,7 +1540,7 @@
    (d. 1268/1851-2)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * Wazīrī, Yazd (#2037/15)
 
 1. Muʿīn al-mujtahidīn  
    معين المجتهدين  
@@ -1538,7 +1560,7 @@
    (d. 1259/1853-4)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * Jamʿiyyat-i Nashr-i Farhang, Rasht (#31/2), dated 1240/1824
 
 1. Uṣūl al-fiqh  
    أصول الفقه  
@@ -1546,7 +1568,7 @@
    (d. 1271/1854-5)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * Marʿashī, Qum (#2049/1)
 
 1. Jawāmiʿ al-uṣūl  
    جوامع الأصول  
@@ -1590,6 +1612,9 @@
    أصول الفقه  
    Raḍī al-Dīn b. ʿAlī Akbar al-Mūsawī al-Qazwīnī  
    (d. 1277/1861)
+
+   **Principle Manuscripts**
+    * Fuḥūl-i Qazwīnī, Qazwin (#N/A)
 
 1. Qanāṭir al-wuṣūl ilā madāʾin al-uṣūl  
    قناطر الوصول إلى مدائن الأصول  
@@ -1637,20 +1662,40 @@
    Mullā Muṣṭafā  
    (d. 1279/1863)
 
+   **Principle Manuscripts**
+    * Ṣādiqiyya, Damghan (#163), dated 1279/1863
+
 1. Miʿrāj al-uṣūl  
    معراج الأصول  
    Aḥmad b. Muḥammad Mahdī al-Mūsawī al-Kāshānī  
    (d. 1279/1863)
+
+   **Principle Manuscripts**
+    * Markaz-i Iḥyāʾ, Qum (#3017), dated 1299/1899
+    * Marʿashī, Qum (#5938)
 
 1. Tanqīḥ al-uṣūl  
    تنقيح الأصول  
    Mahdī b. Muḥmmad Mahdī al-Narāqī  
    (d. 1280/1864)
 
+   **Principle Manuscripts**
+    * Muḥammad Hilāl, Aran Kashan (#124/2), dated 1251/1835
+    * Markaz-i Iḥyāʾ, Qum (#4352), dated 1251/1835
+    * Marʿashī, Qum (#14003), dated 1251/1835
+    * Madrasa-yi Sulṭānī, Kashan (#53), dated 1255/1838-9
+    * AQR, Mashhad (#8732), dated 1260/1844-5
+
+   **Commentaries**
+    * *Ḥāshiyat Tanqīḥ al-uṣūl*, unknown (d. 12th century/18th century)
+
 1. Ijtihād wa taqlīd  
    اجتهاد وتقليد  
    Muḥammad Jaʿfar b. Muḥammad Ṣafiyy al-Ābādaʾī  
    (d. 1280/1864)
+
+   **Principle Manuscripts**
+    * ʿAllāma Ṭabāṭabāʾī, Shiraz (#153/2), dated 1264/1848
 
 1. Farāʾid al-uṣūl/al-Rasāʾil  
    فرائد الأصول/الرسائل  
@@ -1729,6 +1774,10 @@
    Muḥammad Jaʿfar b. Muḥammad Ṣafiyy al-Ābādaʾī  
    (d. 1280/1864)
 
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#14294/1), dated 1299/1882
+    * Marʿashī, Qum (#11619), dated 1299/1882
+
 1. Uṣūl al-fiqh - al-Marāyā  
    أصول الفقه - المرايا  
    Muḥammad Jaʿfar b. Muḥammad Ṣafiyy al-Ābādaʾī  
@@ -1743,10 +1792,16 @@
    Muḥammad Ḥusayn b. ʿAbbās ʿAlī al-Qazwīnī al-Ḥāʾirī  
    (d. 1281/1864-5)
 
+   **Principle Manuscripts**
+    * AQR, Mashhad (#11181)
+
 1. al-Ḍawābiṭ al-kulliyya fī l-masāʾil al-uṣūliyya  
    الضوابط الكلية في المسائل الأصولية  
    Muḥammad Ṣāliḥ b. Muḥammad al-Barghānī  
    (d. *c.* 1283/1866)
+
+   **Principle Manuscripts**
+    * Maktabat al-Barghānī, Karbala (#12)
 
 1. Aṣl al-uṣūl  
    أصل الأصول  
@@ -1757,6 +1812,21 @@
    خزائن الأصول في فنون الأدلة العقلية والعقائد الدينية  
    Mullā Āqā b. ʿĀbid b. Ramaḍān b. Zāhid al-Shīrawānī al-Ḥāʾirī al-Darbandī  
    (d. 1285 or 1286/1868 or 1869-70)
+
+   **Principle Manuscripts**
+    * Majlis, Tehran (#7320)
+    * Markaz-i Iḥyāʾ, Qum (#1276)
+    * Āyatullāh al-Ḥakīm, Najaf (#1440)
+    * Malek, Tehran (#2384)
+    * Mumtāz al-ʿUlamāʾ, Lucknow (#283)
+
+   **Editions**
+    * *Khazāʾin al-uṣūl fī funūn al-adilla al-ʿaqliyya wa-l-ʿaqāʾid al-dīniyya* (Tehran: n.pub, 1267/1850-1)
+    * *Khazāʾin al-uṣūl fī funūn al-adilla al-ʿaqliyya wa-l-ʿaqāʾid al-dīniyya* (Tabriz: n.pub, 1274/1857-8)
+    * *Khazāʾin al-uṣūl fī funūn al-adilla al-ʿaqliyya wa-l-ʿaqāʾid al-dīniyya* (Tehran: n.pub, 1284/1867-8)
+
+   **Commentaries**
+    * *ʿAnāwīn al-masāʾil*, Mullā Āqā b. ʿĀbid b. Ramaḍān b. Zāhid al-Shīrawānī al-Ḥāʾirī al-Darbandī (d. 1285 or 1286/1868 or 1869-70)
 
 1. Kawāshif al-ḥujub ʿan mushkilāt al-kutub  
    كواشف الحجب عن مشكلات الكتب  
@@ -1788,20 +1858,41 @@
    Muḥammad b. ʿAbd al-Ṣamad al-Ḥusaynī al-Shahshahānī  
    (d. 1287/1870)
 
+   **Principle Manuscripts**
+    * Madrasa-yi Ṣadr-i Khwājū, Isfahan (#95), dated 1299/1882
+    * Madrasa-yi Ṣadr-i Khwājū, Isfahan (#4), dated 1299/1882
+    * Madrasa-yi Ṣadr-i Khwājū, Isfahan (#81), dated before 1287/1871
+    * Madrasa-yi Ṣadr-i Khwājū, Isfahan (#74), dated before 1287/1871
+    * Madrasa-yi Ṣadr-i Khwājū, Isfahan (#192), dated before 1287/1871
+
 1. al-ʿUrawa al-wuthqā  
    العروة الوثقى  
    Muḥammad b. ʿAbd al-Ṣamad al-Ḥusaynī al-Shahshahānī  
    (d. 1287/1870)
+
+   **Principle Manuscripts**
+    * Madrasa-yi Ṣadr-i Khwājū, Isfahan (#79), dated 1299/1882
+    * Fayḍiyya, Qum (#1103/4)
 
 1. al-Qawāʿid  
    القواعد  
    Muḥammad Karīm b. Ibrāhīm al-Kirmānī  
    (d. 1288/1871)
 
+   **Principle Manuscripts**
+    * AQR, Mashhad (#37350), dated 1267/1850-1
+    * Madrasa-yi Gharb, Hamadan (#731), dated 1268/1851
+    * Masjid-i Aʿẓam, Qum (#1351), dated 1271/1855
+    * Markaz-i Iḥyāʾ, Qum (#4111), dated 1284/1868
+    * Markaz-i Iḥyāʾ, Qum (#1927/2), dated 13th century/19th century
+
 1. Fawāʾid al-uṣūl  
    فوائد الأصول  
    Muḥammad Karīm b. Ibrāhīm al-Kirmānī  
    (d. 1288/1871)
+
+   **Principle Manuscripts**
+    * Wazīrī, Yazd (#1882/2), dated 1287/1871
 
 1. al-Qawāʿid al-mumahhada li-istinbāṭ al-aḥkām  
    القواعد الممهدة لاستباط الأحكام  
@@ -1818,27 +1909,47 @@
    (d. 1289/1872)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * Kitbākhāna-yi Ḥujjat al-Islām al-Gulpāygānī, Golpayegan (#84), dated before 1289/1873
 
 1. Jāmiʿ al-uṣūl  
    جامع الأصول  
    ʿAlī b. Muḥammad al-Qazwīnī  
    (d. *c.* 1290/1873)
 
+   **Principle Manuscripts**
+    * Markaz-i Iḥyāʾ, Qum (#532), dated 1281/1864
+    * Markaz-i Iḥyāʾ, Qum (#533), dated before 1290/1873
+    * Markaz-i Iḥyāʾ, Qum (#534), dated before 1290/1873
+    * Markaz-i Iḥyāʾ, Qum (#814), dated before 1290/1873
+    * Markaz-i Iḥyāʾ, Qum (#815), dated before 1290/1873
+
 1. al-Durra al-bahiyya fī l-uṣūl  
    الدرة البهية في الأصول  
    Muḥammad Bāqir b. Ḥaydar al-Ḥusaynī  
    (d. 1290/1873)
+
+   **Principle Manuscripts**
+    * Maktabat al-Imām al-Ṣādiq, Kazimiyya (#122)
 
 1. Nawāmīs al-uṣūl  
    نواميس الأصول  
    ʿAlī b. Muḥammad al-Qazwīnī  
    (d. *c.* 1290/1873)
 
+   **Principle Manuscripts**
+    * Markaz-i Iḥyāʾ, Qum (#504, 507, 508), dated 1266/1850
+    * Markaz-i Iḥyāʾ, Qum (#505), dated 1269/1853-4
+    * Majlis, Tehran (#1160/3), dated 13th century/19th century
+    * AQR, Mashhad (#39381), dated 13th century/19th century
+    * Majlis, Tehran (#14052), dated 23 Shaʿbān 1262/16 August 1846
+
 1. Fawākih al-uṣūl  
    فواكه الأصول  
    Ḥusayn b. Riḍā al-Mūsawī al-Jazāʾirī  
    (d. 1291/1874)
+
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#15394), dated second half of the 13th century/19th century
 
 1. Maṭāriḥ al-anẓār  
    مطارح الأنظار  
@@ -1879,6 +1990,13 @@
    ʿAbd al-Ṣāḥib Muḥammad b. Aḥmad al-Narāqī  
    (d. 1297/1880)
 
+   **Principle Manuscripts**
+    * Muḥammad Hilāl, Aran Kashan (#114/1), dated 1275/1859
+    * Jaʿfarī, Kashan (#14), dated 1281/1864
+    * Mujtahid al-Zamān, Bidchal (#43/2), dated 1282/1866
+    * Gawharshād, Mashhad (#1426), dated 1283/1866
+    * Majlis, Tehran (#13847), dated 13th century/19th century
+
 1. Durūs al-uṣūl  
    دروس الأصول  
    Muḥammad Ḥusayn b. ʿAlī Akbar al-Iṣfahānī  
@@ -1890,7 +2008,7 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * KG, Najaf (#2736), dated 1288/1871-2
 
 1. al-Maṭālib al-uṣūliyya  
    المطالب الأصولية  
@@ -1914,16 +2032,12 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * Marʿashī, Qum (#2942)
 
 1. Naẓm al-uṣūl  
    نظم الأصول  
    Ismāʿīl b. Muḥammad Jaʿfar al-Bīrjandī  
    (d. 13th century/18th-19th century)
-
-   **Principle Manuscripts**
-    * AQR, Mashhad (#27588), dated 1226/1811
-    * Sāzmān-i Asnād wa Kitābkhāna-ye Millī Irān, Tehran (#5-26089), dated 1265/1848
 
 1. Kāshif asrār al-natāʾij li-dhawī l-ḥawāʾīj  
    کاشف أسرار النتائج لذوى الحوائج  
@@ -1939,12 +2053,16 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * Majlis, Tehran (#7969), dated 1268/1852-3
 
 1. Manāhij al-uṣūl  
    مناهج الأصول  
    Zayn al-ʿĀbidīn b. Ḥusayn al-Ṭabāṭabāʿī  
    (d. 13th century/19th century)
+
+   **Principle Manuscripts**
+    * Maktabat al-Sayyid Muḥammad Bāqir al-Ṭabāṭibāʾī, Karbala (#356), dated 1283/1866-7
+    * Maktabat al-Sayyid Muḥammad Bāqir al-Ṭabāṭibāʾī, Karbala (#355)
 
 1. Muntahā l-wuṣūl fī sharḥ Zubdat al-uṣūl  
    منتهى الوصول في شرح زبدة الأصول  
@@ -1952,7 +2070,7 @@
    (d. 13th century/18th-19th century)
 
    **Principle Manuscripts**
-    * Marʿashī, Qum (#1118/5), dated 1094/1683
+    * Fayḍiyya, Qum (#390), dated 1246/1830
 
 1. Ghāyat al-mabādiʾ fī ʿilm al-uṣūl  
    غاية المبادئ في علم الأصول  
@@ -1979,27 +2097,39 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * Fayḍiyya, Qum (#35)
 
 1. Fiqh wa-uṣūl  
    فقه وأصول  
    Ghulām Ḥusayn b. Mīrzā ʿAlī al-Yazdī  
    (d. 13th century/18th-19th century)
 
+   **Principle Manuscripts**
+    * Fayḍiyya, Qum (#2/1279), dated 13th century/19th century
+
 1. al-Qawāʿid  
    القواعد  
    unknown  
    (d. 1299/1882)
+
+   **Principle Manuscripts**
+    * Marwī, Tehran (#554), dated 13th century/19th century
 
 1. Kitāb fī l-uṣūl wa-l-fiqh  
    كتاب في الأصول والفقه  
    unknown  
    (d. 1299/1882)
 
+   **Principle Manuscripts**
+    * Majlis, Tehran (#1185), dated 13th century/19th century
+
 1. al-Mashāriʿ  
    المشارع  
    Muḥammad Taqī b. Ḥusayn ʿAlī al-Harawī  
    (d. 1299/1881-2)
+
+   **Principle Manuscripts**
+    * Markaz-i Iḥyāʾ, Qum (#889), dated 1301/1884
 
 1. Uṣūl al-fiqh  
    أصول الفقه  
@@ -2007,7 +2137,7 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * Marʿashī, Qum (#3389)
 
 1. al-Qawāʿid al-sharīfa  
    القواعد الشريفة  
@@ -2039,39 +2169,34 @@
    unknown  
    (d. 1299/1882)
 
+   **Principle Manuscripts**
+    * University of Tehran, Tehran (#7318/6), dated 13th century/19th century
+
 1. Uṣūl al-fiqh  
    أصول الفقه  
    Ṣafar ʿAlī al-Rashtī  
    (d. 13th century/19th century)
-
-   **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
 
 1. al-Wāfiya fī l-uṣūl  
    الوافية في الأصول  
    unknown  
    (d. 1299/1882)
 
+   **Principle Manuscripts**
+    * Ilāhiyyāt, Tehran (#618/1), dated 1245/1830
+
 1. Aṣl al-uṣūl  
    أصل الأصول  
    Fatḥallāh b. Rajab ʿAlī al-Qazwīnī  
    (d. 13th century/18th-19th century)
 
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#1400)
+
 1. Mafātīḥ al-uṣūl  
    مفتاح الأصول  
    Ḥusayn b. Ibrāhīm al-Mūsawī al-Khurāsānī  
    (d. 13th century/18th-19th century)
-
-   **Principle Manuscripts**
-    * Maʿṣūmiyya, Qum (#147), dated 1234/1819
-    * Fayḍiyya, Qum (#1938), dated 1242/1826
-    * Millī, Tehran (#190), dated 13th century/19th century
-    * ʿAbd al-ʿAẓīm, Tehran (#73), dated 13th century/19th century
-    * Majlis, Tehran (#131/12)
-
-   **Editions**
-    * *Mafātīḥ al-uṣūl*, ed. Muḥammad Ḥasan b. ʿAlī al-Qummī (n.plac., n.pub, 1270/1853-54)
-    * *Mafātīḥ al-uṣūl* (Tehran: n.pub, 1296/1879-80)
 
 1. Shumūl khiṭābāt  
    شمول خطابات  
@@ -2127,12 +2252,15 @@
    (d. 13th century/18th-19th century)
 
    **Principle Manuscripts**
-    * Ilāhiyyāt, Tehran (#156), dated 13th century/19th century
+    * Millī, Tehran (#2533)
 
 1. Fawāʾid al-uṣūl  
    فوائد الأصول  
    unknown  
    (d. 1299/1882)
+
+   **Principle Manuscripts**
+    * Tarikat Muḥammad al-Samawī, Najaf (#153)
 
 1. Tibyān al-Qawānīn  
    تبيان القوانين  
@@ -2147,10 +2275,17 @@
    ʿAlī al-Qazwīnī  
    (d. 13th century/19th century)
 
+   **Principle Manuscripts**
+    * KG, Najaf (#1020), dated 1312/1894-5
+    * KG, Najaf (#987)
+
 1. Qawānīn al-uṣūl  
    قوانين الأصول  
    unknown  
    (d. 1299/1882)
+
+   **Principle Manuscripts**
+    * Madrasa-yi Bāqirīyya, Mashhad (#253), dated 1242/1826-7
 
 1. Maṣābīḥ al-uṣūl  
    مصابيح الأصول  
@@ -2158,11 +2293,7 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Marʿashī, Qum (#3086), dated 1233/1817
-    * Markaz-i Iḥyāʾ, Qum (#427), dated 13th century/19th century
-    * Ḥaydarī, Mashhad (#45), dated 13th century/19th century
-    * Marʿashī, Qum (#3881)
-    * Marʿashī, Qum (#3085)
+    * Maktabat al-Sayyid Muḥammad Bāqir al-Ṭabāṭibāʾī, Karbala (#327)
 
 1. al-Dalāʾil al-bāhira fī fiqh al-ʿitra al-ṭāhira  
    الدلائل الباهرة في فقه العترة الطاهرة  
@@ -2219,16 +2350,19 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Marʿashī, Qum (#3086), dated 1233/1817
-    * Markaz-i Iḥyāʾ, Qum (#427), dated 13th century/19th century
-    * Ḥaydarī, Mashhad (#45), dated 13th century/19th century
-    * Marʿashī, Qum (#3881)
-    * Marʿashī, Qum (#3085)
+    * Millī, Tehran (#4089), dated 1260/1844-5
+    * al-ʿAtaba al-ʿAbbāsiyya, Karbala (#97), dated 1262/1846-7
+    * al-Rawḍa al-Ḥusayniyya, Karbala (#12883/951), dated 1272/1855-6
+    * al-ʿAtaba al-ʿAbbāsiyya, Karbala (#475), dated 1272/1855-6
+    * Fayḍ Mahdawī, Kermanshah (#N/A)
 
 1. Dalāʾil al-uṣul  
    دلائل الأصول  
    ʿAlī b. Chirāgh ʿAlī al-Lārijānī  
    (d. 13th century/18th-19th century)
+
+   **Principle Manuscripts**
+    * AQR, Mashhad (#23577), dated 13th century/19th century
 
 1. Ḥadāʾiq al-uṣūl  
    حدائق الأصول  
@@ -2236,9 +2370,7 @@
    (d. 13th century/18th-19th century)
 
    **Principle Manuscripts**
-    * Marʿashī, Qum (#4709), dated 1299/1899
-    * Dāʾirat al-Maʿārif-i Buzurg-i Islāmī, Tehran (#1805/1), dated 1276/1859
-    * AQR, Mashhad (#2865), dated 1276/1859
+    * Markaz-i Iḥyāʾ, Qum (#3829/2), dated 13th century/19th century
 
 1. Fawāʾid al-kubrā  
    فوائد الكبرى  
@@ -2254,23 +2386,11 @@
    (d. 1299/1881-2)
 
    **Principle Manuscripts**
-    * Malek, Tehran (#2044), dated 1250/1834-5
-    * Marʿashī, Qum (#1801), dated 1253/1837
-    * Millī, Tehran (#1945/7)
-    * Shaykh ʿAlī Ḥaydar, Mashhad (#884)
-    * University of Tehran, Tehran (#801)
-
-   **Commentaries**
-    * *Sharḥ Natāʾij al-afkār*, Kāẓim b. Qāsim al-Rashtī (d. 1259/1843)
-    * *Sharḥ Natāʾij al-afkār*, Muḥammad Karīm b. Ibrāhīm al-Kirmānī (d. 1288/1871)
-    * *Sharḥ Natāʾij al-afkār*, Mahdī al-Kajūrī al-Māzandarānī (d. 1293/1876)
-    * *Sharḥ Natāʾij al-afkār*, Mīrzā Bābā al-Sabzawārī (d. before 1293/1876)
-    * *Makhzan al-asrār fī sharḥ Natāʾij al-afkār*, Āqā Muḥammad (Shaykh Muḥammad) (d. 13th century/18th-19th century)
-    * *Manāhij al-asrār fī sharḥ Natāʾij al-afkār*, ʿAbd al-Samīʿ b. Muḥammad ʿAlī al-Yazdī (d. 13th century/19th century)
-    * *Sharḥ Natāʾij al-afkār*, Muḥammad Jaʿfar al-Ḥusaynī al-Sabzawārī (d. 13th century/18th-19th century)
-    * *Sharḥ Natāʾij al-afkār*, unknown (d. 1299/1882)
-    * *Maṣābīḥ al-anẓār fī sharḥ Natāʾij al-afkār*, Muḥammad Bāqir b. Zayn al-ʿĀbidīn (d. 1300/1883)
-    * *Mawāzīn al-anẓār fī sharḥ Natāʾij al-afkār*, al-Mīrzā Muḥammad b. Sulaymān al-Tunikābunī (d. 1302/1884)
+    * Sipahsālār, Tehran (#971), dated 1260/1844-5
+    * Marʿashī, Qum (#6930/3), dated 1262/1845-6
+    * Malek, Tehran (#1624), dated 1299/1882
+    * Dāʾirat al-Maʿārif, Tehran (#1761), dated 13th century/19th century
+    * Marʿashī, Qum (#3425)
 
 1. Mīzān al-sālik fī tartīb al-dalāʾil wa-l-madārik  
    ميزان السالك في ترتيب الدلائل والمدارك  
@@ -2308,7 +2428,7 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * Millī, Tehran (#23), dated 1263/1847-8
 
 1. Mukhtaṣar al-uṣūl  
    مختصر الأصول  
@@ -2344,6 +2464,9 @@
    Ḥusayn Qulī Muḥsin al-Qājār  
    (d. 13th century/19th century)
 
+   **Principle Manuscripts**
+    * Millī, Tehran (#2865), dated 13th century/19th century
+
 1. Muḥaqqiq al-uṣūl fī tarjīḥ aqwāl al-fuḥūl  
    محقق الأصول في ترجيح أقوال الفحول  
    Muḥammad b. Jaʿfar al-Ṭabarsī  
@@ -2358,7 +2481,7 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Gulpāygānī, Qum (#19/77-3747)
+    * Maktabat al-Sayyid Ḥasan Aghā Mīr al-Qazwīnī, Karbala (#6), dated 1274/1857-8
 
 1. Qawāʿid al-uṣūl li-istinbāṭ al-aḥkām  
    قواعد الأصول لاستنباط الأحكام  
@@ -2403,7 +2526,7 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * KG, Najaf (#1022), dated 1308/1890-1
 
 1. Ḥall-i mushkilāt-i uṣul  
    حل مشکلات اصول  
@@ -2425,6 +2548,9 @@
    مهذب الوصول إلى علم الأصول  
    unknown  
    (d. 1299/1882)
+
+   **Principle Manuscripts**
+    * Ḥusayn ʿAlī Maḥfūẓ, Baghdad (#86), dated 1857/1841-2
 
 1. Sarāʾir al-uṣūl  
    سرائر الأصول  
@@ -2456,6 +2582,10 @@
    Abū l-Ḥasan b. ʿAlī Akbar  
    (d. 13th century/18th-19th century)
 
+   **Principle Manuscripts**
+    * AQR, Mashhad (#7112), dated 1241/1825
+    * Wazīrī, Yazd (#2453), dated 1242/1826
+
 1. Fiqhiyya wa uṣūliyya  
    فقهية و اصولية  
    Naṣrallāh b. Aḥmad al-Mūsawī  
@@ -2469,13 +2599,17 @@
    Ibrāhīm al-Shahrānī  
    (d. 13th century/18th-19th century)
 
+   **Principle Manuscripts**
+    * Majlis, Tehran (#15184), dated 13th century/19th century
+
 1. Uṣūl al-fiqh  
    أصول الفقه  
    Ibn al-Ḥasan al-Gīlānī  
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * Millī, Tehran (#17234), dated 1250/1834
+    * Millī, Tehran (#17243), dated 1253/1837-8
 
 1. Sullam al-uṣūl  
    سلم الأصول  
@@ -2529,6 +2663,9 @@
    فرائد الأصول في ﺗﻤييز المزيف عن المقبول  
    ʿAbd al-Hussayn b. Muḥammad Riḍā al-Tustarī  
    (d. 13th century/19th century)
+
+   **Principle Manuscripts**
+    * KG, Najaf (#4369)
 
 1. Maṭālib uṣūliyya  
    مطالب أصوليه  
@@ -2586,6 +2723,9 @@
    unknown  
    (d. 1299/1882)
 
+   **Principle Manuscripts**
+    * Gawharshād, Mashhad (#1479/9), dated 13th century/19th century
+
 1. Miqyās al-mustaqīm  
    مقياس المستقيم  
    Aḥmad b. ʿAlī al-Mukhtār al-Gulpāygānī  
@@ -2608,20 +2748,26 @@
    ʿAbdallāh b. Abī Turāb al-Ḥusaynī  
    (d. 13th century/19th century)
 
+   **Principle Manuscripts**
+    * Masjid-i Aʿẓam, Qum (#1217), dated 1243/1827-8
+    * AQR, Mashhad (#20711), dated 1244/1828-9
+    * Maktabat al-Imām Amīr al-Muʾminīn al-ʿĀmma, Najaf (#81), dated 1260/1844
+
 1. al-Manāhij  
    المناهج  
    Amīn b. Muḥammad Khalīl al-Tūysirkānī  
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Marʿashī, Qum (#11843/5), dated 1253/1837
-    * Madrasa-yi Gharb, Hamadan (#4618), dated 1265/1849
-    * ʿUmūmī Iṣfahān, Isfahan (#3042), dated 13th century/19th century
+    * Gawharshād, Mashhad (#1412), dated 1256/1840
 
 1. Qawāʿid al-fiqhiyya wa-l-uṣūliyya  
    قواعد الفقهية والأصولية  
    unknown  
    (d. 1299/1882)
+
+   **Principle Manuscripts**
+    * Majlis, Tehran (#1138/5), dated 13th century/19th century
 
 1. Muzīlat al-shubahāt ʿan al-māniʿīn ʿan taqlīd al-amwāt  
    مزيلة الشبهات عن المانعين عن تقليد الأموات  
@@ -2636,15 +2782,28 @@
    unknown  
    (d. 1299/1882)
 
+   **Principle Manuscripts**
+    * Markaz-i Iḥyāʾ, Qum (#3876), dated 13th century/19th century
+    * Ilāhiyyāt, Mashhad (#482/2)
+
 1. Kanz al-uṣūl  
    كنز الأصول  
    Muḥammad Ismāʿīl b. Muḥammad Taqī al-Harawī  
    (d. 13th century/19th century)
 
+   **Principle Manuscripts**
+    * AQR, Mashhad (#6219), dated 1254/1838
+    * AQR, Mashhad (#6218), dated 1256/1840-1
+
 1. Lawāmiʿ al-fuṣūl fī sharḥ Mabādiʾ al-uṣūl  
    لوامع الفصول في شرح مبادئ الأصول  
    Muḥammad Taqī b. Ḥusayn ʿAlī al-Harawī  
    (d. 1299/1881-2)
+
+   **Principle Manuscripts**
+    * Maktabat Āyatullāh al-Ḥakīm al-ʿĀmma, Najaf (#216)
+    * Tarikat Muḥammad al-Samawī, Najaf (#131)
+    * KG, Najaf (#1096)
 
 1. Tahdhīb al-uṣūl  
    تهذيب الأصول  
@@ -2652,12 +2811,7 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * AQR, Kashan (#79/4), dated 13th century/19th century
-    * Anjuman-i Āthār wa Mafākhir-i Farhangī, Tehran (#41/2), dated 1349/1930
-
-   **Commentaries**
-    * *Ḥāshiyat Tahdhīb al-uṣūl*, Muḥammad Bāqir b. Muḥammad Naqī al-Shaftī al-Bīdābādī (d. 1260/1844-5)
-    * *Kashf al-maknūn*, Muḥammad Samīʿ b. Muḥammad ʿAlī al-Yazdī (d. 13th century/18th-19th century)
+    * Raḍawī, Kashan (#79/3), dated 13th century/19th century
 
 1. Mafātīḥ al-uṣūl  
    مفاتيح الأصول  
@@ -2665,15 +2819,7 @@
    (d. 13th century/18th-19th century)
 
    **Principle Manuscripts**
-    * Maʿṣūmiyya, Qum (#147), dated 1234/1819
-    * Fayḍiyya, Qum (#1938), dated 1242/1826
-    * Millī, Tehran (#190), dated 13th century/19th century
-    * ʿAbd al-ʿAẓīm, Tehran (#73), dated 13th century/19th century
-    * Majlis, Tehran (#131/12)
-
-   **Editions**
-    * *Mafātīḥ al-uṣūl*, ed. Muḥammad Ḥasan b. ʿAlī al-Qummī (n.plac., n.pub, 1270/1853-54)
-    * *Mafātīḥ al-uṣūl* (Tehran: n.pub, 1296/1879-80)
+    * Markaz-i Iḥyāʾ, Qum (#1533/2)
 
 1. Kifāyat al-muʾminīn  
    كفاية المؤمنين  
@@ -2696,10 +2842,16 @@
    unknown  
    (d. 1299/1882)
 
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#15805/3), dated 13th century/19th century
+
 1. Lughat  
    لغت  
    Muḥammad Hādī b. Abī Ṭālib al-Sharīf al-Ḥusaynī  
    (d. 13th century/18th-19th century)
+
+   **Principle Manuscripts**
+    * Fayḍ Mahdawī, Kermanshah (#none)
 
 1. Riyāḍ al-arwāḍ  
    رياض الأرواض  
@@ -2714,10 +2866,18 @@
    unknown  
    (d. 1299/1882)
 
+   **Principle Manuscripts**
+    * Shaykh ʿAlī Ḥaydar, Mashhad (#174), dated 1241/1825
+    * Marʿashī, Qum (#5411), dated 1256/1840
+
 1. Mashāriʿ al-wuṣūl ilā nihāyat al-maḥṣūl  
    مشارع الوصول إلى نهاية المحصول  
    Muḥammad Taqī b. Ḥusayn ʿAlī al-Harawī  
    (d. 1299/1881-2)
+
+   **Principle Manuscripts**
+    * Argānī Bihbahānī, Qum (#29), dated 1399/1978-9
+    * Majlis, Tehran (#3430/1)
 
 1. Sabīl al-janna  
    سبيل الجنة  
@@ -2736,7 +2896,7 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * University of Tehran, Tehran (#8297), dated 13th century/19th century
 
 1. Badāʾiʿ al-uṣūl  
    بدائع الأصول  
@@ -2782,7 +2942,9 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * AQR, Mashhad (#12697)
+    * AQR, Mashhad (#12848)
+    * AQR, Mashhad (#12858)
 
 1. Uṣūl al-fiqh  
    أصول الفقه  
@@ -2790,7 +2952,9 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * Maktabat al-Sayyid Muḥammad Bāqir al-Ṭabāṭibāʾī, Karbala (#223)
+    * Maktabat al-Sayyid Muḥammad Bāqir al-Ṭabāṭibāʾī, Karbala (#226)
+    * Maktabat al-Sayyid Muḥammad Bāqir al-Ṭabāṭibāʾī, Karbala (#205)
 
 1. Lubb al-uṣūl  
    لب الأصول  
@@ -2798,7 +2962,7 @@
    (d. 1299/1882)
 
    **Principle Manuscripts**
-    * Wazīrī, Yazd (#2437/1), dated 1244/1828-9
+    * Imām Hādī, Mashhad (#106), dated 1272/1855
 
 1. Miṣbāḥ al-wuṣūl ilā tahdhīb al-uṣūl  
    مصباح الوصول إلى تهذيب الأصول  
@@ -2820,6 +2984,13 @@
    البحر الزاخر في أصول الأوائل والأواخر  
    Muʿizz al-dīn Muḥammad Mahdī b. Ḥasan al-Ḥusaynī al-Qazwīnī  
    (d. 1300/1883)
+
+   **Principle Manuscripts**
+    * Maktabat al-Imām Amīr al-Muʾminīn al-ʿĀmma, Najaf (#255), dated 1293/1876-7
+    * Maktabat Āyatullāh al-Ḥakīm al-ʿĀmma, Najaf (#1129/12), dated 1293/1876-7
+    * KG, Najaf (#113), dated 1306/1888-9
+    * Markaz-i Iḥyāʾ, Qum (#2233), dated 1306/1889
+    * Maktabat al-ʿAllāma al-Sayyid Muḥammad Ṣādiq Baḥr al-ʿUlūm, Najaf (#85/1), dated 1342-6/1923-4
 
 1. Mawārid al-wuṣūl ilā ʿilm al-uṣūl  
    موارد الوصول إلى علم الأصول  
@@ -2877,36 +3048,22 @@
    (d. 1302/1884)
 
    **Principle Manuscripts**
-    * Malek, Tehran (#2044), dated 1250/1834-5
-    * Marʿashī, Qum (#1801), dated 1253/1837
-    * Millī, Tehran (#1945/7)
-    * Shaykh ʿAlī Ḥaydar, Mashhad (#884)
-    * University of Tehran, Tehran (#801)
-
-   **Commentaries**
-    * *Sharḥ Natāʾij al-afkār*, Kāẓim b. Qāsim al-Rashtī (d. 1259/1843)
-    * *Sharḥ Natāʾij al-afkār*, Muḥammad Karīm b. Ibrāhīm al-Kirmānī (d. 1288/1871)
-    * *Sharḥ Natāʾij al-afkār*, Mahdī al-Kajūrī al-Māzandarānī (d. 1293/1876)
-    * *Sharḥ Natāʾij al-afkār*, Mīrzā Bābā al-Sabzawārī (d. before 1293/1876)
-    * *Makhzan al-asrār fī sharḥ Natāʾij al-afkār*, Āqā Muḥammad (Shaykh Muḥammad) (d. 13th century/18th-19th century)
-    * *Manāhij al-asrār fī sharḥ Natāʾij al-afkār*, ʿAbd al-Samīʿ b. Muḥammad ʿAlī al-Yazdī (d. 13th century/19th century)
-    * *Sharḥ Natāʾij al-afkār*, Muḥammad Jaʿfar al-Ḥusaynī al-Sabzawārī (d. 13th century/18th-19th century)
-    * *Sharḥ Natāʾij al-afkār*, unknown (d. 1299/1882)
-    * *Maṣābīḥ al-anẓār fī sharḥ Natāʾij al-afkār*, Muḥammad Bāqir b. Zayn al-ʿĀbidīn (d. 1300/1883)
-    * *Mawāzīn al-anẓār fī sharḥ Natāʾij al-afkār*, al-Mīrzā Muḥammad b. Sulaymān al-Tunikābunī (d. 1302/1884)
+    * Jāmiʿ Kabīr, Yazd (#93)
 
 1. Uṣūl al-fiqh  
    أصول الفقه  
    Muḥammad Riḍā b. Ismāʿīl al-Mūsawī al-Shīrāzī  
    (d. 1302/1884-5)
 
-   **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
-
 1. Mawārid al-uṣūl  
    موارد الأصول  
    Muḥammad b. Sulaymān al-Tunikābunī  
    (d. 1302/1885)
+
+   **Principle Manuscripts**
+    * Imām Ṣādiq, Chalus (#453/2), dated 1293/1876
+    * Imām Ṣādiq, Chalus (#424/2), dated 1294/1877
+    * Marʿashī, Qum (#8883/1), dated 1340/1921-2
 
 1. Mukhtariʿ al-anẓār  
    مخترع الأنظار  
@@ -2920,6 +3077,9 @@
    الأصول والفقه  
    Muḥammad b. Sulaymān al-Tunikābunī  
    (d. 1302/1885)
+
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#13725), dated 13th century/19th century
 
 1. al-Mawāʾid  
    الموائد  
@@ -2944,12 +3104,15 @@
    (d. 1302/1885)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * Marʿashī, Qum (#4505/2), dated 1272/1855
 
 1. al-Fuṣūl al-bahiyya fī baʿḍ akhbār al-ḥujaj al-marḍiyya  
    الفصول البهية في بعض أخبار الحجج المرضية  
    Muḥammad b. Muḥsin Mūsawī al-Baḥrānī  
    (d. 1303/1886)
+
+   **Principle Manuscripts**
+    * Maktabat Muḥammad ʿAlī Khayr al-Dīn, Karbala (#1)
 
 1. Qisṭās al-uṣūl  
    قسطاس الأصول  
@@ -2975,13 +3138,18 @@
    Naẓar ʿAlī b. Sulṭān Muḥammad al-Ṭāliqānī  
    (d. 1306/1888)
 
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#14105), dated 14th century/20th century
+    * Marʿashī, Qum (#4069)
+    * Mudarrisī, Yazd (#N/A)
+
 1. Uṣūl al-fiqh  
    أصول الفقه  
    Ḥasan b. Muḥammad ʿAlī al-ʿArīḍī al-Khurāsānī  
    (d. 1306/1888)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * Amīr al-Muʾminīn, Boshrouyeh (#39)
 
 1. Majmūʿat al-uṣūl  
    مجموعة الأصول  
@@ -2996,15 +3164,27 @@
    ʿAbd al-Raḥīm b. ʿAbd al-Raḥmān al-Kirmānshāhī  
    (d. 1305/1887-8)
 
+   **Principle Manuscripts**
+    * Jalīlī, Kermanshah (#22)
+
 1. Jāmiʿ al-uṣūl  
    جامع الأصول  
    Ismāʿīl b. Muḥammad Bāqir al-Ashrafi al-Māzandarānī  
    (d. 1308/1890)
 
+   **Principle Manuscripts**
+    * AQR, Mashhad (#2/17022)
+
 1. Maʿārij al-wuṣūl ilā ḥaqāʾiq al-uṣūl  
    معارج الوصول إلى حقائق الأصول  
    Aḥmad b. Muṣṭafā al-Khūʾīnī  
    (d. 1307/1889-90)
+
+   **Principle Manuscripts**
+    * Ilāhiyyāt, Mashhad (#20865), dated 1300/1883
+
+   **Commentaries**
+    * *Sharḥ Maʿārij al-wuṣūl ilā ʿilm al-uṣūl*, Muḥammad Kāẓim b. Kamāl al-Dīn al-Bazzāz al-Bihbahānī (d. 1255/1839-40)
 
 1. Faṣl al-khiṭāb  
    فصل الخطاب  
@@ -3012,14 +3192,16 @@
    (d. 1308/1890)
 
    **Principle Manuscripts**
-    * Marʿashī, Qum (#15604), dated 1227/1812
-    * Burūjirdī, Qum (#116/12), dated 1316/1898
-    * Gulpāygānī, Qum (#59/64-8844/2)
+    * Marʿashī, Qum (#6593)
 
 1. Jāmiʿ al-maqāṣid  
    جامع المقاصد  
    ʿAlī Aṣghar b. Muḥammad Shafīʿ al-Jāpalaqī  
    (d. 1313/1896)
+
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#13204/2)
+    * Marʿashī, Qum (#3326)
 
 1. Manbaʿ al-ḥayāt fī ʿibārāt al-aḥyāʾ wa-l-amwāt  
    منبع الحياة في عبارات الأحياء والأموات  
@@ -3039,7 +3221,7 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * Marʿashī, Qum (#186), dated 1281/1865
 
 1. al-Wajīza fī mawāḍiʿ al-kalām bi-l-naqḍ wa-l-ibrām fī l-ijmāʿ  
    الوجيزة في مواضع الكلام بالنقض والإبرام في الإجماع  
@@ -3064,15 +3246,26 @@
    Fattāḥ b. Aḥmad al-Ḥusaynī  
    (d. 13th century/19th century)
 
+   **Principle Manuscripts**
+    * Millī, Tehran (#3067), dated 1299/1882
+    * Ḥasan ʿĀṭifī, Kashan (#N/A), dated 1299/1882
+    * Ḥasan ʿĀṭifī, Kashan (#N/A), dated 1299/1882
+
 1. Hidāyat al-uṣūl  
    هداية الأصول  
    Muḥammad ʿAlī b. Muḥammad Naṣīr al-Narāqī  
    (d. 13th century/19th century)
 
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#7627), dated 1299/1882
+
 1. al-Qawāʿid wa-l-fawāʾid  
    القواعد والفوائد  
    Muḥammad Riḍā b. Muḥammad Ṣādiq al-Astarābādī  
    (d. 13th century/19th century)
+
+   **Principle Manuscripts**
+    * University of Tehran, Tehran (#2/7310), dated 13th century/19th century
 
 1. Madārij al-wuṣūl ilā ʿilm al-uṣūl  
    مدارج الوصول إلى علم الأصول  
@@ -3089,7 +3282,7 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Ilāhiyyāt, Tehran (#156), dated 13th century/19th century
+    * Majlis, Tehran (#16921), dated 10 Ramaḍan 1277/22 March 1861
 
 1. Madārij al-aḥkām  
    مدارج الأحکام  
@@ -3105,12 +3298,15 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * Dāʾirat al-Maʿārif, Tehran (#2022/2 photocopy), dated 1246/1830-1
 
 1. Dharāʾiʿ al-uṣūl  
    ذرائع الأصول  
    ʿAlī Muḥammad b. Karīm al-Rashtī  
    (d. 13th century/19th century)
+
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#7339), dated 1299/1882
 
 1. Uṣūl al-fiqh  
    أصول الفقه  
@@ -3118,7 +3314,7 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * University of Tehran, Tehran (#7310/3), dated 13th century/19th century
 
 1. Mīzān al-sadād fī ibṭāl ṭarīqat al-ẓann wa-l-ijtihād  
    ميزان السداد في إبطال طريقة الظن والاجتهاد  
@@ -3136,6 +3332,9 @@
    Ḥasan b. ʿAlī al-Qazwīnī al-Zanjānī  
    (d. *c.* 13th century/19th century)
 
+   **Principle Manuscripts**
+    * Majlis, Tehran (#9626), dated 1291/1874
+
 1. Mishkāt al-anwār  
    مشكاة الأنوار  
    Muḥammad Sharīf al-Ḥusaynī al-Kalbāsī  
@@ -3148,6 +3347,9 @@
    الفوائد  
    Fidāʾ ʿAlī al-Akhbārī  
    (d. 13th century/19th century)
+
+   **Principle Manuscripts**
+    * AQR, Mashhad (#24687), dated 13th century/18th-19th century
 
 1. Mawāzīn al-qisṭ  
    موازين القسط  
@@ -3173,11 +3375,7 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Marʿashī, Qum (#10410), dated 1240/1825
-    * Majlis, Tehran (#13611), dated 1241/1826
-    * Fayḍiyya, Qum (#162), dated 1280/1863
-    * Imām Jumʿa, Zanjan (#N/A)
-    * Millī, Tehran (#25346)
+    * Millī, Tehran (#4578)
 
 1. Miṣbāḥ al-wuṣūl ilā ʿilm al-uṣūl  
    مصباح الوصول إلى علم الأصول  
@@ -3197,7 +3395,7 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * Imām-i ʿAṣr, Shiraz (#363)
 
 1. Jumla min al-mabāḥith al-uṣūliyya wa-l-qawāʿid al-aḥkāmiyya  
    جملة من المباحث الأصولية والقواعد الأحكامية  
@@ -3213,7 +3411,7 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * Madrasa-yi ʿAwaḍiyya, Koujan (#39), dated 7 Dhū l-Qiʿda 1232/18 September 1817
 
 1. Uṣūl al-fiqh  
    أصول الفقه  
@@ -3221,34 +3419,40 @@
    (d. 1319/1901-2)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * AQR, Mashhad (#17621), dated 1278/1861
+    * Marʿashī, Qum (#12125/2), dated 1278/1862
+    * AQR, Mashhad (#16036), dated 1288/1871
+    * Marʿashī, Qum (#11256/3), dated 1293/1876
 
 1. Kashf al-astār ʿan wajh al-asrār  
    كشف الأستار عن وجه الأسرار  
    Hādī b. Muḥammad Amīn al-Tihrānī al-Najafī  
    (d. 1322/1904)
 
+   **Principle Manuscripts**
+    * Maktabat al-Imām Amīr al-Muʾminīn al-ʿĀmma, Najaf (#402)
+    * Maktabat al-Imām Amīr al-Muʾminīn al-ʿĀmma, Najaf (#63)
+
 1. Tashrīḥ al-uṣūl al-ṣaghīr  
    تشريح الأصول الصغير  
    ʿAlī b. Fatḥallāh al-Nahāwandī al-Najafī  
    (d. 1322/1904)
-
-   **Principle Manuscripts**
-    * Millī, Tehran (#3579/1), dated 1295/1878
-    * AQR, Mashhad (#11710/2), dated 1296/1879
-    * Marʿashī, Qum (#14927/3), dated 1297/1880
-    * AQR, Mashhad (#33874), dated 1297/1879-80
-    * AQR, Mashhad (#6007), dated 13th century/19th century
 
 1. Uṣul al-fiqh  
    اصول الفقه ( كتاب في)  
    Muḥammad Ṭāhā b. Mahdī al-Tabrīzī  
    (d. 1323/1905)
 
+   **Principle Manuscripts**
+    * Maktabat Āyatullāh al-Ḥakīm al-ʿĀmma, Najaf (#3147)
+
 1. Tashīl al-wuṣūl ilā ʿilm al-uṣūl  
    تسهيل الوصول إلي علم الأصول  
    ʿAbdullāh b. ʿAbd al-Laṭīf al-Bishāwarī  
    (d. 1324/1906)
+
+   **Principle Manuscripts**
+    * Jāmiʿat al-Baṣra (al-Maktabat al-Markaziyya), Basra (#376), dated 1326/1908
 
 1. Uṣūl al-fiqh  
    أصول الفقه  
@@ -3256,19 +3460,16 @@
    (d. 1325/1907-8)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * Markaz-i Iḥyāʾ, Qum (#629/1)
 
 1. al-Fawāʾid al-uṣūliyya  
    الفوائد الأصولية  
    Mullā Muḥammad Kāẓim b. Mullā Ḥusayn al-Harawī al-Khurāsānī al-Najafī  
    (d. 1329/1911)
 
-   **Principle Manuscripts**
-    * Majlis, Tehran (#4303/6), dated 1211/1766
-    * AQR, Mashhad (#36770), dated 1199/1784
-    * Markaz-i Iḥyāʾ, Qum (#277/18), dated 1197-1200/1782-5
-    * Malek, Tehran (#733/5), dated 1201/1786
-    * AQR, Mashhad (#37670/2), dated 1210/1795
+   **Editions**
+    * *al-Fawāʾid al-uṣūliyya* (Tehran: n.pub, 1315/1897)
+    * *Fawāʾid al-uṣūl* (Tehran: Wizārat-i irshād, 1407/1996-97)
 
 1. Kifāyat al-uṣūl  
    كفاية الأصول  
@@ -3301,13 +3502,19 @@
    Muḥammad Ḥasan b. Muḥammad Bāqir al-Tabrīzī  
    (d. 1337/1919)
 
+   **Principle Manuscripts**
+    * Madrasat Āyatullāh Khūʾī, Mashhad (#64/1), dated 1295/1878
+    * Millī, Shiraz (#123/alf-113), dated 1295/1878
+    * Gulpāygānī, Qum (#30/127-6267/2), dated 1302/1885
+    * Millī, Shiraz (#373/r-17), dated 1311/1894
+
 1. Uṣūl al-fiqh  
    أصول الفقه  
    ʿĪsā b. Muḥammad Taqī al-Barghānī  
    (d. *c.* 14th century/20th century)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * Marʿashī, Qum (#4782)
 
 1. Natījat al-natāʾij fīmā waṣala ilaynā fī maṭālib al-uṣūl min āl al-rasūl  
    نتيجة النتائج فيما وصل إلينا في مطالب الأصول من آل الرسول  
@@ -3324,10 +3531,16 @@
    Ḥabīballāh b. ʿAlī Madad al-Kāshānī  
    (d. 1340/1921-2)
 
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#5759), dated 1294/1877
+
 1. Jawāmiʿ al-fuṣūl fī taḥrīr ʿilm al-uṣūl  
    جوامع الفصول في تحرير علم الأصول  
    Muḥammad b. Muḥammad Ḥusayn al-Najafābādī  
    (d. 14th century/20th century)
+
+   **Principle Manuscripts**
+    * Maktabat Āyatullāh al-Ḥakīm al-ʿĀmma, Najaf (#777)
 
 1. Feqh-e ve uṣūl/al-fiqh wa-l-uṣūl  
    فقه و اصول/ الققه والأصول  
@@ -3399,12 +3612,12 @@
    Maḥmūd b. Masʿūd Quṭb al-Dīn al-Shīrāzī  
    (d. 710/1310-11)
 
-   **Commentaries**
-    * *Ḥāshiyat Sharḥ Mukhtaṣar al-uṣūl*, Muḥammad b. al-Ḥusayn Bahāʾ al-Dīn al-ʿĀmilī (d. 1030 or 1031/1620 or 1621)
-    * *Ḥāshiyat Sharḥ Mukhtaṣar al-uṣūl*, ʿAbdallāh Khān b. Alī Khān al-Mushaʿshaʿī (d. 1097/1685)
-    * *Ḥāshiyat Sharḥ Mukhtaṣar al-uṣūl*, ʿAbd al-Wāḥid b. ʿAlī al-Shūshtarī (d. 1099/1687-8)
-    * *Ḥāshiyat Sharḥ Mukhtaṣar al-uṣūl*, al-Ḥusayn b. Jamāl al-Dīn Muḥammad Āqā Ḥusayn al-Khwānsārī (d. 1099/1687-8)
-    * *Ḥāshiyat Sharḥ Mukhtaṣar al-uṣūl*, Muḥammad b. al-Ḥasan al-Shīrawānī (d. after 1129/1716)
+   **Principle Manuscripts**
+    * AQR, Mashhad (#13978)
+    * AQR, Mashhad (#2899)
+    * Millī, Tehran (#1907)
+    * Malek, Tehran (#1351)
+    * AQR, Mashhad (#13872)
 
 1. Bughyat al-labīb fī sharḥ al-Tahdhīb  
    بغية اللبيب في شرح التهذيب  
@@ -3438,6 +3651,18 @@
    Ḍiyāʾ al-Dīn ʿAbdallāh b. Majd al-Dīn Abī l-Fawāris Muḥammad b. ʿAlī b. al-Aʿraj al-Ḥusaynī al-Ḥillī  
    (d. *c.* 740/1339)
 
+   **Principle Manuscripts**
+    * Millī, Tehran (#19589), dated 740/1339
+    * Marʿashī, Qum (#2566), dated 764/1363
+    * Markaz-i Iḥyāʾ, Qum (#2879), dated 766/1365
+    * Majlis, Tehran (#15337), dated 8th century/14th century
+    * Majlis, Tehran (#9418/1), dated 8th century/14th century
+
+   **Editions**
+    * *Munyat al-labīb fī sharḥ al-Tahdhīb* (Tehran: n.pub, 1308/1890)
+    * *Munyat al-labīb fī sharḥ al-Tahdhīb*, ed. ʿAlī b. Muḥammad al-Sayyid ʿAlī Farmān al-Ḥanafī (Lucknow: Maṭbaʿ Ḍiyāʾ Riḍā, 1315/1897)
+    * *Munyat al-labīb fī sharḥ al-Tahdhīb*, ed. al-Lajna al-ʿIlmiyya fī Muʾassasat al-Imām al-Ṣādiq (Qum: Muʾassasat al-Imām al-Ṣādiq, 1388Sh/2010)
+
 1. Ghāyat al-suʾl fī sharḥ Mabādiʾ al-wuṣūl  
    غاية السؤل في شرح مبادئ الوصول  
    ʿAmīd al-Dīn ʿAbd al-Muṭṭalib b. Majd al-Dīn Abī l-Fawāris Muḥammad b. ʿAlī b. al-Aʿraj al-Ḥusaynī al-Ḥillī  
@@ -3447,16 +3672,6 @@
    شرح تهذيب الوصول إلى علم الأصول  
    ʿAmīd al-Dīn ʿAbd al-Muṭṭalib b. Majd al-Dīn Abī l-Fawāris Muḥammad b. ʿAlī b. al-Aʿraj al-Ḥusaynī al-Ḥillī  
    (d. 10 Shaʿbān 754/10 September 1353)
-
-   **Principle Manuscripts**
-    * Wiṣāl, Shiraz (#23), dated 1038/1628
-    * Maktabat Amīr al-Muʾminīn, Najaf (#N/A), dated 1238/1822
-    * AQR, Mashhad (#N/A)
-    * Markaz-i Iḥyāʾ, Qum (#1751/1)
-    * Markaz-i Muṭālaʿāt, Qum (#625)
-
-   **Editions**
-    * *Sharḥ Tahdhīb al-wuṣūl ilā ʿilm al-uṣūl*, ed. Abū l-Qāsim b. ʿAlī Akbar al-Jīlānī (Tehran: n.pub, 1308/1890-91)
 
 1. Nihāyat al-bādiʾ fī sharḥ al-Mabādiʾ  
    نهاية البادئ في شرح المبادئ  
@@ -3482,9 +3697,6 @@
    كشف الأصول في شرح مبادئ الوصول  
    Muḥammad b. al-Ḥasan b. Yūsuf b. ʿAlī b. Muṭahhar al-Ḥillī  
    (d. 771/1369)
-
-   **Principle Manuscripts**
-    * AQR, Mashhad (#25549)
 
 1. Nihāyat al-suʾūl fī sharḥ Mabādiʾ al-wuṣūl  
    نهاية السؤول في شرح مبادئ الوصول  
@@ -3540,9 +3752,6 @@
    Tāj al-Dīn ʿAlī b. al-Ḥasan al-Ṭabarsī  
    (d. after 8th century/14th century)
 
-   **Principle Manuscripts**
-    * AQR, Mashhad (N/A)
-
 1. Tawdīḥ al-wuṣūl fī sharḥ Tahdhīb al-uṣūl  
    توضيح الوصول في شرح تهذيب الأصول  
    ʿAbbād b. Aḥmad al-Ḥusaynī Gulistāna  
@@ -3573,12 +3782,7 @@
    (d. 826/1422)
 
    **Principle Manuscripts**
-    * Majlis, Tehran (#1186), dated 848/1414
-    * Majlis, Tehran (#15634), dated 861/1457
-    * ʿAllāma Rawḍātī, Isfahan (#N/A), dated 1067/1657
-
-   **Editions**
-    * *Nihāyat al-maʾmūl fī sharḥ Mabādiʾ al-wuṣūl*, ed. Ḥamīd Rumḥ al-Ḥillī (Babol: al-ʿAtaba al-Ḥusayniyya & Markaz al-ʿAllāma al-Ḥillī, 1439/2018)
+    * Millī, Tehran (#4087/1), dated 1088/1677
 
 1. Ḥāshiyat Sharḥ al-ʿAḍudī  
    حاشية شرح العضدي  
@@ -3607,23 +3811,13 @@
    Nūr al-Dīn ʿAlī b. Hilāl al-Jazāʾirī  
    (d. 937/1531)
 
-   **Principle Manuscripts**
-    * Muḥammad Hilāl, Aran Kashan (#40/6), dated n.d./n.d.
-
 1. Sharḥ Tahdhīb al-wuṣūl ilā ʿilm al-uṣūl  
    شرح تهذيب الوصول إلى علم الأصول  
    Ḥusayn b. ʿAbd al-Ḥaqq al-Ardabīlī  
    (d. *c.* 950/1543)
 
    **Principle Manuscripts**
-    * Wiṣāl, Shiraz (#23), dated 1038/1628
-    * Maktabat Amīr al-Muʾminīn, Najaf (#N/A), dated 1238/1822
-    * AQR, Mashhad (#N/A)
-    * Markaz-i Iḥyāʾ, Qum (#1751/1)
-    * Markaz-i Muṭālaʿāt, Qum (#625)
-
-   **Editions**
-    * *Sharḥ Tahdhīb al-wuṣūl ilā ʿilm al-uṣūl*, ed. Abū l-Qāsim b. ʿAlī Akbar al-Jīlānī (Tehran: n.pub, 1308/1890-91)
+    * Muṣlih al-Dīn Mahdawī, Isfahan (#35), dated 978/1570
 
 1. Sharḥ Maʿārij al-uṣūl  
    شرح معارج الأصول  
@@ -3634,9 +3828,6 @@
    شرح مبادئ الوصول  
    Nūr al-Dīn ʿAlī Ḥaydar b. ʿAlī al-Munaʿʿal al-Qummī  
    (alive in 974/1566)
-
-   **Principle Manuscripts**
-    * AQR, Mashhad (N/A)
 
 1. al-Fuṣūl fī sharḥ Tahdhīb al-wuṣūl  
    الفصول في شرح تهذيب الوصول  
@@ -3656,14 +3847,9 @@
    (d. 10th century/16th century)
 
    **Principle Manuscripts**
-    * Wiṣāl, Shiraz (#23), dated 1038/1628
-    * Maktabat Amīr al-Muʾminīn, Najaf (#N/A), dated 1238/1822
-    * AQR, Mashhad (#N/A)
-    * Markaz-i Iḥyāʾ, Qum (#1751/1)
-    * Markaz-i Muṭālaʿāt, Qum (#625)
-
-   **Editions**
-    * *Sharḥ Tahdhīb al-wuṣūl ilā ʿilm al-uṣūl*, ed. Abū l-Qāsim b. ʿAlī Akbar al-Jīlānī (Tehran: n.pub, 1308/1890-91)
+    * Madrasa-yi Miʿmārbāshī, Tehran (#44), dated 1037/1627
+    * University of Tehran, Tehran (#3589)
+    * KG, Najaf (#2371)
 
 1. Nihāyat al-taqrīb fī sharḥ al-Tahdhīb  
    نهاية التقريب في شرح التهذيب  
@@ -3714,6 +3900,9 @@
    al-Mīrzā ʿAlāʾ al-Dīn Ḥusayn b. Rafīʿ al-Dīn Muḥammad al-Marʿashī al-Āmūlī  
    (d. 1064/1653)
 
+   **Principle Manuscripts**
+    * Dihqān, Arak (#119/2), dated 1239/1823
+
 1. Sharḥ Mukhtaṣar ʿAḍudī  
    شرح مختصر العضدي  
    al-Mīrzā ʿAlāʾ al-Dīn Ḥusayn b. Rafīʿ al-Dīn Muḥammad al-Marʿashī al-Āmūlī  
@@ -3747,13 +3936,27 @@
    Muḥammad Ṣāliḥ b. Aḥmad al-Māzandarānī  
    (d. 1081/1670)
 
+   **Principle Manuscripts**
+    * Malek, Tehran (#1984), dated 1033/1624
+    * Marʿashī, Qum (#11847/1), dated 1033/1624
+    * Madrasa-yi Āyatullāh Burūjirdī, Kermanshah (#88), dated 1057/1647
+    * Gulpāygānī, Qum (#57/168-8498), dated 1083/1673
+    * Millī, Shiraz (#67-6), dated 1088/1677
+
+   **Editions**
+    * *Sharḥ Maʿālim al-dīn lil-Mawlā Muḥammad Ṣāliḥ al-Māzandarānī* (Qum: Maktabat al-Dāwarī, n.d.)
+
 1. Sharḥ Zubdat al-uṣūl  
    شرح زبدة الأصول  
    Muḥammad Ṣāliḥ b. Aḥmad al-Māzandarānī  
    (d. 1081/1670)
 
    **Principle Manuscripts**
-    * Muḥammad Hilāl, Aran Kashan (#40/6), dated n.d./n.d.
+    * AQR, Mashhad (#7376), dated 1066/1656
+    * AQR, Mashhad (#27771), dated 1068/1657
+    * Ruḥānī, Qum (#14/1), dated 1081/1670
+    * AQR, Mashhad (#37568), dated 11th century/17th century
+    * Marʿashī, Qum (#15776), dated 11th century/17th century
 
 1. al-Tibyān fī sharḥ Zubdat al-uṣūl  
    التبيان في شرح زبدة الأصول  
@@ -3772,16 +3975,10 @@
    Muḥammad Bāqir b. Muḥammad Muʾmin al-Khurāsānī al-Sabzawārī  
    (d. 1090/1679)
 
-   **Principle Manuscripts**
-    * Muḥammad Hilāl, Aran Kashan (#40/6), dated n.d./n.d.
-
 1. Sharḥ Mabādiʾ al-wuṣūl  
    شرح مبادئ الوصول  
    Ḥusām al-Dīn b. Jamāl al-Dīn b. Ṭurayḥ al-Najafī  
    (d. 1095/1683)
-
-   **Principle Manuscripts**
-    * AQR, Mashhad (N/A)
 
 1. Nashr al-ayādī fī sharḥ al-Mabādiʾ  
    نشر الأيادي في شرح المبادئ  
@@ -3800,16 +3997,10 @@
    al-Ḥusayn b. Jamāl al-Dīn Muḥammad Āqā Ḥusayn al-Khwānsārī  
    (d. 1099/1687-8)
 
-   **Principle Manuscripts**
-    * Muḥammad Hilāl, Aran Kashan (#40/6), dated n.d./n.d.
-
 1. Sharḥ Zubdat al-uṣūl  
    شرح زبدة الأصول  
    Hāshim b. Sulaymān b. Ismāʿīl al-Katkānī al-Tūbalānī al-Baḥrānī  
    (d. 1107 or 1109/1695 or 1697)
-
-   **Principle Manuscripts**
-    * Muḥammad Hilāl, Aran Kashan (#40/6), dated n.d./n.d.
 
 1. Sharḥ al-Wāfiya  
    شرح الوافية  
@@ -3817,11 +4008,11 @@
    (d. 1099/1699)
 
    **Principle Manuscripts**
-    * Ilāhiyyāt, Mashhad (#22494), dated 1110/1698
-    * Gawharshād, Mashhad (#682), dated 1132/1719
-    * Mahdawī, Qum (#N/A), dated 1145/1732
-    * Majlis, Tehran (#563), dated 1155/1742
-    * Maktabat Āyatullāh al-Khūʾī, Mashhad (#88/1), dated 1176/1762
+    * Tarikat Muḥammad al-Samāwī, Najaf (#125)
+    * Milli, Tehran (#21061)
+    * Majlis, Tehran (#1275)
+    * Tarikat Muḥammad al-Samāwī, Najaf (#156/1)
+    * KG, Najaf (#448)
 
 1. Sharḥ Zubdat al-uṣūl  
    شرح زبدة الأصول  
@@ -3829,7 +4020,8 @@
    (d. 1099/1699)
 
    **Principle Manuscripts**
-    * Muḥammad Hilāl, Aran Kashan (#40/6), dated n.d./n.d.
+    * Malek, Tehran (#3528/4), dated 1046/1636
+    * Wazīrī, Yazd (#1895), dated 1255/1839
 
 1. Najāt al-muslimīn wa-munjī l-hālikīn  
    نجاة المسلمين ومنجي الهالكين  
@@ -3845,14 +4037,11 @@
    (d. 1099/1699)
 
    **Principle Manuscripts**
-    * Wiṣāl, Shiraz (#23), dated 1038/1628
-    * Maktabat Amīr al-Muʾminīn, Najaf (#N/A), dated 1238/1822
-    * AQR, Mashhad (#N/A)
-    * Markaz-i Iḥyāʾ, Qum (#1751/1)
-    * Markaz-i Muṭālaʿāt, Qum (#625)
-
-   **Editions**
-    * *Sharḥ Tahdhīb al-wuṣūl ilā ʿilm al-uṣūl*, ed. Abū l-Qāsim b. ʿAlī Akbar al-Jīlānī (Tehran: n.pub, 1308/1890-91)
+    * Gulpāygānī, Qum (#39/44-7664)
+    * Dāʾirat al-Maʿārif, Tehran (#921)
+    * Amīr al-Muʾminīn, Boshrouyeh (#94)
+    * Marʿashī, Qum (#15676)
+    * Gulpāygānī, Qum (#29/203-5863)
 
 1. Sharḥ Tuḥfat al-uṣūl  
    شرح تحفة الأصول  
@@ -3867,20 +4056,13 @@
    Muḥammad b. Maḥmūd al-Ṭabasī  
    (d. 11th century/17th century)
 
-   **Principle Manuscripts**
-    * Muḥammad Hilāl, Aran Kashan (#40/6), dated n.d./n.d.
-
 1. Sharḥ Tahdhīb al-uṣūl  
    شرح تهذيب الأصول  
    unknown  
    (d. 1099/1699)
 
    **Principle Manuscripts**
-    * Marʿashī, Qum (#2670), dated 952/1545
-    * Majlis, Tehran (#4242), dated 959/1552
-    * Majlis, Tehran (#1347), dated 975/1567
-    * University of Tehran, Tehran (#1210), dated 980/1573
-    * Malek, Tehran (#1956), dated 980/1573
+    * Maktabat al-Imām al-Ḥakīm al-ʿĀmma, Najaf (#1814)
 
 1. Mirqāt al-wuṣūl ilā Zubdat al-uṣūl  
    مرقاة الوصول إلى زبدة الأصول  
@@ -3896,25 +4078,32 @@
    (d. *c.* 1118/1706)
 
    **Principle Manuscripts**
-    * Muḥammad Hilāl, Aran Kashan (#40/6), dated n.d./n.d.
+    * Marʿashī, Qum (#7382/3)
 
 1. Sharḥ Maʿālim al-uṣūl  
    شرح معالم الأصول  
    Muḥammad Hādī b. Muḥammad Ṣāliḥ al-Māzandarānī  
    (d. 1120/1708-9)
 
+   **Principle Manuscripts**
+    * Gulpāygānī, Qum (#14/56-2606/4), dated 13th century/19th century
+
 1. Sharḥ Maʿālim al-uṣūl  
    شرح معالم الأصول  
    Muḥammad b. al-Ḥasan al-Shīrawānī  
    (d. after 1129/1716)
 
+   **Principle Manuscripts**
+    * Masjid-i Aʿẓam, Qum (#2749), dated 1122/1710
+    * ʿAbd al-ʿAẓīm, Tehran (#332), dated 12th century/18th century
+    * Majlis, Tehran (#5397), dated 12th century/18th century
+    * University of Tehran, Tehran (#5367), dated 12th century/18th century
+    * Gulpāygānī, Qum (#37/160-7370), dated 12th century/18th century
+
 1. Sharḥ Zubdat al-uṣūl  
    شرح زبدة الأصول  
    Muḥammad Zamān b. Kalb ʿAlī al-Tabrīzī al-Iṣfahānī  
    (d. 1131 or 1137/1718 or 1724)
-
-   **Principle Manuscripts**
-    * Muḥammad Hilāl, Aran Kashan (#40/6), dated n.d./n.d.
 
 1. Kāshif asrār al-yaqīn min uṣūl al-sharʿ al-mubīn fī sharḥ Maʿālim al-dīn  
    كاشف أسرار اليقين من أصول الشرع المبين في شرح معالم الدين  
@@ -3929,13 +4118,13 @@
    Muḥammad b. al-Ḥasan al-Fāḍil al-Hindī  
    (d. 1137/1725)
 
+   **Principle Manuscripts**
+    * Ilāhiyyāt, Tehran (#199), dated 11th century/17th century
+
 1. Sharḥ Zubdat al-uṣūl  
    شرح زبدة الأصول  
    Yaʿqūb b. Ibrāhīm al-Ḥuwayzī al-Bakhtiyārī al-Iṣfahānī  
    (d. 1147/1734)
-
-   **Principle Manuscripts**
-    * Muḥammad Hilāl, Aran Kashan (#40/6), dated n.d./n.d.
 
 1. Sharḥ Zubdat al-uṣūl  
    شرح زبدة الأصول  
@@ -3943,7 +4132,7 @@
    (d. 1160/1747)
 
    **Principle Manuscripts**
-    * Muḥammad Hilāl, Aran Kashan (#40/6), dated n.d./n.d.
+    * AQR, Mashhad (#6482), dated 1230/1814
 
 1. Sharḥ al-Wāfiya  
    شرح الوافية  
@@ -3963,7 +4152,9 @@
    (d. after 1193/1779)
 
    **Principle Manuscripts**
-    * Muḥammad Hilāl, Aran Kashan (#40/6), dated n.d./n.d.
+    * Malek, Tehran (#5741), dated 1083/1673
+    * Gulpāygānī, Qum (#18/130-3610), dated 1266/1849
+    * AQR, Mashhad (#34898), dated 1275/1858
 
 1. Talkhīṣ al-ʿUmda fī sharḥ ishkālāt al-Zubda  
    تلخيص العمدة في شرح إشكالات الزبدة  
@@ -3993,13 +4184,13 @@
    Mullā Muḥammad ʿAlī b. Muḥammad Ḥasan al-Ārānī al-Kāshānī  
    (d. after 1198/1783-4)
 
-   **Principle Manuscripts**
-    * Muḥammad Hilāl, Aran Kashan (#40/6), dated n.d./n.d.
-
 1. Tanbīh al-ghāfilīn fī tawḍīḥ muʿḍalāt al-Qawānīn  
    تنبيه الغافلين في توضيح معضلات القوانين  
    Muḥammad Bāqir al-Hazārjarībī  
    (d. 1205/1791)
+
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#3675)
 
 1. Sharḥ al-Wāfiya fī uṣūl al-fiqh  
    شرح الوافية في أصول الفقه  
@@ -4027,7 +4218,7 @@
    (d. 12th-13th century/18th-19th century)
 
    **Principle Manuscripts**
-    * Muḥammad Hilāl, Aran Kashan (#40/6), dated n.d./n.d.
+    * Millī, Shiraz (#138-48), dated 1225/1713
 
 1. Jāmiʿ al-uṣūl fī sharḥ Tahdhīb al-wuṣūl  
    جامع الأصول في شرح تهذيب الوصول  
@@ -4062,12 +4253,16 @@
    (d. 12th century/18th century)
 
    **Principle Manuscripts**
-    * Muḥammad Hilāl, Aran Kashan (#40/6), dated n.d./n.d.
+    * Ilāhiyyāt, Tehran (#145)
+    * Markaz-i Iḥyāʾ, Qum (#250)
 
 1. Sharḥ al-Fawāʾid al-ḥikamiyya al-ithnay ʿashariyya  
    شرح الفوائد الحكمية الاثني عشرية  
    Muḥammad Ḥusayn b. Muḥammad Riḍā al-Ṭāliqānī  
    (d. 12th century/18th century)
+
+   **Principle Manuscripts**
+    * AQR, Mashhad (#26671), dated 13th century/19th century
 
 1. Manāhij al-yaqīn ilā kunūz Maʿālim al-dīn  
    مناهج اليقين إلى كنوز معالم الدين  
@@ -4083,6 +4278,9 @@
    unknown  
    (d. 12th century/18th century)
 
+   **Principle Manuscripts**
+    * Muṣliḥ al-Dīn Mahdawī, Isfahan (#69), dated 1107/1695
+
 1. Muntahā l-wuṣūl fī sharḥ Zubdat al-uṣūl  
    منتهى الوصول في شرح زبدة الأصول  
    Luṭfallāh b. ʿAṭāʾallāh al-Ḥuwayzī  
@@ -4096,21 +4294,21 @@
    unknown  
    (d. 12th century/18th century)
 
+   **Principle Manuscripts**
+    * Wazīrī, Yazd (#1803/1), dated 12th century/18th century
+    * Kāẓimaynī, Yazd (#174), dated 13th century/19th century
+    * AQR, Mashhad (#39301), dated 14th century/20th century
+    * Marʿashī, Qum (#7664)
+
 1. Sharḥ Zubdat al-uṣūl  
    شرح زبدة الأصول  
    al-Shaykh Mahdī b. al-Ḥusayn al-Najafī  
    (d. *c.* 12th century/18th century)
 
-   **Principle Manuscripts**
-    * Muḥammad Hilāl, Aran Kashan (#40/6), dated n.d./n.d.
-
 1. Sharḥ Zubdat al-uṣūl  
    شرح زبدة الأصول  
    ʿAbd ʿAlī b. Muḥammad Ḥusayn  
    (d. *c.* 12th century/18th century)
-
-   **Principle Manuscripts**
-    * Muḥammad Hilāl, Aran Kashan (#40/6), dated n.d./n.d.
 
 1. Sharḥ Maʿārij al-uṣūl  
    شرح معارج الأصول  
@@ -4130,6 +4328,9 @@
    Muḥammad Muḥsin b. Muḥammad Samīʿ al-Kirmānshāhī  
    (d. 1223/1808-9)
 
+   **Principle Manuscripts**
+    * Ṣādiqiyya, Damghan (#90/1), dated 13th century/19th century
+
 1. Sharḥ al-Durar al-bahiyya  
    شرح الدرر البهية  
    Muḥammad Muḥsin b. Muḥammad Samīʿ al-Kirmānshāhī  
@@ -4144,6 +4345,11 @@
    شرح معالم الأصول  
    Muḥammad Muḥsin b. Muḥammad Samīʿ al-Kirmānshāhī  
    (d. 1223/1808-9)
+
+   **Principle Manuscripts**
+    * Fayḍ Mahdawī, Kermanshah (#N/A)
+    * Fayḍ Mahdawī, Kermanshah (#N/A)
+    * Fayḍ Mahdawī, Kermanshah (#N/A)
 
 1. al-Wāfī fī sharḥ al-Wāfiya  
    الوافي في شرح الوافية  
@@ -4189,9 +4395,6 @@
    al-Sayyid ʿAlī al-Ṭabāṭabāʾī Ṣāḥib al-Riyāḍ  
    (d. 1231/1816)
 
-   **Principle Manuscripts**
-    * AQR, Mashhad (N/A)
-
 1. Manāhil al-uṣūl fī sharḥ Tahdhīb al-wuṣūl  
    مناهل الأصول في شرح تهذيب الوصول  
    Muḥammad ʿAlī b. Ḥusayn al-Aʿṣam  
@@ -4225,10 +4428,16 @@
    Jamāl al-Dīn b. ʿAbd al-Nabī b. ʿAbd al-Ṣāniʿ al-Nayshābūrī al-Astarābādī  
    (d. 1232 or 1233/1817 or 1818)
 
+   **Principle Manuscripts**
+    * al-Rawḍa al-Ḥusayniyya, Najaf (#9183/560)
+
 1. Sharḥ Tajrīd al-uṣūl  
    شرح تجريد الأصول  
    Muḥammad Jaʿfar b. Ṣafar Majdhūb ʿAlī  
    (d. 1238/1822-3)
+
+   **Principle Manuscripts**
+    * Madrasa-yi Gharb, Yazd (#1105/9)
 
 1. Sharḥ al-Fawāʾid al-Ḥāʾiriyya  
    شرح الفوائد الحائرية  
@@ -4264,6 +4473,9 @@
    Muḥammad b. ʿAlī al-Ṭabāṭabāʾī  
    (d. 1242/1827)
 
+   **Principle Manuscripts**
+    * Saryazdī, Yazd (#179/3), dated 13th century/19th century
+
 1. Mulayyin al-ḥadīd fī sharḥ al-Zubda lil-shaykh al-farīd  
    ملين الحديد في شرح الزبدة للشيخ الفريد  
    ʿAlī b. Muḥammad Bāqir, al-Sayyid ʿAlī al-Khwānsārī  
@@ -4289,6 +4501,13 @@
    Aḥmad b. Muḥammad Mahdī al-Narāqī  
    (d. 1245/1829)
 
+   **Principle Manuscripts**
+    * Madrasa-yi Sulṭānī, Kashan (#123), dated 1216/1801
+    * AQR, Mashhad (#25971), dated 1222/1807
+    * Masjid-i Aʿẓam, Qum (#2367), dated 1234/1818
+    * Millī, Tehran (#3702), dated 13th century/19th century
+    * Majlis, Tehran (#18390), dated 13th century/19th century
+
 1. Aṣl al-uṣūl fī sharḥ Maʿālim al-uṣūl  
    أصل الأصول في شرح معالم الأصول  
    Muḥammad Rafīʿ b. Rafīʿ al-Gīlānī  
@@ -4307,30 +4526,42 @@
    (d. 1245 or 1246/1829 or 1830)
 
    **Principle Manuscripts**
-    * Millī, Shiraz (#183/ta-24)
+    * Shāh Chirāgh, Shiraz (#828/1)
 
 1. Sharḥ Maʿālim al-uṣūl  
    شرح معالم الأصول  
    ʿAbdallāh b. Muḥammad Bāqir al-Māmaqānī  
    (d. 1246/1830-1)
 
+   **Principle Manuscripts**
+    * AQR, Mashhad (#14470), dated 13th century/19th century
+
 1. Hidāyat al-mustarshidīn fī sharḥ Maʿālim al-dīn  
    هداية المسترشدين في شرح معالم الدين  
    Muḥammad Taqī b. ʿAbd al-Raḥīm al-Iṣfahānī  
    (d. 1248/1832-3)
+
+   **Principle Manuscripts**
+    * Catalogue of Oriental Manuscripts, in Danish Collections, Copenhagen (#Cod. Arab. A.C. 65)
+
+   **Editions**
+    * *Hidāyat al-mustarshidīn ʿalā uṣūl Maʿālim al-dīn* (Qum: Jamāʿat Mudarrisīn al-Ḥawza al-ʿIlmiyya bi-Qum, 1421/2000-1)
+    * *Hidāyat al-mustarshidīn ʿalā uṣūl Maʿālim al-dīn* (Qum: Jamāʿat Mudarrisīn al-Ḥawza al-ʿIlmiyya bi-Qum, 1429/2008-9)
 
 1. Sharḥ Maʿālim al-uṣūl  
    شرح معالم الأصول  
    Shams al-Dīn b. Jamāl al-Dīn al-Bihbahānī  
    (d. 1248/1832-3)
 
+   **Principle Manuscripts**
+    * Markaz-i Iḥyāʾ, Qum (#3751), dated 1249/1833
+    * Gulpāygānī, Qum (#35/108-6928/3), dated 13th century/19th century
+    * AQR, Mashhad (#6679)
+
 1. Sharḥ Zubdat al-uṣūl  
    شرح زبدة الأصول  
    al-Sayyid ʿAlī Naqī b. Jawād  
    (d. 1249/1833)
-
-   **Principle Manuscripts**
-    * Muḥammad Hilāl, Aran Kashan (#40/6), dated n.d./n.d.
 
 1. Bughyat al-fuḥūl fī sharḥ Zubdat al-uṣūl  
    بغية الفحول في شرح زبدة الأصول  
@@ -4345,10 +4576,18 @@
    Ākhund Muḥammad Kāẓim b. Muḥammad ʿAlī al-Bihbahānī  
    (d. 1250 or 1255/1834 or 1839)
 
+   **Principle Manuscripts**
+    * Majlis, Tehran (#951388)
+    * Majlis, Tehran (#1173216)
+    * Marʿashī, Qum (#9058)
+
 1. Sharḥ Maʿārij al-wuṣūl ilā ʿilm al-uṣūl  
    شرح معارج الوصول إلى علم الأصول  
    Muḥammad Kāẓim b. Kamāl al-Dīn al-Bazzāz al-Bihbahānī  
    (d. 1255/1839-40)
+
+   **Principle Manuscripts**
+    * Majlis, Tehran (#15837), dated 13th century/19th century
 
 1. Sharḥ Natāʾij al-afkār  
    شرح نتائج الأفكار  
@@ -4407,9 +4646,6 @@
    Zayn al-ʿĀbidīn b. Abī l-Qāsim Jaʿfar al-Mūsawī al-Khwānsārī al-Iṣfahānī  
    (d. 1272/1855)
 
-   **Principle Manuscripts**
-    * Muḥammad Hilāl, Aran Kashan (#40/6), dated n.d./n.d.
-
 1. al-Tuḥfa al-raḍawiyya fī sharḥ al-Zubda al-bahāʾiyya  
    التحفة الرضوية في شرح الزبدة البهائية  
    Muḥammad Riḍā b. Muḥammad Muḥsin al-Hamadānī  
@@ -4427,18 +4663,21 @@
    Ḥusayn b. Muḥammad Zughayb al-ʿĀmilī  
    (d. 1280/1864)
 
+   **Principle Manuscripts**
+    * AQR, Mashhad (#18049), dated before 1280/1863
+
 1. Sharḥ al-Qawānīn al-muḥkama fī l-uṣūl  
    شرح القوانين المحكمة في الأصول  
    Muḥammad b. Muqīm al-Bārfurūshī al-Māzandarānī  
    (d. 1281/1865)
 
+   **Principle Manuscripts**
+    * Khātam al-Anbiyāʾ, Babol (#159), dated 1257/1841-2
+
 1. Sharḥ Zubdat al-uṣūl  
    شرح زبدة الأصول  
    al-Sayyid Muḥammad b. al-Sayyid Dildār ʿAlī al-Naqawī Riḍwān Maʾāb  
    (d. 1286/1869)
-
-   **Principle Manuscripts**
-    * Muḥammad Hilāl, Aran Kashan (#40/6), dated n.d./n.d.
 
 1. Sharḥ Manẓūmat Shaykh Sulaymān Āl ʿAbd al-Jabbār  
    شرح منظومة شيخ سليمان آل عبد الجبار  
@@ -4454,25 +4693,21 @@
    (d. 1288/1871)
 
    **Principle Manuscripts**
-    * Madrasa-yi Gharb, Hamadan (#4502/1), dated 1303/1885-6
-    * Wazīrī, Yazd (#808), dated 1303/1885
+    * Rawḍātī, Isfahan (#2), dated 1292/1875
+    * Wazīrī, Yazd (#242/1)
 
 1. Sharḥ Zubdat al-uṣūl  
    شرح زبدة الأصول  
    Mullā Hādī al-Sabzawārī  
    (d. 1289/1873)
 
-   **Principle Manuscripts**
-    * Muḥammad Hilāl, Aran Kashan (#40/6), dated n.d./n.d.
-
 1. Sharḥ Natāʾij al-afkār  
    شرح نتائج الأفكار  
    Mahdī al-Kajūrī al-Māzandarānī  
    (d. 1293/1876)
 
    **Principle Manuscripts**
-    * Madrasa-yi Gharb, Hamadan (#4502/1), dated 1303/1885-6
-    * Wazīrī, Yazd (#808), dated 1303/1885
+    * KG, Najaf (#5296)
 
 1. Sharḥ Natāʾij al-afkār  
    شرح نتائج الأفكار  
@@ -4480,18 +4715,25 @@
    (d. before 1293/1876)
 
    **Principle Manuscripts**
-    * Madrasa-yi Gharb, Hamadan (#4502/1), dated 1303/1885-6
-    * Wazīrī, Yazd (#808), dated 1303/1885
+    * Madrasa-yi Bāqiriyya, Mashhad (#315/5), dated 1261/1845
 
 1. al-Taʿādul wa-l-tarājīḥ  
    التعادل والتراجيح  
    Mahdī al-Kajūrī al-Māzandarānī  
    (d. 1293/1876)
 
+   **Principle Manuscripts**
+    * Shāh Chirāgh, Shiraz (#2071/1)
+
 1. Sharḥ Maʿārij al-uṣūl  
    شرح معارج الأصول  
    Mīrzā Bābā al-Sabzawārī  
    (d. before 1293/1876)
+
+   **Principle Manuscripts**
+    * University of Isfahan, Isfahan (#517)
+    * Madrasa-yi Bāqiriyya, Mashhad (#184)
+    * AQR, Mashhad (#17296)
 
 1. Wadāʾiʿ al-fuḥūl fī sharḥ Zubdat al-uṣūl  
    ودائع الفحول في شرح زبدة الأصول  
@@ -4505,9 +4747,6 @@
    شرح زبدة الأصول  
    Muḥammad Taqī b. Muḥammad Jaʿfar b. Muḥammad ʿAlī al-Kirmānshāhī  
    (d. 1299/1881-2)
-
-   **Principle Manuscripts**
-    * Muḥammad Hilāl, Aran Kashan (#40/6), dated n.d./n.d.
 
 1. Wasīlat al-wasāʾil fī sharḥ al-Rasāʾil  
    وسيلة الوسائل في شرح الرسائل  
@@ -4555,6 +4794,9 @@
    Aḥmad b. ʿAbd al-ʿAẓīm al-Kāshānī  
    (d. 13th century/19th century)
 
+   **Principle Manuscripts**
+    * Maktabat al-Imām Amīr al-Muʾminīn al-ʿĀmma, Najaf (#109)
+
 1. Sharḥ al-istiṣḥāb  
    شرح الاستصحاب  
    unknown  
@@ -4584,32 +4826,44 @@
    ʿAlī Akbar al-Khurāsānī  
    (d. 13th century/18th-19th century)
 
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#3936), dated 1223/1808
+    * Marʿashī, Qum (#13066), dated 1238/1822
+    * Gulpāygānī, Qum (#5/13-723), dated 1239/1823
+    * Wazīrī, Yazd (#2081/11), dated 1241/1825
+    * Marʿashī, Qum (#2797/1)
+
 1. Sharḥ Natāʾij al-afkār  
    شرح نتائج الأفكار  
    Muḥammad Jaʿfar al-Ḥusaynī al-Sabzawārī  
    (d. 13th century/18th-19th century)
 
    **Principle Manuscripts**
-    * Madrasa-yi Gharb, Hamadan (#4502/1), dated 1303/1885-6
-    * Wazīrī, Yazd (#808), dated 1303/1885
+    * AQR, Mashhad (#17531), dated 13th century/19th century
 
 1. Sharḥ Maʿālim al-uṣūl  
    شرح معالم الأصول  
    unknown  
    (d. 1299/1882)
 
+   **Principle Manuscripts**
+    * Millī, Tehran (#19772), dated 1220/1790
+    * Ṣādiqiyya, Damghan (#162), dated 1205/1790
+    * Mahdawī, Qum (#N/A)
+
 1. Sharḥ Zubdat al-uṣūl  
    شرح زبدة الأصول  
    Muḥammad al-Naṣrābādī al-Kāshānī  
    (d. 13th century/18th-19th century)
 
-   **Principle Manuscripts**
-    * Muḥammad Hilāl, Aran Kashan (#40/6), dated n.d./n.d.
-
 1. Sharḥ Farāʾid al-uṣūl  
    شرح فرائد الأصول  
    ʿAbd al-Rasūl al-Yazdī  
    (d. 13th century/18th-19th century)
+
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#11868), dated 13th century/19th century
+    * Marʿashī, Qum (#11869)
 
 1. Mayādīn al-fuḥūl  
    ميادين الفحول  
@@ -4647,7 +4901,7 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Muḥammad Hilāl, Aran Kashan (#40/6), dated n.d./n.d.
+    * Khādim Ḥusaynī, Tabriz (#45), dated 1245/1829-30
 
 1. al-Durra al-bahiyya fī sharḥ al-Zubda al-bahāʿiyya  
    الدرة البهية في شرح الزبدة البهائية  
@@ -4674,12 +4928,19 @@
    (d. 1299/1882)
 
    **Principle Manuscripts**
-    * Muḥammad Hilāl, Aran Kashan (#40/6), dated n.d./n.d.
+    * ʿAllāma Ṭabāṭabāʾī, Shiraz (#270), dated 1215/1800
+    * Ḥusayn Shahshahānī, Tehran (#N/A), dated 1240/1824
+    * Milli, Tehran (#4660/4), dated 1244/1828
+    * Milli, Tehran (#2202/1), dated 1255/1839
+    * ʿAbd al-ʿAẓīm, Tehran (#423), dated 13th century/19th century
 
 1. Maṭāriḥ al-anẓār wa-natāʾij al-afkār  
    مطارح الأنظار ونتائج الأفكار  
    Muḥammad ʿAlī b. ʿAbbās al-Balāghī  
    (d. 13th century/19th century)
+
+   **Principle Manuscripts**
+    * KG, Najaf (#376)
 
 1. Kashf al-ghiṭāʾ/Sharḥ Zubdat al-uṣūl  
    کشف الغطاء/شرح زبدة الأصول  
@@ -4694,6 +4955,9 @@
    شرح الرسائل  
    Dhabīḥallāh b. Hidāyatallāh al-Ḥusaynī al-Khurāsānī  
    (d. 13th century/18th-19th century)
+
+   **Principle Manuscripts**
+    * Majlis, Tehran (#18791), dated 13th century/19th century
 
 1. Barāhīn al-ʿuqūl fī sharḥ Tahdhīb al-wuṣūl  
    براهين العقول في شرح تهذيب الأصول  
@@ -4711,6 +4975,9 @@
    شرح القوانين المحكمة في الأصول  
    Mullā Asadallāh al-Tabrīzī  
    (d. 13th century/18th-19th century)
+
+   **Principle Manuscripts**
+    * ʿAbd al-Aẓīm, Tehran (#646/2), dated 1258/1842
 
 1. Mashāriq al-anwār  
    مشارق الأنوار  
@@ -4745,10 +5012,16 @@
    Muḥammad Yaʿqūb al-Yūbānī  
    (d. 13th century/18th-19th century)
 
+   **Principle Manuscripts**
+    * Majlis, Tehran (#18722), dated 13th century/19th century
+
 1. Sharḥ dībājat Maṣābīḥ al-hudā  
    شرح ديباجة مصابيح الهدى  
    unknown  
    (d. 1299/1882)
+
+   **Principle Manuscripts**
+    * Malek, Tehran (#2439/3), dated 1233/1817
 
 1. Ḍīyaʾ al-ʿawālim fī sharḥ al-Maʿālim  
    ضياء العوالم في شرح المعالم  
@@ -4779,20 +5052,18 @@
    unknown  
    (d. 1299/1882)
 
+   **Principle Manuscripts**
+    * KG, Najaf (#675)
+    * KG, Najaf (#676)
+    * KG, Najaf (#262)
+
 1. Sharḥ Tahdhīb al-wuṣūl ilā ʿilm al-uṣūl  
    شرح تهذيب الوصول إلى علم الأصول  
    Muḥammad Taqī b. Muḥammad Jaʿfar al-Bihbahānī  
    (d. 1299/1882)
 
    **Principle Manuscripts**
-    * Wiṣāl, Shiraz (#23), dated 1038/1628
-    * Maktabat Amīr al-Muʾminīn, Najaf (#N/A), dated 1238/1822
-    * AQR, Mashhad (#N/A)
-    * Markaz-i Iḥyāʾ, Qum (#1751/1)
-    * Markaz-i Muṭālaʿāt, Qum (#625)
-
-   **Editions**
-    * *Sharḥ Tahdhīb al-wuṣūl ilā ʿilm al-uṣūl*, ed. Abū l-Qāsim b. ʿAlī Akbar al-Jīlānī (Tehran: n.pub, 1308/1890-91)
+    * Marʿashī, Qum (#23), dated 13th century/19th century
 
 1. Tawḍīḥ al-Farāʾid  
    توضيح الفرائد  
@@ -4808,18 +5079,31 @@
    Muḥammad Taqī al-Khurāsānī  
    (d. 13th century/18th-19th century)
 
+   **Principle Manuscripts**
+    * Imām-i ʿAṣr, Shiraz (#172), dated 1247/1831
+    * ʿAllāma Ṭabāṭabāʾī, Shiraz (#20), dated 13th century/19th century
+    * ʿAllāma Ṭabāṭabāʾī, Shiraz (#18), dated 13th century/19th century
+
 1. Sharḥ Mabādiʾ al-wuṣūl  
    شرح مبادئ الوصول  
    unknown  
    (d. 1299/1882)
 
    **Principle Manuscripts**
-    * AQR, Mashhad (N/A)
+    * Dāʾirat al-Maʿārif, Tehran (#1600/2), dated 1226/1811-12
+    * Majlis, Tehran (#269/1), dated 1237/1822
+    * Gulpāygānī, Qum (#57/218-8548/4)
+    * Imām Ṣādiq, Qazwin (#1409/1)
+    * Madrasa-yi Ṣadr-i Bāzār, Isfahan (#728), dated 11th century/17th century
 
 1. Sharḥ Maʿālim al-uṣūl  
    شرح معالم الأصول  
    Muḥammad b. Jaʿfar al-Ṭabarsī  
    (d. 13th century/18th-19th century)
+
+   **Principle Manuscripts**
+    * Gulpāygānī, Qum (#39/212-7833)
+    * Majlis, Tehran (#7049/3)
 
 1. Ḥāshiyat al-Qawānīn al-muḥkama  
    حاشية القوانين المحكمة  
@@ -4827,7 +5111,8 @@
    (d. 13th century/18th-19th century)
 
    **Principle Manuscripts**
-    * Millī, Shiraz (#183/ta-24)
+    * Markaz-i Iḥyāʾ, Qum (#2252), dated 1303/1885
+    * KG, Najaf (#132)
 
 1. al-Fawāʾid al-uṣūliyya  
    الفوائد الأصولية  
@@ -4835,11 +5120,10 @@
    (d. 1299/1882)
 
    **Principle Manuscripts**
-    * Majlis, Tehran (#4303/6), dated 1211/1766
-    * AQR, Mashhad (#36770), dated 1199/1784
-    * Markaz-i Iḥyāʾ, Qum (#277/18), dated 1197-1200/1782-5
-    * Malek, Tehran (#733/5), dated 1201/1786
-    * AQR, Mashhad (#37670/2), dated 1210/1795
+    * Majlis, Tehran (#282), dated 13th century/19th century
+    * Millī, Tehran (#4/1921), dated 1216/1801
+    * Gulpāygānī, Qum (#4/2934 - 174/15), dated 13th century/19th century
+    * Nawwāb, Mashhad (#6/333)
 
 1. Sharḥ Natāʾij al-afkār  
    شرح نتائج الأفكار  
@@ -4847,18 +5131,24 @@
    (d. 1299/1882)
 
    **Principle Manuscripts**
-    * Madrasa-yi Gharb, Hamadan (#4502/1), dated 1303/1885-6
-    * Wazīrī, Yazd (#808), dated 1303/1885
+    * Marʿashī, Qum (#14297/4), dated 13th century/19th century
+    * AQR, Mashhad (#17597), dated 13th century/19th century
 
 1. Sharḥ-i Maʿālim  
    شرح معالم  
    unknown  
    (d. 1299/1882)
 
+   **Principle Manuscripts**
+    * KG, Najaf (#2795)
+
 1. Sharḥ Maʿālim al-uṣūl  
    شرح معالم الأصول  
    unknown  
    (d. 1299/1882)
+
+   **Principle Manuscripts**
+    * Gawharshād, Mashhad (#483/3)
 
 1. Maṣābīḥ al-anẓār fī sharḥ Natāʾij al-afkār  
    مصباح الأنظار في شرح نتائج الأفكار  
@@ -4881,9 +5171,6 @@
    al-Mīrzā Muḥammad b. Sulaymān al-Tunikābunī  
    (d. 1302/1884)
 
-   **Principle Manuscripts**
-    * Muḥammad Hilāl, Aran Kashan (#40/6), dated n.d./n.d.
-
 1. Mawāzīn al-anẓār fī sharḥ Natāʾij al-afkār  
    موازين الأنظار في شرح نتائج الأفكار  
    al-Mīrzā Muḥammad b. Sulaymān al-Tunikābunī  
@@ -4899,7 +5186,7 @@
    (d. 1303/1885)
 
    **Principle Manuscripts**
-    * Millī, Shiraz (#183/ta-24)
+    * Marʿashī, Qum (#5909), dated 13th century/19th century
 
 1. Ashraf al-maḥṣūl  
    أشرف المحصول  
@@ -4913,6 +5200,9 @@
    شرح الفصول  
    unknown  
    (d. 14th century/19th century)
+
+   **Principle Manuscripts**
+    * Tarikat Muḥammad al-Samāwī, Najaf (#85), dated 1309/1891
 
 1. Sharḥ al-Qawānīn al-muḥkama fī l-uṣūl  
    شرح القوانين المحكمة في الأصول  
@@ -4935,12 +5225,15 @@
    (d. 1305/1887)
 
    **Principle Manuscripts**
-    * Muḥammad Hilāl, Aran Kashan (#40/6), dated n.d./n.d.
+    * Masjid-i Aʿẓam, Qum (#520), dated 1265/1849
 
 1. Sharḥ al-Ḍidd  
    شرح الضد (مسالة في)  
    Muḥammad al-Fayrūzābādī  
    (d. 1305/1888)
+
+   **Principle Manuscripts**
+    * KG, Najaf (#940)
 
 1. Sharḥ Zubdat al-uṣūl  
    شرح زبدة الأصول  
@@ -4948,20 +5241,20 @@
    (d. 1306/1888)
 
    **Principle Manuscripts**
-    * Muḥammad Hilāl, Aran Kashan (#40/6), dated n.d./n.d.
+    * Amīr al-Muʾminīn, Boshrouyeh (#38), dated Rabiʿ II 1289/1872
 
 1. Sharḥ al-Durra al-bahiyya  
    شرح الدرة البهية  
    ʿAbd al-Raḥīm b. ʿAbd al-Raḥmān al-Kirmānshāhī  
    (d. 1305/1887-8)
 
+   **Principle Manuscripts**
+    * Jalīlī, Kermanshah (#278), dated 1287/1870
+
 1. Sharḥ Ḥujjiyyat al-ẓann  
    شرح حجية الظن  
    ʿAlī al-Khūʾī  
    (d. 1309/1891)
-
-   **Principle Manuscripts**
-    * University of Tehran, Tehran (#5/2552), dated 14th century/20th century
 
 1. Qalāʾid al-ʿiqyān ʿalā nuḥūr al-khirad al-ḥisān  
    قلائد العقيان على نحور الخرد الحسان  
@@ -4985,10 +5278,20 @@
    Abū l-Maʿālī b. Muḥammad Ibrāhīm al-Kalbāsī  
    (d. 1315/1898)
 
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#7931), dated 1288/1871
+    * Majlis, Tehran (#7740), dated 1292/1875-6
+    * Marʿashī, Qum (#6182)
+    * Gulpāygānī, Qum (#6/11-921/1)
+    * AQR, Mashhad (#21067)
+
 1. Sharḥ al-Urjūza al-uṣūliyya  
    شرح الأرجوزة الأصولية  
    Muḥammad b. ʿAbd al-Raḥīm al-Kirmānshāhī  
    (d. 13th century/19th century)
+
+   **Principle Manuscripts**
+    * Maybudī, Mashhad (#167), dated 1288/1871
 
 1. al-Kawākib al-ḍiyāʾiyya fī sharḥ al-Zubda al-bahāʾiyya  
    الكواكب الضيائية في شرح الزبدة البهائية  
@@ -5015,10 +5318,17 @@
    Ṣafar ʿAlī al-Lāhījānī al-Qazwīnī  
    (d. 13th century/19th century)
 
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#8796)
+
 1. Sharḥ Maʿālim al-uṣūl  
    شرح معالم الأصول  
    Muḥammad b. Muḥammad Ṣālih Rūḥ Afzāʾī  
    (d. 13th century/19th century)
+
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#2292), dated 1216/1801
+    * Gulpāygānī, Qum (#53/110-7900/2)
 
 1. al-Maṣābīḥ al-Ḥāʾiriyya fī istiḍwāʾ al-masāʾil al-ʿilmiyya wa-l-maṭālib al-dīniyya  
    المصابيح الحائرية في استضواء المسائل العلمية والمطالب الدينية  
@@ -5054,28 +5364,43 @@
    Muḥammad Ḥasan b. Jaʿfar al-Āshtīyānī  
    (d. 1319/1901)
 
+   **Principle Manuscripts**
+    * KG, Najaf (#3736)
+
 1. Daqāʾiq al-uṣūl fī sharḥ al-Fuṣūl  
    دقائق الأصول في شرح الفصول  
    Muḥammad Nabī b. Aḥmad al-Tūysirkānī  
    (d. *c.* 1320/1902)
+
+   **Principle Manuscripts**
+    * KG, Najaf (#5029), dated 1298/1881
+    * Fayḍiyya, Qum (#1623), dated 1298/1881
+    * Millī, Tehran (#17387)
 
 1. Sharḥ Maʿālim al-dīn  
    شرح معالم الدين  
    Muḥammad Ḥasan b. ʿAbdullāh al-Māmaqānī  
    (d. 1323/1905)
 
+   **Principle Manuscripts**
+    * KG, Najaf (#674)
+
 1. Sharḥ Zubdat al-uṣūl  
    شرح زبدة الأصول  
    Muṣṭafā b. Muḥammad Hādī al-Sayyid Dildār ʿAlī al-Naqawī  
    (d. 1323/1905)
 
-   **Principle Manuscripts**
-    * Muḥammad Hilāl, Aran Kashan (#40/6), dated n.d./n.d.
-
 1. Jawāhir al-ʿuqūl fī sharḥ Farāʾid al-uṣūl  
    جواهر العقول في شرح فرائد الأصول  
    Abū l-Qāsim b. Maʿṣūm al-Ishkawarī  
    (d. 1325/1907)
+
+   **Principle Manuscripts**
+    * ʿAbd al-ʿAẓīm, Tehran (#57), dated 1291/1874-5
+    * Majlis, Tehran (#14526), dated 1292/1875-6
+    * Maktabat al-Sayyid Muḥammad Bāqir al-Ṭabāṭabāʾī, Karbala (#85), dated 1295/1878
+    * Maktabat Āyatullāh al-Ḥakīm al-ʿĀmma, Najaf (#3314/3), dated 1297/1880
+    * ʿAbd al-ʿAẓīm, Tehran (#71), dated 1297/1880
 
 1. Tuḥaf al-ʿuqūl fī sharḥ ʿUddat al-uṣūl  
    تحف العقول في شرح عدة الأصول  
@@ -5091,14 +5416,8 @@
    (d. *c.* 1336/1917)
 
    **Principle Manuscripts**
-    * Wiṣāl, Shiraz (#23), dated 1038/1628
-    * Maktabat Amīr al-Muʾminīn, Najaf (#N/A), dated 1238/1822
-    * AQR, Mashhad (#N/A)
-    * Markaz-i Iḥyāʾ, Qum (#1751/1)
-    * Markaz-i Muṭālaʿāt, Qum (#625)
-
-   **Editions**
-    * *Sharḥ Tahdhīb al-wuṣūl ilā ʿilm al-uṣūl*, ed. Abū l-Qāsim b. ʿAlī Akbar al-Jīlānī (Tehran: n.pub, 1308/1890-91)
+    * AQR, Mashhad (#16947)
+    * AQR, Mashhad (#17034)
 
 1. Manhaj al-wuṣūl fī sharḥ Minhāj al-uṣūl  
    منهج الوصول في شرح منهاج الأصول  
@@ -5115,6 +5434,9 @@
    كفاية الطالبين - فهام الطالبين  
    Mullā Maḥmūd al-Andarmānī  
    (d. 14th century/19th century)
+
+   **Principle Manuscripts**
+    * Fayḍiyya, Qum (#332), dated 1299/1881-2
 
 1. Miftāḥ muqfalāt al-uṣūl fī tawḍīḥ muʿḍalāt al-Fuṣūl  
    مفتاح مقفلات الأصول في توضيح معضلات الفصول  
@@ -5143,9 +5465,6 @@
    al-Mīrzā Ibrāhīm b. Abū l-Fatḥ al-Zanjānī  
    (d. 1350/1931)
 
-   **Principle Manuscripts**
-    * Muḥammad Hilāl, Aran Kashan (#40/6), dated n.d./n.d.
-
 1. Khūdāmūz-i Maʿālim al-dīn dar uṣūl-i fiqh  
    خودآموز معالم الدین در اصول فقه  
    Mahdī al-Lājiwardī al-Ḥusaynī  
@@ -5163,10 +5482,16 @@
    Muṣṭafā al-Iʿtimādī al-Tabrīzī  
    (d. 1394Sh/2016)
 
+   **Editions**
+    * *Sharḥ Maʿālim al-dīn fī l-uṣūl* (Qum: Chāpkhāna-yi Ḥikmat, 1374/1955)
+
 1. Qanqanat al-Qawānīn  
    قنقنة القوانين  
    Muḥammad ʿAlī b. Muḥammad Kāẓim al-Shāhrūdī al-Khurāsānī  
    (d. 1293/1876)
+
+   **Principle Manuscripts**
+    * AQR, Mashhad (#13492), dated 1293/1876
 
 1. Isʿāf al-maʾmūl fī sharḥ Zubdat al-uṣūl  
    إسعاف المأمول في شرح زبدة الأصول  
@@ -5181,9 +5506,6 @@
    Fakhr al-Dīn b. Muḥammad ʿAlī b. Aḥmad al-Ṭurayḥī al-Najafī  
    (d. 1085 or 1087/1674 or 1676)
 
-   **Principle Manuscripts**
-    * AQR, Mashhad (N/A)
-
 ```{=openxml}
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
@@ -5196,12 +5518,16 @@
    (d. 8th century/14th century)
 
    **Principle Manuscripts**
-    * Marʿashī, Qum (#13238/9), dated 13th century/19th century
+    * Marʿashī, Qum (#12843), dated 8th century/14th century
+    * Sipahsālār, Tehran (#6273/2), dated 13th century/19th century
 
 1. Ḥāshiyat al-Talwīḥ ilā kashf ḥaqāʾiq al-Tanqīḥ  
    حاشية التلويح إلى كشف حقائق التنقيح  
    ʿAlī b. Muḥammad al-Ṭūsī  
    (d. *c.* 877/1472)
+
+   **Principle Manuscripts**
+    * AQR, Mashhad (#2968), dated 882/1477
 
 1. Ḥāshiyat Ḥāshiyat Sharḥ Mukhtaṣar al-uṣūl  
    حاشية حاشية شرح مختصر الأصول  
@@ -5226,7 +5552,10 @@
    (d. *c.* 908/1502)
 
    **Principle Manuscripts**
-    * AQR, Mashhad (#2970)
+    * Malek, Tehran (#6192/7), dated 1058/1648
+    * AQR, Mashhad (#2885), dated 11th century/17th century
+    * Gulpāygānī, Qum (#10/61-1751)
+    * Majlis, Tehran (#10203/1)
 
 1. Ḥāshiya ʿalā Sharḥ al-ʿAḍudī/al-ijmāʾ  
    حاشية على شرح العضدي/الإجماع  
@@ -5238,19 +5567,29 @@
    Aḥmad b. Muḥammad al-Ardabīlī  
    (d. 993/1585)
 
+   **Principle Manuscripts**
+    * Nawwāb, Mashhad (#28/4), dated 1016/1608
+    * Sipahsālār, Tehran (#1446/2), dated 1117/1705
+
 1. Ḥāshiyat Ḥabīballāh ʿalā Sharḥ Mukhtaṣar al-ʿAḍudī  
    حاشية حبيب الله على شرح مختصر العضدي  
    Mullā Ḥabīballāh al-Bāghnawī al-Shīrāzī  
    (d. 994 or 995/1586 or 1587)
+
+   **Principle Manuscripts**
+    * Miftāḥ, Tehran (#1393), dated 1005/1597
+    * Millī, Tehran (#3925), dated 10th century/16th century
+    * Sipahsālār, Tehran (#919), dated 10th century/16th century
+    * Majlis, Tehran (#14732), dated 1033/1624
+    * Qamar Banī Hāshim, Damghan (#39), dated 1038/1628
 
 1. Ḥāshiyat Sharḥ Mukhtaṣar al-uṣūl  
    حاشية شرح مختصر الأصول  
    Shujāʿ b. ʿAlī al-Ḥusaynī  
    (d. 10th century/16th century)
 
-   **Commentaries**
-    * *Ḥāshiyat Ḥāshiyat Sharḥ Mukhtaṣar al-uṣūl*, ʿAlī b. Muḥammad al-Ṭūsī (d. *c.* 877/1472)
-    * *Ḥāshiyat Ḥāshiyat Sharḥ Mukhtaṣar al-uṣūl*, Muḥammad b. Asʿad al-Dawwānī (d. *c.* 908/1502)
+   **Principle Manuscripts**
+    * Muṣliḥ al-Dīn Mahdawī, Isfahan (#106), dated 10th century/16th century
 
 1. Ḥāshiyat Ḥāshiyat Mukhtaṣar al-uṣūl  
    حاشية حاشية مختصر الأصول  
@@ -5258,13 +5597,15 @@
    (d. 10th century/16th century)
 
    **Principle Manuscripts**
-    * Maktabat al-Sayyid Ḥusayn al-Ḥusaynī al-Hamadānī, Najaf (#75), dated 1074/1664
-    * AQR, Mashhad (#303/3)
+    * AQR, Mashhad (#2888), dated 977/1569
 
 1. Ḥāshiyat Sharḥ Mukhtaṣar al-ʿAḍudī  
    حاشية شرح مختصر العضدي  
    Nūrallāh b. Muḥammad Shāh al-Shūshtarī  
    (d. 1019/1610)
+
+   **Principle Manuscripts**
+    * Maktabat al-Sayyid Muḥammad Bāqir al-Ṭabāṭabāʾī, Karbala (#81)
 
 1. Ḥāshiyat Sharḥ Mukhtaṣar al-ʿAḍudī  
    حاشية شرح مختصر العضدي  
@@ -5290,53 +5631,27 @@
    (d. 1030 or 1031/1620 or 1621)
 
    **Principle Manuscripts**
-    * AQR, Mashhad (#2861), dated 728/1328
-    * Shūrā, Tehran (#1158), dated 751/1350
-    * Mīr Ḥusayn Qazwīnī, Qazwin (#166/1), dated 754/1353
-    * Marʿashī, Qum (#11268), dated 765/1363
-    * AQR, Mashhad (#13974), dated 777/1378
-
-   **Editions**
-    * *Tahdhīb al-wuṣūl ilā ʿilm al-uṣūl*, ed. Muḥammad Ḥusayn al-Raḍawī al-Kashmīrī (London: Muʾassasat al-Imām ʿAlī, 1421/2001)
-
-   **Commentaries**
-    * *Bughyat al-labīb fī sharḥ al-Tahdhīb*, al-Ḥasan ibn Yūsuf al-Ḥillī (d. 726/1325)
-    * *Munyat al-labīb fī sharḥ al-tahdhīb*, Ḍiyāʾ al-Dīn ʿAbdallāh b. Majd al-Dīn Abī l-Fawāris Muḥammad b. ʿAlī b. al-Aʿraj al-Ḥusaynī al-Ḥillī (d. *c.* 740/1339)
-    * *Sharḥ Tahdhīb al-wuṣūl ilā ʿilm al-uṣūl*, ʿAmīd al-Dīn ʿAbd al-Muṭṭalib b. Majd al-Dīn Abī l-Fawāris Muḥammad b. ʿAlī b. al-Aʿraj al-Ḥusaynī al-Ḥillī (d. 10 Shaʿbān 754/10 September 1353)
-    * *Ghāyat al-suʾl fī sharḥ Tahdhīb al-uṣūl*, Muḥammad b. al-Ḥasan b. Yūsuf b. ʿAlī b. Muṭahhar al-Ḥillī (d. 771/1369)
-    * *Tawdīḥ al-wuṣūl fī sharḥ Tahdhīb al-uṣūl*, ʿAbbād b. Aḥmad al-Ḥusaynī Gulistāna (d. 8th century/14th century)
-    * *Ḥāshiyat Tahdhīb al-wuṣūl ilā ʿilm al-uṣūl*, unknown (d. 8th century/14th century)
-    * *Sharḥ Tahdhīb al-uṣūl*, Jamāl al-Dīn ʿAbdallāh b. Muḥammad al-Ḥasan al-Ḥusaynī al-Jurjānī (alive in 929/1522)
-    * *Sharḥ Tahdhīb al-wuṣūl ilā ʿilm al-uṣūl*, Ḥusayn b. ʿAbd al-Ḥaqq al-Ardabīlī (d. *c.* 950/1543)
-    * *Sharḥ Tahdhīb al-wuṣūl ilā ʿilm al-uṣūl*, al-Sayyid Ḥusayn al-ʿAmīdī al-Ḥusaynī al-Najafī (d. 10th century/16th century)
-    * *al-Fuṣūl fī sharḥ Tahdhīb al-wuṣūl*, Manṣūr b. ʿAbdallāh al-Fārisī al-Shīrāzī (d. 10th century/16th century)
-    * *Nihāyat al-taqrīb fī sharḥ al-Tahdhīb*, ʿAbd al-Nabī b. Saʿd al-Jazāʾirī (d. 1021/1612-13)
-    * *Sharḥ Tahdhīb al-wuṣūl ilā ʿilm al-uṣūl*, unknown (d. 1099/1699)
-    * *Sharḥ Tahdhīb al-uṣūl*, unknown (d. 1099/1699)
-    * *Jāmiʿ al-uṣūl fī sharḥ Tahdhīb al-wuṣūl*, Muḥammad ʿAlī b. Muḥammad Muʾmin al-Ḥasanī al-Bihbahānī (d. 12th century/18th century)
-    * *Ḥāshiyat Tahdhīb al-wuṣūl ilā ʿilm al-uṣūl*, al-Mīrzā Abū l-Qāsim b. Muḥammad al-Ḥasan al-Shaftī al-Qummī (d. 1231/1816)
-    * *Manāhil al-uṣūl fī sharḥ Tahdhīb al-wuṣūl*, Muḥammad ʿAlī b. Ḥusayn al-Aʿṣam (d. *c.* 1233/1817-8)
-    * *Sharḥ Tahdhīb al-wuṣūl ilā ʿilm al-uṣūl*, Ghulām Riḍā b. Muḥammad ʿAlī al-Ārānī al-Kāshānī (d. 1265/1848-9)
-    * *Maṭāriḥ al-anẓār wa-natāʾij al-afkār*, Muḥammad ʿAlī b. ʿAbbās al-Balāghī (d. 13th century/19th century)
-    * *Barāhīn al-ʿuqūl fī sharḥ Tahdhīb al-wuṣūl*, Muḥammad b. Yūnus b. Rāḍī al-Shuwayhī al-Ḥumaydī (d. 13th century/19th century)
-    * *Sharḥ Tahdhīb al-wuṣūl ilā ʿilm al-uṣūl*, Muḥammad Taqī b. Muḥammad Jaʿfar al-Bihbahānī (d. 1299/1882)
-    * *Ḥāshiyat Tahdhīb al-uṣūl*, ʿAbdallāh b. Abī Turāb al-Ḥusaynī (d. 13th century/19th century)
-    * *Tadhhīb al-uṣūl fī sharḥ Tahdhīb al-wuṣūl*, ʿAbd al-Jawād b. Muḥammad Mahdī al-Karbāsī (d. 1314/1897)
-    * *Sharḥ Tahdhīb al-wuṣūl ilā ʿilm al-uṣūl*, Khiḍr b. Ismāʿīl al-Ashrafī al-Māzandarānī (d. *c.* 1336/1917)
+    * Maktabat al-Awqāf al-ʿĀmma, Baghdad (#4936)
 
 1. al-Ḥāshiya al-uṣūliyya  
    الحاشية الأصولية  
    Muḥammad b. al-Ḥusayn Bahāʾ al-Dīn al-ʿĀmilī  
    (d. 1030 or 1031/1620 or 1621)
 
+   **Principle Manuscripts**
+    * Majlis, Tehran (#5370), dated 11th century/17th century
+
 1. Ḥāshiyat Sharḥ Mukhtaṣar al-uṣūl  
    حاشية شرح مختصر الأصول  
    Muḥammad b. al-Ḥusayn Bahāʾ al-Dīn al-ʿĀmilī  
    (d. 1030 or 1031/1620 or 1621)
 
-   **Commentaries**
-    * *Ḥāshiyat Ḥāshiyat Sharḥ Mukhtaṣar al-uṣūl*, ʿAlī b. Muḥammad al-Ṭūsī (d. *c.* 877/1472)
-    * *Ḥāshiyat Ḥāshiyat Sharḥ Mukhtaṣar al-uṣūl*, Muḥammad b. Asʿad al-Dawwānī (d. *c.* 908/1502)
+   **Principle Manuscripts**
+    * Majlis, Tehran (#13548/3), dated 1038/1628
+    * ʿAllāma Ṭabāṭabāʾī, Shiraz (#29), dated 11th century/17th century
+    * Gawharshād, Mashhad (#866), dated 11th century/17th century
+    * Ṭabasī, Qum (#91/2), dated 11th century/17th century
+    * Madrasa-yi Namāzī, Khoei (#335/2), dated 1214/1799
 
 1. Ḥāshiyat Zubdat al-uṣūl  
    حاشية زبدة الأصول  
@@ -5344,7 +5659,14 @@
    (d. 1030 or 1031/1620 or 1621)
 
    **Principle Manuscripts**
-    * AQR, Mashhad (#17930), dated 12th century/18th century
+    * University of Tehran, Tehran (#1935/1), dated 1030/1620
+    * Marʿashī, Qum (#13424/2), dated 11th century/17th century
+    * ʿUmūmī Iṣfahān (Farhang), Isfahan (#3088/1), dated 12th century/18th century
+    * Sipahsālār, Tehran (#957), dated 1239/1823
+    * Mahdawī, Qum (#1), dated 1242/1826
+
+   **Editions**
+    * *Ḥāshiyat Zubdat al-uṣūl* (n.plac., n.pub, 1267/1850-1)
 
 1. Ḥāshiyat Maʿālim al-uṣūl  
    حاشية معالم الأصول  
@@ -5352,17 +5674,28 @@
    (d. 10 Dhū l-Qaʿda 1030/26 September 1621)
 
    **Principle Manuscripts**
-    * al-ʿAtaba al-ʿAlawiyya, Najaf (N/A)
+    * Gawharshād, Mashhad (#1594), dated 1060/1650
+    * Markaz-i Iḥyāʾ, Qum (#4465/3), dated 11th century/17th century
+    * Marʿashī, Qum (#5562), dated 1201/1786
+    * Majlis, Tehran (#9594), dated 12th century/18th century
+    * Gawharshād, Mashhad (#5562), dated 12th century/18th century
 
 1. Ḥāshiya ʿalā Maʿārij al-uṣūl  
    حاشية على معارج الأصول  
    Mullā Muḥammad Amīn al-Astarābādī  
    (d. 1033 or 1036/1623 or 1626)
 
+   **Principle Manuscripts**
+    * Majlis, Tehran (#880377)
+    * Malek, Tehran (#1013)
+
 1. Ḥāshiyat 	al-Fawāʾid al-madaniyya fī l-radd ʿalā man qāla bi-l-ijtihād wa-l-taqlīd fī l-aḥkām  
    حاشية الفوائد المدنية في الرد على من قال بالاجتهاد والتقليد في الأحكام  
    Mullā Muḥammad Amīn al-Astarābādī  
    (d. 1033 or 1036/1623 or 1626)
+
+   **Principle Manuscripts**
+    * Majlis, Tehran (#9579/2), dated 1082/1671
 
 1. al-Ḥāshiya ʿalā Sharḥ Mukhtaṣar al-ʿAḍudī  
    الحاشية على شرح مختصر العضدي  
@@ -5375,7 +5708,7 @@
    (d. 1061 or 1068/1651-2 or 1658-9)
 
    **Principle Manuscripts**
-    * al-ʿAtaba al-ʿAlawiyya, Najaf (N/A)
+    * KG, Najaf (#2292)
 
 1. Ḥāshiyat Sharḥ al-ʿAḍudī ʿalā Mukhtaṣar Ibn al-Ḥājib  
    حاشية شرح العضدي على مختصر ابن الحاجب  
@@ -5383,7 +5716,14 @@
    (d. 1064/1653)
 
    **Principle Manuscripts**
-    * Marʿashī, Qum (#15782/9), dated 11th century/17th century
+    * Markaz-i Iḥyāʾ, Qum (#2599), dated 11th century/17th century
+    * Marʿashī, Qum (#15726), dated 11th century/17th century
+    * Majlis, Tehran (#8077), dated 11th century/17th century
+    * University of Tehran, Tehran (#5826), dated 11th century/17th century
+    * University of Tehran, Tehran (#8319), dated 11th century/17th century
+
+   **Commentaries**
+    * *Ḥāshiyat Ḥāshiyat Sharḥ al-ʿAḍudī ʿalā Mukhtaṣar Ibn al-Ḥājib*, al-Mīrzā ʿAlāʾ al-Dīn Ḥusayn b. Rafīʿ al-Dīn Muḥammad al-Marʿashī al-Āmūlī (d. 1064/1653)
 
 1. Ḥāshiyat Maʿālim al-uṣūl  
    حاشية معالم الأصول  
@@ -5391,12 +5731,22 @@
    (d. 1064/1653)
 
    **Principle Manuscripts**
-    * al-ʿAtaba al-ʿAlawiyya, Najaf (N/A)
+    * Nujūmī, Kermanshah (#N/A), dated 1055/1645
+    * Rawḍātī, Isfahan (#178), dated 1059/1649
+    * Millī, Tehran (#3411), dated 1064/1653
+    * Kāẓimaynī, Yazd (#201/4), dated 1072/1662
+    * AQR, Mashhad (#13696), dated 1073/1662
+
+   **Editions**
+    * *Ḥāshiyat Maʿālim al-uṣūl* (Qum: Quds, 1376Sh/1997-98)
 
 1. Ḥāshiyat Ḥāshiyat Sharḥ al-ʿAḍudī ʿalā Mukhtaṣar Ibn al-Ḥājib  
    حاشية حاشية شرح العضدي على مختصر ابن الحاجب  
    al-Mīrzā ʿAlāʾ al-Dīn Ḥusayn b. Rafīʿ al-Dīn Muḥammad al-Marʿashī al-Āmūlī  
    (d. 1064/1653)
+
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#15092)
 
 1. Ḥāshiyat Zubdat al-uṣūl  
    حاشية زبدة الأصول  
@@ -5412,12 +5762,19 @@
    (d. *c.* 1080/1669-70)
 
    **Principle Manuscripts**
-    * al-ʿAtaba al-ʿAlawiyya, Najaf (N/A)
+    * Majlis, Tehran (#16870)
 
 1. Ḥāshiyat ʿUddat al-uṣūl  
    حاشية عدة الأصول  
    Khalīl b. al-Ghāzī al-Qazwīnī  
    (d. 1089/1678)
+
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#131), dated 1052/1642
+    * Millī, Tehran (#3543), dated 1054/1644-45
+    * AQR, Mashhad (#20426), dated 11th century/17th century
+    * AQR, Mashhad (#19640)
+    * Madrasa-yi Bāqiriyeh, Mashhad (#131)
 
 1. al-Jamʿ bayn al-akhbār/Ḥāshiyat al-Dhakhīra  
    الجمع بين الأخبار/حاشية الذخيرة  
@@ -5442,18 +5799,17 @@
    al-Ḥusayn b. Jamāl al-Dīn Muḥammad Āqā Ḥusayn al-Khwānsārī  
    (d. 1099/1687-8)
 
-   **Commentaries**
-    * *Ḥāshiyat Ḥāshiyat Sharḥ Mukhtaṣar al-uṣūl*, ʿAlī b. Muḥammad al-Ṭūsī (d. *c.* 877/1472)
-    * *Ḥāshiyat Ḥāshiyat Sharḥ Mukhtaṣar al-uṣūl*, Muḥammad b. Asʿad al-Dawwānī (d. *c.* 908/1502)
+   **Principle Manuscripts**
+    * Majlis, Tehran (#4227), dated 11th century/17th century
+    * Burūjirdī, Qum (#337/3), dated 1210/1795
 
 1. Ḥāshiyat Sharḥ Mukhtaṣar al-uṣūl  
    حاشية شرح مختصر الأصول  
    ʿAbd al-Wāḥid b. ʿAlī al-Shūshtarī  
    (d. 1099/1687-8)
 
-   **Commentaries**
-    * *Ḥāshiyat Ḥāshiyat Sharḥ Mukhtaṣar al-uṣūl*, ʿAlī b. Muḥammad al-Ṭūsī (d. *c.* 877/1472)
-    * *Ḥāshiyat Ḥāshiyat Sharḥ Mukhtaṣar al-uṣūl*, Muḥammad b. Asʿad al-Dawwānī (d. *c.* 908/1502)
+   **Principle Manuscripts**
+    * AQR, Mashhad (#2972), dated 1052/1642
 
 1. Ḥāshiyat Tamhīd al-qawāʿid  
    حاشية تمهيد القواعد  
@@ -5471,13 +5827,19 @@
    al-Mīrzā Qiwām al-Dīn al-Ḥusaynī al-Sayfī al-Qazwīnī  
    (alive in 1104/1693)
 
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#753), dated 1106/1694
+    * Adabiyyāt, Tehran (#57), dated 1118/1706
+    * ʿAllāma Ṭabātabāʾī, Shiraz (#261/5), dated 1220/1805
+    * Marʿashī, Qum (#778), dated 1269/1852
+
 1. Ḥāshiyat Sharḥ al-ʿAḍudī ʿalā Mukhtaṣar Ibn al-Ḥājib  
    حاشية شرح العضدي على مختصر ابن الحاجب  
    unknown  
    (d. 1099/1699)
 
    **Principle Manuscripts**
-    * Marʿashī, Qum (#15782/9), dated 11th century/17th century
+    * Madrasa-yi Ṣadr-i Bāzār, Isfahan (#18), dated Dhū l-Qaʿda 1046/1637
 
 1. Ḥāshiyat Zubdat al-uṣūl  
    حاشية زبدة الأصول  
@@ -5485,7 +5847,11 @@
    (d. 1099/1699)
 
    **Principle Manuscripts**
-    * AQR, Mashhad (#17930), dated 12th century/18th century
+    * Majlis, Tehran (#17090/2), dated 11th century/17th century
+    * Imām Ṣādiq, Qazwin (#686/2), dated 1219/1804
+    * Majlis, Tehran (#18288), dated 1234/1818
+    * KG, Najaf (#1927), dated 1249/1833
+    * Madrasa-yi Miʿmārbāshī, Tehran (#53/2), dated 1264/1847
 
 1. Ḥāshiyat Maʿālim al-uṣūl  
    حاشية معالم الأصول  
@@ -5493,7 +5859,7 @@
    (d. 11th century/17th century)
 
    **Principle Manuscripts**
-    * al-ʿAtaba al-ʿAlawiyya, Najaf (N/A)
+    * Marʿashī, Qum (#7237)
 
 1. Ḥāshiyat Maʿālim al-uṣūl  
    حاشية معالم الأصول  
@@ -5501,7 +5867,11 @@
    (d. 1099/1699)
 
    **Principle Manuscripts**
-    * al-ʿAtaba al-ʿAlawiyya, Najaf (N/A)
+    * Majlis, Tehran (#1550), dated 1029/1620
+    * Gawharshād, Mashhad (#854), dated 1095/1683
+    * Marʿashī, Qum (#10580), dated 12th century/18th century
+    * Gulpāygānī, Qum (#27/144-5474), dated 13th century/19th century
+    * Sipahsālār, Tehran (#6272), dated 12th century/18th century
 
 1. Ḥāshiya uṣūliyya  
    حاشية أصولية  
@@ -5509,7 +5879,11 @@
    (d. 1099/1699)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1430), dated 13th century/19th century
+    * Fayyāḍ, Tehran (#85), dated 1051/1641
+    * Marʿashī, Qum (#11765), dated 1102/1691
+    * University of Tehran, Tehran (#9621/8), dated 12th century/18th century
+    * University of Tehran, Tehran (#9621/3), dated 12th century/18th century
+    * Jamʿiyyat-i Nashr-i Farhang, Rasht (#25), dated 11th-12th century/17th-18th century
 
 1. Ḥāshiyat Wāfiyat al-uṣūl  
    حاشية وافية الأصول  
@@ -5517,11 +5891,7 @@
    (d. 11th century/17th century)
 
    **Principle Manuscripts**
-    * Markaz-i Iḥyāʾ, Qum (#1567/7), dated 1201/1786
-    * AQR, Mashhad (#15772/3), dated 1204/1790
-    * Ilāhiyyāt, Mashhad (#22365), dated 1217/1802
-    * Millī, Tehran (#2925/2), dated 1221/1806
-    * Ilāhiyyāt, Tehran (#170/9), dated 1223/1808
+    * Adabiyyāt, Tehran (#150/3), dated 11th century/17th century
 
 1. Ḥāshiyat Ḥāshiyat Sharḥ Muntahā l-suʾl wa-l-amal  
    حاشية حاشية شرح منتهى السؤل والأمل  
@@ -5544,13 +5914,20 @@
    ʿAlī Aṣghar b. Muḥammad Yūsuf al-Qazwīnī  
    (d. 1120/1709)
 
+   **Principle Manuscripts**
+    * Fayḍiyya, Qum (#848), dated 1114/1702
+    * Majlis, Tehran (#15739), dated 12th century/18th century
+    * Burūjirdī, Qum (#316/1), dated 12th century/18th century
+    * Gulpāygānī, Qum (#33/166-6616)
+    * Marʿashī, Qum (#6317)
+
 1. Ḥāshiyat Maʿālim al-uṣūl  
    حاشية معالم الأصول  
    Muḥammad b. ʿAbd al-Fattāḥ al-Tunikābunī  
    (d. *c.* 1124/1712)
 
    **Principle Manuscripts**
-    * al-ʿAtaba al-ʿAlawiyya, Najaf (N/A)
+    * Majlis, Tehran (#15308), dated 1138/1726
 
 1. Ḥāshiyat Sharḥ fī uṣūl al-fiqh  
    حاشية شرح في أصول الفقه  
@@ -5574,24 +5951,41 @@
    Jamāl al-Dīn b. al-Āqā Ḥusayn b. Jamāl al-Dīn  
    (d. 1125/1713)
 
+   **Principle Manuscripts**
+    * Maktabat al-Imām al-Ḥakīm al-ʿĀmma, Najaf (#1891)
+    * Maktabat al-Imām al-Ḥakīm al-ʿĀmma, Najaf (#1638)
+
 1. Ḥāshiyat Ḥāshiyat al-Bāghnawī ʿalā Sharḥ Mukhtaṣar al-uṣūl lil-ʿAḍudī  
    حاشية حاشية الباغنوي على شرح مختصر الأصول للعضدي  
    Jamāl al-Dīn b. al-Āqā Ḥusayn b. Jamāl al-Dīn  
    (d. 1125/1713)
+
+   **Principle Manuscripts**
+    * Majlis, Tehran (#18440), dated 1070/1659
+    * Malek, Tehran (#689), dated 1070/1660
+    * Gawharshād, Mashhad (#918), dated 1106/1694
+    * Malek, Tehran (#2786), dated 11th century/17th century
+    * Shāh Chirāgh, Shiraz (#2064/1), dated 11th century/17th century
 
 1. Ḥāshiyat Ḥāshiyat Mīr Dāmād ʿalā Sharḥ Mukhtaṣar al-uṣūl lil-ʿĀḍuḍī  
    حاشية حاشية ميرداماد على شرح مختصر الأصول للعضدي  
    Jamāl al-Dīn b. al-Āqā Ḥusayn b. Jamāl al-Dīn  
    (d. 1125/1713)
 
+   **Principle Manuscripts**
+    * Millī, Tehran (#4853)
+
 1. Ḥāshiyat Sharḥ Mukhtaṣar al-uṣūl  
    حاشية شرح مختصر الأصول  
    Muḥammad b. al-Ḥasan al-Shīrawānī  
    (d. after 1129/1716)
 
-   **Commentaries**
-    * *Ḥāshiyat Ḥāshiyat Sharḥ Mukhtaṣar al-uṣūl*, ʿAlī b. Muḥammad al-Ṭūsī (d. *c.* 877/1472)
-    * *Ḥāshiyat Ḥāshiyat Sharḥ Mukhtaṣar al-uṣūl*, Muḥammad b. Asʿad al-Dawwānī (d. *c.* 908/1502)
+   **Principle Manuscripts**
+    * Amīr al-Muʾminīn, Najaf (#154), dated 11th century/17th century
+    * AQR, Mashhad (#12835), dated 11th century/17th century
+    * AQR, Mashhad (#2864), dated 1124/1712
+    * Millī, Tehran (#2900), dated 12th century/18th century
+    * AQR, Mashhad (#21582), dated 12th century/18th century
 
 1. Ḥāshiyat Maʿālim al-uṣūl  
    حاشية معالم الأصول  
@@ -5599,7 +5993,17 @@
    (d. after 1129/1716)
 
    **Principle Manuscripts**
-    * al-ʿAtaba al-ʿAlawiyya, Najaf (N/A)
+    * Gulpāygānī, Qum (#23/179-4659), dated 1057/1647
+    * Wazīrī, Yazd (#4349), dated 1078/1667
+    * ʿAbd al-ʿAẓīm, Tehran (#651/1), dated 1094/1683
+    * ʿAllāma Ṭabātabāʾī, Shiraz (#274), dated 1098/1687
+    * Majlis, Tehran (#15745), dated 11th century/17th century
+
+   **Commentaries**
+    * *Ḥāshiyat Ḥāshiyat al-Shīrawānī ʿalā Maʿālim al-uṣūl*, Muḥammad Bāqir b. Muḥammad Akmal al-Waḥīd al-Bihbahānī (d. 1205/1791)
+    * *Ḥāshiyat Ḥāshiyat al-Shīrawānī ʿalā Maʿālim al-uṣūl*, Muḥammad Kāẓim b. Muḥammad Shafīʿ al-Hazārjarībī (d. *c.* 1234/1818-9)
+    * *Ḥāshiyat Ḥāshiyat al-Shīrawānī ʿalā Maʿālim al-uṣūl*, Muḥammad Taqī b. Ḥusayn ʿAlī al-Harawī (d. 1299/1881-2)
+    * *Ḥāshiyat Ḥāshiyat al-Shīrawānī ʿalā Maʿālim al-uṣūl*, Muḥammad ʿAlī b. Muḥammad Ismāʿīl al-Nūrī (d. 13th century/19th century)
 
 1. Ḥāshiyat Mabādiʾ al-aḥkām  
    حاشية مبادئ الأحكام  
@@ -5615,7 +6019,7 @@
    (d. *c.* 1140/1728)
 
    **Principle Manuscripts**
-    * al-ʿAtaba al-ʿAlawiyya, Najaf (N/A)
+    * Gulpāygānī, Qum (#18/39-3519/4)
 
 1. Ḥāshiyat Sharḥ al-Wāfiya  
    حاشية شرح الوافية  
@@ -5629,6 +6033,9 @@
    حاشية مناهل الشوارد  
    Mullā Muḥammad ʿAlī b. Muḥammad Ḥasan al-Ārānī al-Kāshānī  
    (d. after 1198/1783-4)
+
+   **Principle Manuscripts**
+    * Markaz-i Iḥyāʾ, Qum (#621/10), dated 1237/1821-2
 
 1. Ḥāshiyat kitāb fī uṣūl al-fiqh  
    حاشية كتاب في أصول الفقه  
@@ -5644,10 +6051,23 @@
    Muḥammad Bāqir b. Muḥammad Akmal al-Waḥīd al-Bihbahānī  
    (d. 1205/1791)
 
+   **Principle Manuscripts**
+    * AQR, Mashhad (#9775/11), dated 1216/1801
+    * Gulpāygānī, Qum (#15/160-2920/2), dated 1233/1817
+    * ʿAllāma Fānī, Isfahan (#13/17), dated 1235/1819
+    * Millī, Tehran (#3208/9), dated 1234-39/1818-23
+    * Gawharshād, Mashhad (#2264/5)
+
 1. Ḥāshiyat Ḥāshiyat al-Shīrawānī ʿalā Maʿālim al-uṣūl  
    حاشية حاشية الشيرواني على معالم الأصول  
    Muḥammad Bāqir b. Muḥammad Akmal al-Waḥīd al-Bihbahānī  
    (d. 1205/1791)
+
+   **Principle Manuscripts**
+    * Markaz-i Muṭālaʿāt wa Taḥqīq-i Islāmī “Pazhūhishgāh”/ Daftar-i Tablighāt-i Islāmī, Qum (#786/4), dated 1177/1763
+    * Markaz-i Iḥyāʾ, Qum (#277/19), dated 1197-1200/1782-1785
+    * ʿAbd al-ʿAẓīm, Tehran (#663/1), dated 13th century/19th century
+    * Majlis, Tehran (#14626/6)
 
 1. Shubhat al-ḥusn wa-l-qubḥ  
    شبهة الحسن والقبح  
@@ -5675,7 +6095,11 @@
    (d. 1205/1791)
 
    **Principle Manuscripts**
-    * al-ʿAtaba al-ʿAlawiyya, Najaf (N/A)
+    * Fayḍiyya, Qum (#847/1), dated 1190/1776
+    * Markaz-i Iḥyāʾ, Qum (#3680/7), dated 1190/1776
+    * Ilāhiyyāt, Tehran (#385/8), dated 1200/1785
+    * Marʿashī, Qum (#5550/3), dated 12th century/18th century
+    * Fayḍiyya, Qum (#1189/16), dated 13th century/19th century
 
 1. Ḥāshiya uṣūliyya  
    حاشية أصولية  
@@ -5703,12 +6127,15 @@
    (d. 1212/1797)
 
    **Principle Manuscripts**
-    * al-ʿAtaba al-ʿAlawiyya, Najaf (N/A)
+    * Marwī, Tehran (#685/2), dated 1268/1851
 
 1. Ḥāshiyat Risāla fī uṣūl al-fiqh  
    حاشية رسالة في أصول الفقه  
    Muḥammad Ḥusayn b. Yaḥyā al-Nūrī  
    (d. 12th century/18th century)
+
+   **Principle Manuscripts**
+    * Malek, Tehran (#1447/2 and 1447/4), dated 1129/1716
 
 1. Ḥāshiyat Mukhtaṣar ʿalā Ibn al-Ḥājib  
    حاشية مختصر علی ابن الحاجب  
@@ -5759,18 +6186,25 @@
    unknown  
    (d. 12th century/18th century)
 
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#3146), dated 1198/1783
+
 1. Ḥāshiyat Zubdat al-uṣūl  
    حاشية زبدة الأصول  
    Muḥammad Ḥusayn b. Muḥammad Riḍā al-Ṭāliqānī  
    (d. 12th century/18th century)
 
    **Principle Manuscripts**
-    * AQR, Mashhad (#17930), dated 12th century/18th century
+    * Markaz-i Muṭālaʿāt, Qum (#437/1), dated 1242/1826
+    * ʿAbd al-ʿAẓīm, Tehran (#635/1), dated 1262/1846
 
 1. Ḥāshiyat Risāla fī uṣūl al-fiqh  
    حاشية رسالة في أصول الفقه  
    Muḥammad Ḥusayn b. Yaḥyā al-Nūrī  
    (d. 12th century/18th century)
+
+   **Principle Manuscripts**
+    * Malek, Tehran (#1447/4)
 
 1. Ḥāshiyat Maʿālim al-uṣūl  
    حاشية معالم الأصول  
@@ -5778,7 +6212,11 @@
    (d. 1217/1802-3)
 
    **Principle Manuscripts**
-    * al-ʿAtaba al-ʿAlawiyya, Najaf (N/A)
+    * Shāh Chirāgh, Shiraz (#469), dated 1236/1820-1
+    * AQR, Mashhad (#14842), dated 1241/1825
+    * Sipahsālār, Tehran (#857), dated 1243/1827-8
+    * Masjid-i Aʿẓam, Qum (#462), dated 1297/1880
+    * Amīr al-Muʾminīn, Najaf (#366)
 
 1. Ḥāshiyat Wāfiyat al-uṣūl  
    حاشية وافية الأصول  
@@ -5786,11 +6224,8 @@
    (d. 1223/1808-9)
 
    **Principle Manuscripts**
-    * Markaz-i Iḥyāʾ, Qum (#1567/7), dated 1201/1786
-    * AQR, Mashhad (#15772/3), dated 1204/1790
-    * Ilāhiyyāt, Mashhad (#22365), dated 1217/1802
-    * Millī, Tehran (#2925/2), dated 1221/1806
-    * Ilāhiyyāt, Tehran (#170/9), dated 1223/1808
+    * Fayḍ Mahdawī, Kermanshah (#N/A)
+    * Fayḍ Mahdawī, Kermanshah (#N/A)
 
 1. Ḥāshiyat Tahdhīb al-wuṣūl ilā ʿilm al-uṣūl  
    حاشية تهذيب الوصول إلى علم الأصول  
@@ -5806,7 +6241,8 @@
    (d. 1231/1816)
 
    **Principle Manuscripts**
-    * al-ʿAtaba al-ʿAlawiyya, Najaf (N/A)
+    * Majlis, Tehran (#18305), dated 1200/1785
+    * Marʿashī, Qum (#13238/8), dated 13th century/19th century
 
 1. Ḥāshiyat al-Qawānīn al-muḥkama  
    حاشية القوانين المحكمة  
@@ -5814,7 +6250,11 @@
    (d. 1231/1816)
 
    **Principle Manuscripts**
-    * Millī, Shiraz (#183/ta-24)
+    * Majlis, Tehran (#8426/1), dated 13th century/19th century
+    * Millī, Tehran (#3953), dated 13th century/19th century
+    * Markaz-i Iḥyāʾ, Qum (#4487/1), dated 13th century/19th century
+    * AQR, Mashhad (#15700), dated 13th century/19th century
+    * Nawwāb, Mashhad (#98), dated 13th century/19th century
 
 1. Ḥāshiyat Maʿālim al-uṣūl  
    حاشية معالم الأصول  
@@ -5822,7 +6262,10 @@
    (d. 1231/1816)
 
    **Principle Manuscripts**
-    * al-ʿAtaba al-ʿAlawiyya, Najaf (N/A)
+    * Ustādī, Qum (#N/A), dated 13th century/19th century
+    * Marʿashī, Qum (#7597)
+    * al-Rawḍa al-Ḥusayniyya, Karbala (#9291/312)
+    * KG, Najaf (#1680)
 
 1. Ḥāshiyat Maʿālim al-uṣūl  
    حاشية معالم الأصول  
@@ -5830,12 +6273,19 @@
    (d. 1233/1817-18)
 
    **Principle Manuscripts**
-    * al-ʿAtaba al-ʿAlawiyya, Najaf (N/A)
+    * AQR, Mashhad (#9084), dated 1223/1808
+    * Marʿashī, Qum (#1961)
 
 1. Ḥāshiyat Ḥāshiyat al-Shīrawānī ʿalā Maʿālim al-uṣūl  
    حاشية حاشية الشيرواني على معالم الأصول  
    Muḥammad Kāẓim b. Muḥammad Shafīʿ al-Hazārjarībī  
    (d. *c.* 1234/1818-9)
+
+   **Principle Manuscripts**
+    * University of Tehran, Tehran (#7524/4), dated 12th century/18th century
+    * Gawharshād, Mashhad (#543/3), dated 1249/1833
+    * Marʿashī, Qum (#619), dated 1254/1838
+    * Gulpāygānī, Qum (#9/219- 1669)
 
 1. Ḥāshiyat Maʿālim al-uṣūl  
    حاشية معالم الأصول  
@@ -5843,7 +6293,7 @@
    (d. 1240/1824-5)
 
    **Principle Manuscripts**
-    * al-ʿAtaba al-ʿAlawiyya, Najaf (N/A)
+    * Miftāḥ, Tehran (#186/2)
 
 1. al-Tuḥfa al-gharawiyya  
    التحفة الغروية  
@@ -5862,16 +6312,13 @@
    Muḥammad Rafīʿ b. Rafīʿ al-Gīlānī  
    (d. 1245/1829-30)
 
-   **Principle Manuscripts**
-    * al-ʿAtaba al-ʿAlawiyya, Najaf (N/A)
-
 1. Ḥāshiyat Maʿālim al-uṣūl  
    حاشية معالم الأصول  
    Muḥammad b. Maʿṣūm al-Raḍawī  
    (d. 1255/1839-40)
 
    **Principle Manuscripts**
-    * al-ʿAtaba al-ʿAlawiyya, Najaf (N/A)
+    * AQR, Mashhad (#2884)
 
 1. Ḥāshiyat Wāfiyat al-uṣūl  
    حاشية وافية الأصول  
@@ -5879,29 +6326,28 @@
    (d. 1259/1843-4)
 
    **Principle Manuscripts**
-    * Markaz-i Iḥyāʾ, Qum (#1567/7), dated 1201/1786
-    * AQR, Mashhad (#15772/3), dated 1204/1790
-    * Ilāhiyyāt, Mashhad (#22365), dated 1217/1802
-    * Millī, Tehran (#2925/2), dated 1221/1806
-    * Ilāhiyyāt, Tehran (#170/9), dated 1223/1808
+    * Ilāhiyyāt, Tehran (#194/3)
 
 1. Ḥāshiyat Maʿālim al-uṣūl  
    حاشية معالم الأصول  
    Muḥammad Jaʿfar b. Muḥammad ʿAlī al-Bihbahānī  
    (d. 1259/1843-4)
 
-   **Principle Manuscripts**
-    * al-ʿAtaba al-ʿAlawiyya, Najaf (N/A)
-
 1. Ḥāshiyat Sharḥ al-Lumʿa wa-Qawānīn al-uṣūl  
    حاشية شرح اللمعة وقوانين الأصول  
    Muḥammad ʿAlī b. Muḥammad Bāqir al-Mudarrisī al-Yazdī  
    (d. *c.* 1262/1845-6)
 
+   **Principle Manuscripts**
+    * Mudarrisī, Yazd (#N/A)
+
 1. Ḥāshiyat Tahdhīb al-uṣūl  
    حاشية تهذيب الأصول  
    Muḥammad Bāqir b. Muḥammad Naqī al-Shaftī al-Bīdābādī  
    (d. 1260/1844-5)
+
+   **Principle Manuscripts**
+    * Majlis, Tehran (#18449), dated 12th century/18th century
 
 1. Ḥāshiyat al-Qawānīn al-muḥkama  
    حاشية القوانين المحكمة  
@@ -5909,7 +6355,7 @@
    (d. 1262/1846)
 
    **Principle Manuscripts**
-    * Millī, Shiraz (#183/ta-24)
+    * AQR, Mashhad (#14812/2), dated 1242/1827
 
 1. Ḥāshiyat Maʿālim al-uṣūl  
    حاشية معالم الأصول  
@@ -5917,12 +6363,15 @@
    (d. 1264/1847-8)
 
    **Principle Manuscripts**
-    * al-ʿAtaba al-ʿAlawiyya, Najaf (N/A)
+    * Marʿashī, Qum (#15466/2), dated 13th century/19th century
 
 1. Sharḥ Maʿālim al-uṣūl  
    شرح معالم الأصول  
    Muḥammad ʿAlī b. Muḥammad al-Barghānī  
    (d. 1272?/1855-6?)
+
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#12089), dated 11th century/17th century
 
 1. Ḥāshiyat al-Qawānīn al-muḥkama  
    حاشية القوانين المحكمة  
@@ -5930,7 +6379,11 @@
    (d. 1276/1859-60)
 
    **Principle Manuscripts**
-    * Millī, Shiraz (#183/ta-24)
+    * AQR, Mashhad (#8152), dated 1270/1854
+    * Gulpāygānī, Qum (#38/104-7484)
+    * AQR, Mashhad (#15650), dated 13th century/18th century
+    * Gulpāygānī, Qum (#19/113-3783)
+    * Gulpāygānī, Qum (#8/62-1973), dated 1290/1873
 
 1. Ḥāshiyat Maʿālim al-uṣūl  
    حاشية معالم الأصول  
@@ -5938,7 +6391,9 @@
    (d. 1278/1862)
 
    **Principle Manuscripts**
-    * al-ʿAtaba al-ʿAlawiyya, Najaf (N/A)
+    * Marʿashī, Qum (#15177), dated 1299/1899
+    * Marʿashī, Qum (#4415)
+    * Nujūmī, Kermanshah (#N/A)
 
 1. Ḥāshiyat al-Qawānīn al-muḥkama  
    حاشية القوانين المحكمة  
@@ -5946,12 +6401,20 @@
    (d. 1281/1864)
 
    **Principle Manuscripts**
-    * Millī, Shiraz (#183/ta-24)
+    * Madrasa-yi Āyatullāh al-Burūjurdī, Najaf (#45/3)
+    * Sayyid Muḥammad Nabawī, Dezful (#NA), dated 1310/1892
 
 1. Riḍwān al-āmilīn fī ḥāshiyat al-Qawānīn  
    رضوان الآملين في حاشية القوانين  
    Muḥammad b. ʿAbd al-Ṣamad al-Ḥusaynī al-Shahshahānī  
    (d. 1287/1870)
+
+   **Principle Manuscripts**
+    * Shūrā, Tehran (#8426/2), dated 1260/1844
+    * AQR, Mashhad (#20500), dated 1261/1845
+    * Shūrā, Tehran (#11453), dated 1265/1849
+    * Madrasa-yi Ṣadr-i Khawājū, Isfahan (#78), dated before 1287/1870
+    * Shaykh ʿAlī Ḥaydar, Mashhad (#215), dated 1209/1794-5
 
 1. Ḥāshiyat al-Qawānīn al-muḥkama  
    حاشية القوانين المحكمة  
@@ -5959,33 +6422,39 @@
    (d. 1290/1873)
 
    **Principle Manuscripts**
-    * Millī, Shiraz (#183/ta-24)
+    * AQR, Mashhad (#24237)
 
 1. Ḥāshiyat Farāʾid al-uṣūl  
    حاشية فرائد الأصول  
    ʿAlī al-Rūzdarī  
    (d. 1290/1873)
 
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#1441), dated before1290/1873-4
+    * Malek, Tehran (#2315), dated 1295/1878
+    * AQR, Mashhad (#7368), dated 1298/1881
+    * AQR, Mashhad (#7365), dated 1298/1881
+    * AQR, Mashhad (#11597), dated 1299/1882
+
 1. Ḥāshiyat Farāʾid al-uṣūl  
    حاشية فرائد الأصول  
    Mahdī al-Kajūrī al-Māzandarānī  
    (d. 1293/1876)
+
+   **Principle Manuscripts**
+    * Markaz-i Iḥyāʾ, Qum (#2371), dated 1278/1862
+    * Shāh Chirāgh, Shiraz (#759), dated 28 Dhū l-Ḥijja 1279/15 June 1863
+    * Shāh Chirāgh, Shiraz (#831), dated 1277 - 1293/1861 - 1877
 
 1. Ḥāshiyat al-Qawānīn al-muḥkama  
    حاشية القوانين المحكمة  
    ʿAlī b. Ismāʿīl al-Qazwīnī  
    (d. 1298/1881)
 
-   **Principle Manuscripts**
-    * Millī, Shiraz (#183/ta-24)
-
 1. Ḥāshiyat Maʿālim al-uṣūl  
    حاشية معالم الأصول  
    al-Sayyid ʿAlī al-Mūsawī al-Qazwīnī  
    (d. 1298/1881)
-
-   **Principle Manuscripts**
-    * al-ʿAtaba al-ʿAlawiyya, Najaf (N/A)
 
 1. Ḥāshiyat Maʿālim al-uṣūl  
    حاشية معالم الأصول  
@@ -5993,12 +6462,15 @@
    (d. 1298/1881)
 
    **Principle Manuscripts**
-    * al-ʿAtaba al-ʿAlawiyya, Najaf (N/A)
+    * Imām Ṣādiq, Qazwin (#195), dated 1290/1873
 
 1. Ḥāshiyat Ḥāshiyat Maʿālim al-uṣūl  
    حاشية حاشية معالم الأصول  
    unknown  
    (d. 1299/1882)
+
+   **Principle Manuscripts**
+    * Nawwāb, Mashhad (#661/1), dated Dhū l-Ḥijja 1253/1838
 
 1. Tawḍīḥ al-Qawānīn  
    توضيح القوانين  
@@ -6018,7 +6490,7 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * al-ʿAtaba al-ʿAlawiyya, Najaf (N/A)
+    * Marʿashī, Qum (#1828)
 
 1. Ḥāshiyat al-Qawānīn al-muḥkama  
    حاشية القوانين المحكمة  
@@ -6026,7 +6498,7 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Millī, Shiraz (#183/ta-24)
+    * Marʿashī, Qum (#5909), dated 13th century/19th century
 
 1. Ḥāshiyat Maʿālim al-uṣūl  
    حاشية معالم الأصول  
@@ -6034,17 +6506,28 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * al-ʿAtaba al-ʿAlawiyya, Najaf (N/A)
+    * Marʿashī, Qum (#5463)
 
 1. Ḥāshiyat Farāʾid al-uṣūl  
    حاشية فرائد الأصول  
    ʿAlī Akbar b. Muḥammad Bāqir Qazwīnī  
    (d. 13th century/19th century)
 
+   **Principle Manuscripts**
+    * Imām Ṣādiq, Qazvin (#176)
+    * Imām Ṣādiq, Qazvin (#172)
+
 1. Ḥāshiyat Farāʾid al-uṣūl  
    حاشية فرائد الأصول  
    unknown  
    (d. 1299/1882)
+
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#3155), dated 1281/1864
+    * Marʿashī, Qum (#14949), dated 1284/1867
+    * Masjid-i Aʿẓam, Qum (#2691), dated 1298/1880
+    * AQR, Mashhad (#18090), dated 13th century/19th century
+    * Gulpāygānī, Qum (#4/127-657), dated 14th century/20th century
 
 1. Lawāmiʿ al-anwār  
    لوامع الأنوار  
@@ -6067,13 +6550,19 @@
    Muḥammad Muḥsin b. Rūḥallāh al-Anjūdānī  
    (d. 13th century/19th century)
 
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#12787/2), dated 1297/1880-1
+
 1. Ḥāshiyat al-Qawānīn al-muḥkama  
    حاشية القوانين المحكمة  
    Muḥammad Taqī b. Ḥusayn ʿAlī al-Harawī  
    (d. 1299/1881-2)
 
    **Principle Manuscripts**
-    * Millī, Shiraz (#183/ta-24)
+    * Madrasat Namāzī, Khoei (#266/5), dated 1289/1872
+    * Majlis, Tehran (#9343), dated 1298/1880
+    * Khātam al-Anbiyāʾ, Babol (#244/6)
+    * Maktabat al-Sayyid Muḥammad Bāqi al-Ṭabāṭibāʾī, Karbala (#195)
 
 1. Ḥāshiyat al-Fuṣūl al-gharawiyya  
    حاشية الفصول الغروية  
@@ -6089,17 +6578,23 @@
    (d. *c.* 13th century/19th century)
 
    **Principle Manuscripts**
-    * Millī, Shiraz (#183/ta-24)
+    * KG, Najaf (#381)
 
 1. Jawāmiʿ al-kalim fī jamʿ taʿlīqāt muqaddimat al-Maʿālim  
    جوامع الكلم في جمع تعليقات مقدمة المعالم  
    Muḥammad Mahdī b. Muḥammad Ibrāhīm  
    (d. 13th century/19th century)
 
+   **Principle Manuscripts**
+    * Markaz-i Iḥyāʾ, Qum (#1575), dated 13th century/19th century
+
 1. Ḥāshiyat Farāʾid al-uṣūl  
    حاشية فرائد الأصول  
    Ḥasan al-Muqaddam  
    (d. 13th century/19th century)
+
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#7854), dated 1297/1880
 
 1. Ḥāshiyat Maʿālim al-uṣūl  
    حاشية معالم الأصول  
@@ -6107,22 +6602,33 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * al-ʿAtaba al-ʿAlawiyya, Najaf (N/A)
+    * AQR, Mashhad (#26263)
 
 1. Ḥāshiyat al-istiṣḥāb  
    حاشية الاستصحاب  
    Mūsā b. Faḍlallāh al-Ḥusaynī  
    (d. 13th century/19th century)
 
+   **Principle Manuscripts**
+    * Markaz-i Raḍawiyya, Qum (#44/3), dated n.d./n.d.
+
 1. Ḥāshiyat Sharḥ Zubdat al-uṣūl  
    حاشية شرح زبدة الأصول  
    unknown  
    (d. 1299/1882)
 
+   **Principle Manuscripts**
+    * Millī, Tehran (#2137/3), dated 13th century/19th century
+
 1. Ḥāshiyat Ḥāshiyat al-Shīrawānī ʿalā Maʿālim al-uṣūl  
    حاشية حاشية الشيرواني على معالم الأصول  
    Muḥammad Taqī b. Ḥusayn ʿAlī al-Harawī  
    (d. 1299/1881-2)
+
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#4783)
+    * Fayḍiyya, Qum (#1986/5)
+    * Madrasat Namāzī, Khoei (#126)
 
 1. Ḥāshiyat Maʿālim al-uṣūl  
    حاشية معالم الأصول  
@@ -6130,7 +6636,8 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * al-ʿAtaba al-ʿAlawiyya, Najaf (N/A)
+    * Millī, Tehran (#3849), dated 13th century/19th century
+    * Millī, Tehran (#1807/3), dated 13th century/19th century
 
 1. Ḥāshiyat Maʿālim al-uṣūl  
    حاشية معالم الأصول  
@@ -6138,20 +6645,21 @@
    (d. 1299/1882)
 
    **Principle Manuscripts**
-    * al-ʿAtaba al-ʿAlawiyya, Najaf (N/A)
+    * Gulpāygānī, Qum (#19/86-3756/2), dated 24 Shaʿbān 1282/12 January 1866
+    * Fayḍiyya, Qum (#1198/2)
 
 1. Ḥāshiyat al-Qawānīn al-muḥkama  
    حاشية القوانين المحكمة  
    unknown  
    (d. 1299/1882)
 
-   **Principle Manuscripts**
-    * Millī, Shiraz (#183/ta-24)
-
 1. Ḥāshiyat Farāʾid al-uṣūl  
    حاشية فرائد الأصول  
    Luṭf ʿAlī al-Khūʾī  
    (d. 13th century/19th century)
+
+   **Principle Manuscripts**
+    * AQR, Mashhad (#7366), dated Jumādā I 1297/1880
 
 1. Ḥāshiyat Zubdat al-uṣūl  
    حاشية زبدة الأصول  
@@ -6159,7 +6667,7 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * AQR, Mashhad (#17930), dated 12th century/18th century
+    * KG, Najaf (#5899)
 
 1. Ḥāshiyat Maʿālim al-uṣūl  
    حاشية معالم الأصول  
@@ -6167,17 +6675,24 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * al-ʿAtaba al-ʿAlawiyya, Najaf (N/A)
+    * AQR, Mashhad (#7370), dated 1306/1889
 
 1. Ḥāshiyat Farāʾid al-uṣūl  
    حاشية فرائد الأصول  
    unknown  
    (d. 1299/1882)
 
+   **Principle Manuscripts**
+    * Gulpāygānī, Qum (#31-153-6273), dated 1299/1881-2
+    * Masjid-i Aʿẓam, Qum (#298), dated 1304/1887
+
 1. Ḥāshiyat Ḥāshiyat Maʿālim al-uṣūl  
    حاشية حاشية معالم الأصول  
    Muḥammad b. Ḥusayn ʿAlī al-Khūʾī  
    (d. 13th century/19th century)
+
+   **Principle Manuscripts**
+    * AQR, Mashhad (#9742), dated 1262/1846
 
 1. Ḥāshiyat Sharḥ Tahdhīb al-wuṣūl ilā ʿilm al-uṣūl  
    حاشية شرح تهذيب الوصول إلى علم الأصول  
@@ -6193,13 +6708,16 @@
    Muḥammad b. Muḥammad Ḥasan al-Raḍawī  
    (d. 1299/19th century)
 
+   **Principle Manuscripts**
+    * AQR, Mashhad (#726)
+
 1. Ḥāshiyat Maʿālim al-uṣūl  
    حاشية معالم الأصول  
    ʿAbd al-Raḥīm b. Muḥammad al-Marāghī  
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * al-ʿAtaba al-ʿAlawiyya, Najaf (N/A)
+    * Markaz-i Muṭālaʿāt, Qum (#630/2)
 
 1. Ḥāshiyat al-Qawānīn al-muḥkama  
    حاشية القوانين المحكمة  
@@ -6207,7 +6725,7 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Millī, Shiraz (#183/ta-24)
+    * University of Tehran, Tehran (#3271), dated 1270/1853
 
 1. Ḥāshiyat Maʿālim al-uṣūl  
    حاشية معالم الأصول  
@@ -6215,17 +6733,30 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * al-ʿAtaba al-ʿAlawiyya, Najaf (N/A)
+    * Gulpāygānī, Qum (#57/217-854), dated 4 Dhū l-Ḥijja 1227/15 December 1812
+    * Gulpāygānī, Qum (#10/89-1779/1), dated Ṣafar 1230/1815
+    * Imām Ṣādiq, Qazwin (#695), dated 13th century/19th century
+    * Muʾassasa-yi Āyatullāh Burūjirdī, Qum (#116/2), dated 1316/1898
+    * Marʿashī, Qum (#2569)
 
 1. Ḥāshiyat al-Rasāʾil  
    حاشية الرسائل  
    ʿAlī Akbar b. Rajab ʿAlī al-Zanjānī  
    (d. 13th century/18th-19th century)
 
+   **Principle Manuscripts**
+    * KG, Najaf (#518)
+    * KG, Najaf (#581)
+
 1. Ḥāshiyat Farāʾid al-uṣūl  
    حاشية فرائد الأصول  
    ʿAbd al-Hussayn b. Muḥammad Riḍā al-Tustarī  
    (d. 13th century/19th century)
+
+   **Principle Manuscripts**
+    * Ṣādiqiyya, Damghan (#117), dated 15 Dhū l-Qʿada 1280/22 April 1864
+    * Marʿashī, Karbala (#121/1), dated 1325/1907
+    * KG, Najaf (#30)
 
 1. Majmaʿ al-uṣūl fī ḥāshiyat Mabādiʾ al-wuṣūl  
    مجمع الأصول في حاشية مبادئ الوصول  
@@ -6241,30 +6772,36 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Millī, Shiraz (#183/ta-24)
+    * Ḥusayniyya Shūshtarīhā, Najaf (#590/2)
 
 1. Ḥāshiyat Farāʾid al-uṣūl  
    حاشية فرائد الأصول  
    unknown  
    (d. 1299/1882)
 
+   **Principle Manuscripts**
+    * Majlis, Tehran (#9252/2), dated 13th century/19th century
+
 1. Ḥāshiyat Farāʾid al-uṣūl  
    حاشية فرائد الأصول  
    ʿAlī b. ʿAbdallāh al-Iṣfahānī  
    (d. 13th century/19th century)
+
+   **Principle Manuscripts**
+    * Jamʿiyyat-i Nashr-i Farhang, Rasht (#1/37), dated 13th century/19th century
 
 1. Ḥāshiyat Farāʾid al-uṣūl  
    حاشية فرائد الأصول  
    Muḥammad ʿAlī al-Kajdī al-Langarūdī  
    (d. 13th century/19th century)
 
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#14969), dated 13th century/19th century
+
 1. Ḥāshiyat Maʿālim al-uṣūl  
    حاشية معالم الأصول  
    Muḥammad Ibrāhīm b. Ḥusayn al-Ḥusaynī  
    (d. 13th century/19th century)
-
-   **Principle Manuscripts**
-    * al-ʿAtaba al-ʿAlawiyya, Najaf (N/A)
 
 1. Ḥāshiyat Maʿālim al-uṣūl  
    حاشية معالم الأصول  
@@ -6272,7 +6809,7 @@
    (d. 1299/1882)
 
    **Principle Manuscripts**
-    * al-ʿAtaba al-ʿAlawiyya, Najaf (N/A)
+    * Marʿashī, Qum (#8829/2), dated 1255/1839
 
 1. Ḥāshiyat al-Qawānīn al-muḥkama  
    حاشية القوانين المحكمة  
@@ -6280,12 +6817,15 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Millī, Shiraz (#183/ta-24)
+    * Dānishgāh, Tehran (#3271)
 
 1. Ḥāshiyat Mabādiʾ al-wuṣūl ilā ʿilm al-uṣūl  
    حاشية مبادئ الوصول إلى علم الأصول  
    unknown  
    (d. 1299/1882)
+
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#616/1), dated 1242/1826-7
 
 1. Ḥāshiyat Maʿālim al-uṣūl  
    حاشية معالم الأصول  
@@ -6293,32 +6833,49 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * al-ʿAtaba al-ʿAlawiyya, Najaf (N/A)
+    * Malek, Tehran (#828/13), dated 1235/1819
+    * Marʿashī, Qum (#4151), dated 1260/1844
+    * Marʿashī, Qum (#5899), dated 1316/1899
 
 1. Ḥāshiyat Sharḥ Maʿālim al-uṣūl  
    حاشية شرح معالم الأصول  
    unknown  
    (d. 1299/1882)
 
+   **Principle Manuscripts**
+    * Madrasa-yi Ṣadr-i Bāzār, Isfahan (#871), dated 13th century/19th century
+
 1. Ḥāshiyat ʿAwāʾid al-ayyām min muhimmāt adillat al-aḥkām  
    حاشية عوائد الأيام من مهمات أدلة الأحكام  
    unknown  
    (d. 1299/1882)
+
+   **Principle Manuscripts**
+    * Millī, Tehran (#3084/2)
 
 1. Ḥāshiyat Tahdhīb al-uṣūl  
    حاشية تهذيب الأصول  
    ʿAbdallāh b. Abī Turāb al-Ḥusaynī  
    (d. 13th century/19th century)
 
+   **Principle Manuscripts**
+    * Maktabat al-Imām Amīr al-Muʾminīn al-ʿĀmma, Najaf (#93)
+
 1. Miftāḥ al-fuṣūl  
    مفتاح الفصول  
    unknown  
    (d. 1299/1882)
 
+   **Principle Manuscripts**
+    * Majlis, Tehran (#18213), dated 1285/1868
+
 1. Ḥāshiyat al-Fuṣūl  
    حاشية الفصول  
    al-Shaykh Muḥammad al-Iṣfahānī  
    (d. 13th century/19th century)
+
+   **Principle Manuscripts**
+    * Fayḍiyya, Qum (#1114/2), dated 1298/1881
 
 1. Ḥāshiyat Maʿālim al-uṣūl  
    حاشية معالم الأصول  
@@ -6326,7 +6883,11 @@
    (d. 1299/1882)
 
    **Principle Manuscripts**
-    * al-ʿAtaba al-ʿAlawiyya, Najaf (N/A)
+    * KG, Najaf (#74), dated 1253/1837-8
+    * Madrasat Āyatullāh al-Burūjirdī, Najaf (#113/4), dated 13th century/19th century
+    * Maktabat Āyatullāh al-Ḥakīm al-ʿĀmma, Najaf (#13)
+    * Maktabat Āyatullāh al-Ḥakīm al-ʿĀmma, Najaf (#2697)
+    * Maktabat al-Imām Amīr al-Muʾminīn al-ʿĀmma, Najaf (#392)
 
 1. Ḥāshiyat al-Fuṣūl fī ʿilm al-uṣūl  
    حاشية الفصول في علم الأصول  
@@ -6349,20 +6910,32 @@
    Muḥsin al-Ḥusaynī al-Tunikābunī  
    (d. 14th century/20th century)
 
+   **Principle Manuscripts**
+    * Imām Ṣādiq, Qazwin (#3/701), dated 1309/1891
+
 1. Ḥāshiyat Farāʾid al-uṣūl  
    حاشية فرائد الأصول  
    Muḥammad Ṣādiq al-Iṣfahānī  
    (d. 1300/1883)
+
+   **Principle Manuscripts**
+    * University of Tehran, Tehran (#3262), dated 14th century/20th century
 
 1. Ḥāshiyat Farāʾid al-uṣūl  
    حاشية فرائد الأصول  
    Abū l-Qāsim al-Ṭāliqānī al-Marjānī  
    (d. 13th century/19th-20th century)
 
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#6/5963), dated 1309/1891
+
 1. Ḥāshiyat Farāʾid al-uṣūl  
    حاشية فرائد الأصول  
    Muḥammad Riḍā al-Mudarris al-Nūrī  
    (d. 14th century/19th-20th century)
+
+   **Principle Manuscripts**
+    * AQR, Mashhad (#18287)
 
 1. al-Ḥāshiya ʿalā Ishārāt al-uṣūl  
    الحاشية على إشارات الأصول  
@@ -6388,7 +6961,7 @@
    (d. 1302/1885)
 
    **Principle Manuscripts**
-    * al-ʿAtaba al-ʿAlawiyya, Najaf (N/A)
+    * Marʿashī, Qum (#8884/2)
 
 1. al-Ḥāshiya ʿalā Ishārāt al-uṣūl  
    الحاشية على إشارات الأصول  
@@ -6400,31 +6973,46 @@
    ʿAlī al-Khūʾī  
    (d. 1309/1891)
 
+   **Principle Manuscripts**
+    * Gulpāygānī, Qum (#6244-30/124), dated 14th century/20th century
+    * AQR, Mashhad (#7364)
+
 1. Ḥāshiyat al-Qawānīn al-muḥkama  
    حاشية القوانين المحكمة  
    Muḥammad ʿAlī b. Aḥmad al-Qarāchehdāghī  
    (d. 1310/1892)
 
    **Principle Manuscripts**
-    * Millī, Shiraz (#183/ta-24)
+    * Majlis, Tehran (#13872/2), dated 15 Ṣafar 1287/17 May 1870
 
 1. Ḥāshiyat Zubdat al-uṣūl  
    حاشية زبدة الأصول  
    al-Sayyid ʿAlī b. Muḥammad b. Muḥammad b. Dildār ʿAlī  
    (d. 1312/1894)
 
-   **Principle Manuscripts**
-    * AQR, Mashhad (#17930), dated 12th century/18th century
-
 1. Īḍāḥ al-maḍāmīn fī ḥall ʿibārāt al-Qawānīn  
    إيضاح المضامين في حل عبارات القوانين  
    Mullā Luṭfallāh al-Lārījānī  
    (d. 1311/1894)
 
+   **Principle Manuscripts**
+    * Maktabat al-Imām Amīr al-Muʾminīn al-ʿĀmma, Karbala (#1995), dated 1280/1863
+    * Maktabat al-Sayyid Muḥammad Ṣādiq Baḥr al-ʿUlūm, Najaf (#41), dated 1291/1874
+    * Maktabat al-Sayyid Bāqir al-Ṭabāṭabāʾī, Karbala (#25), dated 1308/1890
+    * Maktabat al-Imām Amīr al-Muʾminīn al-ʿĀmma, Najaf (#137)
+    * KG, Najaf (#4291)
+
 1. ʿAnāṣir al-matīn fī sharḥ muʿḍalāt al-Qawānīn  
    عناصر المتين في شرح معضلات القوانين  
    Muḥammad Ḥusayn b. Muḥammad ʿAlī al-Shahristānī  
    (d. 1315Sh/1898)
+
+   **Principle Manuscripts**
+    * Farhang wa Irshād, Kashan (#103), dated 1293/1876-77
+    * AQR, Mashhad (#38988), dated 1277/1860
+    * Markaz-i Iḥyāʾ, Qum (#1532), dated 1306/1889
+    * Gulpāygānī, Qum (#22/112)
+    * Ṭabasī, Qum (#123), dated 1327/1909
 
 1. Mashāriq al-uṣūl al-mutaʿalliqa bi-l-Qawānīn wa-baʿḍ al-fuṣūl  
    مشارق الأصول المتعلقة بالقوانين وبعض الفصول  
@@ -6439,36 +7027,46 @@
    Abū l-Ḥasan b. ʿAbd al-Ḥusayn al-Mishkīnī al-Ardabīlī  
    (d. 1317/1899)
 
+   **Principle Manuscripts**
+    * Maktabat al-Imām al-Khūʾī, Najaf (#271), dated 1345/1926
+
 1. Ḥāshiyat al-Qawānīn al-muḥkama  
    حاشية القوانين المحكمة  
    Mūsā b. Muḥammad Jaʿfar al-Mujtahid al-Tabrīzī  
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Millī, Shiraz (#183/ta-24)
+    * Marʿashī, Qum (#9974), dated 1295/1878
+    * Marʿashī, Qum (#13735), dated 1296/1879
 
 1. Ḥāshiyat Farāʾid al-uṣūl  
    حاشية فرائد الأصول  
    Mīrzā Mūsā al-Ādharbāyjānī  
    (d. 13th century/19th century)
 
+   **Principle Manuscripts**
+    * Marʿashī Najafī, Qum (#15094), dated 1278/1861
+
 1. Taḥqīq al-ḥaqq fī sharḥ al-mushtaqq  
    تحقيق الحق في شرح المشتق  
    Ḥabīballāh b. Muḥammad al-Mūsawī  
    (d. 13th century/19th century)
+
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#2352/2)
 
 1. Ḥāshiyat Zubdat al-uṣūl  
    حاشية زبدة الأصول  
    al-Mīrzā Abū l-Qāsim b. Ḥasan al-Gīlānī al-Qummī  
    (d. 13th century/19th century)
 
-   **Principle Manuscripts**
-    * AQR, Mashhad (#17930), dated 12th century/18th century
-
 1. Ḥāshiyat Ḥāshiyat al-Shīrawānī ʿalā Maʿālim al-uṣūl  
    حاشية حاشية الشيرواني على معالم الاصول  
    Muḥammad ʿAlī b. Muḥammad Ismāʿīl al-Nūrī  
    (d. 13th century/19th century)
+
+   **Principle Manuscripts**
+    * Madrasa-yi Gharb, Hamadan (#679/1), dated 28 Ṣafar 1250/6 July 1834
 
 1. Ḥāshiya ʿalā l-Maʿālim  
    حاشية على المعالم  
@@ -6485,10 +7083,19 @@
    Mūsā b. Muḥammad al-Khwansārī al-Najafī  
    (d. 1322/1904)
 
+   **Principle Manuscripts**
+    * Maktabat al-Imām al-Khūʾī, Najaf (#275), dated 14th century/20th century
+
 1. Ḥāshiyat Farāʿid al-uṣūl  
    حاشية فرائد الأصول  
    Riḍā b. Muḥammad Hādī al-Hamadānī  
    (d. 1322/1904)
+
+   **Principle Manuscripts**
+    * Maktabat Āyatullāh al-Ḥakīm al-ʿĀmma, Najaf (#2718), dated 1306/1888
+    * Maktabat al-Imām Amīr al-Muʾminīn al-ʿĀmma, Najaf (#819), dated 1308/1890
+    * KG, Najaf (#3943), dated 1313/1895
+    * Maktabat Āyatullāh al-Ḥakīm al-ʿĀmma, Najaf (#794)
 
 1. Ḥāshiyat Farāʾid al-uṣūl  
    حاشية فرائد الأصول  
@@ -6500,18 +7107,25 @@
    Muḥammad Ḥusayn b. Banda Ḥusayn al-Naqawī al-Lakhnawī  
    (d. 1325/1907)
 
-   **Principle Manuscripts**
-    * AQR, Mashhad (#17930), dated 12th century/18th century
-
 1. Ḥāshiyat Farāʾid al-uṣūl  
    حاشية فرائد الأصول  
    ʿAbdallāh b. Muḥammad ʿAlī al-Kirmānī al-Rāyinī  
    (d. 1327/1909)
 
+   **Principle Manuscripts**
+    * Markaz-i Muṭālaʿāt, Qum (#500), dated 1300/1883
+
 1. Durar al-fawāʾid  
    درر الفوائد  
    Mullā Muḥammad Kāẓim b. Mullā Ḥusayn al-Harawī al-Khurāsānī al-Najafī  
    (d. 1329/1911)
+
+   **Principle Manuscripts**
+    * Shaykh ʿAlī Ḥaydar, Mashhad (#49), dated 1252/1837
+    * Marʿashī, Qum (#11817/3), dated 1292/1875
+    * Markaz-i Iḥyāʾ, Qum (#4249), dated 1293/1876
+    * Sipahsālār, Tehran (#8427), dated 1292/1876
+    * Gawharshād, Mashhad (#785/6), dated 1295/1878-9
 
 1. Ḥāshiyat Farāʾid al-uṣūl  
    حاشية فرائد الأصول  
@@ -6538,6 +7152,9 @@
    ʿAbd al-Karīm b. Ḥasan al-Aʿrajī  
    (d. 14th century/20th century)
 
+   **Principle Manuscripts**
+    * Maktabat Āyatullāh al-Ḥakīm al-ʿĀmma, Najaf (#1722), dated 1309/1891
+
 ```{=openxml}
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
@@ -6549,18 +7166,26 @@
    Aḥmad b. Zayn al-Dīn al-ʿAlawī al-ʿĀmilī  
    (d. 1054/1644-5)
 
+   **Principle Manuscripts**
+    * University of Tehran, Tehran (#5757/2)
+    * Majlis, Tehran (#18391)
+
 1. Maʿālim al-uṣūl maʿa taʿlīqāt Sulṭān al-ʿUlamāʾ  
    معالم الأصول مع تعليقات سلطان العلماء  
    al-Mīrzā ʿAlāʾ al-Dīn Ḥusayn b. Rafīʿ al-Dīn Muḥammad al-Marʿashī al-Āmūlī  
    (d. 1064/1653)
 
    **Editions**
-    * *Maʿālim al-dīn wa-malādh al-mujtahidīn*, ed. ʿAlī Muḥammadī (Qum: Quds, 1376Sh/1997)
+    * *Maʿālim al-uṣūl*, ed. ʿAlī Muḥammadī (Qum: Dār al-Fikr, 1374Sh/1995)
+    * *Maʿālim al-uṣūl*, ed. ʿAlī Muḥammadī (Qum: Dār al-Fikr, 1376Sh/1997)
 
 1. Taʿlīqāt ʿalā l-Zubda  
    تعليقات على الزبدة  
    Muḥammad Taqī b. ʿAbd al-Ḥusayn al-Naṣīrī al-Ṭūsī  
    (d. 11th century/17th century)
+
+   **Principle Manuscripts**
+    * Dāʾirat al-Maʿārif, Tehran (#477/20), dated 1072-3/1661-2
 
 1. Faṣl al-khiṭāb fī taḥqīq al-suʾāl wa-tazyīf al-jawāb  
    فصل الخطاب في تحقيق السؤال وتزييف الجواب  
@@ -6607,25 +7232,40 @@
    Mahdī al-Kajūrī al-Māzandarānī  
    (d. 1293/1876)
 
+   **Principle Manuscripts**
+    * Shāh Chirāgh, Shiraz (#2071/2), dated 1277/1860-1
+
 1. Ḥāshiyat Farāʾid al-uṣūl - Taʿlīqa ʿalā Aṣālat al-barāʾa  
    حاشية فرائد الأصول - تعليقة على أصالة البراءة  
    Abū Ṭālib b. Abī Turāb al-Ḥusaynī al-Qāʾinī  
    (d. *c.* 1293/1876)
+
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#1631), dated 1293/1876
 
 1. Taʿlīqa ʿalā Maʿālim al-uṣūl  
    تعليقة على معالم الأصول  
    Muḥammad Ḥasan b. Muḥammad al-ʿAskarī al-Simnānī  
    (d. 13th century/19th century)
 
-1. Taʿlīqat Farāʾid al-uṣūl  
-   تعليقة فرائد الأصول  
-   unknown  
-   (d. 1299/1882)
+   **Principle Manuscripts**
+    * Markaz-i Muṭālaʿāt, Qum (#988), dated 4 Muʿḥarram 1230/17 December 1814
 
 1. Taʿlīqat Farāʾid al-uṣūl  
    تعليقة فرائد الأصول  
    unknown  
    (d. 1299/1882)
+
+   **Principle Manuscripts**
+    * al-ʿAtaba al-ʿAbbāsiyya, Karbala (#260/1), dated 1301/1883
+
+1. Taʿlīqat Farāʾid al-uṣūl  
+   تعليقة فرائد الأصول  
+   unknown  
+   (d. 1299/1882)
+
+   **Principle Manuscripts**
+    * al-ʿAtaba al-ʿAbbāsiyya, Karbala (#260/1), dated 1301/1884
 
 1. al-Tuḥfa al-saniyya wa-l-durra al-najafiyya  
    التحفة السنية والدرة النجفية  
@@ -6648,15 +7288,24 @@
    unknown  
    (d. 1299/1882)
 
+   **Principle Manuscripts**
+    * Dār al-Ḥadīth, Qum (#3/197), dated 1309/1891
+
 1. Taʿlīqa ʿalā Farāʾid al-uṣūl  
    تعليقة على فرائد الأصول  
    unknown  
    (d. 1299/1882)
 
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#2/10731), dated 14th century/20th century
+
 1. Taʿlīqa ʿalā l-Fawāʾid al-ḥāʾiriyya  
    تعليقة على الفوائد الحائرية  
    unknown  
    (d. 1299/1882)
+
+   **Principle Manuscripts**
+    * Gawharshād, Mashhad (#1024/2), dated 1220/1805
 
 1. al-Durr al-thamīn fī l-taʿlīqa ʿalā l-Qawānīn  
    الدر الثمين في التعليقة على القوانين  
@@ -6676,15 +7325,25 @@
    ʿAlī al-Khūʾī  
    (d. 1309/1891)
 
+   **Principle Manuscripts**
+    * Namāzī, Khoei (#1/330), dated 1310/1892
+    * Markaz-i Iḥyāʾ, Qum (#1/482), dated 1310/1892
+
 1. Taʿlīqat Farāʾid al-uṣūl  
    تعليقة فرائد الأصول  
    ʿAlī al-Khuʾī  
    (d. 1309/1892)
 
+   **Principle Manuscripts**
+    * KG, Najaf (#81), dated 1302/1884
+
 1. Taʿlīqa ʿalā l-Qawānīn al-muḥkama  
    تعليقة على القوانين المحكمة  
    Maḥmūd b. ʿAlī Aṣghar al-Ṭabāṭabāʾī al-Tabrīzī  
    (d. 1310/1892)
+
+   **Principle Manuscripts**
+    * Majlis, Tehran (#1/9164), dated 14th century/20th century
 
 1. Tanqīḥ al-maqāṣid fī sharḥ al-Farāʾid  
    تنقيح المقاصد في شرح الفرائد  
@@ -6729,11 +7388,7 @@
    (d. 436/1044)
 
    **Principle Manuscripts**
-    * Masjid-i Aʿẓam, Qum (#825/14), dated 1235/1819-20
-    * Millī, Tehran (#2088/2), dated 1243/1827-8
-    * AQR, Mashhad (#7381), dated 1260/1844-5
-    * Marʿashī, Qum (#13834/6), dated 1266/1849-50
-    * Markaz-i Iḥyāʾ, Qum (#2731), dated 13th century/19th century
+    * KG, Najaf (#402)
 
 1. Masʾalat ʿadam takhṭiʾat al-ʿāmil bi-khabar al-wāḥid  
    مسألة عدم تخطئة العامل بخبر الواحد  
@@ -6760,10 +7415,16 @@
    ʿAlī b. al-Ḥusayn al-Sharīf al-Murtaḍā  
    (d. 436/1044)
 
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#1497/15), dated 14th century/20th century
+
 1. Munāẓarat al-khuṣūm wa-kayfiyyat al-istidlāl ʿalayhim  
    مناظرة الخصوم وكيفية الاستدلال عليهم  
    ʿAlī b. al-Ḥusayn al-Sharīf al-Murtaḍā  
    (d. 436/1044)
+
+   **Editions**
+    * *Munāẓarat al-khuṣūm wa-kayfiyyat al-istidlāl ʿalayhim*, ed. al-Sayyid Mahdī Rajāʾī (Qum: Dār al-Qurʾān al-Karīm, 1405/1984)
 
 1. Aṣl al-barāʾa fīmā lam yaqum ʿalayhi dalīl min al-shurūʿ  
    أصل البراءة فيما ﻟﻢ يقم عليه دليل من الشروع  
@@ -6778,18 +7439,28 @@
    ʿAlī b. al-Ḥusayn al-Sharīf al-Murtaḍā  
    (d. 436/1044)
 
+   **Principle Manuscripts**
+    * Gulpāygānī, Qum (#29/127-5787/13), dated 1059/1649
+    * Marʿashī, Qum (#12923/21), dated 11th century/17th century
+    * Marʿashī, Qum (#11340/21), dated 12th century/18th century
+    * Marʿashī, Qum (#7615/1), dated 1281/1864
+    * Marʿashī, Qum (#14254/25), dated 13th century/19th century
+
 1. Uṣūl al-fiqh  
    أصول الفقه  
    ʿAlī b. al-Ḥusayn al-Sharīf al-Murtaḍā  
    (d. 436/1044)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * KG, Najaf (#215)
 
 1. Jawābāt al-masāʾil al-rassiyya al-ūlā  
    جوابات المسائل الرسية الأولى  
    ʿAlī b. al-Ḥusayn al-Sharīf al-Murtaḍā  
    (d. 436/1044)
+
+   **Editions**
+    * *Jawābāt al-masāʾil al-rassiyya al-ūlā*, ed. al-Sayyid Mahdī Rajāʾī (Qum: Dār al-Qurʾān al-Karīm, 1405/1984)
 
 1. Jawābāt al-masāʾil al-Tibbāniyyāt  
    جوابات المسائل التبانيات  
@@ -6807,10 +7478,20 @@
    ʿAlī b. al-Ḥusayn al-Sharīf al-Murtaḍā  
    (d. 436/1044)
 
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#1497/41), dated 14th century/20th century
+
+   **Editions**
+    * *Masʾala fī l-ijmāʿ*, ed. al-Sayyid Mahdī Rajāʾī (Qum: Dār al-Qurʾān al-Karīm, 1405/1984)
+
 1. Masʾala fīmā yazūl bihi iḥtimāl al-ishtirāk  
    مسألة فيما يزول به احتمال الاشتراك  
    Maytham b. ʿAlī b. Maytham  
    (d. 689/1290-1)
+
+   **Principle Manuscripts**
+    * Madrasa-yi Gharb, Hamadan (#1187/14), dated 10th or 11th centuries/16th or 17th centuries
+    * Majlis, Tehran (#9013/4), dated 1183/1769
 
 1. Dalālat al-alfāẓ wa-mā yataʿallaqu bihā  
    دلالة الألفاظ وما يتعلق بها  
@@ -6825,10 +7506,20 @@
    unknown  
    (d. 7th century/13th century)
 
+   **Principle Manuscripts**
+    * al-ʿAtaba al-ʿAlawiyya, Najaf (#18), dated 697/1298
+    * al-Maktaba al-ʿAbbāsiyya, Basra (#64), dated late 7th century/13th century
+    * al-ʿAtaba al-ʿAlawiyya, Najaf (#1047), dated late 7th century/13th century
+    * Maktabat al-Awqāf al-ʿĀmma, Baghdad (#7406/1), dated 925/1519
+    * Maktabat Ḥasan ʿAbd al-Amīr al-Mahdī, Karbala (#29/1), dated 997/1588
+
 1. Kashf al-ʿawār li-ahl al-bawār  
    كشف العوار لأهل البوار  
    Ḥusayn b. ʿAlī al-Ṣaghnāqī  
    (d. 711/1311-12)
+
+   **Principle Manuscripts**
+    * Sipahsālār, Tehran (#1176/5), dated 747/1347
 
 1. al-Masāʾil al-uṣūliyya fī nahj al-ḥaqq  
    المسائل الأصولية في نهج الحق  
@@ -6852,11 +7543,7 @@
    (d. 786/1384-5)
 
    **Principle Manuscripts**
-    * Namāzī, Khoei (#848/2), dated 1202/1787
-    * Markaz-i Iḥyāʾ, Qum (#1567/2), dated 1202/1788
-    * Saryazdī, Yazd (#28/8), dated 1203/1788
-    * ʿAllāma Fānī, Isfahan (#13/1), dated 1216/1802
-    * Millī, Tehran (#1868/9), dated 1222/1807
+    * Madrasa-yi Gharb, Hamadan (#4817/2), dated 1233/1818
 
 1. al-Tadhkira fī l-uṣūliyyīn  
    التذكرة في الأصولين  
@@ -6888,11 +7575,8 @@
    (d. 940/1533)
 
    **Principle Manuscripts**
-    * Masjid-i Aʿẓam, Qum (#825/14), dated 1235/1819-20
-    * Millī, Tehran (#2088/2), dated 1243/1827-8
-    * AQR, Mashhad (#7381), dated 1260/1844-5
-    * Marʿashī, Qum (#13834/6), dated 1266/1849-50
-    * Markaz-i Iḥyāʾ, Qum (#2731), dated 13th century/19th century
+    * Amīr al-Muʾminīn, Najaf (#157)
+    * Amīr al-Muʾminīn, Najaf (#202)
 
 1. Istinbāṭ al-aḥkām  
    استنباط الأحكام  
@@ -6923,6 +7607,9 @@
    ʿAlī b. Ḥusayn al-Karakī  
    (d. 940/1533)
 
+   **Principle Manuscripts**
+    * Maktabat Āyatullāh al-Ḥakīm al-ʿĀmma, Najaf (#2279)
+
 1. Wujūb al-ijtihād/al-ijtihādiyya  
    وجوب الاجتهاد/الاجتهادية  
    ʿAlī b. Ḥusayn al-Karakī  
@@ -6952,12 +7639,16 @@
    (d. 965 or 966/1557 or 1558)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * AQR, Mashhad (#24044)
 
 1. Mukhālafat al-Shaykh al-Ṭūsī li-ijmāʿāt nafsih  
    مخالفة الشيخ الطوسي لإجماعات نفسه  
    Zayn al-Dīn b. Nūr al-Dīn ʿAlī b. Aḥmad al-ʿĀmilī al-Jabʿī  
    (d. 965 or 966/1557 or 1558)
+
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#1182/51), dated 11th century/17th century
+    * University of Tehran, Tehran (#10276/2), dated 1249/1833
 
 1. Takhfīf al-ʿibād fī bayān aḥwāl al-ijtihād  
    تخفيف العباد في بيان أحوال الاجتهاد  
@@ -6975,6 +7666,11 @@
    حجية الإجماع  
    Zayn al-Dīn b. Nūr al-Dīn ʿAlī b. Aḥmad al-ʿĀmilī al-Jabʿī  
    (d. 965 or 966/1557 or 1558)
+
+   **Principle Manuscripts**
+    * Malek, Tehran (#1858/8), dated 1115/1703
+    * KG, Najaf (#1146), dated 1271/1854
+    * Gulpāygānī, Qum (#18/40-3520/5)
 
 1. Tayaqqun al-ṭahāra wa-l-ḥadath wa-l-shakk fī l-sābiq minhumā  
    تيقن الطهارة والحدث والشك في السابق منهما  
@@ -6997,6 +7693,9 @@
    Ḥusayn b. ʿAbd al-Ṣamad al-ʿĀmilī  
    (d. 984/1576)
 
+   **Principle Manuscripts**
+    * Majlis, Tehran (#1836/10), dated 1065/1654
+
 1. al-Amr mustalzim lil-nahy ʿan ḍiddih  
    الأمر مستلزم للنهي عن ضده  
    Aḥmad b. Muḥammad al-Ardabīlī  
@@ -7013,6 +7712,9 @@
    أصول الفقه  
    Aḥmad b. Muḥammad al-Ardabīlī  
    (d. 993/1585)
+
+   **Principle Manuscripts**
+    * Sipahsālār, Tehran (#1446/2)
 
 1. al-Ijtihād wa-l-taqlīd/Taqlīd al-mayyit  
    الاجتهاد والتقليد/تقليد الميت  
@@ -7031,16 +7733,17 @@
    (d. 10th century/16th century)
 
    **Principle Manuscripts**
-    * Marʿashī, Qum (#16303/18), dated 1241/1825-6
-    * Dāʾirat al-Maʿārif, Tehran (#1997/4)
-    * Marʿashī, Qum (#12109/5), dated 13th century/19th century
-    * AQR, Mashhad (#32051), dated 13th century/19th century
-    * Marʿashī, Qum (#16303/19), dated 13th century/19th century
+    * Qamar Banī Hāshim, Damghan (#146/1)
 
 1. al-Ijtihād  
    الاجتهاد  
    Muḥammad b. Ḥārith al-Manṣūrī  
    (d. 10th century/16th century)
+
+   **Principle Manuscripts**
+    * Millī, Shiraz (#472/5 ra-10), dated 943/1536
+    * Marʿashī, Qum (#6337/4), dated 1021/1612
+    * Marʿashī, Qum (#3483/2), dated 1039/1629
 
 1. al-ʿĀmm al-mushtarak  
    العام المشترك  
@@ -7055,13 +7758,17 @@
    Muḥammad Jaʿfar al-Iṣfahānī  
    (d. 10th century/16th century)
 
+   **Principle Manuscripts**
+    * Amīr al-Muʾminīn, Najaf (#127)
+    * Amīr al-Muʾminīn, Najaf (#127)
+
 1. al-Mafāhīm  
    المفاهيم  
    Muḥammad Jaʿfar al-Iṣfahānī  
    (d. 10th century/16th century)
 
    **Principle Manuscripts**
-    * Marwī, Tehran (#704/5), dated 1303/1885
+    * Maktabat al-Imām Amīr al-Muʾminīn al-ʿĀmma, Najaf (#127), dated 1314/1896
 
 1. al-Tarajjuḥ bilā murajjiḥ wa-l-tarjīḥ bilā murajjiḥ  
    الترجح بلا مرجح والترجيح بلا مرجح  
@@ -7076,18 +7783,24 @@
    Muḥammad Jaʿfar al-Iṣfahānī  
    (d. 10th century/16th century)
 
+   **Principle Manuscripts**
+    * Maktabat al-Imām Amīr al-Muʾminīn al-ʿĀmma, Najaf (#127), dated 1314/1896
+
 1. Ajwibat al-masāʾil  
    أجوبة المسائل  
    al-Ḥasan b. Zayn al-Dīn al-ʿĀmilī  
    (d. 1011/1602)
 
    **Principle Manuscripts**
-    * AQR, Mashhad (#29299), dated 1285/1868
+    * Majlis, Tehran (#15616/3), dated 1020/1611
 
 1. al-Ijtihād wa-l-taqlīd  
    الاجتهاد والتقليد  
    al-Ḥasan b. Zayn al-Dīn al-ʿĀmilī  
    (d. 1011/1602)
+
+   **Principle Manuscripts**
+    * KG, Najaf (#7179)
 
 1. Jawāb masāʾil Shaykh Muḥammad b. Jābir  
    جواب مسائل شيخ محمد بن جابر  
@@ -7114,11 +7827,14 @@
    (d. 1028/1618-19)
 
    **Principle Manuscripts**
-    * Masjid-i Aʿẓam, Qum (#825/14), dated 1235/1819-20
-    * Millī, Tehran (#2088/2), dated 1243/1827-8
-    * AQR, Mashhad (#7381), dated 1260/1844-5
-    * Marʿashī, Qum (#13834/6), dated 1266/1849-50
-    * Markaz-i Iḥyāʾ, Qum (#2731), dated 13th century/19th century
+    * Marʿashī, Qum (#5820/2), dated 1028/1618
+    * Marʿashī, Qum (#11784/4), dated 1031/1622
+    * Majlis, Tehran (#10120/6), dated 1036/1626
+    * Miftāḥ, Tehran (#97/2), dated 1068/1658
+    * Millī, Tehran (#2372/2), dated 1075/1664
+
+   **Editions**
+    * *Muqaddimat al-wājib*, ed. Riḍā al-Ustādī (Qum: n.pub, 1411/1990-1)
 
 1. Madār istidlāl al-akhbāriyyīn  
    مدار استدلال الأخباريين  
@@ -7155,7 +7871,7 @@
    (d. 1041/1631)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * KG, Najaf (#1067/3)
 
 1. al-Ṣaḥīfa al-malakūtiyya  
    الصحيفة الملكوتية  
@@ -7181,11 +7897,10 @@
    (d. 1064/1653)
 
    **Principle Manuscripts**
-    * Masjid-i Aʿẓam, Qum (#825/14), dated 1235/1819-20
-    * Millī, Tehran (#2088/2), dated 1243/1827-8
-    * AQR, Mashhad (#7381), dated 1260/1844-5
-    * Marʿashī, Qum (#13834/6), dated 1266/1849-50
-    * Markaz-i Iḥyāʾ, Qum (#2731), dated 13th century/19th century
+    * Burūjirdī, Qum (#290/14), dated 1228/1813
+
+   **Editions**
+    * *Muqaddimat al-wājib* (Tabriz: Dār al-Salṭana, 1312/1894-5)
 
 1. Khabar-i mujtahid  
    خبر مجتهد  
@@ -7201,7 +7916,8 @@
    (d. 1071/1660)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * KG, Najaf (#2402)
+    * University of Basra, Basra (#150/1)
 
 1. Sabīl al-rashād fī l-naḥw wa-l-ṣarf wa-l-uṣūl wa-aḥkām al-ʿibādāt  
    سبيل الرشاد في النحو والصرف والأصول وأحكام العبادات  
@@ -7235,16 +7951,22 @@
    (d. 1090/1679)
 
    **Principle Manuscripts**
-    * Masjid-i Aʿẓam, Qum (#825/14), dated 1235/1819-20
-    * Millī, Tehran (#2088/2), dated 1243/1827-8
-    * AQR, Mashhad (#7381), dated 1260/1844-5
-    * Marʿashī, Qum (#13834/6), dated 1266/1849-50
-    * Markaz-i Iḥyāʾ, Qum (#2731), dated 13th century/19th century
+    * AQR, Mashhad (#20667), dated 1100/1689
+    * Majlis, Tehran (#2761/1), dated 1117/1705
+    * Millī, Tehran (#1889/4), dated 1121/1709
+    * Marʿashī, Qum (#6379/2), dated 1175/1761
+    * Gulpāygānī, Qum (#21/173-4251/1), dated 12th century/18th century
+
+   **Editions**
+    * *Muqaddimat al-wājib*, ed. Riḍā al-Ustādī (Qum: Kungara-yi Āqā Ḥusayn al-Khwānsārī, 1378Sh/1999-2000)
 
 1. Aṣālat al-barāʾa  
    أصالة البراءة  
    Muḥammad Bāqir b. Muḥammad Muʾmin al-Khurāsānī al-Sabzawārī  
    (d. 1090/1679)
+
+   **Principle Manuscripts**
+    * Malek, Tehran (#2801/8)
 
 1. al-Ijmāʿ  
    الإجماع  
@@ -7252,8 +7974,7 @@
    (d. 1090/1679)
 
    **Principle Manuscripts**
-    * Markaz-i Iḥyāʾ, Qum (#4059), dated 1113/1702
-    * Marʿashī, Qum (#3382/4)
+    * Malek, Tehran (#2801/12)
 
 1. Fawāʾid fī tawqīfiyyat al-aḥkām wa-thubūt al-ḥaqīqa al-sharʿiyya wa-l-ṣaḥīḥ wa-l-aʿamm wa-ghayrihā  
    فوائد في توقيفية الأحكام وثبوت الحقيقة الشرعية والصحيح والأعم وغيرها  
@@ -7269,12 +7990,15 @@
    (d. 1090/1679)
 
    **Principle Manuscripts**
-    * Kāshif al-Ghiṭāʾ, Najaf (#572)
+    * Malek, Tehran (#2801/13), dated 1255/1839
 
 1. al-Qiyās  
    القياس  
    Muḥammad Bāqir b. Muḥammad Muʾmin al-Khurāsānī al-Sabzawārī  
    (d. 1090/1679)
+
+   **Principle Manuscripts**
+    * Malek, Tehran (#2801/7), dated 1255/1839
 
 1. al-Ḥaqq al-mubīn fī kayfiyyat al-tafaqquh fī l-dīn  
    الحق المبين في كيفية التفقه في الدين  
@@ -7343,7 +8067,7 @@
    (d. 1099/1687-8)
 
    **Principle Manuscripts**
-    * Kāshif al-Ghiṭāʾ, Najaf (#572)
+    * Majlis, Tehran (#7377/2)
 
 1. al-Rasāʾil maʿa rasāʾil ukhar  
    الرسائل مع رسائل أخر  
@@ -7359,8 +8083,8 @@
    (d. 1099/1687-8)
 
    **Principle Manuscripts**
-    * Markaz-i Iḥyāʾ, Qum (#4059), dated 1113/1702
-    * Marʿashī, Qum (#3382/4)
+    * University of Tehran, Tehran (#7698/16), dated 13th century/19th century
+    * University of Tehran, Tehran (#4277/9)
 
 1. Muqaddimat al-wājib  
    مقدمة الواجب  
@@ -7368,11 +8092,15 @@
    (d. 1099/1687-8)
 
    **Principle Manuscripts**
-    * Masjid-i Aʿẓam, Qum (#825/14), dated 1235/1819-20
-    * Millī, Tehran (#2088/2), dated 1243/1827-8
-    * AQR, Mashhad (#7381), dated 1260/1844-5
-    * Marʿashī, Qum (#13834/6), dated 1266/1849-50
-    * Markaz-i Iḥyāʾ, Qum (#2731), dated 13th century/19th century
+    * University of Tehran, Tehran (#1938/2), dated 1053/1643
+    * University of Tehran, Tehran (#7016/1), dated 11th century/17th century
+    * Jalīlī, Kermanshah (#316/1), dated 11th century/17th century
+    * Gulpāygānī, Qum (#24/141-4841/1), dated 11th century/17th century
+    * Marʿashī, Qum (#4871/1), dated 11th century/17th century
+
+   **Editions**
+    * *Muqaddimat al-wājib* (Tehran: Dār al-Khilāfa, 1317/1899)
+    * *Muqaddimat al-wājib*, ed. Riḍā al-Ustādī (n.plac., Kungara-yi Āqā Ḥusayn al-Khwānsārī, 1378Sh/1999)
 
 1. al-Khabar wa-anwāʿuh  
    الخبر وأنواعه  
@@ -7422,11 +8150,8 @@
    (d. 1104/1693)
 
    **Principle Manuscripts**
-    * Madrasa-yi Miʿmārbāshī, Tehran (#57/6), dated 1203/1788
-    * ʿUmūmī, Maragheh (#23/16), dated 12th century/18th century
-    * Marʿashī, Qum (#15466/4), dated 1215/1800
-    * Malek, Tehran (#2045/2), dated 1224/1809
-    * Markaz-i Iḥyāʾ, Qum (#1212/5), dated 1227/1812
+    * AQR, Mashhad (#7388)
+    * Malek, Tehran (#548/1)
 
 1. ʿAdam ḥujjiyyat al-barāʾa al-aṣliyya  
    عدم حجية البراءة الأصلية  
@@ -7473,6 +8198,9 @@
    Badr al-Dīn b. Aḥmad al-Anṣārī  
    (d. 11th century/17th century)
 
+   **Principle Manuscripts**
+    * Madrasa-yi Jaʿfariyya, Qaen (#86), dated 1078/1667
+
 1. Wajīza fī taʿyīn ṭarīqat al-akhbāriyyīn wa-l-uṣūliyyīn  
    وجيزة في تعيين طريقة الأخباريين والأصوليين  
    Muḥammad b. Muḥammad Muʾmin al-Gīlānī  
@@ -7486,10 +8214,16 @@
    Aḥmad b. ʿAlī Niẓām al-Dīn al-Gīlānī  
    (d. 11th century/17th century)
 
+   **Principle Manuscripts**
+    * al-Maktaba al-Qādiriyya, Baghdad (#1421/44)
+
 1. al-Ijtihād wa-l-taqlīd  
    الاجتهاد والتقليد  
    Muḥammad b. Muḥammad Muʾmin al-Gīlānī  
    (d. 11th century/17th century)
+
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#12372/4), dated 1103/1691
 
 1. al-Tuḥfa al-ʿazīza  
    التحفة العزيزة  
@@ -7503,6 +8237,11 @@
    دروس الأصول  
    unknown  
    (d. 1099/1699)
+
+   **Principle Manuscripts**
+    * KG, Najaf (#368)
+    * KG, Najaf (#366)
+    * KG, Najaf (#367)
 
 1. al-Hidāya al-jadīda  
    الهداية الجديدة  
@@ -7542,10 +8281,19 @@
    unknown  
    (d. 1099/1699)
 
+   **Principle Manuscripts**
+    * Adabiyyāt, Tehran (#14/6), dated 11th century/17th century
+    * AQR, Mashhad (#12909), dated 1258/1842
+    * Marʿashī, Qum (#11843/4), dated 13th century/19th century
+    * Sipahsālār, Tehran (#904/2)
+
 1. Masāʾil al-uṣūl  
    مسائل الأصول  
    Muḥammad Hādī  
    (d. 11th century/17th century)
+
+   **Principle Manuscripts**
+    * KG, Najaf (#447)
 
 1. Qawāʿid al-uṣūl  
    قواعد الأصول  
@@ -7553,7 +8301,10 @@
    (d. 1099/1699)
 
    **Principle Manuscripts**
-    * AQR, Mashhad (N/A)
+    * Gawharshād, Mashhad (#1679), dated 11th century/17th century
+    * Majlis, Tehran (#857), dated 12th century/18th century
+    * Miftāḥ, Tehran (#195), dated 13th century/19th century
+    * AQR, Mashhad (#28803)
 
 1. al-Wajīza fī uṣūl al-fiqh  
    الوجيزة في أصول الفقه  
@@ -7576,6 +8327,9 @@
    unknown  
    (d. 1099/1699)
 
+   **Principle Manuscripts**
+    * Amīr al-Muʾminīn, Najaf (#45)
+
 1. Furūq al-uṣūl  
    فروق الأصول  
    unknown  
@@ -7589,6 +8343,9 @@
    مسئلة أصولية  
    unknown  
    (d. 1099/1699)
+
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#1198/10), dated 1085/1675
 
 1. Manbaʿ al-ḥayāt fī ḥujjiyyat qawl al-mujtahidīn min al-amwāt  
    منبع الحياة في حجية قول المجتهدين من الأموات  
@@ -7627,8 +8384,8 @@
    (d. 1115/1703-4)
 
    **Principle Manuscripts**
-    * Markaz-i Iḥyāʾ, Qum (#4059), dated 1113/1702
-    * Marʿashī, Qum (#3382/4)
+    * Majlis, Tehran (#3857/1), dated 11th century/17th century
+    * Majlis, Tehran (#14067/1)
 
 1. Mizqa wusṭā  
    مزقة وسطى  
@@ -7653,8 +8410,11 @@
    (d. 1121/1709-10)
 
    **Principle Manuscripts**
-    * Malek, Tehran (#5830/2), dated 1233/1817
-    * Burūjirdī, Qum (#116/11), dated 1316/1898
+    * Majlis, Tehran (#1916/24), dated 1220/1805
+    * AQR, Mashhad (#19107/2), dated 1234/1818
+    * Ilāhiyyāt, Mashhad (#22612/13), dated 1238/1822
+    * Majlis, Tehran (#16056/8), dated 1257/1841
+    * University of Tehran, Tehran (#7707/11), dated 13th century/19th century
 
 1. al-ʿAshara al-kāmila/Lubāb al-ijtihād  
    العشرة الكاملة/لباب الاجتهاد  
@@ -7696,6 +8456,10 @@
    التسامح في أدلة السنن  
    Sulaymān b. ʿAbdallāh al-Baḥrānī  
    (d. 1121/1709-10)
+
+   **Principle Manuscripts**
+    * Fāḍil Khwānsārī, Khwansar (#210/5), dated 1119/1707
+    * KG, Najaf (#7874)
 
 1. Ḥujjiyyat al-ijmāʿ wa-khabar al-wāḥid  
    حجية الإجماع وخبر الواحد  
@@ -7795,10 +8559,16 @@
    Muḥammad ʿAlī b. Abī Ṭālib al-Ḥazīn  
    (d. 1180/1766-7)
 
+   **Principle Manuscripts**
+    * al-ʿAtaba al-ʿAbbāssiyya, Karbala (#450/8)
+
 1. al-Ijtihād  
    الاجتهاد  
    Muḥammad ʿAlī b. Abī Ṭālib al-Ḥazīn  
    (d. 1180/1766-7)
+
+   **Principle Manuscripts**
+    * al-ʿAtaba al-ʿAbbāsiyya, Karbala (#450/9)
 
 1. Jawāb masʾala  
    جواب مسألة  
@@ -7895,9 +8665,6 @@
    Muḥammad Bāqir b. Muḥammad Akmal al-Waḥīd al-Bihbahānī  
    (d. 1205/1791)
 
-   **Principle Manuscripts**
-    * Kāshif al-Ghiṭāʾ, Najaf (#572)
-
 1. al-Uṣūl al-ʿamaliyya/Taʿāruḍ al-uṣūl  
    الأصول العملية/تعارض الأصول  
    Muḥammad Bāqir b. Muḥammad Akmal al-Waḥīd al-Bihbahānī  
@@ -7935,6 +8702,9 @@
    Muḥammad Bāqir b. Muḥammad Akmal al-Waḥīd al-Bihbahānī  
    (d. 1205/1791)
 
+   **Principle Manuscripts**
+    * Imam Jumʿa, Zanjan (#N/A), dated 13th century/19th century
+
 1. Rukniyyat al-juzʾ  
    ركنية الجزء  
    Muḥammad Bāqir b. Muḥammad Akmal al-Waḥīd al-Bihbahānī  
@@ -7948,13 +8718,13 @@
    Muḥammad Bāqir b. Muḥammad Akmal al-Waḥīd al-Bihbahānī  
    (d. 1205/1791)
 
-   **Principle Manuscripts**
-    * AQR, Mashhad (#9282/2), dated 13th century/19th century
-
 1. Rasāʾil  
    رسائل  
    Muḥammad Bāqir b. Muḥammad Akmal al-Waḥīd al-Bihbahānī  
    (d. 1205/1791)
+
+   **Principle Manuscripts**
+    * al-Rawḍa al-Ḥusayniyya, Karbala (#9848/384)
 
 1. al-Adilla al-ʿaqliyya  
    الأدلة العقلية  
@@ -8000,6 +8770,13 @@
    أصالة البراءة  
    Muḥammad Bāqir b. Muḥammad Akmal al-Waḥīd al-Bihbahānī  
    (d. 1205/1791)
+
+   **Principle Manuscripts**
+    * Millī, Tehran (#2324/10), dated 1175-6/1761-2
+    * Ḥuqūq, Tehran (#247/7), dated 1179/1766
+    * Marʿashī, Qum (#14985/10), dated 1189/1775
+    * ʿUmūmī, Maragheh (#23/5), dated 12th century/18th century
+    * AQR, Mashhad (#19779), dated 13th century/19th century
 
 1. al-Fawāʾid al-uṣūliyya  
    الفوائد الأصولية  
@@ -8055,6 +8832,9 @@
    Muḥammad Bāqir b. Muḥammad Akmal al-Waḥīd al-Bihbahānī  
    (d. 1205/1791)
 
+   **Principle Manuscripts**
+    * Amīr al-Muʾminīn, Najaf (#156)
+
 1. al-Fawāʾid al-ḥāʾiriyya al-uṣūliyya al-qadīma  
    الفوائد الحائرية الأصولية القديمة  
    Muḥammad Bāqir b. Muḥammad Akmal al-Waḥīd al-Bihbahānī  
@@ -8089,7 +8869,8 @@
    (d. 1205/1791)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * Khizānat ʿAbd al-Razzāq al-ʿĀmilī al-Kāẓimī, Kazimiyya (#25/5)
+    * Maktabat al-Imām al-Ḥakīm al-ʿĀmma, Najaf (#2620)
 
 1. al-Ḥaqq al-mubīn fī taṣwīb raʾy al-mujtahidīn wa-takhṭiʾat al-akhbāriyyīn  
    الحق المبين في تصويب رأي المجتهدين وتخطئة الأخباريين  
@@ -8097,21 +8878,15 @@
    (d. 1205/1791)
 
    **Principle Manuscripts**
-    * Malek, Tehran (#2439/1), dated 1156-1228/1743-1813
-    * AQR, Mashhad (#9920), dated 1228/1813
-    * Ilāhiyyāt, Tehran (#181/4), dated 1228/1813
-    * Muftī l-Shīʿa, Qum (#27/5), dated 1229/1814
-    * Madrasa-yi Gharb, Hamadan (#1248/2), dated 1233/1818
-
-   **Editions**
-    * *al-Ḥaqq al-mubīn fī taṣwīb raʾy al-mujtahidīn wa-takhṭiʾat al-akhbāriyyīn* (Tehran: n.pub, 1316/1898-9)
-    * *al-Ḥaqq al-mubīn fī taṣwīb raʾy al-mujtahidīn wa-takhṭiʾat al-akhbāriyyīn* (Tehran: n.pub, 1319/1901-2)
-    * *al-Ḥaqq al-mubīn fī taṣwīb raʾy al-mujtahidīn wa-takhṭiʾat al-akhbāriyyīn*, ed. Sayyid Muḥammad Kāẓim al-Rūḥāni (Tehran: Majlis-i Shūrā-yi Islāmī, 1381Sh/2002-3)
+    * Amīr al-Muʾminīn, Najaf (#157)
 
 1. Risāla mutafarrida  
    رسالة متفردة  
    Muḥammad Bāqir b. Muḥammad Akmal al-Waḥīd al-Bihbahānī  
    (d. 1205/1791)
+
+   **Principle Manuscripts**
+    * Jāmiʿat Madīnat al-ʿIlm, Kazimiyya (#7/31/4)
 
 1. Uṣūl al-fiqh  
    أصول الفقه  
@@ -8119,7 +8894,8 @@
    (d. 1205/1791)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * Khizānat ʿAbd al-Razzāq al-ʿĀmilī al-Kāẓimī, Kazimiyya (#27)
+    * Maktabat al-Imām al-Ḥakīm al-ʿĀmma, Najaf (#2919)
 
 1. Wujūb al-ʿilm aw al-ẓann bi-l-aḥkām  
    وجوب العلم أو الظن بالأحكام  
@@ -8142,15 +8918,28 @@
    Muḥammad Bāqir b. Muḥammad Akmal al-Waḥīd al-Bihbahānī  
    (d. 1205/1791)
 
+   **Principle Manuscripts**
+    * Amīr al-Muʾminīn, Najaf (#920)
+
 1. al-Qiyās  
    القياس  
    Muḥammad Bāqir b. Muḥammad Akmal al-Waḥīd al-Bihbahānī  
    (d. 1205/1791)
 
+   **Principle Manuscripts**
+    * Millī, Tehran (#2324/13), dated 1175-6/1761-2
+    * Millī, Tehran (#1904/2), dated 1191/1777
+    * Dāʾirat al-Maʿārif-i Buzurg-i Islāmī, Tehran (#133/1), dated 1196/1781
+    * AQR, Mashhad (#36771), dated 1199/1785
+    * Markaz-i Iḥyāʾ, Qum (#3996/2), dated 12th century/18th century
+
 1. Ḥāshiya uṣūliyya fī masʾalat al-jamʿ  
    حاشية أصولية في مسئلة الجمع  
    Muḥammad Bāqir b. Muḥammad Akmal al-Waḥīd al-Bihbahānī  
    (d. 1205/1791)
+
+   **Principle Manuscripts**
+    * AQR, Kashan (#76/4), dated 1181/1767
 
 1. al-Jamʿ bayn al-akhbār al-mutaʿāriḍa  
    الجمع بين الأخبار المتعارضة  
@@ -8207,6 +8996,13 @@
    Muḥammad Bāqir b. Muḥammad Akmal al-Waḥīd al-Bihbahānī  
    (d. 1205/1791)
 
+   **Principle Manuscripts**
+    * Markaz-i Iḥyāʾ, Qum (#2441/6), dated 12th century/18th century
+    * ʿUmūmī, Maragheh (#23/15), dated 12th century/18th century
+    * Gulpāygānī, Qum (#25/108-5108/14), dated 13th century/19th century
+    * Fayḍiyya, Qum (#1554/4), dated 13th century/19th century
+    * Malek, Tehran (#2996/3), dated 13th century/19th century
+
 1. al-Fawāʾid al-ḥāʾiriyya al-uṣūliyya al-jadīda  
    الفوائد الحائرية الأصولية الجديدة  
    Muḥammad Bāqir b. Muḥammad Akmal al-Waḥīd al-Bihbahānī  
@@ -8260,6 +9056,9 @@
    Muḥammad Bāqir b. Muḥammad Akmal al-Waḥīd al-Bihbahānī  
    (d. 1205/1791)
 
+   **Principle Manuscripts**
+    * KG, Najaf (#1718)
+
 1. Aṣālat al-ṣiḥḥa wa-l-fasād fī l-muʿāmalāt  
    أصالة الصحة والفساد في المعاملات  
    Muḥammad Bāqir b. Muḥammad Akmal al-Waḥīd al-Bihbahānī  
@@ -8279,6 +9078,9 @@
    أصالة الفساد  
    Muḥammad Bāqir b. Muḥammad Akmal al-Waḥīd al-Bihbahānī  
    (d. 1205/1791)
+
+   **Principle Manuscripts**
+    * University of Tehran, Tehran (#1690/5)
 
 1. Ḍābiṭ al-shubha al-maḥṣūra wa-ghayrihā  
    ضابط الشبهة المحصورة وغيرها  
@@ -8353,19 +9155,24 @@
    Mahdī b. Abī Dharr al-Narāqī  
    (d. 1209/1795)
 
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#4165/4), dated 1286-8/1869-71
+
 1. al-Ijmāʿ  
    الإجماع  
    Mahdī b. Abī Dharr al-Narāqī  
    (d. 1209/1795)
 
    **Principle Manuscripts**
-    * Markaz-i Iḥyāʾ, Qum (#4059), dated 1113/1702
-    * Marʿashī, Qum (#3382/4)
+    * Jaʿfarī, Kashan (#72/1)
 
 1. al-Barāʾa  
    البراءة  
    Mahdī b. Abī Dharr al-Narāqī  
    (d. 1209/1795)
+
+   **Principle Manuscripts**
+    * Amīr al-Muʾminīn, Najaf (#2)
 
 1. al-Ṣaḥīḥ wa-l-aʿamm  
    الصحيح والأعم  
@@ -8373,13 +9180,15 @@
    (d. *c.* 1212/1797)
 
    **Principle Manuscripts**
-    * Masjid-i Aʿẓam, Qum (#798/16), dated 1218/1803
-    * Gawharshād, Mashhad (#2264/7)
+    * Majlis, Tehran (#1233), dated 1231/1815
 
 1. Risāla uṣūliyya  
    رسالة أصولية  
    Muḥammad Mahdī b. Murtaḍā Baḥr al-ʿUlūm  
    (d. 1212/1797)
+
+   **Principle Manuscripts**
+    * University of Tehran, Tehran (#7254/5), dated 1243/1827
 
 1. Inqisām ʿulamāʾ al-imāmiyya ilā l-akhbāriyyīn wa-l-uṣūliyyīn  
    انقسام علماء الإمامية إلى الأخباريين والأصوليين  
@@ -8393,6 +9202,9 @@
    رسائل  
    Muḥammad Mahdī b. Murtaḍā Baḥr al-ʿUlūm  
    (d. 1212/1797)
+
+   **Principle Manuscripts**
+    * KG, Najaf (#2030)
 
 1. Durrat al-durra al-gharawiyya  
    درة الدرة الغروية  
@@ -8444,8 +9256,8 @@
    (d. 1212/1797)
 
    **Principle Manuscripts**
-    * Masjid-i Aʿẓam, Qum (#798/16), dated 1218/1803
-    * Gawharshād, Mashhad (#2264/7)
+    * Malek, Tehran (#2598/10), dated 1250/1834
+    * Markaz-i Iḥyāʾ, Qum (#1212/3)
 
 1. al-Risāla al-shubahātiyya  
    الرسالة الشبهاتية  
@@ -8459,6 +9271,9 @@
    أصولية  
    Muḥammad b. ʿAlī al-Muqābī al-Baḥrānī  
    (d. 12th century/18th century)
+
+   **Principle Manuscripts**
+    * Dāʾirat al-Maʿārif-i Buzurg-i Islāmī, Tehran (#2132/2), dated 1212/1797
 
 1. al-Ijtihād min lisān al-khawāṣṣ  
    الاجتهاد من لسان الخواص  
@@ -8571,7 +9386,7 @@
    (d. 12th century/18th century)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * Millī, Tehran (#2882/3), dated 13th century/19th century
 
 1. Ithbāt al-ḥusn wa-l-qubḥ al-ʿaqliyyayn  
    إثبات الحسن والقبح العقليين  
@@ -8587,7 +9402,7 @@
    (d. 12th century/18th century)
 
    **Principle Manuscripts**
-    * AQR, Mashhad (#27436), dated 1285/1868
+    * Majlis, Tehran (#9515/1), dated 1116/1704
 
 1. al-Lawāmiʿ al-Muḥammadiyya  
    اللوامع المحمدية  
@@ -8603,8 +9418,7 @@
    (d. 12th century/18th century)
 
    **Principle Manuscripts**
-    * Markaz-i Iḥyāʾ, Qum (#4059), dated 1113/1702
-    * Marʿashī, Qum (#3382/4)
+    * Markaz-i Iḥyāʾ, Qum (#1148/4), dated 1124/1712
 
 1. Majāmiʿ al-ḥaqāʾiq  
    مجامع الحقائق  
@@ -8676,16 +9490,14 @@
    (d. 1216/1802)
 
    **Principle Manuscripts**
-    * Masjid-i Aʿẓam, Qum (#798/16), dated 1218/1803
-    * Gawharshād, Mashhad (#2264/7)
+    * Amīr al-Muʾminīn, Najaf (#78), dated 1219/1804
+    * Malek, Tehran (#2439/8), dated 1234/1818
+    * AQR, Mashhad (#11423/2), dated 1280/1863
 
 1. ʿAdam ḥujjiyyat al-ʿaql fī l-furūʿ  
    عدم حجية العقل في الفروع  
    Mīr ʿAbd al-Ṣamad al-Ḥusaynī al-Hamadānī  
    (d. 1216/1802)
-
-   **Principle Manuscripts**
-    * Namāzī, Khoei (#848/7), dated 1201/1786
 
 1. Ḥujjiyyat al-shuhra  
    حجية الشهرة  
@@ -8693,11 +9505,7 @@
    (d. 1217-18/1802-03)
 
    **Principle Manuscripts**
-    * Namāzī, Khoei (#848/2), dated 1202/1787
-    * Markaz-i Iḥyāʾ, Qum (#1567/2), dated 1202/1788
-    * Saryazdī, Yazd (#28/8), dated 1203/1788
-    * ʿAllāma Fānī, Isfahan (#13/1), dated 1216/1802
-    * Millī, Tehran (#1868/9), dated 1222/1807
+    * Malek, Tehran (#2045/3), dated 1224/1809
 
 1. al-Waḍʿiyya  
    الوضعية  
@@ -8731,7 +9539,7 @@
    (d. 1216/1802)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * Imām Jumʿa, Hamadan (#N/A)
 
 1. Takhṣīṣ ʿumūm al-kitāb bi-l-khabar al-wāḥid  
    تخصيص عموم الكتاب بالخبر الواحد  
@@ -8793,7 +9601,7 @@
    (d. 1227/1812)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * Jāmiʿat Madīnat al-ʿIlm, Kazimiyya (#7/17)
 
 1. Wasāʾil al-shīʿa ilā aḥkām al-sharīʿa  
    وسائل الشيعة إلى أحكام الشريعة  
@@ -8859,18 +9667,24 @@
    al-Mīrzā Abū l-Qāsim b. Muḥammad al-Ḥasan al-Shaftī al-Qummī  
    (d. 1231/1816)
 
+   **Principle Manuscripts**
+    * Kitābkhāna-yi Ḥujjat al-Islām Gulpāygānī, Gulpaygan (#111/2), dated 1239/1823
+
 1. al-Adilla al-ʿaqliyya  
    الأدلة العقلية  
    al-Mīrzā Abū l-Qāsim b. Muḥammad al-Ḥasan al-Shaftī al-Qummī  
    (d. 1231/1816)
 
    **Principle Manuscripts**
-    * Gulpāygānī, Qum (#14/129-2679/1)
+    * al-Madrasa al-Shubbariyya, Najaf (#3)
 
 1. al-Taʿāruḍ  
    التعارض  
    al-Sayyid ʿAlī al-Ṭabāṭabāʾī Ṣāḥib al-Riyāḍ  
    (d. 1231/1816)
+
+   **Principle Manuscripts**
+    * Amīr al-Muʾminīn, Najaf (#66)
 
 1. Masāʾil-i fiqhī wa uṣūlī  
    مسائل فقهى و اصولى  
@@ -8894,12 +9708,15 @@
    (d. 1231/1816)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * Maktabat al-Imām al-Ḥakīm al-ʿĀmma, Najaf (#2677)
 
 1. Aṣālat al-barāʾa  
    أصالة البراءة  
    al-Sayyid ʿAlī al-Ṭabāṭabāʾī Ṣāḥib al-Riyāḍ  
    (d. 1231/1816)
+
+   **Principle Manuscripts**
+    * Fayḍiyya, Qum (#817/9), dated 1232/1816
 
 1. al-Ṣiḥḥa wa-l-fasād  
    الصحة والفساد  
@@ -8913,6 +9730,9 @@
    الرسالة الشهرتية  
    al-Sayyid ʿAlī al-Ṭabāṭabāʾī Ṣāḥib al-Riyāḍ  
    (d. 1231/1816)
+
+   **Principle Manuscripts**
+    * al-Rawḍa al-Ḥusayniyya, Karbala (#10057/808/1)
 
 1. Ḥujjiyyat al-adilla al-arbaʿa wa-khiṭāb al-mushāfaha  
    حجية الأدلة الأربعة وخطاب المشافهة  
@@ -8951,6 +9771,13 @@
    al-Sayyid ʿAlī al-Ṭabāṭabāʾī Ṣāḥib al-Riyāḍ  
    (d. 1231/1816)
 
+   **Principle Manuscripts**
+    * Madrasa-yi Sulṭānī, Kashan (#189), dated 1233-34/1817-19
+    * University of Tehran, Tehran (#2812/9)
+    * Amīr al-Muʾminīn, Najaf (#108)
+    * Maktabat al-Imām al-Ḥakīm al-ʿĀmma, Najaf (#2677)
+    * Maktabat al-Imām al-Ḥakīm al-ʿĀmma, Najaf (#1540)
+
 1. Ḥujjiyyat al-mafhūm bi-l-awlawiyya/al-Qiyās bi-l-awlawiyya  
    حجية المفهوم بالأولوية/القياس بالأولوية  
    al-Sayyid ʿAlī al-Ṭabāṭabāʾī Ṣāḥib al-Riyāḍ  
@@ -8983,10 +9810,17 @@
    al-Sayyid ʿAlī al-Ṭabāṭabāʾī Ṣāḥib al-Riyāḍ  
    (d. 1231/1816)
 
+   **Principle Manuscripts**
+    * Wazīrī, Yazd (#2037/4), dated 1239/1823
+    * Masjid-i Aʿẓam, Qum (#297/4)
+
 1. al-Ṣiḥḥa fī l-muʿāmalāt  
    الصحة في المعاملات  
    al-Sayyid ʿAlī al-Ṭabāṭabāʾī Ṣāḥib al-Riyāḍ  
    (d. 1231/1816)
+
+   **Principle Manuscripts**
+    * KG, Najaf (#1648)
 
 1. Ḥujjiyyat al-shuhra  
    حجية الشهرة  
@@ -8994,16 +9828,26 @@
    (d. 1231/1816)
 
    **Principle Manuscripts**
+    * Markaz-i Iḥyāʾ, Qum (#1567/2), dated 1201/1787
     * Namāzī, Khoei (#848/2), dated 1202/1787
-    * Markaz-i Iḥyāʾ, Qum (#1567/2), dated 1202/1788
     * Saryazdī, Yazd (#28/8), dated 1203/1788
     * ʿAllāma Fānī, Isfahan (#13/1), dated 1216/1802
     * Millī, Tehran (#1868/9), dated 1222/1807
+
+   **Editions**
+    * *Ḥujjiyyat al-shuhra*, ed. Muḥammad Bāqirī (Tehran: Kitābkhāna-yi Majlis-i Shūrā-yi Islāmī, 1381Sh/2002)
+    * *Ḥujjiyyat al-shuhra*, ed. ʿAlī al-Fāḍilī (Qum: al-Maktba al-Mukhtaṣṣa bi-l-fiqh wa-l-uṣūl, 1385Sh/2007)
 
 1. al-Tasāmuḥ fī adillat al-sunan  
    التسامح في أدلة السنن  
    al-Mīrzā Abū l-Qāsim b. Muḥammad al-Ḥasan al-Shaftī al-Qummī  
    (d. 1231/1816)
+
+   **Principle Manuscripts**
+    * Ḥusayniyya-yi Shūshtarīhā, Najaf (#426/11), dated 1217/1802
+    * AQR, Mashhad (#19846), dated 1239/1823
+    * Gulpāygānī, Qum (#34/115-6745/11), dated 1261/1845
+    * Millī, Tehran (#2047/6), dated 1237/1856
 
 1. Gharr al-hudā  
    غر الهدى  
@@ -9055,9 +9899,6 @@
    Jamāl al-Dīn b. ʿAbd al-Nabī b. ʿAbd al-Ṣāniʿ al-Nayshābūrī al-Astarābādī  
    (d. 1232 or 1233/1817 or 1818)
 
-   **Principle Manuscripts**
-    * Marʿashī, Qum (#6623/2), dated 1232/1817
-
 1. Murāsalāt fī l-uṣūl  
    مراسلات في الأصول  
    Jamāl al-Dīn b. ʿAbd al-Nabī b. ʿAbd al-Ṣāniʿ al-Nayshābūrī al-Astarābādī  
@@ -9072,8 +9913,7 @@
    (d. 1232 or 1233/1817 or 1818)
 
    **Principle Manuscripts**
-    * Markaz-i Iḥyāʾ, Qum (#4059), dated 1113/1702
-    * Marʿashī, Qum (#3382/4)
+    * Marʿashī, Qum (#12040/2), dated 13th century/19th century
 
 1. al-Qaswara  
    القسورة  
@@ -9101,7 +9941,7 @@
    (d. 1232 or 1233/1817 or 1818)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * Fayḍiyya, Qum (#48)
 
 1. al-Bunyān al-marṣūṣ bi-l-barāhīn wa-l-nuṣūṣ  
    البنيان المرصوص بالبراهين والنصوص  
@@ -9174,7 +10014,9 @@
    (d. 1234 or 1237/1818-9 or 1821-2)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * Majlis, Tehran (#2/400), dated 1281/1864-5
+    * al-Rawḍa al-Ḥusayniyya, Karbala (#749)
+    * al-Rawḍa al-Ḥusayniyya, Karbala (#9067-751)
 
 1. Qabsat al-ʿajūl wa-munabbihat al-fuḥūl  
    قبسة العجول ومنبهة الفحول  
@@ -9197,13 +10039,16 @@
    (d. 1234 or 1237/1818-9 or 1821-2)
 
    **Principle Manuscripts**
-    * Markaz-i Iḥyāʾ, Qum (#4059), dated 1113/1702
-    * Marʿashī, Qum (#3382/4)
+    * Mīrza Ḥasan Maḥmūdābādī, Yazd (#32/2)
+    * Wazīrī, Yazd (#2037/9)
 
 1. al-Takhṭiʾa wa-l-taṣwīb  
    التخطئة والتصويب  
    Asadallāh b. Ismāʿīl al-Dizfūlī al-Kāẓimī  
    (d. 1234 or 1237/1818-9 or 1821-2)
+
+   **Principle Manuscripts**
+    * Markaz-i Iḥyāʾ, Qum (#4342/1), dated 13th century/19th century
 
 1. al-Mīzān li-maʿrifat al-furqān  
    الميزان لمعرفة الفرقان  
@@ -9236,8 +10081,7 @@
    (d. 1232 or 1233/1817 or 1818)
 
    **Principle Manuscripts**
-    * Malek, Tehran (#5830/2), dated 1233/1817
-    * Burūjirdī, Qum (#116/11), dated 1316/1898
+    * Majlis, Tehran (#1916/28), dated 1220/1805
 
 1. Qabsat al-ʿajūl wa-munabbihat al-fuḥūl  
    قبسة العجول ومنبهة الفحول  
@@ -9245,14 +10089,8 @@
    (d. 1232 or 1233/1817 or 1818)
 
    **Principle Manuscripts**
-    * Millī, Shiraz (#749/4), dated 1215/1800
-    * Majlis, Tehran (#8744/6), dated 1217/1802
-    * Madrasa-yi Gharb, Hamadan (#504/8), dated 1222/1807
-    * Gulpāygānī, Qum (#8/20-1310/5), dated 1233/1817
-    * AQR, Mashhad (#32215), dated 1233/1817
-
-   **Editions**
-    * *Qabsat al-ʿajūl wa-munabbihat al-fuḥūl*, ed. Abū l-Ḥasan ʿAlī b. Jaʿfar b. Makkī Āl Jassās (n.pla.: n.pub., 1437/2016)
+    * University of Tehran, Tehran (#922/16), dated 13th century/19th century
+    * Majlis, Tehran (#2904/6), dated 1334/1915
 
 1. Izāḥa wa-irāḥa  
    إزاحة وإراحة  
@@ -9311,7 +10149,7 @@
    (d. 1232 or 1233/1817 or 1818)
 
    **Principle Manuscripts**
-    * Majlis, Tehran (#6791/5), dated 1229/1814
+    * Majlis, Tehran (#8744/2)
 
 1. Ṣuwar al-tawaqquf wa-l-iḥtiyāṭ ʿind al-ishtibāh fī l-aḥkām  
    صور التوقف والاحتياط عند الاشتباه في الأحكام  
@@ -9387,7 +10225,7 @@
    (d. 1240/1824-5)
 
    **Principle Manuscripts**
-    * Kāshif al-Ghiṭāʾ, Najaf (#572)
+    * Miftāḥ, Tehran (#186/4), dated 1189/1775
 
 1. Risāla fī uṣūl al-fiqh  
    رسالة في أصول الفقه  
@@ -9448,10 +10286,24 @@
    ʿAbd al-Ḥusayn b. Muḥammad Bāqir al-Bihbahānī  
    (d. 1240/1824-5)
 
+   **Principle Manuscripts**
+    * University of Tehran, Tehran (#8597/10), dated 1240/1824-25
+
 1. al-Ijtihād wa-l-taqlīd  
    الاجتهاد والتقليد  
    Aḥmad b. Zayn al-Dīn al-Aḥsāʾī  
    (d. 1241/1826)
+
+   **Principle Manuscripts**
+    * Dāʾirat al-Maʿārif, Tehran (#2111/7), dated 1234/1818
+    * Gawharshād, Mashhad (#2241/3), dated 1240/1824
+    * Dāʾirat al-Maʿārif, Tehran (#453/6), dated 1297/1880
+    * Dāʾirat al-Maʿārif, Tehran (#1735/3), dated 13th century/19th century
+    * Markaz-i Iḥyāʾ, Qum (#2206/15), dated 13th century/19th century
+
+   **Editions**
+    * *al-Ijtihād wa-l-taqlīd* (Tabriz: n.pub, 1272/1856-57)
+    * *al-Ijtihād wa-l-taqlīd* (Qum: Daftar-i kungara-yi buzurgdāsht-i Muqaddas Ardabīlī, 1375Sh/1996-97)
 
 1. Taqlīd al-muftiyyīn/Jawāb al-Shaykh Muḥammad Kāẓim  
    تقليد المفتيين/جواب الشيخ محمد كاظم  
@@ -9492,6 +10344,9 @@
    حجية العقل  
    ʿAbdallāh b. Muḥammad Riḍā al-Shubbar  
    (d. 1242/1826-7)
+
+   **Principle Manuscripts**
+    * Majlis, Tehran (#17946)
 
 1. al-Ijmāʿiyya/Risāla fī l-ijmāʿ  
    الإجماعية/رسالة في الإجماع  
@@ -9555,7 +10410,11 @@
    (d. 1242/1827)
 
    **Principle Manuscripts**
-    * Kāshif al-Ghiṭāʾ, Najaf (#572)
+    * Millī, Tehran (#1868/11), dated 1222/1807-8
+    * AQR, Mashhad (#14296/2), dated 1243/1828
+    * Marʿashī, Qum (#14657/14), dated 13th century/19th century
+    * AQR, Mashhad (#29355), dated 13th century/19th century
+    * Diyānī, Birjand (#165), dated 13th century/19th century
 
 1. Ḥujjiyyat al-ẓann  
    حجية الظن  
@@ -9592,13 +10451,20 @@
    Muḥammad b. ʿAlī al-Ṭabāṭabāʾī  
    (d. 13 Jumādā II 1242/12 January 1827)
 
+   **Principle Manuscripts**
+    * Dihqān, Arak (#119/4), dated 1231/1816
+    * Marʿashī, Qum (#15504/17), dated 1234/1818
+    * AQR, Mashhad (#7307), dated 1234/1818
+    * AQR, Mashhad (#13066/2), dated 1234/1818
+    * Madrasa-yi Sulṭāniyya, Kashan (#155/2), dated 1234/1819
+
 1. Taqlīd wa ijtihād  
    تقليد و اجتهاد  
    Muḥammad b. ʿAlī al-Ṭabāṭabāʾī  
    (d. 1242/1827)
 
    **Principle Manuscripts**
-    * Majlis, Tehran (#15354/1), dated 1242/1826
+    * Majlis, Tehran (#16354/1), dated 1242/1826
     * Masjid-i Aʿẓam, Qum (#935/2)
 
 1. al-Tasāmuḥ fī adillat al-sunan  
@@ -9610,6 +10476,9 @@
    الاجتهاد والتقليد  
    Muḥammad b. ʿAlī al-Ṭabāṭabāʾī  
    (d. 1242/1827)
+
+   **Principle Manuscripts**
+    * Madrasa-yi Raḍawiyya, Qum (#77/2), dated 13th century/19th century
 
 1. ʿAyn al-uṣūl  
    عين الأصول  
@@ -9629,23 +10498,16 @@
    (d. 1245/1829)
 
    **Principle Manuscripts**
-    * Marʿashī, Qum (#9644/3), dated 1225/1810
-    * AQR, Mashhad (#7241), dated 1226/1811
-    * Majlis, Tehran (#1233), dated 1231/1815
-    * Masjid-i Aʿẓam, Qum (#825/10), dated 1234/1818
-    * Gulpāygānī, Qum (#13/59-2379/5), dated 1233/1818
+    * Marʿashī, Qum (#4510/1), dated 1253/1837
+    * Gawharshād, Mashhad (#327/7)
+    * Malek, Tehran (#2045/1), dated 1224/1809
+    * Gawharshād, Mashhad (#2264/8), dated 13th century/19th century
+    * Marʿashī, Qum (#12929/10), dated 13th century/19th century
 
 1. Mabāḥith al-alfāẓ  
    مباحث الألفاظ  
    Aḥmad b. Muḥammad Mahdī al-Narāqī  
    (d. 1245/1829)
-
-   **Principle Manuscripts**
-    * Marʿashī, Qum (#16303/18), dated 1241/1825-6
-    * Dāʾirat al-Maʿārif, Tehran (#1997/4)
-    * Marʿashī, Qum (#12109/5), dated 13th century/19th century
-    * AQR, Mashhad (#32051), dated 13th century/19th century
-    * Marʿashī, Qum (#16303/19), dated 13th century/19th century
 
 1. Ḥujjiyyat al-ẓann al-khāṣṣ  
    حجية الظن الخاص  
@@ -9662,13 +10524,13 @@
    Aḥmad b. Muḥammad Mahdī al-Narāqī  
    (d. 1245/1829)
 
-   **Principle Manuscripts**
-    * Zanjānī, Qum (#79/1), dated 1233/1817
-
 1. Aṣālat al-barāʾa  
    أصالة البراءة  
    Muḥammad Rafīʿ b. Rafīʿ al-Gīlānī  
    (d. 1245/1829-30)
+
+   **Principle Manuscripts**
+    * AQR, Mashhad (#7389), dated 1090/1679-80
 
 1. Muqaddimat al-wājib  
    مقدمة الواجب  
@@ -9686,6 +10548,9 @@
    النسخ  
    Muḥammad Sharīf b. Ḥasan ʿAlī al-Āmulī al-Māzandarānī al-Ḥāʾirī  
    (d. 1245 or 1246/1829 or 1830)
+
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#13/2)
 
 1. Jawāz al-amr maʿa al-ʿilm bi-intifāʾ al-sharṭ wa-ʿadamih  
    جواز الأمر مع العلم بانتفاء الشرط وعدمه  
@@ -9734,10 +10599,16 @@
    ʿAlī b. Jaʿfar Āl Kāshif al-Ghiṭāʾ  
    (d. 1253/1837)
 
+   **Principle Manuscripts**
+    * Majlis, Tehran (#1221/3), dated 1305/1887-8
+
 1. al-Tasāmuḥ fī adillat al-sunan  
    التسامح في أدلة السنن  
    Muḥammad b. Maʿṣūm al-Raḍawī  
    (d. 1255/1839-40)
+
+   **Principle Manuscripts**
+    * AQR, Mashhad (#9804), dated 1215/1800
 
 1. Faṣl al-khiṭāb fī ḥujjiyyat ẓawāhir al-kitāb  
    فصل الخطاب في حجية ظواهر الكتاب  
@@ -9775,13 +10646,23 @@
    Muḥammad Jaʿfar b. Muḥammad ʿAlī al-Bihbahānī  
    (d. 1259/1843-4)
 
-   **Commentaries**
-    * *Anīs al-ṭullāb*, Muḥammad Jaʿfar b. Muḥammad ʿAlī al-Bihbahānī (d. 1259/1843-4)
+   **Principle Manuscripts**
+    * Zanjānī, Qum (#26), dated 1233/1817
+    * Majlis, Tehran (#13175), dated 1235/1820
+    * Nujūmī, Kermanshah (#N/A), dated 1246/1830
+    * Majlis, Tehran (#1028), dated 13th century/19th century
+    * AQR, Mashhad (#33043), dated 13th century/19th century
 
 1. al-Adilla al-arbaʿa  
    الأدلة الأربعة  
    Kāẓim b. Qāsim al-Rashtī  
    (d. 1259/1843)
+
+   **Principle Manuscripts**
+    * University of Tehran, Tehran (#4703/9), dated 1247/1831-2
+    * Dāʾirat al-Maʿārif, Tehran (#2100/8 photocopy), dated 1273/1856-7
+    * AQR, Mashhad (#22580), dated 13th century/19th century
+    * Ḥujjatiyya, Qum (#715/4)
 
 1. Ḥujjiyyat al-ẓann wa-ḥukm Allāh  
    حجية الظن وحكم الله  
@@ -9853,7 +10734,7 @@
    (d. 1260/1844-5)
 
    **Principle Manuscripts**
-    * Kāshif al-Ghiṭāʾ, Najaf (#572)
+    * Fayḍiyya, Qum (#1290/9)
 
 1. Rasāʾil uṣūliyya  
    رسائل أصولية  
@@ -9866,8 +10747,7 @@
    (d. 1261/1845)
 
    **Principle Manuscripts**
-    * Masjid-i Aʿẓam, Qum (#798/16), dated 1218/1803
-    * Gawharshād, Mashhad (#2264/7)
+    * Markaz-i Iḥyāʾ, Qum (#1133/2), dated 13th century/19th century
 
 1. Mawāʾid al-ʿawāʾid fī bayān al-qawāʿid wa-l-fawāʾid  
    موائد العوائد في بيان القواعد والفوائد  
@@ -9887,8 +10767,7 @@
    (d. *c.* 1262/1845-6)
 
    **Principle Manuscripts**
-    * Markaz-i Iḥyāʾ, Qum (#4059), dated 1113/1702
-    * Marʿashī, Qum (#3382/4)
+    * Shāh Chirāg, Shiraz (#832/11)
 
 1. al-Aḥkām al-waḍʿiyya wa-l-taklīfiyya  
    الأحكام الوضعية والتكليفية  
@@ -9924,6 +10803,9 @@
    Ibrāhīm b. Muḥammad Bāqir al-Qazwīnī  
    (d. *c.* 1262/1845-6)
 
+   **Principle Manuscripts**
+    * Fayḍiyya, Qum (#1135)
+
 1. Rasāʾil uṣūliyya  
    رسائل أصولية  
    Muḥammad Jaʿfar b. Sayf al-Dīn al-Astarābādī  
@@ -9954,6 +10836,9 @@
    Muḥammad Jaʿfar b. Sayf al-Dīn al-Astarābādī  
    (d. 1263/1846-7)
 
+   **Principle Manuscripts**
+    * Sipahsālār, Tehran (#6252/2), dated 13th century/19th century
+
 1. al-Awāmir  
    الأوامر  
    Ibrāhīm b. Muḥammad Bāqir al-Qazwīnī  
@@ -9975,6 +10860,10 @@
    Muḥammad b. Ṣāliḥ al-ʿĀmilī al-Iṣfahānī  
    (d. 1263/1846-7)
 
+   **Principle Manuscripts**
+    * Imām Ṣādiq, Qum (#38/4), dated 1247/1832
+    * Marʿashī, Qum (#3724/3), dated 1249/1834
+
 1. Tanbīhāt  
    تنبيهات  
    ʿAlī Akbar b. ʿAlī al-Basmal al-Shīrāzī  
@@ -9990,6 +10879,9 @@
    فرائد الأصول  
    Muḥammad Ḥasan b. Muḥammad Taqī al-Khwājūʾī  
    (d. 1263/1846-7)
+
+   **Principle Manuscripts**
+    * Markaz-i Iḥyāʾ, Qum (#3944), dated 1250/1834-5
 
 1. al-Awāmir wa-l-nawāhī  
    الأوامر والنواهي  
@@ -10016,6 +10908,11 @@
    حجية المظنة  
    Muḥammad Taqī b. Abī Ṭālib al-Yazdī  
    (d. 1267/1850-1)
+
+   **Principle Manuscripts**
+    * University of Tehran, Tehran (#1687/6), dated 1232/1816-7
+    * University of Tehran, Tehran (#900/2)
+    * Majlis, Tehran (#344/2), dated 13th century/19th century
 
 1. al-Baqāʾ ʿalā taqlīd al-mayyit  
    البقاء على تقليد الميت  
@@ -10072,11 +10969,7 @@
    (d. 1269/1852-3)
 
    **Principle Manuscripts**
-    * Marʿashī, Qum (#16303/18), dated 1241/1825-6
-    * Dāʾirat al-Maʿārif, Tehran (#1997/4)
-    * Marʿashī, Qum (#12109/5), dated 13th century/19th century
-    * AQR, Mashhad (#32051), dated 13th century/19th century
-    * Marʿashī, Qum (#16303/19), dated 13th century/19th century
+    * AQR, Mashhad (#32222), dated 13th century/19th century
 
 1. Kāshif al-qināʿ ʿan ḥujjiyyat al-ijmāʿ  
    كاشف القناع عن حجية الإجماع  
@@ -10117,6 +11010,9 @@
    ʿAlī Akbar b. Ibrāhīm al-Khwānsārī  
    (d. 1271/1854-5)
 
+   **Principle Manuscripts**
+    * Gulpāygānī, Qum (#18/146-3626/4), dated 1256/1841
+
 1. al-Tajazzī fī l-ijtihād  
    التجزي في الاجتهاد  
    Sayyid al-ʿUlamāʾ al-Sayyid Ḥusayn  
@@ -10132,21 +11028,24 @@
    Ḥasan b. ʿAlī al-Ḥusaynī al-Mudarris  
    (d. 1273/1856-7)
 
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#4165/3)
+
 1. Risāla fī uṣūl al-fiqh  
    رسالة في أصول الفقه  
    Muḥammad Kāẓim b. Muḥammad Ṣādiq al-Iṣfahānī  
    (d. 1273/1856-7)
 
    **Principle Manuscripts**
-    * Majlis, Tehran (#260/1), dated 1233/1818
-
-   **Commentaries**
-    * *Ḥāshiyat Risāla fī uṣūl al-fiqh*, Muḥammad Ḥusayn b. Yaḥyā al-Nūrī (d. 12th century/18th century)
+    * Dihgān, Arak (#43/3), dated 1264/1848-9
 
 1. Aṣālat al-barāʾa  
    أصالة البراءة  
    Ḥasan b. ʿAlī al-Ḥusaynī al-Mudarris  
    (d. 1273/1856-7)
+
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#4165/2)
 
 1. al-Ṭalʿ al-naḍīd wa-l-nūr al-jadīd  
    الطلع النضيد و النور الجديد  
@@ -10170,7 +11069,7 @@
    (d. 1278/1862)
 
    **Principle Manuscripts**
-    * Kāshif al-Ghiṭāʾ, Najaf (#572)
+    * Maktabat al-Imām Amīr al-Muʾminīn al-ʿĀmma, Najaf (#258)
 
 1. Risāla fī uṣūl al-fiqh  
    رسالة في أصول الفقه  
@@ -10178,30 +11077,43 @@
    (d. 1281/1864)
 
    **Principle Manuscripts**
-    * Majlis, Tehran (#260/1), dated 1233/1818
-
-   **Commentaries**
-    * *Ḥāshiyat Risāla fī uṣūl al-fiqh*, Muḥammad Ḥusayn b. Yaḥyā al-Nūrī (d. 12th century/18th century)
+    * KG, Najaf (#539)
 
 1. Tabaddul raʾy al-mujtahid  
    تبدل رأي المجتهد  
    Murtaḍā b. Muḥammad Amīn  
    (d. 1281/1864)
 
+   **Principle Manuscripts**
+    * Majlis, Tehran (#11484/10), dated c. 1301/1883
+
 1. al-Ijtihād wa-l-taqlīd  
    الاجتهاد والتقليد  
    Murtaḍā b. Muḥammad Amīn  
    (d. 1281/1864)
+
+   **Principle Manuscripts**
+    * Madrasat Āyatullāh al-Burūjirdī, Najaf (#45/1), dated Rajab 1284/1867
+    * Muftī l-Shīʿa, Qum (#60/1)
 
 1. Ḥujjiyyat al-ẓann  
    حجية الظن  
    Murtaḍā b. Muḥammad Amīn  
    (d. 1281/1864)
 
+   **Principle Manuscripts**
+    * Sipahsālār, Tehran (#6211), dated 1257/1841
+
+   **Commentaries**
+    * *Sharḥ Ḥujjiyyat al-ẓann*, ʿAlī al-Khūʾī (d. 1309/1891)
+
 1. Tadākhul al-asbāb wa-l-musabbibāt  
    تداخل الأسباب والمسببات  
    Murtaḍā b. Muḥammad Amīn  
    (d. 1281/1864)
+
+   **Principle Manuscripts**
+    * Majlis, Tehran (#11484/3), dated c. 1301/1883
 
 1. al-Mushtaqq  
    المشتق  
@@ -10209,13 +11121,18 @@
    (d. 1281/1864)
 
    **Principle Manuscripts**
-    * Ḥuqūq, Tehran (#206), dated 1316/1898-9
-    * Gawharshād, Mashhad (#2053/1)
+    * AQR, Mashhad (#24236), dated 1299/1882
+    * Maʿṣūmiyya, Qum (#693/7), dated 1313/1895-6
+    * Maʿṣūmiyya, Qum (#693/8), dated 1313/1895-6
 
 1. Ḥujjiyyat al-kitāb  
    حجية الكتاب  
    Murtaḍā b. Muḥammad Amīn  
    (d. 1281/1864)
+
+   **Principle Manuscripts**
+    * Sayyid Muḥammad Nabawī, Dezful (#NA), dated 1316/1898-9
+    * Majlis, Tehran (#1219/1)
 
 1. Istintāj ḥujjiyyat al-ẓann al-iṭmiʾnānī  
    استنتاج حجية الظن الاطمئناني  
@@ -10238,6 +11155,13 @@
    Murtaḍā b. Muḥammad Amīn  
    (d. 1281/1864)
 
+   **Principle Manuscripts**
+    * Malek, Tehran (#5859/53), dated 1294/1877
+    * AQR, Mashhad (#8843), dated 1299/1882
+    * Majlis, Tehran (#687/2), dated c. 1299 or 1300/1882 or 1883
+    * Gawharshād, Mashhad (#1934/3), dated 1299/1882
+    * Madrasa-yi Gharb, Hamadan (#10129), dated 17 Muḥarram 1294/1 February 1877
+
 1. Ḥukm zawāl al-iʿtiqād lil-qaṭʿī al-mujtahid  
    حكم زوال الاعتقاد للقطعي المجتهد  
    Murtaḍā b. Muḥammad Amīn  
@@ -10252,27 +11176,45 @@
    (d. 1281/1864)
 
    **Principle Manuscripts**
-    * Kāshif al-Ghiṭāʾ, Najaf (#572)
+    * Maktabat al-Imām al-Ḥakīm al-ʿĀmma, Najaf (#1923/1), dated 25 Shaʿbān 1269/2 June 1853
+    * Maktabat Muḥammad Saʿīd Āl Thābit, Karbala (#8), dated 1269/1853
+    * Millī, Tehran (#17475), dated 1271/1854-5
+    * Millī, Tehran (#3833/3)
+
+   **Commentaries**
+    * *Ḥāshiyat al-istiṣḥāb*, Mūsā b. Faḍlallāh al-Ḥusaynī (d. 13th century/19th century)
 
 1. al-Taʿādul wa-l-tarājīḥ  
    التعادل والتراجيح  
    Murtaḍā b. Muḥammad Amīn  
    (d. 1281/1864)
 
+   **Principle Manuscripts**
+    * Maktabat Āyatullāh al-Ḥakīm al-ʿĀmma, Najaf (#2035/6), dated 1271/1854-5
+
 1. al-Takhṭiʾa wa-l-taṣwīb  
    التخطئة والتصويب  
    Murtaḍā b. Muḥammad Amīn  
    (d. 1281/1864)
+
+   **Principle Manuscripts**
+    * Majlis, Tehran (#11484/6), dated 1301/1883
 
 1. al-Bawāriq  
    البوارق  
    Muḥammad b. Muqīm al-Bārfurūshī al-Māzandarānī  
    (d. 1281/1865)
 
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#3437/1)
+
 1. al-Istifāḍa  
    الاستفاضة  
    Muḥammad b. Muqīm al-Bārfurūshī al-Māzandarānī  
    (d. 1281/1865)
+
+   **Principle Manuscripts**
+    * Khātam al-Anbiyāʾ, Babol (#272/3), dated before 1281/1864-5
 
 1. Iḥyāʾ al-ijtihād  
    إحياء الاجتهاد  
@@ -10285,8 +11227,7 @@
    (d. 1285/1868)
 
    **Principle Manuscripts**
-    * Masjid-i Aʿẓam, Qum (#798/16), dated 1218/1803
-    * Gawharshād, Mashhad (#2264/7)
+    * Marwī, Tehran (#614/2)
 
 1. al-ʿIbādāt hal hiya mawḍūʿa lil-aʿamm min al-ṣaḥīḥ wa-l-fāsid am al-ṣaḥīḥa  
    العبادات هل هي موضوعة للأعم من الصحيح والفاسد أم الصحيحة  
@@ -10301,14 +11242,13 @@
    Muḥammad Ṣāliḥ b. Muḥammad Muḥsin al-Māzandarānī  
    (d. 1285/1868)
 
-   **Principle Manuscripts**
-    * AQR, Mashhad (#17131), dated 11th-12th century/17th-18th century
-    * Rawḍātī, Isfahan (#9/2), dated 12th century/18th century
-
 1. al-Ijtihād wa-l-taqlīd  
    الاجتهاد والتقليد  
    Ḥusayn ʿAlī b. Nawrūz ʿAlī al-Tūysirkānī  
    (d. 1286/1870)
+
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#1/13707), dated 1299/1882
 
 1. Faṣl al-khiṭāb  
    فصل الخطاب  
@@ -10316,14 +11256,20 @@
    (d. 1286/1870)
 
    **Principle Manuscripts**
-    * Marʿashī, Qum (#15604), dated 1227/1812
-    * Burūjirdī, Qum (#116/12), dated 1316/1898
-    * Gulpāygānī, Qum (#59/64-8844/2)
+    * Masjid-i Aʿẓam, Qum (#554), dated 1266/1850
+    * Gulpāygānī, Qum (#14/86-2686), dated 1263/1886
+    * Gulpāygānī, Qum (#2/131-311/1), dated 13th century/19th century
+    * Masjid-i Aʿẓam, Qum (#800)
+    * Marʿashī, Qum (#1495)
 
 1. Ijtihād wa taqlīd  
    اجتهاد و تقليد  
    Muḥammad b. ʿAbd al-Ṣamad al-Ḥusaynī al-Shahshahānī  
    (d. 1287/1870)
+
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#13709/1), dated 1284/1867
+    * Markaz-i Iḥyāʾ, Qum (#521/2), dated 1283/1867
 
 1. ʿIlm al-yaqīn  
    علم اليقين  
@@ -10341,10 +11287,16 @@
    Muḥammad Karīm b. Ibrāhīm al-Kirmānī  
    (d. 1288/1871)
 
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#7607)
+
 1. Ijtimāʿ al-ḍiddayn  
    اجتماع الضدين  
    ʿAlī al-Rūzdarī  
    (d. 1290/1873)
+
+   **Principle Manuscripts**
+    * Dihqān, Arak (#22/5)
 
 1. al-Istiṣḥāb  
    الاستصحاب  
@@ -10352,12 +11304,16 @@
    (d. *c.* 1290/1873)
 
    **Principle Manuscripts**
-    * Kāshif al-Ghiṭāʾ, Najaf (#572)
+    * Maʿṣūmiyya, Qum (#484/2), dated 1299/1882
+    * Marʿashī, Qum (#5902)
 
 1. al-Taqlīd  
    التقليد  
    Asadallāh b. Muḥammad Bāqir al-Mūsawī al-Shaftī  
    (d. *c.* 1290/1873)
+
+   **Principle Manuscripts**
+    * Mahdī Shaftī, Isfahan (#29/2), dated 1299/1882
 
 1. Dalālat al-amr ʿalā l-marra wa-l-takrār  
    دلالة الأمر على المرة والتكرار  
@@ -10374,13 +11330,20 @@
    ʿAlī al-Rūzdarī  
    (d. 1290/1873)
 
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#11323/3), dated 1308/1890-1
+    * Gawharshād, Mashhad (#723/8), dated 14th century/20th century
+    * Majlis, Tehran (#3259/3), dated 14th century/20th century
+    * Gawharshād, Mashhad (#470/8)
+
 1. Ḥāshiyat al-taʿādul wa-l-tarājīḥ  
    حاشية التعادل والتراجيح  
    ʿAlī al-Rūzdarī  
    (d. 1290/1873)
 
    **Principle Manuscripts**
-    * Madrasa-yi Raḍawiyya, Qum (#44/4), dated n.d./n.d.
+    * Majlis, Tehran (#1169/2)
+    * KG, Najaf (#2130), dated 1381/1961-62
 
 1. Taqsīm ṭalab shāriʿ bihi fiʿl wa-tark wa-tarkhīṣ  
    تقسيم طلب شارع به فعل وترك وترخيص  
@@ -10403,44 +11366,69 @@
    ʿAlī al-Rūzdarī  
    (d. 1290/1873)
 
+   **Principle Manuscripts**
+    * Majlis, Tehran (#3259/6), dated 14th century/20th century
+
 1. al-Mushtaqq  
    المشتق  
    ʿAlī al-Rūzdarī  
    (d. 1290/1873)
 
    **Principle Manuscripts**
-    * Ḥuqūq, Tehran (#206), dated 1316/1898-9
-    * Gawharshād, Mashhad (#2053/1)
+    * ʿAllāma Fānī (Ḍiyāʾ al-Dīn), Isfahan (#53/3), dated 1261/1845
+    * Maʿṣūmiyya, Mashhad (#693/9), dated 1313/1895-6
+    * Gulpāygānī, Qum (#18/190-3670/1), dated 1319/1901-2
+    * Majlis, Tehran (#219T), dated early 14th century/20th century
+    * Gawharshād, Mashhad (#723/1), dated early 14th century/20th century
 
 1. al-Akhbār wa-l-ḥukm  
    الأخبار والحكم  
    ʿAbd al-Ghaffār b. ʿAbd al-Wāḥid al-Akhras  
    (d. *c.* 1290/1873)
 
+   **Principle Manuscripts**
+    * Maktabat al-Awqāf al-ʿĀmma, Baghdad (#22811/2)
+
 1. al-Wājib al-takhyīrī wa-ghayruh  
    الواجب التخييري وغيره  
    ʿAlī al-Rūzdarī  
    (d. 1290/1873)
+
+   **Principle Manuscripts**
+    * Dihqān, Arak (#22/6), dated 14th century/20th century
 
 1. al-Amr bi-l-shayʾ hal yaqtaḍī l-nahy ʿan ḍiddihi  
    الأمر بالشيء هل يقتضي النهي عن ضده  
    ʿAlī al-Rūzdarī  
    (d. 1290/1873)
 
+   **Principle Manuscripts**
+    * Dihqān, Arak (#22/2), dated 1301/1884
+    * Majlis, Tehran (#3259/8), dated 14th century/20th century
+
 1. Ishtirāk amrayn  
    اشتراك أمرين  
    ʿAlī al-Rūzdarī  
    (d. 1290/1873)
+
+   **Principle Manuscripts**
+    * Dihqān, Arak (#22/3), dated 1301/1883-4
 
 1. al-Wājib al-aṣlī wa-l-tabaʿī  
    الواجب الأصلي والتبعي  
    ʿAlī al-Rūzdarī  
    (d. 1290/1873)
 
+   **Principle Manuscripts**
+    * Majlis, Tehran (#3259/7), dated 14th century/20th century
+
 1. al-Wājib al-nafsī wa-l-ghayrī  
    الواجب النفسي والغيري  
    ʿAlī al-Rūzdarī  
    (d. 1290/1873)
+
+   **Principle Manuscripts**
+    * Majlis, Tehran (#3259/5), dated 14th century/20th century
 
 1. al-Mushtarak  
    المشترك  
@@ -10448,15 +11436,17 @@
    (d. 1290/1873)
 
    **Principle Manuscripts**
-    * Marʿashī, Qum (#14657/9), dated 1254/1837-8
-    * Majlis, Tehran (#131/4)
-    * Millī, Tehran (#4501/5), dated 13th century/19th century
-    * Shāh Chirāg, Shiraz (#832/2)
+    * Gawharshād, Mashhad (#723/2), dated early 14th century/20th century
+    * Gawharshād, Mashhad (#470/2)
 
 1. al-Ijtihād wa-l-taqlīd  
    الاجتهاد والتقليد  
    ʿAbd al-Wāsiʿ b. Muḥammad al-Zanjānī  
    (d. 1291/1874)
+
+   **Principle Manuscripts**
+    * Imām Jumʿa, Zanjan (#186), dated 13th century/19th century
+    * Imām Jumʿa, Zanjan (#N/A)
 
 1. al-Ṣaḥīḥ wa-l-aʿamm  
    الصحيح والأعم  
@@ -10464,23 +11454,32 @@
    (d. 1292/1875)
 
    **Principle Manuscripts**
-    * Masjid-i Aʿẓam, Qum (#798/16), dated 1218/1803
-    * Gawharshād, Mashhad (#2264/7)
+    * KG, Najaf (#7272), dated 1299/1881-2
 
 1. al-Ḍidd  
    الضد  
    Abū l-Qāsim b. Muḥammad ʿAlī al-Kalāntarī  
    (d. 1292/1875)
 
+   **Principle Manuscripts**
+    * AQR, Mashhad (#14324), dated 1294/1877
+
 1. al-Mujmal wa-l-mubayyan  
    المجمل والمبين  
    Abū l-Qāsim b. Muḥammad ʿAlī al-Kalāntarī  
    (d. 1292/1875)
 
+   **Principle Manuscripts**
+    * KG, Najaf (#7270), dated 1299/1881-2
+    * Ḥusayniyya-yi Shūshtarīhā, Najaf (#387/1), dated 1299/1881-2
+
 1. Ḥujjiyyat al-ẓann  
    حجية الظن  
    Mahdī al-Kajūrī al-Māzandarānī  
    (d. 1293/1876)
+
+   **Principle Manuscripts**
+    * Markaz-i Iḥyāʾ, Qum (#2420/2), dated 1261/1845
 
 1. Masʾalat al-ḍidd  
    مسألة الضد  
@@ -10498,11 +11497,11 @@
    (d. *c.* 1293/1876)
 
    **Principle Manuscripts**
-    * Masjid-i Aʿẓam, Qum (#825/14), dated 1235/1819-20
-    * Millī, Tehran (#2088/2), dated 1243/1827-8
-    * AQR, Mashhad (#7381), dated 1260/1844-5
-    * Marʿashī, Qum (#13834/6), dated 1266/1849-50
-    * Markaz-i Iḥyāʾ, Qum (#2731), dated 13th century/19th century
+    * Madrasa-yi Jaʿfariyya, Qaen (#69/2), dated 1273/1856-7
+    * Madrasa-yi Jaʿfariyya, Qaen (#66/2), dated 1283/1866-7
+    * Madrasa-yi Jaʿfariyya, Qaen (#98/2), dated 1297/1880-1
+    * Madrasa-yi Jaʿfariyya, Qaen (#71/2), dated 13th century/19th century
+    * Markaz-i Iḥyāʾ, Qum (#652), dated 13th century/19th century
 
 1. al-Ṣiḥḥa wa-l-aʿamm  
    الصحة والأعم  
@@ -10519,6 +11518,9 @@
    الرد على الأخباريين والشيخية  
    Mahdī al-Kajūrī al-Māzandarānī  
    (d. 1293/1876)
+
+   **Principle Manuscripts**
+    * Markaz-i Iḥyāʾ, Qum (#2420/3), dated 1261/1845-6
 
 1. al-Risāla al-ḥusayniyya  
    الرسالة الحسينية  
@@ -10537,13 +11539,24 @@
    Abū Ṭālib b. Abī Turāb al-Ḥusaynī al-Qāʾinī  
    (d. *c.* 1293/1876)
 
+   **Principle Manuscripts**
+    * Ḥusaynī Quhistānī, Qaen (#25/2), dated 1272/1856
+    * Madrasa-yi Jaʿfariyya, Qaen (#66/6), dated 1283/1867
+    * Madrasa-yi Jaʿfariyya, Qaen (#71/5), dated 1287/1870
+    * Madrasa-yi Jaʿfariyya, Qaen (#69/6)
+    * Madrasa-yi Jaʿfariyya, Qaen (#98/6)
+
 1. al-Istiṣḥāb  
    الاستصحاب  
    Abū Ṭālib b. Abī Turāb al-Ḥusaynī al-Qāʾinī  
    (d. *c.* 1293/1876)
 
    **Principle Manuscripts**
-    * Kāshif al-Ghiṭāʾ, Najaf (#572)
+    * Madrasa-yi Jaʿfariyya, Qaen (#69/7), dated 1271/1854-5
+    * Ḥusaynī Kūhistānī, Qaen (#25/3), dated 1273/1857
+    * Madrasa-yi Jaʿfariyya, Qaen (#66/7), dated 1283/1867
+    * Madrasa-yi Jaʿfariyya, Qaen (#71/4), dated 1290/1873
+    * Madrasa-yi Jaʿfariyya, Qaen (#98/7), dated 1291/1874
 
 1. al-Farq bayn al-mujtahidīn wa-l-akhbāriyyīn  
    الفرق بين المجتهدين و الأخباريين  
@@ -10559,17 +11572,18 @@
    ʿAbd al-Ṣāḥib Muḥammad b. Aḥmad al-Narāqī  
    (d. 1297/1880)
 
+   **Principle Manuscripts**
+    * AQR, Mashhad (#3025), dated 1260/1844
+    * Maktabat al-Sayyid Muḥammad Bāqī al-Ṭabāṭabāʾī, Karbala (#127), dated 1274/1858
+    * Majlis, Tehran (#4314/1), dated 13th century/19th century
+
 1. Ijtimāʿ al-amr wa-l-nahy  
    اجتماع الأمر والنهي  
    ʿAbd al-Ṣāḥib Muḥammad b. Aḥmad al-Narāqī  
    (d. 1297/1880)
 
    **Principle Manuscripts**
-    * Marʿashī, Qum (#9644/3), dated 1225/1810
-    * AQR, Mashhad (#7241), dated 1226/1811
-    * Majlis, Tehran (#1233), dated 1231/1815
-    * Masjid-i Aʿẓam, Qum (#825/10), dated 1234/1818
-    * Gulpāygānī, Qum (#13/59-2379/5), dated 1233/1818
+    * Marʿashī, Qum (#8175/1), dated 1283/1866-7
 
 1. Ḥall al-ʿuqūd li-ʿaqd al-fuḥūl  
    حل العقود لعقد الفحول  
@@ -10593,10 +11607,7 @@
    (d. 1298/1881)
 
    **Principle Manuscripts**
-    * Marʿashī, Qum (#3720), dated 1256/1840-1
-
-   **Editions**
-    * *Risālat al-farq bayn al-akhbāriyyīn wa-l-uṣūliyyīn*, ed. Muḥammad Riḍā al-Anṣārī al-Qummī (Qum: Usul Studies - A Journal of Usul al-Fiqh, 1390Sh/2011)
+    * Marʿashī, Qum (#4082/2)
 
 1. Uṣūl al-fiqh  
    أصول الفقه  
@@ -10604,12 +11615,19 @@
    (d. 1299/1882)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * al-ʿAtaba al-ʿAlawiyya, Najaf (#18), dated 697/1298
+    * Maktabat al-Awqāf al-ʿĀmma, Baghdad (#7406/1), dated 924/1518
+    * Maktabat Ḥasan ʿAbd al-Amīr al-Mahdī, Karbala (#29/1), dated 997/1589
+    * al-ʿAtaba al-ʿAlawiyya, Najaf (#1047), dated 14th century/20th century
+    * Maktabat al-ʿAbbāsiyya (Bāsh Aʿyān), Basra (#64-B), dated 14th century/20th century
 
 1. Aṣālat al-barāʾa wa-l-iḥtiyāṭ  
    أصالة البراءة والاحتياط  
    unknown  
    (d. 1299/1882)
+
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#11815/5), dated 13th century/19th century
 
 1. Majāmiʿ al-wuṣūl fī taḥrīr masāʾil al-uṣūl  
    مجامع الوصول في تحرير مسائل الأصول  
@@ -10624,10 +11642,16 @@
    Muḥammad Ḥusayn b. Muḥammad al-Mūsawī  
    (d. 13th century/19th century)
 
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#11327/15), dated 13th century/19th century
+
 1. al-Tasāmuḥ fī adillat al-sunan  
    التسامح في أدلة السنن  
    ʿAbbās b. ʿAlī Bābā al-Nūrī  
    (d. *c.* 13th century/19th century)
+
+   **Principle Manuscripts**
+    * Malek, Tehran (#1773/1), dated 13th century/19th century
 
 1. Maʿālim al-dīn fī l-uṣūl  
    معاﻟﻢ الدين في الأصول  
@@ -10654,9 +11678,7 @@
    (d. 1299/1882)
 
    **Principle Manuscripts**
-    * Fayḍiyya, Qum (#1554/11)
-    * Maktab al-Sayyid Muḥammad Bāqir al-Ṭabāṭabāʾī, Karbala (#137/16)
-    * AQR, Mashhad (#27081)
+    * University of Isfahan, Isfahan (#341/4), dated 1228/1813
 
 1. al-Istiṣḥāb  
    الاستصحاب  
@@ -10664,7 +11686,11 @@
    (d. 1299/1882)
 
    **Principle Manuscripts**
-    * Kāshif al-Ghiṭāʾ, Najaf (#572)
+    * Ḥujjatiyya, Qum (#633), dated 13th century/19th century
+    * Marʿashī, Qum (#15047/3), dated 13th century/19th century
+    * Masjid-i Aʿẓam, Qum (#2482), dated 13th century/19th century
+    * Imām-i ʿAṣr, Shiraz (#371/2), dated 14th century/20th century
+    * Imām-i ʿAṣr, Shiraz (#371/3), dated 14th century/20th century
 
 1. Masāʾil uṣūliyya  
    مسائل أصولية  
@@ -10681,20 +11707,37 @@
    Ḥasan b. Amānallāh al-Dahlawī  
    (d. 13th century/19th century)
 
+   **Principle Manuscripts**
+    * Maktabat al-Imām Amīr al-Muʾminīn al-ʿĀmma, Najaf (#94), dated 1253/1837-8
+
 1. al-ʿĀmm wa-l-khāṣṣ  
    العام والخاص  
    unknown  
    (d. 1299/1882)
+
+   **Principle Manuscripts**
+    * Marwī, Tehran (#704/3), dated 1303/1885-6
+    * AQR, Mashhad (#39326/1), dated 1311/1893-4
+    * Majlis, Tehran (#613/9), dated 13th century/19th century
+    * Maʿṣūmiyya, Qum (#38/2)
+    * Majlis, Tehran (#7643/12)
 
 1. Rasāʾil fī uṣūl al-fiqh  
    رسائل في أصول الفقه  
    unknown  
    (d. 1299/1882)
 
+   **Principle Manuscripts**
+    * KG, Najaf (#2709), dated 1287/1870-1
+    * Maktabat al-Sayyid Muḥammad Bāqir al-Ṭabāṭibāʾī, Karbala (#135)
+
 1. Ḥujjiyyat al-qaṭʿ wa-l-ẓann  
    حجية القطع والظن  
    ʿAlī Naqī b. ʿAlī  
    (d. 13th century/19th century)
+
+   **Principle Manuscripts**
+    * Dānishgāh, Isfahan (#633), dated 13th century/19th century
 
 1. Ṣīghat al-amr lil-nadb  
    صيغة الأمر للندب  
@@ -10721,10 +11764,16 @@
    ʿAlī Akbar b. Muḥammad Bāqir Qazwīnī  
    (d. 13th century/19th century)
 
+   **Principle Manuscripts**
+    * Millī, Tehran (#1783/10), dated 13th century/19th century
+
 1. Ḥujjiyyat al-akhbār al-āḥād  
    حجية الأخبار الآحاد  
    Ḥusayn b. Muḥammad ʿAlī al-Ṭabīb al-Tihrānī  
    (d. 13th century/19th century)
+
+   **Principle Manuscripts**
+    * Ilāhiyyāt, Mashhad (#702)
 
 1. al-Fawāʾid wa-l-zawāʾid  
    الفوائد والزوائد  
@@ -10739,6 +11788,9 @@
    ʿAbd al-ʿAzīz al-Ardabīlī  
    (d. 13th century/19th century)
 
+   **Principle Manuscripts**
+    * Sipahsālār, Tehran (#6191/3), dated 13th century/19th century
+
 1. Rafʿ al-shubha/al-Shubahāt wa-rafʿuhā  
    رفع الشبهة/الشبهات ورفعها  
    unknown  
@@ -10752,25 +11804,41 @@
    Maḥmūd b. ʿAbd al-ʿAẓīm al-Mūsawī al-Khwānsārī  
    (d. 13th century/19th century)
 
+   **Principle Manuscripts**
+    * University of Tehran, Tehran (#1136/1)
+
 1. al-Ijtihād wa-l-taqlīd  
    الاجتهاد والتقليد  
    Muḥammad ʿAlī b. Muḥammad Ṣādiq al-Shīrāzī  
    (d. 13th century/19th century)
+
+   **Principle Manuscripts**
+    * Gulpāygānī, Qum (#4/85-615), dated 13th century/19th century
 
 1. Ḥujjiyyat al-ẓann  
    حجية الظن  
    Muḥammad b. Muḥammad Āl ʿUṣfūr  
    (d. 13th century/19th century)
 
+   **Principle Manuscripts**
+    * AQR, Mashhad (#17929), dated 1253/1837
+
 1. Taʿāruḍ al-adilla  
    تعارض الأدلة  
    unknown  
    (d. 1299/1882)
 
+   **Principle Manuscripts**
+    * Majlis, Tehran (#7404/2)
+    * Marʿashī, Qum (#11815/4), dated 13th century/19th century
+
 1. al-Ijtihād wa-l-taqlīd  
    الاجتهاد والتقليد  
    Mīrzā Ṣāliḥ b. Ḥasan al-ʿArab  
    (d. 13th century/19th century)
+
+   **Principle Manuscripts**
+    * Majlis, Tehran (#5554), dated 13th century/19th century
 
 1. al-Maqāmāt al-bahiyya fī mabānī l-aḥkām al-sharʿiyya  
    المقامات البهية في مباني الأحكام الشرعية  
@@ -10786,10 +11854,16 @@
    Muḥammad Taqī al-Khurāsānī  
    (d. 13th century/18th-19th century)
 
+   **Principle Manuscripts**
+    * ʿAllāma Ṭabāṭabāʾī, Shiraz (#273/1), dated 1252/1836
+
 1. al-Uṣūl al-ʿamaliyya  
    الأصول العملية  
    unknown  
    (d. 1299/1882)
+
+   **Principle Manuscripts**
+    * KG, Najaf (#1997), dated 1325/1907
 
 1. Iqtiḍāʾ al-amr bi-l-shayʾ lil-nahy ʿan ḍiddihi  
    اقتضاء الأمر بالشيء للنهي عن ضده  
@@ -10801,18 +11875,24 @@
    unknown  
    (d. 1299/1882)
 
+   **Principle Manuscripts**
+    * AQR, Mashhad (#38215), dated 13th century/19th century
+
 1. al-Istiṣḥāb  
    الاستصحاب  
    Murtaḍā al-Ḥusaynī al-Yazdī  
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Kāshif al-Ghiṭāʾ, Najaf (#572)
+    * Majlis, Tehran (#14653/1), dated 13th century/19th century
 
 1. al-Ijtihād wa-l-taqlīd  
    الاجتهاد والتقليد  
    Ḥusayn b. ʿAlī al-Khusrawshāhī  
    (d. 13th century/19th century)
+
+   **Principle Manuscripts**
+    * Sipahsālār, Tehran (#6210), dated 1246/1830
 
 1. Risāla fī tanqīḥ masāriʿ al-dalāʾil  
    رسالة في تنقيح مسارع الدلائل  
@@ -10851,15 +11931,27 @@
    Muḥammad Bāqir b. Ibrāhīm al-Khurāsānī  
    (d. 13th century/18th-19th century)
 
+   **Principle Manuscripts**
+    * Gulpāygānī, Qum (#3/85 - 465/1)
+
 1. al-Ijtihād wa-l-taqlīd  
    الاجتهاد والتقليد  
    unknown  
    (d. 1299/1882)
 
+   **Principle Manuscripts**
+    * Muḥammad Ṣadīq al-Jalīlī, Mosul (#42/10)
+    * al-ʿAtaba al-ʿAbbāsiyya, Karbala (#263/14)
+    * KG, Najaf (#7276)
+    * KG, Najaf (#136)
+
 1. Risāla dar istiṣḥāb  
    رساله در استصحاب  
    unknown  
    (d. 1299/1882)
+
+   **Principle Manuscripts**
+    * Majlis, Tehran (#17094), dated 13th century/19th century
 
 1. Uṣūl al-fiqh  
    أصول الفقه  
@@ -10867,12 +11959,15 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * Ṣādiqiyya, Damghan (#122), dated 1247/1831
 
 1. al-Qawl fī l-ʿumūm wa-l-khuṣūṣ  
    القول في العموم والخصوص  
    unknown  
    (d. 1299/1882)
+
+   **Principle Manuscripts**
+    * al-ʿAtaba al-ʿAbbāsiyya, Karbala (#261/8), dated 1304/1886
 
 1. Ḥāshiya uṣūliyya  
    حاشية أصولية  
@@ -10880,7 +11975,7 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1430), dated 13th century/19th century
+    * University of Tehran, Tehran (#7750/2), dated 1245/1829
 
 1. al-Shams al-ṭāliʿa li-man arāda al-hidāya ilā bāb al-wilāya  
    الشمس الطالعة لمن أراد الهداية إلى باب الولاية  
@@ -10895,17 +11990,18 @@
    Muḥammad Taqī b. Ḥusayn ʿAlī al-Harawī  
    (d. 1299/1881-2)
 
+   **Principle Manuscripts**
+    * Nūrbakhsh, Tehran (#559/7), dated 1268/1851-2
+    * Marʿashī, Qum (#14994/8), dated 1274/1857-8
+    * University of Tehran, Tehran (#3713/7), dated 1313/1895
+
 1. Muqaddimat al-wājib  
    مقدمة الواجب  
    ʿAlī Akbar b. Muḥammad Bāqir Qazwīnī  
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Masjid-i Aʿẓam, Qum (#825/14), dated 1235/1819-20
-    * Millī, Tehran (#2088/2), dated 1243/1827-8
-    * AQR, Mashhad (#7381), dated 1260/1844-5
-    * Marʿashī, Qum (#13834/6), dated 1266/1849-50
-    * Markaz-i Iḥyāʾ, Qum (#2731), dated 13th century/19th century
+    * Millī, Tehran (#1783/14), dated 13th century/19th century
 
 1. Khulāṣat al-maqāl fī bayān al-aqwāl maʿa al-tarjīḥ wa-l-ibṭāl  
    خلاصة المقال في بيان الأقوال مع الترجيح والإبطال  
@@ -10937,21 +12033,25 @@
    (d. 13th century/18th-19th century)
 
    **Principle Manuscripts**
-    * Marʿashī, Qum (#9644/3), dated 1225/1810
-    * AQR, Mashhad (#7241), dated 1226/1811
-    * Majlis, Tehran (#1233), dated 1231/1815
-    * Masjid-i Aʿẓam, Qum (#825/10), dated 1234/1818
-    * Gulpāygānī, Qum (#13/59-2379/5), dated 1233/1818
+    * Marʿashī, Qum (#3494/5)
 
 1. Qāʿidat al-istiṣḥāb  
    قاعدة الاستصحاب  
    Maḥmūd b. ʿAbd al-ʿAẓīm al-Mūsawī al-Khwānsārī  
    (d. 13th century/19th century)
 
+   **Principle Manuscripts**
+    * University of Tehran, Tehran (#1136/4)
+
 1. al-Ḥaẓr wa-l-ibāḥa  
    الحظر والإباحة  
    Maḥmūd b. ʿAbd al-ʿAẓīm al-Mūsawī al-Khwānsārī  
    (d. 13th century/19th century)
+
+   **Principle Manuscripts**
+    * The University of Tehran, Tehran (#1136/3)
+    * Madrasa-yi Ṣadr-i Bāzār, Isfahan (#253/4)
+    * The University of Tehran, Tehran (#1136/5)
 
 1. Istiʿmāl al-lafẓ al-mushtarak  
    استعمال اللفظ المشترك  
@@ -10974,10 +12074,16 @@
    unknown  
    (d. 1299/1882)
 
+   **Principle Manuscripts**
+    * Ḥusayniyya-yi Shūshtarīhā, Najaf (#622/3), dated 1300/1882-3
+
 1. al-Farāʾid al-bahiyya  
    الفرائد البهية  
    unknown  
    (d. 1299/1882)
+
+   **Principle Manuscripts**
+    * Jamʿiyyat-i Nashr-i Farhang, Rasht (#M98/1), dated 1211/1797
 
 1. Asās al-uṣūl  
    أساس الأصول  
@@ -10985,35 +12091,31 @@
    (d. 1299/1882)
 
    **Principle Manuscripts**
-    * Maktabat al-Imām al-Ḥakīm al-ʿĀmma, Najaf (#1542/1), dated 1216/1801
-    * Marʿashī, Qum (#11004/8), dated 13th century/19th century
-    * Marʿashī, Qum (#14662), dated 13th century/19th century
-    * al-Rawḍa al-Ḥusayniyya, Karbala (#14201/39), dated 1329/1911
-    * Khizānat Āl Jamāl al-Dīn, Qaryat al-Muʾminīn (Sūq al-Shyūkh) (#275/4)
-
-   **Editions**
-    * *Asās al-uṣūl* (Lucknow: Muhammadiya Press, 1848)
-    * *Asās al-uṣūl*, ed. Abū Aḥmad b. Aḥmad Āl-Uṣfūr (Karbala: Manshūrāt Dār al-Ḥusayn, 1440/2018)
-
-   **Commentaries**
-    * *Maʿāwil al-ʿuqūl fī qalʿ Asās al-uṣūl*, Jamāl al-Dīn b. ʿAbd al-Nabī b. ʿAbd al-Ṣāniʿ al-Nayshābūrī al-Astarābādī (d. 1232 or 1233/1817 or 1818)
-    * *Bughyat al-fuḥūl*, Jamāl al-Dīn b. ʿAbd al-Nabī b. ʿAbd al-Ṣāniʿ al-Nayshābūrī al-Astarābādī (d. 1232 or 1233/1817 or 1818)
-    * *Asās al-uṣūl*, Ḥimāyat Ḥusayn al-Nīshābūrī al-Kantūrī (d. 13th century/19th century)
+    * Muʾassasat Āyatullāh Burūjirdī, Qum (#502), dated late 13th century/19th century
 
 1. Ḥaqīqa sharʿiyya wa-amr wa-nahy  
    حقيقة شرعيه وأمر ونهي  
    unknown  
    (d. 1299/1882)
 
+   **Principle Manuscripts**
+    * Gawharshād, Mashhad (#1398), dated 13th century/19th century
+
 1. al-Amr bi-l-shayʾ hal yaqtaḍī l-nahy ʿan ḍiddih  
    الأمر بالشي هل يقتضي النهي عن ضده  
    unknown  
    (d. 1299/1882)
 
+   **Principle Manuscripts**
+    * Millī, Tehran (#3861/4), dated 13th century/20th century
+
 1. Risāla fī bayān maʿnā al-ijmāʿ wa-kayfiyyat ḥuṣūl al-ʿilm bihi wa-ḥujjiyyatih  
    رسالة في بيان معنى الإجماع وكيفية حصول العلم به وحجيته  
    Mūsā b. Muḥammad al-Baḥrānī  
    (d. 13th century/19th century)
+
+   **Principle Manuscripts**
+    * Imām-i ʿAṣr, Shiraz (#92/4), dated 1227/1812
 
 1. al-Ṣaḥīḥ wa-l-aʿamm  
    الصحيح والأعم  
@@ -11021,8 +12123,7 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Masjid-i Aʿẓam, Qum (#798/16), dated 1218/1803
-    * Gawharshād, Mashhad (#2264/7)
+    * Millī, Tehran (#1783/16), dated 13th century/19th century
 
 1. Jāmiʿ al-maqāṣid fī maʿrifat al-ḥukm wa-l-ḥākim wa-l-maḥkūm ʿalayh  
    جامع المقاصد في معرفة الحكم والحاکم والمحكوم عليه  
@@ -11037,6 +12138,9 @@
    الأصول العملية  
    Aḥmad b. Muṣṭafā  
    (d. *c.* 13th century/19th century)
+
+   **Principle Manuscripts**
+    * Masjid-i Aʿẓam, Qum (#1938/3), dated 1296/1879
 
 1. Ḥujjiyyat al-maẓanna  
    حجية المظنة  
@@ -11053,24 +12157,36 @@
    unknown  
    (d. 1299/1882)
 
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#13930/1), dated 13th century/19th century
+
 1. al-Ijmāʿ  
    الإجماع  
    unknown  
    (d. 1299/1882)
 
    **Principle Manuscripts**
-    * Markaz-i Iḥyāʾ, Qum (#4059), dated 1113/1702
-    * Marʿashī, Qum (#3382/4)
+    * Gulpāygānī, Qum (#180/40-3520/3), dated 1131/1719
+    * Marʿashī, Qum (#14980/3), dated 1295/1878
+    * Adabiyyāt, Tehran (#115/4), dated 13th century/19th century
+    * Marʿashī, Qum (#11815/7), dated 13th century/19th century
+    * Malek, Tehran (#5797/2), dated 14th century/20th century
 
 1. Majālis al-muttaqīn fī l-qaṭʿ al-yaqīn  
    مجالس المتقين في القطع اليقين  
    unknown  
    (d. 1299/1882)
 
+   **Principle Manuscripts**
+    * al-Maktaba al-ʿAbbāsiyya, Basra (#51-h)
+
 1. al-Uṣūl al-ʿamaliyya  
    الأصول العملية  
    unknown  
    (d. 1299/1882)
+
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#11815/8), dated 13th century/19th century
 
 1. al-ʿAmal bi-l-ẓann  
    العمل بالظن  
@@ -11086,7 +12202,7 @@
    (d. 1299/1882)
 
    **Principle Manuscripts**
-    * Marwī, Tehran (#704/5), dated 1303/1885
+    * Maktabat al-Sayyid Muḥammad Bāqi al-Ṭabāṭibāʾī, Karbala (#315), dated 1281/1864-5
 
 1. Taʿrīf al-mukallaf  
    تعريف المكلف  
@@ -11138,15 +12254,25 @@
    unknown  
    (d. 1299/1882)
 
+   **Principle Manuscripts**
+    * Adabiyyāt, Tehran (#230/1), dated 13th century/19th century
+
 1. Takhyīr  
    تخيير  
    unknown  
    (d. 1299/1882)
 
+   **Principle Manuscripts**
+    * Gawharshād, Mashhad (#1444/4), dated 1300/1883
+
 1. Ḥujjiyyat al-akhbār  
    حجية الأخبار  
    unknown  
    (d. 1299/1882)
+
+   **Principle Manuscripts**
+    * Markaz-i Iḥyāʾ, Qum (#4264/3), dated 13th century/19th century
+    * Millī, Tehran (#2046/2)
 
 1. al-Ijmāʿ  
    الإجماع  
@@ -11154,23 +12280,32 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Markaz-i Iḥyāʾ, Qum (#4059), dated 1113/1702
-    * Marʿashī, Qum (#3382/4)
+    * The University of Tehran, Tehran (#1136/6)
 
 1. al-Amr wa-l-nahy  
    الأمر والنهي  
    unknown  
    (d. 1299/1882)
 
+   **Principle Manuscripts**
+    * Gawharshād, Mashhad (#1286/2), dated 13th century/19th century
+
 1. al-Adilla al-sharʿiyya  
    الأدلة الشرعية  
    unknown  
    (d. 1299/1882)
 
+   **Principle Manuscripts**
+    * Gawharshād, Mashhad (#1479/7), dated 13th century/19th century
+    * Millī, Tehran (#3861/2), dated 13th century/19th century
+
 1. al-Alfāẓ al-mutarādifa  
    الألفاظ المترادفة  
    Abū Ṭālib b. Muḥammad Ḥasan al-Ārānī al-Kāshānī  
    (d. 1299/1882)
+
+   **Principle Manuscripts**
+    * Muḥammad Hilāl, Aran Kashan (#71/4), dated 13th century/19th century
 
 1. al-Ṣaḥīḥ wa-l-aʿamm  
    الصحيح والأعم  
@@ -11178,8 +12313,11 @@
    (d. 1299/1882)
 
    **Principle Manuscripts**
-    * Masjid-i Aʿẓam, Qum (#798/16), dated 1218/1803
-    * Gawharshād, Mashhad (#2264/7)
+    * Gulpāygānī, Golpayegan (#12/4), dated 1234/1818-9
+    * University of Tehran, Tehran (#1489/1), dated 13th century/19th century
+    * Gawharshād, Mashhad (#327/6), dated 13th century/19th century
+    * Adabiyyāt, Tehran (#125/3), dated 13th century/19th century
+    * Marʿashī, Qum (#10993/13), dated 13th century/19th century
 
 1. Ithbāt munāsaba dhātiyya  
    إثبات مناسبة ذاتية  
@@ -11194,35 +12332,57 @@
    unknown  
    (d. 1299/1882)
 
+   **Principle Manuscripts**
+    * University of Tehran, Tehran (#6358/9), dated 13th century/19th century
+    * Majlis, Tehran (#13860/11)
+
 1. Ḥujjiyyat al-ẓann  
    حجية الظن  
    Ḥusayn b. Muḥammad al-Ḥusaynī al-Tabrīzī  
    (d. 1299/1882)
+
+   **Principle Manuscripts**
+    * AQR, Mashhad (#26088)
 
 1. al-Iṭṭirād  
    الاطراد  
    unknown  
    (d. 1299/1882)
 
+   **Principle Manuscripts**
+    * Adabiyyāt, Tehran (#115/11), dated 13th century/19th century
+
 1. Ḥujjiyyat al-ẓann  
    حجية الظن  
    Muḥammad Jaʿfar al-Qazwīnī  
    (d. 13th century/19th century)
+
+   **Principle Manuscripts**
+    * Majlis, Tehran (#9581), dated 1248/1832
 
 1. Ḥujjiyyat al-ẓawāhir  
    حجية الظواهر  
    unknown  
    (d. 1299/1882)
 
+   **Principle Manuscripts**
+    * Fayḍiyya, Qum (#1189/11), dated 13th century/19th century
+
 1. Dalīl al-insidād  
    دليل الانسداد  
    unknown  
    (d. 1299/1882)
 
+   **Principle Manuscripts**
+    * Ḥusayniyya-yi Shūshtarīhā, Najaf (#387/5), dated 1299/1881-2
+
 1. al-Ṣiḥḥa fī l-muʿāmalāt  
    الصحة في المعاملات  
    Maḥmūd b. ʿAbd al-ʿAẓīm al-Mūsawī al-Khwānsārī  
    (d. 13th century/19th century)
+
+   **Principle Manuscripts**
+    * Madrasa-yi Ṣadr-i Bāzār, Isfahan (#253/1), dated 1279/1862-3
 
 1. al-Ḥaqīqa al-sharʿiyya  
    الحقيقة الشرعية  
@@ -11230,12 +12390,20 @@
    (d. 1299/1882)
 
    **Principle Manuscripts**
-    * Madrasa-yi Gharb, Hamadan (#1105/3)
+    * Millī, Tehran (#18165), dated 1294/1877-8
+    * Millī, Tehran (#18200)
 
 1. Aṣālat al-barāʾa  
    أصالة البراءة  
    unknown  
    (d. 1299/1882)
+
+   **Principle Manuscripts**
+    * Majlis, Tehran (#7643/8), dated 13th century/1882
+    * Majlis, Tehran (#5450), dated 13th century/1882
+    * Wazīrī, Yazd (#1838/7), dated 13th century/1882
+    * Fayḍiyya, Qum (#1189/12), dated 13th century/1882
+    * Marʿashī, Qum (#10993/12), dated 13th century/1882
 
 1. Ḥujjiyyat al-ẓann  
    حجية الظن  
@@ -11255,28 +12423,40 @@
    unknown  
    (d. 1299/1882)
 
+   **Principle Manuscripts**
+    * Fayḍiyya, Qum (#1186/6), dated 13th century/19th century
+
 1. al-Istiṣḥāb  
    الاستصحاب  
    Muḥammad Bāqir b. Muḥammad Muḥsin al-Iṣfahānī  
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Kāshif al-Ghiṭāʾ, Najaf (#572)
+    * Marʿashī, Qum (#7372/3)
 
 1. Ishtirāk al-alfāẓ  
    اشتراك الألفاظ  
    unknown  
    (d. 1299/1882)
 
+   **Principle Manuscripts**
+    * Marwī, Tehran (#685/7), dated 13th century/19th century
+
 1. al-Qawl fī l-adilla al-ʿaqliyya  
    القول في الأدلة العقلية  
    unknown  
    (d. 1299/1882)
 
+   **Principle Manuscripts**
+    * al-ʿAtaba al-ʿAbbāsiyya, Najaf (#261/11), dated 1304/1886
+
 1. al-Taʿādul wa-l-tarājīḥ  
    التعادل والتراجيح  
    Murtaḍā al-Ḥusaynī al-Yazdī  
    (d. 13th century/19th century)
+
+   **Principle Manuscripts**
+    * Majlis, Tehran (#14653/2), dated 13th century/19th century
 
 1. al-Ijmāʿ  
    الإجماع  
@@ -11284,13 +12464,15 @@
    (d. 13th century/18th-19th century)
 
    **Principle Manuscripts**
-    * Markaz-i Iḥyāʾ, Qum (#4059), dated 1113/1702
-    * Marʿashī, Qum (#3382/4)
+    * Marʿashī, Qum (#13445), dated 1305/1887
 
 1. Ḥujjiyyat al-ẓann wa-l-istiṣḥāb  
    حجية الظن والاستصحاب  
    unknown  
    (d. 1299/1882)
+
+   **Principle Manuscripts**
+    * University of Tehran, Tehran (#3397), dated 13th century/19th century
 
 1. Taʿāruḍ al-dalīlayn  
    تعارض الدليلين  
@@ -11314,7 +12496,8 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * University of Tehran, Tehran (#1690/4)
+    * University of Tehran, Tehran (#1690/7)
 
 1. Aṣālat al-barāʾa wa-l-istiṣḥāb  
    أصالة البراءة والاستصحاب  
@@ -11329,10 +12512,20 @@
    unknown  
    (d. 1299/1882)
 
+   **Principle Manuscripts**
+    * Adbiyyāt, Tehran (#125/2), dated 13th century/19th century
+    * Khātam al-Anbiyāʾ, Babol (#10101/2), dated 13th century/19th century
+    * Marʿashī, Qum (#10101/2), dated 13th century/19th century
+    * Fayḍiyya, Qum (#1184), dated 13th century/19th century
+
 1. al-Ijmāʿ al-manqūl  
    الإجماع المنقول  
    unknown  
    (d. 1299/1882)
+
+   **Principle Manuscripts**
+    * Fayḍiyya, Qum (#1114/3), dated 1298/1880-1
+    * Fayḍiyya, Qum (#1095/3)
 
 1. Ḍābiṭa-yi tafaqquh dar akhbār  
    ضابطه تفقه در اخبار  
@@ -11347,15 +12540,25 @@
    unknown  
    (d. 1299/1882)
 
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#11815/6), dated 13th century/19th century
+
 1. al-Ijtihād  
    الاجتهاد  
    unknown  
    (d. 1299/1882)
 
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#11843/2), dated 13th century/19th century
+
 1. Aṣālat al-imkān/al-Suʾāl wa-l-jawāb  
    أصالة الإمكان/السؤال والجواب  
    Muḥammad Taqī b. Ḥusayn ʿAlī al-Harawī  
    (d. 1299/1881-2)
+
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#14994/10), dated 1274/1857-8
+    * University of Tehran, Tehran (#3713/8)
 
 1. Ḥujjiyyat al-istiṣḥāb  
    حجية الاستصحاب  
@@ -11363,12 +12566,18 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Majlis, Tehran (#854/4), dated 1216/1801
+    * Maktabat Āyatullāh al-Ḥakīm al-ʿĀmma, Najaf (#N/A)
 
 1. Ḥujjiyyat al-maẓanna  
    حجية المظنة  
    unknown  
    (d. 1299/1882)
+
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#10407/2), dated 1261/1845-6
+    * AQR, Mashhad (#23559), dated 13th century/19th century
+    * Masjid-i Aʿẓam, Qum (#753/5), dated 13th century/19th century
+    * Gulpāygānī, Qum (#24/97-4797/3), dated 13th century/19th century
 
 1. Ḥujjiyyat al-shuhra  
    حجية الشهرة  
@@ -11376,11 +12585,7 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Namāzī, Khoei (#848/2), dated 1202/1787
-    * Markaz-i Iḥyāʾ, Qum (#1567/2), dated 1202/1788
-    * Saryazdī, Yazd (#28/8), dated 1203/1788
-    * ʿAllāma Fānī, Isfahan (#13/1), dated 1216/1802
-    * Millī, Tehran (#1868/9), dated 1222/1807
+    * Markaz-i Iḥyāʾ, Qum (#3916/4)
 
 1. al-Adilla al-samʿiyya  
    الأدلة السمعية  
@@ -11394,6 +12599,9 @@
    الأدلة الأصولية  
    unknown  
    (d. 1299/1882)
+
+   **Principle Manuscripts**
+    * Malek, Tehran (#5744/13), dated 13th century/19th century
 
 1. al-Jumal al-khabariyya al-maṣrūfa ʿan ḥaqāʾiqihā ilā inshāʾ al-ḥukm  
    الجمل الخبرية المصروفة عن حقائقها إلى إنشاء الحكم  
@@ -11426,7 +12634,7 @@
    (d. 1299/1881-2)
 
    **Principle Manuscripts**
-    * Gulpāygānī, Qum (#14/129-2679/1)
+    * AQR, Mashhad (#9091/3), dated 1257/1841-2
 
 1. al-Ḍawābiṭ al-marḍiyya fī taḥqīq al-qawānīn al-marʿiyya  
    الضوابط المرضية في تحقيق القوانين المرعية  
@@ -11441,15 +12649,24 @@
    Mūsā b. Faḍlallāh al-Ḥusaynī  
    (d. 13th century/19th century)
 
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#15974/2), dated 1274/1857
+
 1. al-Tanbīhāt al-jaliyya  
    التنبيهات الجلية  
    Aḥmad b. ʿAlī Akbar al-Turbatī  
    (d. 13th century/19th century)
 
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#12705), dated 13th century/19th century
+
 1. Aḥkām al-sabab wa-l-musabbib  
    أحكام السبب والمسبب  
    ʿAlī Akbar b. Muḥammad Bāqir Qazwīnī  
    (d. 13th century/19th century)
+
+   **Principle Manuscripts**
+    * Millī, Tehran (#1783/12), dated 13th century/19th century
 
 1. Muqaddimat al-wājib  
    مقدمة الواجب  
@@ -11457,11 +12674,11 @@
    (d. 1299/1882)
 
    **Principle Manuscripts**
-    * Masjid-i Aʿẓam, Qum (#825/14), dated 1235/1819-20
-    * Millī, Tehran (#2088/2), dated 1243/1827-8
-    * AQR, Mashhad (#7381), dated 1260/1844-5
-    * Marʿashī, Qum (#13834/6), dated 1266/1849-50
-    * Markaz-i Iḥyāʾ, Qum (#2731), dated 13th century/19th century
+    * Marʿashī, Qum (#11815/1), dated 13th century/19th century
+    * Marʿashī, Qum (#11815/2), dated 13th century/19th century
+    * Marʿashī, Qum (#7583/2), dated 13th century/19th century
+    * Marʿashī, Qum (#11112/18), dated 13th century/19th century
+    * University of Isfahan, Isfahan (#248/4), dated 13th century/19th century
 
 1. Fārūq al-ḥaqq  
    فاروق الحق  
@@ -11480,13 +12697,15 @@
    Hādī b. ʿAbd al-Riḍā al-Tūysirkānī  
    (d. 13th century/19th century)
 
-   **Principle Manuscripts**
-    * Kāshif al-Ghiṭāʾ, Najaf (#572)
-
 1. Ḥujjiyyat al-maẓanna  
    حجية المظنة  
    Muḥammad b. Muḥammad Muʾmin al-Kāshānī  
    (d. 13th century/19th century)
+
+   **Principle Manuscripts**
+    * Markaz-i Iḥyā, Qum (#4420/5), dated 13th century/19th century
+    * KG, Najaf (#416)
+    * Maktabat al-Imām Amīr al-Muʾminīn al-ʿĀmma, Najaf (#121)
 
 1. al-Taklīf wa-l-khurūj ʿan ʿuhdatihi  
    التكليف والخروج عن عهدته  
@@ -11502,12 +12721,15 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Kāshif al-Ghiṭāʾ, Najaf (#572)
+    * Marʿashī, Qum (#2111/1), dated 1299/1882
 
 1. al-Mafāhīm fī l-ʿāmm wa-l-mukhaṣṣaṣ  
    المفاهيم في العام والمخصص  
    ʿAbd ʿAlī b. Muḥammad al-Baḥrānī  
    (d. 13th century/19th century)
+
+   **Principle Manuscripts**
+    * Maktabat al-Imām Amīr al-Muʾminīn al-ʿĀmma, Najaf (#1)
 
 1. al-Istiṣḥāb  
    الاستصحاب  
@@ -11515,7 +12737,7 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Kāshif al-Ghiṭāʾ, Najaf (#572)
+    * Gulpāygānī, Qum (#18/118-3598)
 
 1. Ḥadāʾiq al-ḥaqāʾiq fī iẓhār mā khufiya min al-daqāʾiq  
    حدائق الحقائق في إظهار ما خفي من الدقائق  
@@ -11546,20 +12768,35 @@
    Abū Ṭālib b. Muḥammad Ḥasan al-Ārānī al-Kāshānī  
    (d. 1299/1882)
 
+   **Principle Manuscripts**
+    * Markaz-i Iḥyāʾ, Qum (#298/3), dated 13th century/19th century
+
 1. al-Durar al-munaẓẓma  
    الدرر المنظمة  
    ʿAlī b. Ḥaydar al-Shurūfī  
    (d. 13th century/19th century)
+
+   **Principle Manuscripts**
+    * Maktabat Āyatullāh al-Ḥakīm al-ʿĀmma, Najaf (#1031), dated 1293/1876-7
+    * Maktabat Āyatullāh al-Ḥakīm al-ʿĀmma, Najaf (#807)
 
 1. Aṣālat al-ṣiḥḥa fī afʿāl al-muslimīn  
    أصالة الصحة في أفعال المسلمين  
    Muḥammad Ḥusayn b. Muḥammad al-Mūsawī  
    (d. 13th century/19th century)
 
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#11327/14), dated 13th century/19th century
+
 1. al-Ijtihād wa-l-taqlīd  
    الاجتهاد والتقليد  
    Muḥammad Taqī b. Muḥammad Ḥusayn al-Ardakānī al-Yazdī  
    (d. 13th century/19th century)
+
+   **Principle Manuscripts**
+    * Fayḍ Mahdawī, Kermanshah (#Majmūʿ), dated 1253/1837
+    * Nujūmī, Kermanshah (#Majmūʿ 2), dated 13th century/19th century
+    * Ilāhiyyāt, Tehran (#121/3), dated 13th century/19th century
 
 1. Ḥujjiyyat al-istiṣḥāb  
    حجية الاستصحاب  
@@ -11575,11 +12812,8 @@
    (d. 1299/1882)
 
    **Principle Manuscripts**
-    * Marʿashī, Qum (#16303/18), dated 1241/1825-6
-    * Dāʾirat al-Maʿārif, Tehran (#1997/4)
-    * Marʿashī, Qum (#12109/5), dated 13th century/19th century
-    * AQR, Mashhad (#32051), dated 13th century/19th century
-    * Marʿashī, Qum (#16303/19), dated 13th century/19th century
+    * KG, Najaf (#7271), dated 1299/1881-2
+    * KG, Najaf (#6132)
 
 1. al-Ijzāʾ  
    الإجزاء  
@@ -11607,11 +12841,7 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Masjid-i Aʿẓam, Qum (#825/14), dated 1235/1819-20
-    * Millī, Tehran (#2088/2), dated 1243/1827-8
-    * AQR, Mashhad (#7381), dated 1260/1844-5
-    * Marʿashī, Qum (#13834/6), dated 1266/1849-50
-    * Markaz-i Iḥyāʾ, Qum (#2731), dated 13th century/19th century
+    * Marʿashī, Qum (#15971/4), dated 13th century/19th century
 
 1. Taʿāruḍ al-aṣl wa-l-ẓāhir  
    تعارض الأصل والظاهر  
@@ -11626,6 +12856,9 @@
    unknown  
    (d. 1299/1882)
 
+   **Principle Manuscripts**
+    * Majlis, Tehran (#18313/5), dated 1240/1824-5
+
 1. Taʿrīf uṣūl al-fiqh  
    تعريف أصول الفقه  
    unknown  
@@ -11639,22 +12872,24 @@
    ʿAbdallāh b. Zayn al-ʿĀbidīn al-Māzandarānī  
    (d. 13th century/19th century)
 
+   **Principle Manuscripts**
+    * Maktabat Amīr al-Muʾminīn al-ʿĀmma, Najaf (#125)
+
 1. Muqaddimat al-wājib  
    مقدمة الواجب  
    Muḥammad Riḍā b. Muḥammad ʿAlī al-Isfirinjānī  
    (d. 13th century/18th-19th century)
 
    **Principle Manuscripts**
-    * Masjid-i Aʿẓam, Qum (#825/14), dated 1235/1819-20
-    * Millī, Tehran (#2088/2), dated 1243/1827-8
-    * AQR, Mashhad (#7381), dated 1260/1844-5
-    * Marʿashī, Qum (#13834/6), dated 1266/1849-50
-    * Markaz-i Iḥyāʾ, Qum (#2731), dated 13th century/19th century
+    * Majlis, Tehran (#14715/6), dated 1270/1853
 
 1. al-Barāʾa wa-l-istiṣḥāb  
    البراءة والاستصحاب  
    Muḥammad b. ʿAlī al-Nūrī  
    (d. *c.* 13th century/19th century)
+
+   **Principle Manuscripts**
+    * Maktabat al-Imām Amīr al-Muʾminīn al-ʿĀmma, Najaf (#115), dated 1295/1878-9
 
 1. Ḥujjiyyat aṣl al-barāʾa  
    حجية أصل البراءة  
@@ -11673,6 +12908,9 @@
    أصل الإباحة وأصالة البراءة  
    unknown  
    (d. 1299/1882)
+
+   **Principle Manuscripts**
+    * Millī, Tehran (#3530/2), dated 13th century/19th century
 
 1. Risāla fī l-muṭlaq wa-l-muqayyad  
    رسالة في المطلق والمقيد  
@@ -11698,6 +12936,9 @@
    unknown  
    (d. 1299/1882)
 
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#14273/2), dated 13th century/19th century
+
 1. al-Taʿāruḍ wa-l-taʿādul wa-l-tarājīḥ  
    التعارض والتعادل والتراجيح  
    Muḥammad Mahdī b. Aḥmad al-Lāhījānī  
@@ -11711,15 +12952,25 @@
    Aḥmad b. ʿAlī al-Mukhtār al-Gulpāygānī  
    (d. 13th century/18th-19th century)
 
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#3494/1)
+
 1. al-Dalīl al-ʿaqlī  
    الدليل العقلي  
    unknown  
    (d. 1299/1882)
 
+   **Principle Manuscripts**
+    * Millī, Tehran (#3530/1), dated 13th century/19th century
+
 1. al-Ḍidd  
    الضد  
    unknown  
    (d. 1299/1882)
+
+   **Principle Manuscripts**
+    * AQR, Mashhad (#10081)
+    * Majlis, Tehran (#7643/2)
 
 1. al-Adilla al-ʿaqīla fī aḥkām al-sharīʿa  
    الأدلة العقيلة في أحكام الشريعة  
@@ -11742,10 +12993,16 @@
    ʿAlī Akbar b. Muḥammad Bāqir Qazwīnī  
    (d. 13th century/19th century)
 
+   **Principle Manuscripts**
+    * Millī, Tehran (#1783/13), dated 13th century/19th century
+
 1. al-Ijtihād  
    الاجتهاد  
    unknown  
    (d. 1299/1882)
+
+   **Principle Manuscripts**
+    * Majlis, Tehran (#10099/4)
 
 1. al-Istiṣḥāb  
    الاستصحاب  
@@ -11753,7 +13010,7 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Kāshif al-Ghiṭāʾ, Najaf (#572)
+    * AQR, Mashhad (#14431), dated 1260/1844
 
 1. Ḥujjiyyat al-adilla al-arbaʿa  
    حجية الأدلة الأربعة  
@@ -11769,7 +13026,7 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * Masjid-i Aʿẓam, Qum (#1283/1)
 
 1. Nafy ḥujjiyyat muṭlaq al-ẓann  
    نفي حجية مطلق الظن  
@@ -11806,11 +13063,7 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Masjid-i Aʿẓam, Qum (#825/14), dated 1235/1819-20
-    * Millī, Tehran (#2088/2), dated 1243/1827-8
-    * AQR, Mashhad (#7381), dated 1260/1844-5
-    * Marʿashī, Qum (#13834/6), dated 1266/1849-50
-    * Markaz-i Iḥyāʾ, Qum (#2731), dated 13th century/19th century
+    * Sipahsālār, Tehran (#8432/3)
 
 1. Risāla wāfiya fī l-muhimm min al-masāʾil al-uṣūliyya  
    رسالة وافية في المهم من المسائل الأصولية  
@@ -11826,7 +13079,7 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * ʿAllāma Ṭabāṭabāʾī, Shiraz (#39/1), dated 13th century/19th century
 
 1. Taṣrīf al-mujtahidīn  
    تصريف المجتهدين  
@@ -11850,10 +13103,7 @@
    (d. 1299/1882)
 
    **Principle Manuscripts**
-    * Majlis, Tehran (#260/1), dated 1233/1818
-
-   **Commentaries**
-    * *Ḥāshiyat Risāla fī uṣūl al-fiqh*, Muḥammad Ḥusayn b. Yaḥyā al-Nūrī (d. 12th century/18th century)
+    * Majlis, Tehran (#1/260), dated 1233/1818
 
 1. ʿUmdat al-uṣūl  
    عمدة الأصول  
@@ -11876,10 +13126,17 @@
    ʿAlī b. Chirāgh ʿAlī al-Lārijānī  
    (d. 13th century/18th-19th century)
 
+   **Principle Manuscripts**
+    * AQR, Mashhad (#23592), dated 1265/1848-9
+
 1. al-Aḥkām al-waḍʿiyya  
    الأحكام الوضعية  
    ʿAlī Akbar b. Muḥammad Bāqir Qazwīnī  
    (d. 13th century/19th century)
+
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#5905/5), dated 1303/1885-6
+    * Millī, Tehran (#1783/1), dated 13th century/19th century
 
 1. Tanāfī l-akhbār  
    تنافي الأخبار  
@@ -11894,10 +13151,19 @@
    ʿAlī Akbar b. Muḥammad Bāqir Qazwīnī  
    (d. 13th century/19th century)
 
+   **Principle Manuscripts**
+    * Millī, Tehran (#1783/3), dated 13th century/19th century
+
 1. al-Naskh  
    النسخ  
    unknown  
    (d. 1299/1882)
+
+   **Principle Manuscripts**
+    * Wazīrī, Yazd (#2037/19), dated 1239/1823
+    * AQR, Mashhad (#9091/2)
+    * AQR, Mashhad (#39941), dated 13th century/19th century
+    * Markaz-i Iḥyāʾ, Qum (#2274), dated 13th century/19th century
 
 1. Ḥāshiyat al-taʿādul wa-l-tarājīḥ  
    حاشية التعادل والتراجيح  
@@ -11922,7 +13188,7 @@
    (d. 1299/1882)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * Wazīrī, Yazd (#1477), dated 1267/1850-1
 
 1. Ḥāshiyat al-barāʾa  
    حاشية البراءة  
@@ -11937,6 +13203,9 @@
    Ḥasan b. Muḥammad al-Ḥusaynī al-Qāʾinī  
    (d. 1300/1883)
 
+   **Principle Manuscripts**
+    * Madrasa-yi Jaʿfariyya, Qaen (#78/1)
+
 1. Mabādiʾ al-uṣūliyya  
    مبادئ الأصولية  
    ʿAlī Aṣghar b. ʿAlī Akbar al-Nayyir al-Burūjirdī  
@@ -11950,20 +13219,36 @@
    Muʿizz al-dīn Muḥammad Mahdī b. Ḥasan al-Ḥusaynī al-Qazwīnī  
    (d. 1300/1883)
 
+   **Principle Manuscripts**
+    * Maktabat al-Imām Amīr al-Muʾminīn al-ʿĀmma, Najaf (#255), dated 1275/1858-9
+    * Maktabat al-Imām al-Khūʾī, Najaf (#308), dated 1282/1866
+    * Maktabat al-Imām Amīr al-Muʾminīn al-ʿĀmma, Najaf (#1706)
+
 1. al-Ibdāʿ  
    الإبداع  
    Ḥasan b. Muḥammad al-Ḥusaynī al-Qāʾinī  
    (d. 1300/1883)
+
+   **Principle Manuscripts**
+    * Madrasa-yi Jaʿfariyya, Qaen (#78/4), dated 1263/1847
+    * AQR, Mashhad (#26897), dated 1268/1851-2
+    * AQR, Mashhad (#13182), dated 13th century/19th century
 
 1. al-Qawl fī l-mushtaqq  
    القول في المشتق  
    unknown  
    (d. 14th century/19th century)
 
+   **Principle Manuscripts**
+    * al-ʿAtaba al-ʿAbbāsiyya, Karbala (#261/1), dated 1304/1886
+
 1. Qāʿidat al-tasāmuḥ fī adillat al-sunan  
    قاعدة التسامح في أدلة السنن  
    unknown  
    (d. 14th century/19th century)
+
+   **Principle Manuscripts**
+    * al-ʿAtaba al-ʿAbbāsiyya, Karbala (#261/12), dated 1304/1886
 
 1. al-Mafāhīm  
    المفاهيم  
@@ -11977,6 +13262,9 @@
    القول في المجمل والمبين  
    unknown  
    (d. 14th century/19th century)
+
+   **Principle Manuscripts**
+    * al-ʿAtaba al-ʿAbbāsiyya, Karbala (#261/10), dated 1304/1886
 
 1. Ṣiḥḥat al-salb ʿan al-majāz  
    صحة السلب عن المجاز  
@@ -12017,40 +13305,67 @@
    unknown  
    (d. 14th century/19th century)
 
+   **Principle Manuscripts**
+    * Marwī, Tehran (#704/6), dated 1303/1885
+
 1. Ḥujjiyyat al-ẓann  
    حجية الظن  
    unknown  
    (d. 14th century/19th century)
+
+   **Principle Manuscripts**
+    * Maktabat Āl Marʿashī, Karbala (#109/7), dated 1306/1888
+    * Maktabat Āyatullāh al-Ḥakīm al-ʿĀmma, Najaf (#2762)
+    * Maktabat Āyatullāh al-Ḥakīm al-ʿĀmma, Najaf (#2762)
 
 1. Masāʾil fī qāʿidat al-tartīb  
    مسائل في قاعدة الترتيب  
    unknown  
    (d. 14th century/19th century)
 
+   **Principle Manuscripts**
+    * Maktabat al-Imām Amīr al-Muʾminīn al-ʿĀmma, Najaf (#127), dated 1311/1893
+
 1. Fawāʿid uṣūliyya ḥawl al-amr  
    فوائد أصولية حول الأمر  
    unknown  
    (d. 14th century/19th century)
+
+   **Principle Manuscripts**
+    * al-ʿAtaba al-ʿAbbāsiyya, Karbala (#261/3), dated 1304/1886
 
 1. al-Qawl fī wujūb muqaddimat al-wājib  
    القول في وجوب مقدمة الواجب  
    unknown  
    (d. 14th century/19th century)
 
+   **Principle Manuscripts**
+    * al-ʿAtaba al-ʿAbbāsiyya, Karbala (#261/5), dated 1304/1886
+
 1. al-Qawl fī masalat ijtimāʿ al-amr wa-l-nahy  
    القول في مسالة اجتماع الامر و النهي  
    unknown  
    (d. 14th century/19th century)
+
+   **Principle Manuscripts**
+    * al-ʿAtaba al-ʿAbbāsiyya, Karbala (#261/4), dated 1304/1886
 
 1. Ḥujjiyyat al-ẓann  
    حجية الظن  
    unknown  
    (d. 14th century/19th century)
 
+   **Principle Manuscripts**
+    * Imam Jumʿa, Zanjan (#N/A)
+    * Maktabat Āl Marʿashī, Karbala (#115/5)
+
 1. al-Qawl fī l-muṭlaq wa-l-muqayyad wa-tanqīḥ al-baḥth fīh  
    القول في المطلق والمقيد وتنقيح البحث فيه  
    unknown  
    (d. 14th century/19th century)
+
+   **Principle Manuscripts**
+    * al-ʿAtaba al-ʿAbbāsiyya, Karbala (#261/9), dated 1304/1886
 
 1. al-Mawḍūʿ lahu lafẓ al-ṣalāh  
    الموضوع له لفظ الصلاة  
@@ -12066,41 +13381,58 @@
    (d. 14th century/19th century)
 
    **Principle Manuscripts**
-    * Adabiyyāt, Tehran (#115/3)
-    * Majlis, Tehran (#1194/22)
-    * Gulpāygānī, Gulpāygān (#111/7)
-    * Madrasa-yi Gharb, Hamadan (#4617/1)
-    * Madrasa-yi Gharb, Hamadan (#4707/2)
+    * Maktabat al-Imām Amīr al-Muʾminīn al-ʿĀmma, Najaf (#127), dated 1314/1896
+    * Maktabat al-Imām Amīr al-Muʾminīn al-ʿĀmma, Najaf (#36), dated 14th century/20th century
 
 1. al-Durar al-bahiyya  
    الدرر البهية  
    Muḥammad b. Sulaymān al-Tunikābunī  
    (d. 1302/1885)
 
+   **Principle Manuscripts**
+    * AQR, Mashhad (#8849), dated 1273/1857
+    * Ilāhiyyāt, Tehran (#352/3), dated 1286/1869-70
+    * Marʿashī, Qum (#5906/1), dated 1287/1870-1
+
 1. Ithbāt al-mulāzima bayn al-ʿaql wa-l-sharʿ  
    إثبات الملازمة بين العقل والشرع  
    unknown  
    (d. 14th century/19th century)
+
+   **Principle Manuscripts**
+    * Maktabat al-Imām Amīr al-Muʾminīn al-ʿĀmma, Najaf (#127), dated 1314/1896
 
 1. al-Kalām fī l-awāmir  
    الكلام في الأوامر  
    unknown  
    (d. 14th century/19th century)
 
+   **Principle Manuscripts**
+    * al-ʿAtaba al-ʿAbbāsiyya, Karbala (#260/2), dated 13 Dhū l-Qaʿda 1301/4 September 1884
+
 1. al-Taʿāruḍ bayn l-adilla  
    التعارض بين الأدلة  
    unknown  
    (d. 14th century/19th century)
+
+   **Principle Manuscripts**
+    * al-ʿAtaba al-ʿAbbāsiyya, Karbala (#261/13), dated 1304/1886
 
 1. al-Qawl fī l-manṭūq wa-l-mafhūm  
    القول في المنطوق والمفهوم  
    unknown  
    (d. 14th century/19th century)
 
+   **Principle Manuscripts**
+    * al-ʿAtaba al-ʿAbbāsiyya, Karbala (#261/7), dated 1304/1886
+
 1. al-Taʿādul wa-l-tarājīḥ  
    التعادل والتراجيح  
    ʿAlī b. Qurbān Kanī al-Tihrānī  
    (d. 1306/1888)
+
+   **Principle Manuscripts**
+    * Madrasa-yi Gharb, Hamadan (#1103/6)
 
 1. al-Uṣūl al-arbaʿa min al-adilla al-ʿaqliyya  
    الأصول الأربعة من الأدلة العقلية  
@@ -12114,6 +13446,12 @@
    الضد  
    Muḥammad al-Fayrūzābādī  
    (d. 1305/1888)
+
+   **Principle Manuscripts**
+    * KG, Najaf (#7212)
+
+   **Commentaries**
+    * *Sharḥ al-Ḍidd*, Muḥammad al-Fayrūzābādī (d. 1305/1888)
 
 1. Unmūdhaj al-ḥaqq fī banāʾ al-taklīf ʿalā ḥuṣūl al-yaqīn  
    أنموذج الحق في بناء التكليف على حصول اليقين  
@@ -12129,15 +13467,24 @@
    Muḥammad ʿAlī b. Aḥmad al-Qarāchehdāghī  
    (d. 1310/1892)
 
+   **Principle Manuscripts**
+    * Majlis, Tehran (#8/1138), dated 13th century/19th century
+
 1. Jawāz amr al-āmir maʿa ʿilmiyya bi-intifāʿ sharṭihi wa-ʿadamih (risālat fī)  
    جواز أمر الآمر مع علمية بانتفاع شرطه وعدمه (رسالة في)  
    Mullā Luṭfallāh al-Lārījānī  
    (d. 1311/1894)
 
+   **Principle Manuscripts**
+    * Maktabat al-Imām Amīr al-Muʾminīn al-ʿĀmma, Najaf (#137), dated 1286/1869
+
 1. Dharīʿat al-iʿtimād ʿalā iḥqāq al-ḥaqq wa-fahm al-murād  
    ذريعة الاعتماد على إحقاق الحق وفهم المراد  
    Mullā Luṭfallāh al-Lārījānī  
    (d. 1311/1894)
+
+   **Principle Manuscripts**
+    * Maktabat al-Sayyid Muḥammad Bāqir al-Ṭabāṭabāʾī, Karbala (#115), dated 1308/1890
 
 1. Muqaddimat al-wājib  
    مقدمة الواجب  
@@ -12145,26 +13492,36 @@
    (d. 1311/1894)
 
    **Principle Manuscripts**
-    * Masjid-i Aʿẓam, Qum (#825/14), dated 1235/1819-20
-    * Millī, Tehran (#2088/2), dated 1243/1827-8
-    * AQR, Mashhad (#7381), dated 1260/1844-5
-    * Marʿashī, Qum (#13834/6), dated 1266/1849-50
-    * Markaz-i Iḥyāʾ, Qum (#2731), dated 13th century/19th century
+    * Ḥusayniyya-yi Shūshtarīhā, Najaf (#606/2)
 
 1. al-ʿĀmm wa-l-khāṣṣ wa-l-muṭlaq wa-l-muqayyad  
    العام والخاص والمطلق والمقيد  
    Ḥabībullah b. Muḥammad ʿAlī al-Rashtī  
    (d. 1312/1895)
 
+   **Principle Manuscripts**
+    * Ḥusayniyya-yi Shūshtarīhā, Najaf (#369)
+
 1. Taqlīd al-mayyit wa-l-aʿlam  
    تقليد الميت والأعلم  
    Ḥabībullah b. Muḥammad ʿAlī al-Rashtī  
    (d. 1312/1895)
 
+   **Principle Manuscripts**
+    * KG, Najaf (#7273), dated 13th century/19th century
+    * Maktabat al-Imām Amīr al-Muʾminīn al-ʿĀmma, Najaf (#1708)
+
 1. Badāʾiʿ al-afkār  
    بدايع الأفكار  
    Ḥabībullah b. Muḥammad ʿAlī al-Rashtī  
    (d. 1312/1895)
+
+   **Principle Manuscripts**
+    * Maktabat al-Imām Amīr al-Muʾminīn al-ʿĀmma, Najaf (#2172), dated 1255/1839
+    * KG, Najaf (#3743), dated 1296/1879
+    * Jāmiʿat Madīnat al-ʿIlm, Kazimiyya (#7/7), dated 1305/1887
+    * Jāmiʿat Madīnat al-ʿIlm, Kazimiyya (#7/8)
+    * Jāmiʿat Madīnat al-ʿIlm, Kazimiyya (#7/9)
 
 1. Aṣl al-barāʾa wa-l-istiṣḥāb  
    أصل البراءة  والاستصحاب  
@@ -12179,15 +13536,25 @@
    Ḥabībullah b. Muḥammad ʿAlī al-Rashtī  
    (d. 1312/1895)
 
+   **Principle Manuscripts**
+    * KG, Najaf (#7274), dated 13th century/19th century
+
 1. al-Taḥsīn wa-l-taqbīḥ  
    التحسين والتقبيح  
    Ḥabībullah b. Muḥammad ʿAlī al-Rashtī  
    (d. 1312/1895)
 
+   **Principle Manuscripts**
+    * KG, Najaf (#5931)
+
 1. Natījat al-anẓār  
    نتيجة الأنظار  
    ʿAbd al-Karīm b. Muḥammad ʿAlī al-Shūshtarī  
    (d. 1313/1896)
+
+   **Principle Manuscripts**
+    * Tarikat Muḥammad al-Samāwī, Najaf (#129), dated 1284/1867
+    * Maktabat Āyatullāh al-Ḥakīm al-ʿĀmma, Najaf (#405), dated 1285/1868
 
 1. Multaqaṭāt min al-durar al-najafiyya  
    ملتقطات من الدرر النجفية  
@@ -12202,15 +13569,27 @@
    Muḥammad Ḥusayn b. Muḥammad ʿAlī al-Shahristānī  
    (d. 1315Sh/1898)
 
+   **Principle Manuscripts**
+    * Maktabat ʿAbbās Ḥasan Āl Ṭuʿma, Karbala (#66/3), dated 1312/1894
+
 1. al-ijtihād wa-l-taqlīd  
    الاجتهاد والتقليد  
    Muḥammad Ḥusayn b. Muḥammad ʿAlī al-Shahristānī  
    (d. 1315Sh/1898)
 
+   **Principle Manuscripts**
+    * Maktabat Āl Marʿashī, Karbala (#115/1)
+
 1. Taḥqīq addillat al-aḥkām ʿinda ghiyāb al-imām  
    تحقيق أدلة الأحكام عند غياب الإمام  
    Muḥammad Ḥusayn b. Muḥammad ʿAlī al-Shahristānī  
    (d. 1315Sh/1898)
+
+   **Principle Manuscripts**
+    * Marʿashī, Karbala (#53), dated 14 Jumādā lI 1286/21 September 1869
+    * Marʿashī, Karbala (#127/10), dated 2 Dhū l-Ḥijja 1306/30 July 1889
+    * Majlis, Tehran (#3430/2), dated 16 Dhū l-Ḥijja 1312/1895
+    * Marʿashī, Karbala (#66/1), dated 9 Shaʿbān 1311/1894
 
 1. al-Istiṣḥāb  
    الاستصحاب  
@@ -12218,17 +13597,24 @@
    (d. 1315Sh/1898)
 
    **Principle Manuscripts**
-    * Kāshif al-Ghiṭāʾ, Najaf (#572)
+    * Maktabat ʿAbbās Ḥasan Āl Ṭuʿma, Karbala (#66/2), dated 1311/1893
+    * al-Rawḍa al-Ḥusayniyya, Karbala (#9945), dated 1322/1904
 
 1. Shubhat al-maḥṣūra  
    شبهة المحصورة  
    Muḥammad Ḥusayn b. Muḥammad ʿAlī al-Shahristānī  
    (d. 1315Sh/1898)
 
+   **Principle Manuscripts**
+    * Maktabat Āyatullāh al-Ḥakīm al-ʿĀmma, Najaf (#1540)
+
 1. al-Zuhra al-bāriqa li-maʿrifat aḥwāl al-majāz wa-l-ḥaqīqa  
    الزهرة البارقة لمعرفة أحوال المجاز والحقيقة  
    Muḥammad Ḥusayn b. Muḥammad ʿAlī al-Shahristānī  
    (d. 1315Sh/1898)
+
+   **Principle Manuscripts**
+    * Maktabat Āl Marʿashī, Karbala (#127/1)
 
 1. al-Adilla al-ʿaqliyya  
    الأدلة العقلية  
@@ -12236,12 +13622,15 @@
    (d. 1315Sh/1898)
 
    **Principle Manuscripts**
-    * Gulpāygānī, Qum (#14/129-2679/1)
+    * Maktabat Āl Marʿashī, Karbala (#108/6)
 
 1. al-Shakk fī l-taklīf wa-l-mukallaf bih  
    الشك في التكليف والمكلف به  
    Abū l-Maʿālī b. Muḥammad Ibrāhīm al-Kalbāsī  
    (d. 1315/1898)
+
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#6990/3)
 
 1. Masāʾil uṣūliyya  
    مسائل أصولية  
@@ -12249,9 +13638,7 @@
    (d. 1315Sh/1898)
 
    **Principle Manuscripts**
-    * Maktabat al-Sayyid Bāqir al-Ṭabāṭabāʾī, Karbala (#260), dated 13th century/19th century
-    * Jāmiʿat Madīnat al-ʿIlm, Kazimiyya (#18/39/3)
-    * Maktabat Āl Marʿashī, Karbala (#127/9)
+    * Maktabat Āl Marʿashī, Karbala (#136)
 
 1. al-Istiṣḥāb  
    الاستصحاب  
@@ -12259,7 +13646,8 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Kāshif al-Ghiṭāʾ, Najaf (#572)
+    * Gulpāygānī, Qum (#12/202-2312/2), dated 13th century/19th century
+    * Marʿashī, Qum (#8106)
 
 1. ʿAdam ḥujjiyyat al-ẓann  
    عدم حجية الظن  
@@ -12282,10 +13670,16 @@
    Jamāl al-Dīn b. ʿAlī al-Mūsawī  
    (d. 13th century/19th century)
 
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#2928/4), dated 13th century/19th century
+
 1. Aṣālat al-barāʾa  
    أصالة البراءة  
    Muḥammad Taqī  
    (d. 13th century/19th century)
+
+   **Principle Manuscripts**
+    * Gulpāygānī, Qum (#34/115-6745/17)
 
 1. Uṣūl al-fiqh  
    أصول الفقه  
@@ -12293,12 +13687,15 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * Gawharshād, Mashhad (#432), dated 1282/1865
 
 1. al-Tasāmuḥ fī adillat al-sunan  
    التسامح في أدلة السنن  
    Mullā Maḥmūd al-Ṭabāṭabāʾī al-Burūjirdī  
    (d. 13th century/19th century)
+
+   **Principle Manuscripts**
+    * Imām Ṣādiq, Qum (#29/3), dated 1298/1881
 
 1. al-Fawāʾid al-shīrāziyya fī bayān madhāhib al-ijtihādiyya wa-l-akhbāriyya  
    الفوائد الشيرازية في بيان مذاهب الاجتهادية والأخبارية  
@@ -12315,11 +13712,7 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Marʿashī, Qum (#9644/3), dated 1225/1810
-    * AQR, Mashhad (#7241), dated 1226/1811
-    * Majlis, Tehran (#1233), dated 1231/1815
-    * Masjid-i Aʿẓam, Qum (#825/10), dated 1234/1818
-    * Gulpāygānī, Qum (#13/59-2379/5), dated 1233/1818
+    * Marʿashī, Qum (#12317/2), dated before 1333/1914-5
 
 1. Taqrīrāt al-uṣūl  
    تقريرات الأصول  
@@ -12327,8 +13720,7 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * University of Tehran, Tehran (#6843), dated 1264/1847
-    * University of Tehran, Tehran (#6849)
+    * Khātam al-Anbiyāʾ, Babol (#199)
 
 1. al-ʿAmal bi-l-iḥtiyāṭ  
    العمل بالاحتياط  
@@ -12344,16 +13736,15 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Marʿashī, Qum (#9644/3), dated 1225/1810
-    * AQR, Mashhad (#7241), dated 1226/1811
-    * Majlis, Tehran (#1233), dated 1231/1815
-    * Masjid-i Aʿẓam, Qum (#825/10), dated 1234/1818
-    * Gulpāygānī, Qum (#13/59-2379/5), dated 1233/1818
+    * Marʿashī, Qum (#14980/4), dated Late 13th century/19th century
 
 1. al-Sunna  
    السنة  
    ʿAbd al-Wahhāb b. Muḥammad ʿAlī al-Qazwīnī  
    (d. 13th century/19th century)
+
+   **Principle Manuscripts**
+    * University of Tehran, Tehran (#5932/5), dated 13th century/19th century
 
 1. al-ʿAshara al-kāmila al-musammā bi-l-ḥujja al-bāligha  
    العشرة الكاملة المسمى بالحجة البالغة  
@@ -12368,15 +13759,24 @@
    Alī Akbar b. Maʿṣūm al-Marandī  
    (d. 13th century/19th century)
 
+   **Principle Manuscripts**
+    * Dāʾirat al-Maʿārif, Tehran (#2015/2)
+
 1. Aṣālat al-barāʾa  
    أصالة البراءة  
    Ibrāhīm b. Muḥsin al-Gulpāygānī  
    (d. 13th century/19th century)
 
+   **Principle Manuscripts**
+    * Gulpāygānī, Qum (#9/52-1502/1), dated 13th century/19th century
+
 1. al-Khilāf  
    الخلاف  
    Muḥammad b. ʿAlī al-Gulpāygānī  
    (d. 13th century/19th century)
+
+   **Principle Manuscripts**
+    * AQR, Mashhad (#14188), dated 1291/1874-75
 
 1. Uṣūl al-fiqh  
    أصول الفقه  
@@ -12384,7 +13784,7 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * Madrasa-yi Sulaymāniyya, Mashhad (#51), dated 13th century/19th century
 
 1. al-Farq bayn al-jins wa-ismihi wa-ghayrihimā  
    الفرق بين الجنس واسمه وغيرهما  
@@ -12423,13 +13823,16 @@
    ʿAbd al-Wahhāb b. Muḥammad ʿAlī al-Qazwīnī  
    (d. 13th century/19th century)
 
+   **Principle Manuscripts**
+    * University of Tehran, Tehran (#5932/4), dated 13th century/19th century
+
 1. al-Istiṣḥāb  
    الاستصحاب  
    Hāshim b. Muslim al-Māzandarānī  
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Kāshif al-Ghiṭāʾ, Najaf (#572)
+    * AQR, Mashhad (#23629), dated 1237/1821-2
 
 1. Uṣūl al-fiqh  
    أصول الفقه  
@@ -12437,7 +13840,7 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * AQR, Mashhad (#25131)
 
 1. Uṣūl al-fiqh  
    أصول الفقه  
@@ -12445,7 +13848,7 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * Nujūmī, Kermanshah (#N/A), dated 1254/1838
 
 1. Uṣūl al-fiqh  
    أصول الفقه  
@@ -12453,7 +13856,7 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * Majlis, Tehran (#4815/1), dated 1261/1845-6
 
 1. Uṣūl al-fiqh  
    أصول الفقه  
@@ -12461,12 +13864,15 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * Majlis, Tehran (#9489), dated 1220/1805-6
 
 1. Ḥujjiyyat khabar al-wāhid  
    حجية خبر الواحد  
    ʿAlī Ḥusayn b. Khayrāt ʿAlī al-Zanjifūrī  
    (d. 13th century/19th century)
+
+   **Principle Manuscripts**
+    * Gulpāygānī, Qum (#8877/2 - 59/97), dated 1299/1882
 
 1. Istiʿmāl-i mushtarak dar akthar az yik maʿnā  
    استعمال مشترك در اكثر از يك معنا  
@@ -12488,6 +13894,9 @@
    التجزي في الاجتهاد - الآراني الكاشاني  
    Muḥammad Ḥusayn b. Muḥammad Bāqir al-Ārānī al-Kāshānī  
    (d. *c.*1300/1900)
+
+   **Principle Manuscripts**
+    * Markaz-i Iḥyāʾ, Qum (#3479/4), dated 1280/1863
 
 1. Naskh al-amr  
    نسخ الأمر  
@@ -12525,10 +13934,17 @@
    Hādī b. Muḥammad Amīn al-Tihrānī al-Najafī  
    (d. 1322/1904)
 
+   **Principle Manuscripts**
+    * Maktabat Abū Saʿīda al-Withāqiyya al-ʿĀmma, Najaf (#5)
+
 1. al-Ḥawāshī l-mutaʿalliqa bi-aṣl al-barāʾa  
    الحواشي المتعلقة بأصل البراءة  
    Riḍā b. Muḥammad Hādī al-Hamadānī  
    (d. 1322/1904)
+
+   **Principle Manuscripts**
+    * KG, Najaf (#827), dated 1312/1894
+    * Maktabat al-Sayyid Bāqir al-Ṭabāṭabāʾī, Karbala (#77)
 
 1. al-Istiṣḥāb  
    الاستصحاب  
@@ -12536,12 +13952,18 @@
    (d. 1322/1904)
 
    **Principle Manuscripts**
-    * Kāshif al-Ghiṭāʾ, Najaf (#572)
+    * Maktabat al-Sayyid Bāqir al-Ṭabāṭabāʾī, Karbala (#13)
+    * KG, Najaf (#1371)
+    * KG, Najaf (#1371)
+    * Maktabat al-Sayyid Bāqir al-Ṭabāṭabāʾī, Karbala (#12)
 
 1. Fatwā l-mujtahid wa-rujūʿuhu ʿanhā  
    فتوي المجتهد ورجوعه عنها  
    Hādī b. Muḥammad Amīn al-Tihrānī al-Najafī  
    (d. 1322/1904)
+
+   **Principle Manuscripts**
+    * Maktabat al-Imām al-Khūʾī, Najaf (#228/2), dated 13th century/19th century
 
 1. Ijtimāʿ al-amr wa-l-nahy  
    اجتماع الأمر والنهي  
@@ -12549,16 +13971,19 @@
    (d. 1322/1904)
 
    **Principle Manuscripts**
-    * Marʿashī, Qum (#9644/3), dated 1225/1810
-    * AQR, Mashhad (#7241), dated 1226/1811
-    * Majlis, Tehran (#1233), dated 1231/1815
-    * Masjid-i Aʿẓam, Qum (#825/10), dated 1234/1818
-    * Gulpāygānī, Qum (#13/59-2379/5), dated 1233/1818
+    * KG, Najaf (#4373), dated 1348/1929
 
 1. al-Itqān  
    الإتقان  
    Hādī b. Muḥammad Amīn al-Tihrānī al-Najafī  
    (d. 1322/1904)
+
+   **Principle Manuscripts**
+    * Maktabat al-Imām Amīr al-Muʾminīn al-ʿĀmma, Najaf (#134), dated 1324/1906
+    * Maktabat ʿAbbās Ḥasan Āl Ṭuʿma, Karbala (#64/1), dated 1326/1908
+    * Ḥusayniyya-yi Shūshtarīhā, Najaf (#849), dated 1328/1910
+    * Maktabat al-Imām Amīr al-Muʾminīn al-ʿĀmma, Najaf (#472), dated 1328/1910
+    * Maktabat Āyatullāh al-Ḥakīm al-ʿAmma, Najaf (#2854), dated 1330/1912
 
 1. Uṣūl al-fiqh  
    اصول الفقه  
@@ -12566,7 +13991,7 @@
    (d. 1322/1904)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * Maktabat al-Imām Amīr al-Muʾminīn al-ʿĀmma, Najaf (#92), dated 1328/1910
 
 1. al-Adilla al-ʿaqliyya  
    الأدلة العقلية  
@@ -12574,17 +13999,25 @@
    (d. 1322/1904)
 
    **Principle Manuscripts**
-    * Gulpāygānī, Qum (#14/129-2679/1)
+    * Ḥusayniyya-yi Shūshtarīhā, Najaf (#591)
+    * Ḥusayniyya-yi Shūshtarīhā, Najaf (#437)
+    * al-ʿAtaba al-ʿAbbāsiyya, Karbala (#262/1)
 
 1. Taʿāruḍ al-adilla  
    تعارض الأدلة  
    Hādī b. Muḥammad Amīn al-Tihrānī al-Najafī  
    (d. 1322/1904)
 
+   **Principle Manuscripts**
+    * Maktabat al-Imām Amīr al-Muʾminīn al-ʿĀmma, Najaf (#472), dated 1328/1910
+
 1. Awthaq al-rasāʾil  
    أوثق الرسائل  
    Mūsā b. Muḥammad al-Khwansārī al-Najafī  
    (d. 1322/1904)
+
+   **Principle Manuscripts**
+    * KG, Najaf (#1455)
 
 1. Mabāḥith al-alfāẓ  
    مباحث الألفاظ  
@@ -12592,66 +14025,101 @@
    (d. 1322/1904)
 
    **Principle Manuscripts**
-    * Marʿashī, Qum (#16303/18), dated 1241/1825-6
-    * Dāʾirat al-Maʿārif, Tehran (#1997/4)
-    * Marʿashī, Qum (#12109/5), dated 13th century/19th century
-    * AQR, Mashhad (#32051), dated 13th century/19th century
-    * Marʿashī, Qum (#16303/19), dated 13th century/19th century
+    * Maktabat al-Imām Amīr al-Muʾminīn al-ʿĀmma, Najaf (#99)
 
 1. al-Mushtaqqāt  
    المشتقات  
    Hādī b. Muḥammad Amīn al-Tihrānī al-Najafī  
    (d. 1322/1904)
 
+   **Principle Manuscripts**
+    * Ḥusayniyya-yi Shūshtarīhā, Najaf (#581), dated 1315/1897
+
 1. Ḥujjiyyat al-khabar al-wāḥid  
    حجية الخبر الواحد  
    Hādī b. Muḥammad Amīn al-Tihrānī al-Najafī  
    (d. 1322/1904)
+
+   **Principle Manuscripts**
+    * Maktabat al-Imām al-Khūʾī, Najaf (#228/3), dated 13th century/19th century
 
 1. al-Ḥaqq wa-l-ḥukm  
    الحق والحكم  
    Hādī b. Muḥammad Amīn al-Tihrānī al-Najafī  
    (d. 1322/1904)
 
+   **Principle Manuscripts**
+    * Maktabat al-Imām Amīr al-Muʾminīn al-ʿĀmma, Najaf (#134), dated 1324/1906
+    * Maktabat al-Imām Amīr al-Muʾminīn al-ʿĀmma, Najaf (#472), dated 1327/1909
+    * Maktabat al-Imām Amīr al-Muʾminīn al-ʿĀmma, Najaf (#66), dated 1338/1919
+    * Maktabat al-Imām Amīr al-Muʾminīn al-ʿĀmma, Najaf (#66), dated 1339/1920
+    * Ḥusayniyya-yi Shūshtarīhā, Najaf (#878)
+
 1. al-Ṣaḥīḥ al-aʿamm  
    الصحيح والأعم  
    Muḥammad b. Faḍl ʿAlī al-Fāḍil al-Sharbiyānī  
    (d. 1322/1904)
+
+   **Principle Manuscripts**
+    * Jāmiʿat al-Najaf (Maktaba), Najaf (#98/1)
 
 1. Tashrīḥ al-uṣūl al-kabīr  
    تشريح الأصول الكبير  
    ʿAlī b. Fatḥallāh al-Nahāwandī al-Najafī  
    (d. 1322/1904)
 
+   **Principle Manuscripts**
+    * Ḥusayniyya-yi Shūshtarīhā, Najaf (#400), dated 1300/1883
+    * Markaz al-Buḥūth wa-l-Dirāsāt, Baghdad (#982/251), dated 1350/1931
+    * Ḥusayniyya-yi Shūshtarīhā, Najaf (#593)
+
 1. al-Barāʾa wa-l-ishtighāl  
    البراءة والاشتغال  
    Hādī b. Muḥammad Amīn al-Tihrānī al-Najafī  
    (d. 1322/1904)
+
+   **Principle Manuscripts**
+    * Maktabat al-Sayyid Ḥasan Āqā Mīr al-Qazwīnī, Karbala (#9), dated 1330/1912
 
 1. Uṣul al-fiqh  
    أصول الفقه  
    Muḥammad b. Hāshim al-Mūsawī al-Raḍawī  
    (d. 1323/1905)
 
+   **Principle Manuscripts**
+    * Markaz al-Buḥūth wa-l-Dirāsāt, Baghdad (#251/343), dated 1268/1851
+
 1. Ghanāʾ al-mukhliṣīn  
    غناء المخلصين  
    Muḥammad Ṭāhā b. Mahdī al-Tabrīzī  
    (d. 1323/1905)
+
+   **Principle Manuscripts**
+    * Maktabat Āyatullāh al-Ḥakīm al-ʿĀmma, Najaf (#3109), dated 1271/1854
 
 1. Kashf al-ḥijāb  
    كشف الحجاب  
    Muḥammad Ṭāhā b. Mahdī al-Tabrīzī  
    (d. 1323/1905)
 
+   **Principle Manuscripts**
+    * Maktabat Āyatullāh al-Ḥakīm al-ʿĀmma, Najaf (#3128), dated 1310/1892
+
 1. al-Taqlīd  
    التقليد  
    ʿAbbās b. Ḥasan Kāshif al-Ghiṭāʾ  
    (d. 1323/1905)
 
+   **Principle Manuscripts**
+    * KG, Najaf (#1771)
+
 1. Mabāḥith ʿilm al-uṣūl  
    مباحث علم الأصول  
    ʿAbbās b. Ḥasan Kāshif al-Ghiṭāʾ  
    (d. 1323/1905)
+
+   **Principle Manuscripts**
+    * KG, Najaf (#1770)
 
 1. al-Tuḥfa al-saniyya wa-l-durra al-najafiyya  
    التحفة السنية والدرة النجفية  
@@ -12659,42 +14127,63 @@
    (d. 1323/1905)
 
    **Principle Manuscripts**
-    * ʿAllāma Fānī (Ḍiyāʾ al-Dīn), Isfahan (#14), dated 1314/1897
+    * Maktabat al-Imām Amīr al-Muʾminīn al-ʿĀmma, Najaf (#3128), dated 1301/1883
 
 1. al-Istiṣḥāb al-kullī  
    الاستصحاب الكلي  
    unknown  
    (d. 13th century/20th century)
 
+   **Principle Manuscripts**
+    * KG, Najaf (#1977), dated 1325/1907
+
 1. al-Aṣl al-muthbit  
    الأصل المثبت  
    Maḥmūd b. Muḥammad al-Dhahab  
    (d. 1325/1907)
+
+   **Principle Manuscripts**
+    * Maktabat al-Imām Amīr al-Muʾminīn al-ʿĀmma, Najaf (#389)
 
 1. al-Istisḥāb  
    الاستصحاب  
    Mahdī b. Muḥammad al-Narāqī  
    (d. 1325/1907)
 
+   **Principle Manuscripts**
+    * Maktabat al-Imām Amīr al-Muʾminīn al-ʿĀmma, Najaf (#N/A)
+
 1. Ḥujjiyyat al-ẓann  
    حجية الظن  
    Muḥammad ʿAlī b. Muḥammad Mahdī al-Ārānī al-Kāshānī  
    (d. 1325/1907-8)
+
+   **Principle Manuscripts**
+    * Muḥammad Hilāl, Kashan (#208/1), dated 12 Rabīʿ I 1269/24 December 1852
 
 1. Muqaddimat al-Wājib  
    مقدمة الواجب  
    Nāṣir al-Dīn b. Jalāl al-Dīn al-Narāqī  
    (d. 1331/1913)
 
+   **Principle Manuscripts**
+    * Millī, Tehran (#3202), dated 1294/1877
+
 1. al-Masāʾil al-uṣūliyya  
    المسائل الأصولية  
    Abū l-Qāsim b. Muḥammad Taqī al-Urdūbādī  
    (d. 1333/1915)
 
+   **Principle Manuscripts**
+    * Maktabat al-Imām Amīr al-Muʾminīn al-ʿĀmma, Najaf (#1884), dated 14th century/20th century
+
 1. Ḥujjiyyat al-ẓann  
    حجية الظن  
    Muḥammad Ḥusayn b. Muḥammad Qāsim al-Qumshaʾī  
    (d. 1336/1917)
+
+   **Principle Manuscripts**
+    * Majlis, Tehran (#5308)
 
 1. Ijtimāʿ al-amr wa-l-nahy  
    اجتماع الأمر والنهي  
@@ -12702,21 +14191,26 @@
    (d. *c.* 1338/1920)
 
    **Principle Manuscripts**
-    * Marʿashī, Qum (#9644/3), dated 1225/1810
-    * AQR, Mashhad (#7241), dated 1226/1811
-    * Majlis, Tehran (#1233), dated 1231/1815
-    * Masjid-i Aʿẓam, Qum (#825/10), dated 1234/1818
-    * Gulpāygānī, Qum (#13/59-2379/5), dated 1233/1818
+    * Malek, Tehran (#553), dated 1302/1885
+    * Wazīrī, Yazd (#2373/2), dated 1309/1891-2
+    * Masjid-i Aʿẓam, Qum (#276/4)
 
 1. Ḥaqīqat māhiyāt al-aḥkām al-waḍʿiyya wa-l-taklīfiyya  
    حقيقة ماهيات الأحكام الوضعية والتكليفية  
    Abū Turāb b. Abī l-Qāsim al-Khwānsārī  
    (d. 1346/1928)
 
+   **Principle Manuscripts**
+    * Ḥusayniyya-yi Shūshtarīhā, Najaf (#608/3)
+    * Marʿashī, Qum (#10976/3)
+
 1. Ḥujjiyyat al-ẓann  
    حجية الظن  
    Mūsā b. Jaʿfar al-Tabrīzī  
    (d. 1307Sh/1928)
+
+   **Principle Manuscripts**
+    * Maktabat Āyatullāh al-Ḥakīm al-ʿĀmma, Najaf (#789), dated 1294/1877
 
 1. Taʿāruḍ al-uṣūl wa-l-qawāʿid al-fiqhiyya  
    تعارض الأصول والقواعد الفقهية  
@@ -12740,11 +14234,7 @@
    (d. 14th century/20th century)
 
    **Principle Manuscripts**
-    * Marʿashī, Qum (#9644/3), dated 1225/1810
-    * AQR, Mashhad (#7241), dated 1226/1811
-    * Majlis, Tehran (#1233), dated 1231/1815
-    * Masjid-i Aʿẓam, Qum (#825/10), dated 1234/1818
-    * Gulpāygānī, Qum (#13/59-2379/5), dated 1233/1818
+    * KG, Najaf (#138), dated 1321/1903
 
 1. al-Istiṣḥāb  
    الاستصحاب  
@@ -12752,22 +14242,31 @@
    (d. 14th century/20th century)
 
    **Principle Manuscripts**
-    * Kāshif al-Ghiṭāʾ, Najaf (#572)
+    * Maktabat al-Sayyid Ḥasan Āqā Mīr al-Qazwīnī, Karbala (#1), dated 1322/1904
 
 1. Ishtighāl al-dhimma  
    اشتغال الذمة  
    ʿAlī b. Muḥammad al-Khurāsānī  
    (d. 14th century/20th century)
 
+   **Principle Manuscripts**
+    * KG, Najaf (#7950), dated 1304/1886
+
 1. al-Khilāf al-wāqiʿ bayn al-mujtahidīn wa-l-akhbāriyyīn  
    الخلاف الواقع بين المجهتدين والأخباريين  
    ʿAlī b. Muḥammad al-Khurāsānī  
    (d. 14th century/20th century)
 
+   **Principle Manuscripts**
+    * KG, Najaf (#7949), dated 1304/1886
+
 1. al-Barāʿa min taqrīr al-Shaykh Mūsā  
    البراءة من تقرير الشيخ موسى  
    Mahdī al-Ḥakīm  
    (d. 14th century/20th century)
+
+   **Principle Manuscripts**
+    * Maktabat al-Imām Amīr al-Muʾminīn al-ʿĀmma, Najaf (#161), dated 1305/1887
 
 1. Ḥujjiyyat al-ʿaql/al-Adilla al-ʿaqliyya  
    حجية العقل/الأدلة العقلية  
@@ -12797,13 +14296,16 @@
    Muḥammad Jaʿfar b. Muḥammad Ṣāliḥ Ibn Zahrī al-Gīlānī  
    (d. 13th century/19th century)
 
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#13674), dated 13th century/19th century
+
 1. Uṣūl al-fiqh  
    أصول الفقه  
    Muḥammad Mahdī al-Ṭabāṭabāʾī  
    
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * Madrasat al-Ṣāʾigh al-Ḥalabī, Mosul (#5/1)
 
 1. Muqaddimat al-wājib  
    مقدمة الواجب  
@@ -12811,11 +14313,7 @@
    
 
    **Principle Manuscripts**
-    * Masjid-i Aʿẓam, Qum (#825/14), dated 1235/1819-20
-    * Millī, Tehran (#2088/2), dated 1243/1827-8
-    * AQR, Mashhad (#7381), dated 1260/1844-5
-    * Marʿashī, Qum (#13834/6), dated 1266/1849-50
-    * Markaz-i Iḥyāʾ, Qum (#2731), dated 13th century/19th century
+    * Maḥmūdābādī, Yazd (#32/7), dated 1235/1819
 
 1. Nukhbat al-ʿuqūl fī ʿilm al-uṣūl  
    نخبة العقول في علم الأصول  
@@ -12835,12 +14333,15 @@
    
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * al-Rawḍa al-Ḥusayniyya, Karbala (#82)
 
 1. al-ʿUmūm wa-l-khuṣūṣ  
    العموم والخصوص  
    Mīrzā Shams al-Dīn al-Ṭihrānī  
    (d. 13th century/19th century)
+
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#11843/3), dated 13th century/19th century
 
 1. al-Istiṣḥāb  
    الاستصحاب  
@@ -12900,10 +14401,21 @@
    unknown  
    (d. 999/1599)
 
+   **Principle Manuscripts**
+    * Majlis, Tehran (#260), dated 935/1528
+    * University of Tehran, Tehran (#3259), dated 936/1529
+    * Kitābkhānahā-yi Iṣfahān, Isfahan (#12), dated 936/1529
+
+   **Editions**
+    * *Muʿtaqad al-imāmiyya*, ed. Muḥammad Taqī Dānishpazhūh (Tehran: Chapkhāna-yi Dānishgāh-i Tihrān, 1339Sh/1961)
+
 1. Tamhīd al-qawāʿid al-uṣūliyya wa-l-ʿarabiyya (muntakhab)  
    تمهيد القواعد الأصولية والعربية  
    unknown  
    (d. 1099/1699)
+
+   **Principle Manuscripts**
+    * Millī, Tehran (#3156/1), dated 1026/1617
 
 1. Manāhil al-shawārid fī talkhīṣ al-Maqāṣid  
    مناهل الشوارد في تلخيص المقاصد  
@@ -12941,18 +14453,28 @@
    Jamāl al-Dīn b. ʿAbd al-Nabī b. ʿAbd al-Ṣāniʿ al-Nayshābūrī al-Astarābādī  
    (d. 1232 or 1233/1817 or 1818)
 
+   **Principle Manuscripts**
+    * Majlis, Tehran (#1241)
+
 1. Mulakhkhaṣ al-fawāʾid al-saniyya wa-muntakhab al-farāʾid al-ḥusayniyya  
    ملخص الفوائد السنية ومنتخب الفرائد الحسينية  
    Muḥammad Ḥasan b. Muḥammad Maʿṣūm al-Qazwīnī  
    (d. 1240/1824-5)
+
+   **Principle Manuscripts**
+    * Millī, Tehran (#3358/2), dated 1202/1787
+    * Malek, Tehran (#1588/2), dated 1207/1792
+    * Dāʾirat al-Maʿārif, Tehran (#232/1), dated 1207/1792
+    * Dāʾirat al-Maʿārif, Tehran (#231), dated 1210/1795
+    * Gawharshād, Mashhad (#523), dated 1221/1806
 
 1. Anīs al-ṭullāb  
    أنيس الطلاب  
    Muḥammad Jaʿfar b. Muḥammad ʿAlī al-Bihbahānī  
    (d. 1259/1843-4)
 
-   **Commentaries**
-    * *Anīs al-ṭullāb*, Muḥammad Jaʿfar b. Muḥammad ʿAlī al-Bihbahānī (d. 1259/1843-4)
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#12786)
 
 1. Mukhtaṣar Mawāʾid al-ʿawāʾid  
    مختصر موائد العوائد  
@@ -13001,6 +14523,10 @@
    Muḥammad Mahdī b. Ḥusayn al-Khāliṣī al-Kāẓimī  
    (d. 1343/1925)
 
+   **Principle Manuscripts**
+    * Jāmiʿat Madīnat al-ʿIlm, Kadhimayn (#7/11/1), dated 1323/1905
+    * Jāmiʿat Madīnat al-ʿIlm, Kadhimayn (#7/10)
+
 1. Uṣūl al-fiqh/al-Adilla ʿalā mashrūʿiyyat al-ʿamal bi-l-ẓunūn  
    أصول الفقه/الأدلة على مشروعية العمل بالظنون  
    Fakhr al-Dīn b. Muḥammad ʿAlī b. Aḥmad al-Ṭurayḥī al-Najafī  
@@ -13042,6 +14568,16 @@
    نظم زبدة الأصول  
    al-Mīrzā Qiwām al-Dīn al-Ḥusaynī al-Sayfī al-Qazwīnī  
    (alive in 1104/1693)
+
+   **Principle Manuscripts**
+    * Ḥawza-yi Āstān-i Ḥaḍrat ʿAbd al-Aẓīm, Tehran (#53), dated 1108/1697
+    * AQR, Mashhad (#2953), dated 1129/1717
+    * Farhād Muʿtamad, Tehran (#50), dated 12th century/18th century
+    * Millī, Tehran (#2076), dated 12th century/18th century
+    * Gawharshād, Mashhad (#1049/8), dated 13th century/19th century
+
+   **Commentaries**
+    * *Ḥāshiyat Naẓm Zubdat al-uṣūl*, al-Mīrzā Qiwām al-Dīn al-Ḥusaynī al-Sayfī al-Qazwīnī (alive in 1104/1693)
 
 1. Uṣūl al-fiqh  
    أصول الفقه  
@@ -13090,7 +14626,11 @@
    (d. 1212/1797)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * Tarikat Muḥammad al-Samawī, Najaf (#417), dated 1212/1797-80
+    * Maktabat al-Sayyid Muḥammad Bāqir al-Ṭabāṭibāʾī, Karbala (#392)
+    * KG, Najaf (#782)
+    * Fayḍiyya, Qum (#175/1)
+    * Fayḍiyya, Qum (#2038/1)
 
 1. al-Durar al-bahiyya fī l-naẓāʾir al-fiqhiyya  
    الدرر البهية في النظائر الفقهية  
@@ -13116,10 +14656,24 @@
    Muḥammad Muḥsin b. Muḥammad Samīʿ al-Kirmānshāhī  
    (d. 1223/1808-9)
 
+   **Principle Manuscripts**
+    * Muḥammad Hilāl, Kashan (#49/2), dated 13th century/19th century
+    * Masjid-i Aʿẓam, Qum (#2376/4), dated 13th century/19th century
+    * Gulpāygānī, Qum (#25/111-5021/2), dated 13th century/19th century
+    * Dāʾirat al-Maʿārif-i Buzurg-i Islāmī, Tehran (#770/1), dated 13th century/19th century
+    * Majlis, Tehran (#629/2), dated 13th century/19th century
+
 1. Uṣul al-fiqh  
    أصول الفقه  
    Muḥammad Muḥsin b. Muḥammad Samīʿ al-Kirmānshāhī  
    (d. 1223/1808-9)
+
+   **Principle Manuscripts**
+    * Masjid-i Aʿẓam, Qum (#907/2), dated 1296/1879
+    * Masjid-i Aʿẓam, Qum (#2376/4), dated 13th century/19th century
+    * Majlis, Tehran (#629/2), dated 13th century/19th century
+    * Sipahsālār, Tehran (#855/4)
+    * Sipahsālār, Tehran (#855/2)
 
 1. Naẓm Zubdat al-uṣūl  
    نظم زبدة الأصول  
@@ -13142,10 +14696,16 @@
    ʿAbdallāh b. Ḥasan Āl ʿAbd al-Jabbār  
    (d. 1292/1875)
 
+   **Principle Manuscripts**
+    * Markaz-i Muṭālaʿāt, Qum (#289), dated 1292/1875-6
+
 1. Majmaʿ al-anwār  
    مجمع الأنوار  
    Muḥsin b. Muḥammad Rafīʿ al-Rashtī al-Iṣfahānī  
    (d. 13th century/19th century)
+
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#7003/3)
 
 1. Naẓm al-laʾāliʾ  
    نظم اللآلئ  
@@ -13180,18 +14740,24 @@
    Muḥammad b. Jaʿfar al-Ṭabarsī  
    (d. 13th century/18th-19th century)
 
+   **Principle Manuscripts**
+    * Majlis, Tehran (#7049/9)
+
 1. Uṣūl al-fiqh  
    أصول الفقه  
    Muḥammad Bāqir b. Ḥasan ʿAlī al-Ardakānī al-Yazdī  
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * Malek, Tehran (#2946/1), dated 1223/1808
 
 1. Hadiyyat al-maḥshar  
    هدية المحشر  
    Muḥsin b. Muḥammad Rafīʿ al-Rashtī al-Iṣfahānī  
    (d. 13th century/19th century)
+
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#1379/3), dated 13th century/19th century
 
 1. Uṣūl al-fiqh  
    أصول الفقه  
@@ -13199,7 +14765,7 @@
    (d. 1299/1882)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * al-Maktaba al-ʿAbbāsiyya (Bāsh Aʿyān), Basra (#203/2), dated 1266/1849-50
 
 1. Laʾāliʾ al-uṣūl  
    لآلئ الأصول  
@@ -13213,6 +14779,10 @@
    السبائك المذهبة  
    Muʿizz al-dīn Muḥammad Mahdī b. Ḥasan al-Ḥusaynī al-Qazwīnī  
    (d. 1300/1883)
+
+   **Principle Manuscripts**
+    * Maktabat al-ʿAllāma al-Sayyid Muḥammad Ṣādiq Baḥr al-ʿUlūm, Najaf (#60), dated 1286/1869
+    * Maktabat Āyatullāh al-Ḥakīm al-ʿĀmma, Najaf (#755), dated 1356/1937-8
 
 1. al-Durra al-munaẓẓama/Urjūza fī uṣūl al-fiqh  
    الدرة المنظمة/أرجوزة في أصول الفقه  
@@ -13236,12 +14806,16 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * Majlis, Tehran (#3755), dated 1288/1871
 
 1. Durar al-farāʾid  
    درر الفرائد  
    Mullā ʿAlī al-Qazwīnī al-Khūʾīnī  
    (d. 1318/1901)
+
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#8347), dated 1315/1315
+    * Maktabat Muḥammad ʿAlī Khayr al-Dīn, Karbala (#4)
 
 1. Manẓūma fī uṣūl al-fiqh  
    منظومة في أصول الفقه  
@@ -13316,6 +14890,9 @@
    Muḥsin b. al-Ḥasan b. Murtaḍā al-Aʿrajī  
    (d. 1227/1812)
 
+   **Principle Manuscripts**
+    * Jāmiʿat Madīnat al-ʿIlm, Kazimiyya (#6/227/4)
+
 1. al-Radd ʿala l-qawl bi-najāt Firʿawn  
    الرد علی القول بنجاة فرعون  
    al-Mīrzā Abū l-Qāsim b. Muḥammad al-Ḥasan al-Shaftī al-Qummī  
@@ -13361,10 +14938,20 @@
    Jamāl al-Dīn b. ʿAbd al-Nabī b. ʿAbd al-Ṣāniʿ al-Nayshābūrī al-Astarābādī  
    (d. 1232 or 1233/1817 or 1818)
 
+   **Principle Manuscripts**
+    * Khizānat Āl Jamāl al-Dīn, Qaryat al-Muʾminīn (Sūq al-Shyūkh) (#40/5), dated 1227/1812
+    * Majlis, Tehran (#7739), dated 1232/1816
+    * Nujūmī, Kermanshah (#N/A), dated 1235/1819
+    * Madrasa-yi Gharb, Hamadan (#4541), dated 1251/1835
+    * AQR, Mashhad (#705), dated 1254/1838
+
 1. Radd al-īrādāt ʿalā l-Risāla al-burhāniyya  
    رد الإيرادات على الرسالة البرهانية  
    Jamāl al-Dīn b. ʿAbd al-Nabī b. ʿAbd al-Ṣāniʿ al-Nayshābūrī al-Astarābādī  
    (d. 1232 or 1233/1817 or 1818)
+
+   **Principle Manuscripts**
+    * Shāh Chirāgh, Shiraz (#509/3), dated 1212/1797
 
 1. Asās al-uṣūl  
    أساس الأصول  
@@ -13483,10 +15070,7 @@
    (d. 1299/1882)
 
    **Principle Manuscripts**
-    * Marʿashī, Qum (#3720), dated 1256/1840-1
-
-   **Editions**
-    * *Risālat al-farq bayn al-akhbāriyyīn wa-l-uṣūliyyīn*, ed. Muḥammad Riḍā al-Anṣārī al-Qummī (Qum: Usul Studies - A Journal of Usul al-Fiqh, 1390Sh/2011)
+    * Marʿashī, Qum (#10102/1), dated 1273/1856-7
 
 1. Kashf al-ḥijāb li-tamyīz al-khaṭaʾ ʿan al-ṣawāb  
    كشف الحجاب لتمييز الخطأ عن الصواب  
@@ -13540,10 +15124,16 @@
    Aḥmad b. Muḥammad Muḥsin  
    (d. 13th century/18th-19th century)
 
+   **Principle Manuscripts**
+    * Fāḍil Khwānsārī, Khwansar (#214), dated 13th century/19th century
+
 1. Taqrīrāt al-fiqh wa-l-uṣūl  
    تقريرات الفقه والأصول  
    ʿAlī Riḍā  
    (d. 12th century/18th century)
+
+   **Principle Manuscripts**
+    * Gulpāygānī, Qum (#12/89-2199), dated 14th century/20th century
 
 1. Uṣūl al-fiqh  
    أصول الفقه  
@@ -13551,7 +15141,7 @@
    (d. 1217/1802-3)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * Markaz-i Iḥyāʾ, Qum (#1382), dated 13th century/19th century
 
 1. Taqrīrāt al-uṣūl  
    تقريرات الأصول  
@@ -13559,8 +15149,7 @@
    (d. 1240/1824-5)
 
    **Principle Manuscripts**
-    * University of Tehran, Tehran (#6843), dated 1264/1847
-    * University of Tehran, Tehran (#6849)
+    * Gulpāygānī, Qum (#25/130-504), dated 1208/1793
 
 1. Taqrīrāt al-uṣūl  
    تقريرات الأصول  
@@ -13568,8 +15157,7 @@
    (d. 1245/1829-30)
 
    **Principle Manuscripts**
-    * University of Tehran, Tehran (#6843), dated 1264/1847
-    * University of Tehran, Tehran (#6849)
+    * Ḥujjatīyya, Qum (#659)
 
 1. Taqrīrāt al-uṣūl  
    تقريرلت الأصول  
@@ -13577,8 +15165,8 @@
    (d. 1245 or 1246/1829 or 1830)
 
    **Principle Manuscripts**
-    * University of Tehran, Tehran (#6843), dated 1264/1847
-    * University of Tehran, Tehran (#6849)
+    * Majlis, Tehran (#4426/1), dated 1241/1826
+    * Miftāḥ, Tehran (#214), dated 1243/1827
 
 1. al-Manāhij  
    المناهج  
@@ -13613,8 +15201,7 @@
    (d. 1262/1846)
 
    **Principle Manuscripts**
-    * University of Tehran, Tehran (#6843), dated 1264/1847
-    * University of Tehran, Tehran (#6849)
+    * Majlis, Tehran (#9253), dated 1277/1860-1
 
 1. Taqrīrāt fī l-uṣūl  
    تقريرات في الأصول  
@@ -13622,17 +15209,23 @@
    (d. 1266/1849-50)
 
    **Principle Manuscripts**
-    * Kāshif al-Ghiṭāʾ, Najaf (#197), dated 1242/1826
+    * Maktabat al-Sayyid Ḥusayn al-Ḥusaynī al-Hamadānī, Najaf (#68), dated 1244/1829
 
 1. Taqrīrāt al-fiqh wa-l-uṣūl  
    تقريرات الفقه والأصول  
    Muḥammad Mahdī b. Muḥammad Kāẓim Nāʾib al-Ṣaḍr  
    (d. 1267/1850-1)
 
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#13077), dated 13th century/19th century
+
 1. Taqrīrāt al-fiqh wa-l-uṣūl  
    تقريرات الفقه والأصول  
    Aḥmad al-Qazwīnī  
    (d. 1273/1856-7)
+
+   **Principle Manuscripts**
+    * Dānishgāh, Tehran (#4184)
 
 1. Durūs al-uṣul  
    دروس الأصول  
@@ -13654,8 +15247,7 @@
    (d. 1278/1862)
 
    **Principle Manuscripts**
-    * University of Tehran, Tehran (#6843), dated 1264/1847
-    * University of Tehran, Tehran (#6849)
+    * Majlis, Tehran (#15118), dated 13th century/19th century
 
 1. al-Ghurar al-gharawiyya fī l-mabāḥith al-lafẓiyya  
    الغرر الغروية في المباحث اللفظية  
@@ -13684,8 +15276,8 @@
    (d. *c.* 1280/1864)
 
    **Principle Manuscripts**
-    * University of Tehran, Tehran (#6843), dated 1264/1847
-    * University of Tehran, Tehran (#6849)
+    * Sipahsālār, Tehran (#7453/9)
+    * Madrasa-yi Ṣadr-i Bāzār, Isfahan (#416)
 
 1. Taqrīrāt al-uṣūl  
    تقريرات الأصول  
@@ -13693,8 +15285,7 @@
    (d. 1281/1864)
 
    **Principle Manuscripts**
-    * University of Tehran, Tehran (#6843), dated 1264/1847
-    * University of Tehran, Tehran (#6849)
+    * al-Rawḍa al-Ḥusayniyya, Karbala (#9334H-M168)
 
 1. Taqrīrāt al-uṣūl  
    تقريرات الأصول  
@@ -13702,8 +15293,7 @@
    (d. 1284/1868)
 
    **Principle Manuscripts**
-    * University of Tehran, Tehran (#6843), dated 1264/1847
-    * University of Tehran, Tehran (#6849)
+    * Gulpāygānī, Qum (#2/85 - 265), dated 1311/1893
 
 1. Taqrīrāt al-uṣūl  
    تقريرات الأصول  
@@ -13711,13 +15301,18 @@
    (d. 1284?/1868)
 
    **Principle Manuscripts**
-    * University of Tehran, Tehran (#6843), dated 1264/1847
-    * University of Tehran, Tehran (#6849)
+    * Majlis, Tehran (#9347), dated 12 Rabīʿ II 1277/28 October 1860
+    * Majlis, Tehran (#9346), dated 1299/1882
+    * Majlis, Tehran (#9350), dated 1299/1882
+    * Majlis, Tehran (#9348), dated 1299/1882
 
 1. Dhakhāʾir al-uṣūl  
    ذخائر الأصول  
    Ḥasan b. Muḥammad Mahdī Shāh ʿAbd al-ʿAẓīmī al-Najafī  
    (d. 1290/1873)
+
+   **Principle Manuscripts**
+    * Majlis, Tehran (#17705)
 
 1. Muqaddimat al-wājib  
    مقدمة الواجب  
@@ -13725,11 +15320,10 @@
    (d. 1290/1873)
 
    **Principle Manuscripts**
-    * Masjid-i Aʿẓam, Qum (#825/14), dated 1235/1819-20
-    * Millī, Tehran (#2088/2), dated 1243/1827-8
-    * AQR, Mashhad (#7381), dated 1260/1844-5
-    * Marʿashī, Qum (#13834/6), dated 1266/1849-50
-    * Markaz-i Iḥyāʾ, Qum (#2731), dated 13th century/19th century
+    * Gawharshād, Mashhad (#1948/4), dated 16 Ramadan 1307/1890
+    * Kitābkhaneh Madrasat Ḥājj Muḥammad Ibrāhīm, Arak (#85/2), dated Rajab 1310/1893
+    * Majlis, Tehran (#703/1), dated 14th century/20th century
+    * Majlis, Tehran (#3259/4), dated 14th century/20th century
 
 1. Taqrīrāt al-uṣūl  
    تقريرات الأصول  
@@ -13737,8 +15331,11 @@
    (d. 1290/1873)
 
    **Principle Manuscripts**
-    * University of Tehran, Tehran (#6843), dated 1264/1847
-    * University of Tehran, Tehran (#6849)
+    * Gulpāygānī, Qum (#8/107-1397), dated 1310/1893
+    * Marʿashī, Qum (#3497), dated 1312/1895
+    * AQR, Mashhad (#7355), dated 1320/1902
+    * AQR, Mashhad (#11557), dated 1327/1909
+    * KG, Najaf (#1985), dated 1330/1911-12
 
 1. Ijtimāʿ al-amr wa-l-nahy/Taqrīrāt al-Mīrzā al-Shīrāzī  
    اجتماع الأمر والنهي/تقريرات الميرزا الشيرازي  
@@ -13753,17 +15350,23 @@
    ʿAlī al-Rūzdarī  
    (d. 1290/1873)
 
+   **Principle Manuscripts**
+    * Gawharshād, Mashhad (#723/6), dated early 14th century/20th century
+    * Majlis, Tehran (#8164/4), dated 14th century/20th century
+    * Majlis, Tehran (#3259/12), dated 14th century/20th century
+    * Gawharshād, Mashhad (#470/6)
+
 1. al-Fawāʾid al-uṣūliyya  
    الفوائد الأصولية  
    ʿAlī al-Rūzdarī  
    (d. 1290/1873)
 
    **Principle Manuscripts**
-    * Majlis, Tehran (#4303/6), dated 1211/1766
-    * AQR, Mashhad (#36770), dated 1199/1784
-    * Markaz-i Iḥyāʾ, Qum (#277/18), dated 1197-1200/1782-5
-    * Malek, Tehran (#733/5), dated 1201/1786
-    * AQR, Mashhad (#37670/2), dated 1210/1795
+    * Marʿashī, Qum (#6925), dated 1300/1882-83
+    * Muftī al-Shīʿa, Qum (#103), dated 1301/1301
+    * Masjid-i Aʿẓam, Qum (#777), dated 1303/1885-86
+    * Gawharshād, Mashhad (#723/7), dated early 14th century/20th century
+    * Majlis, Tehran (#3259/1), dated 14th century/20th century
 
 1. Dalālat al-nahy ʿalā fasād al-manhiyy ʿanh  
    دلالة النهي على فساد المنهي عنه  
@@ -13782,15 +15385,30 @@
    ʿAlī al-Rūzdarī  
    (d. 1290/1873)
 
+   **Principle Manuscripts**
+    * Gawharshād, Mashhad (#723/3), dated early 14th century/19th century
+    * Majlis, Tehran (#3259/13), dated 1300/1882-3
+    * Masjid-i Aʿẓam, Qum (#638), dated 1345/1926
+    * Madrasa-yi Ṣadr-i Bāzār, Isfahan (#660), dated 1354/1935
+    * Muʾassasat Āyatullāh Burūjirdī, Qum (#294), dated 1369/1950
+
 1. al-Mafāhīm/Mafhūm al-sharṭ  
    المفاهيم/مفهوم الشرط  
    ʿAlī al-Rūzdarī  
    (d. 1290/1873)
 
+   **Principle Manuscripts**
+    * Gawharshād, Mashhad (#723/5), dated early 14th century/20th century
+    * Majlis, Tehran (#8164/3), dated 14th century/1979
+    * Gawharshād, Mashhad (#470/5), dated 14th century/20th century
+
 1. Taqrīrāt fī uṣūl al-fiqh  
    تقريرات في أصول الفقه  
    Abū l-Qāsim b. Muḥammad ʿAlī al-Kalāntarī  
    (d. 1292/1875)
+
+   **Principle Manuscripts**
+    * KG, Najaf (#2452)
 
 1. Taqrīrāt al-uṣūl  
    تقريرات الأصول  
@@ -13798,8 +15416,7 @@
    (d. before 1293/1876)
 
    **Principle Manuscripts**
-    * University of Tehran, Tehran (#6843), dated 1264/1847
-    * University of Tehran, Tehran (#6849)
+    * Madrasa-yi Bāqiriyya, Mashhad (#63)
 
 1. Taqrīrāt al-uṣūl  
    تقريرات الأصول  
@@ -13807,8 +15424,8 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * University of Tehran, Tehran (#6843), dated 1264/1847
-    * University of Tehran, Tehran (#6849)
+    * Majlis, Tehran (#15373), dated 1245/1829-30
+    * Marʿashī, Qum (#7821)
 
 1. Taqrīrāt al-uṣūl  
    تقريرات الأصول  
@@ -13816,8 +15433,7 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * University of Tehran, Tehran (#6843), dated 1264/1847
-    * University of Tehran, Tehran (#6849)
+    * Ilāhiyyāt, Tehran (#134), dated 13th century/19th century
 
 1. Taqrīrāt al-uṣūl  
    تقريرات الأصول  
@@ -13825,8 +15441,7 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * University of Tehran, Tehran (#6843), dated 1264/1847
-    * University of Tehran, Tehran (#6849)
+    * Majlis, Tehran (#13164/8), dated 13th century/19th century
 
 1. Taqrīrāt-i dars-i Shaykh Murtaḍā Anṣārī  
    تقريرات درس شيخ مرتضى أنصاري  
@@ -13850,17 +15465,12 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * University of Tehran, Tehran (#6843), dated 1264/1847
-    * University of Tehran, Tehran (#6849)
+    * Chihil Sutūn, Tehran (#61)
 
 1. Taqrīrāt al-uṣūl  
    تقريرات الأصول  
    Muḥammad ʿAlī al-Raḍawī  
    (d. 13th century/19th century)
-
-   **Principle Manuscripts**
-    * University of Tehran, Tehran (#6843), dated 1264/1847
-    * University of Tehran, Tehran (#6849)
 
 1. Taqrīrāt al-uṣūl  
    تقريرات الأصول  
@@ -13868,8 +15478,7 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * University of Tehran, Tehran (#6843), dated 1264/1847
-    * University of Tehran, Tehran (#6849)
+    * Marʿashī, Qum (#6710)
 
 1. Taqrīrāt al-uṣūl  
    تقريرات الأصول  
@@ -13877,8 +15486,11 @@
    (d. 1299/1882)
 
    **Principle Manuscripts**
-    * University of Tehran, Tehran (#6843), dated 1264/1847
-    * University of Tehran, Tehran (#6849)
+    * Ḥaydarī, Mashhad (#26), dated 1234/1819
+    * Imām Ṣādiq, Qazwin (#238), dated 1235/1820
+    * AQR, Mashhad (#14421), dated 1239/1823
+    * Markaz-i Iḥyāʾ, Qum (#3648), dated 1241-42/1825-26
+    * Millī, Tehran (#4147), dated 1243/1827
 
 1. Taqrīrāt al-Mīrzā al-Shīrāzī  
    تقريرات الميرزا الشيرازي  
@@ -13894,7 +15506,7 @@
    (d. 13th century/18th-19th century)
 
    **Principle Manuscripts**
-    * Kāshif al-Ghiṭāʾ, Najaf (#572)
+    * Fāḍil, Khwansar (#212)
 
 1. Taqrīrāt al-uṣūl  
    تقريرات الأصول  
@@ -13902,8 +15514,7 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * University of Tehran, Tehran (#6843), dated 1264/1847
-    * University of Tehran, Tehran (#6849)
+    * Maʿṣūmiyya, Qum (#6265), dated 13th century/19th century
 
 1. Taqrīrāt fī l-uṣūl  
    تقريرات في الأصول  
@@ -13911,7 +15522,7 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Kāshif al-Ghiṭāʾ, Najaf (#197), dated 1242/1826
+    * KG, Najaf (#2803), dated 1389/1969-70
 
 1. Muqaddimat al-wājib/Risāla fī muqadimmat al-wājib  
    مقدمة الواجب/رسالة في مقدمة الواجب  
@@ -13927,8 +15538,7 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * University of Tehran, Tehran (#6843), dated 1264/1847
-    * University of Tehran, Tehran (#6849)
+    * Malek, Tehran (#2717), dated 13th century/19th century
 
 1. Taqrīrāt al-uṣūl  
    تقريرات الأصول  
@@ -13936,8 +15546,7 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * University of Tehran, Tehran (#6843), dated 1264/1847
-    * University of Tehran, Tehran (#6849)
+    * University of Tehran, Tehran (#1/3074), dated 1247/1831
 
 1. Taqrīrāt al-uṣūl  
    تقريرات الأصول  
@@ -13945,8 +15554,7 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * University of Tehran, Tehran (#6843), dated 1264/1847
-    * University of Tehran, Tehran (#6849)
+    * Ilāhiyyāt, Mashhad (#19555)
 
 1. Taqrīrāt al-uṣūl  
    تقريرات الأصول  
@@ -13954,8 +15562,7 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * University of Tehran, Tehran (#6843), dated 1264/1847
-    * University of Tehran, Tehran (#6849)
+    * Fayḍiyya, Qum (#1382), dated 13th century/19th century
 
 1. Taqrīrāt al-uṣūl  
    تقريرات الأصول  
@@ -13963,8 +15570,7 @@
    (d. 1299/19th century)
 
    **Principle Manuscripts**
-    * University of Tehran, Tehran (#6843), dated 1264/1847
-    * University of Tehran, Tehran (#6849)
+    * AQR, Mashhad (#7322)
 
 1. Muqaddimat al-wājib  
    مقدمة الواجب  
@@ -13972,16 +15578,15 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Masjid-i Aʿẓam, Qum (#825/14), dated 1235/1819-20
-    * Millī, Tehran (#2088/2), dated 1243/1827-8
-    * AQR, Mashhad (#7381), dated 1260/1844-5
-    * Marʿashī, Qum (#13834/6), dated 1266/1849-50
-    * Markaz-i Iḥyāʾ, Qum (#2731), dated 13th century/19th century
+    * Marʿashī, Qum (#1940/4), dated 1330/1912
 
 1. Taqrīrāt  
    تقريرات  
    Muḥammad b. Muḥammad Ḥasan al-Raḍawī  
    (d. 1299/19th century)
+
+   **Principle Manuscripts**
+    * AQR, Mashhad (#2547), dated 1329/1911
 
 1. al-Istiṣḥāb  
    الاستصحاب  
@@ -13989,17 +15594,23 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Kāshif al-Ghiṭāʾ, Najaf (#572)
+    * Majlis, Tehran (#3429/1), dated 1239/1823-4
 
 1. Aṣālat al-barāʾa wa-l-iḥtiyāṭ  
    أصالة البراءة والاحتياط  
    Aḥmad b. Muḥammad Muḥsin al-Fayḍī  
    (d. 13th century/18th-19th century)
 
+   **Principle Manuscripts**
+    * Fāḍil, Khwansar (#216), dated 13th century/19th century
+
 1. Taqrīrāt al-fiqh wa-l-uṣūl  
    تقريرات الفقه و الاصول  
    Ḥusayn al-Gulpāygānī  
    (d. 13th century/19th century)
+
+   **Principle Manuscripts**
+    * Gulpāygānī, Qum (#4381-22/101), dated 13th century/19th century
 
 1. Tawḍīḥ al-Qawānīn al-muḥkama  
    توضيح القوانين المحكمة  
@@ -14014,19 +15625,24 @@
    Muṣtafā al-ʿAqīlī al-Kurdmaḥallaʾī  
    (d. 13th century/19th century)
 
+   **Principle Manuscripts**
+    * University of Tehran, Tehran (#7750/3), dated 13th century/19th century
+
 1. Taqrīrāt al-uṣūl  
    تقريرات الأصول  
    Muḥammad Yūsuf al-Bārfurūshī  
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * University of Tehran, Tehran (#6843), dated 1264/1847
-    * University of Tehran, Tehran (#6849)
+    * Khatam al-Anbiyāʾ, Babol (#236), dated 13th century/19th century
 
 1. Taqrīrāt al-fiqh wa-l-uṣūl  
    تقريرات الفقه والأصول  
    Zayn al-ʿĀbidīn b. Muḥammad al-Ṭabāṭabāʾī  
    (d. 13th century/19th century)
+
+   **Principle Manuscripts**
+    * Ḥuqūq, Tehran (#265)
 
 1. Uṣūl al-fiqh  
    أصول الفقه  
@@ -14034,7 +15650,8 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Millī, Tehran (#1945/5), dated 1211/1796
+    * Ṭabasī, Qum (#153), dated 1243/1827-8
+    * Nujūmī, Kermanshah (#Majmūʿ 4), dated 13th century/19th century
 
 1. Taqrīrāt al-uṣūl  
    تقريرات الأصول  
@@ -14042,8 +15659,7 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * University of Tehran, Tehran (#6843), dated 1264/1847
-    * University of Tehran, Tehran (#6849)
+    * Marʿashī, Qum (#1/10234), dated 13th century/19th century
 
 1. Taqrīrāt al-uṣūl  
    تقريرات الأصول  
@@ -14051,8 +15667,11 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * University of Tehran, Tehran (#6843), dated 1264/1847
-    * University of Tehran, Tehran (#6849)
+    * al-Rawḍa al-Ḥusayniyya, Karbala (#9153/166), dated 1237/1821
+    * Nujūmī, Kermanshah (#N/A), dated 1246/1830
+    * Nujūmī, Kermanshah (#N/A), dated 1285/1868
+    * Ilāhiyyāt, Tehran (#121/1), dated 13th century/19th century
+    * University of Tehran, Tehran (#6926/1)
 
 1. Taqrīrāt al-uṣūl  
    تقريرات الأصول  
@@ -14060,8 +15679,7 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * University of Tehran, Tehran (#6843), dated 1264/1847
-    * University of Tehran, Tehran (#6849)
+    * AQR, Mashhad (#20879), dated before 1281/1864
 
 1. Taqrīrāt al-uṣūl  
    تقريرات الأصول  
@@ -14069,8 +15687,7 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * University of Tehran, Tehran (#6843), dated 1264/1847
-    * University of Tehran, Tehran (#6849)
+    * KG, Najaf (#3806)
 
 1. Taqrīrāt abḥāth al-Shaykh al-Anṣārī  
    تقريرات أبحاث الشيخ الأنصاري  
@@ -14087,18 +15704,24 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * University of Tehran, Tehran (#6843), dated 1264/1847
-    * University of Tehran, Tehran (#6849)
+    * Marʿashī, Qum (#10700), dated 13th century/19th century
 
 1. Taqrīrāt fī l-uṣūl al-ʿamaliyya  
    تقريرات في الأصول العملية  
    Jaʿfar b. Maʿṣūm al-Ḥusaynī al-Gīlānī  
    (d. 13th century/19th century)
 
+   **Principle Manuscripts**
+    * KG, Najaf (#2650), dated 1278/1861-2
+
 1. Tadhkirat al-uṣūl  
    تذكرة الأصول  
    Abū Ṭālib b. Amīn al-Ṭāliqānī  
    (d. 13th century/18th-19th century)
+
+   **Principle Manuscripts**
+    * Millī, Tehran (#4111/1)
+    * Markaz-i Iḥyāʾ, Qum (#761)
 
 1. Taqrīrāt al-uṣūl  
    تقريرات الأصول  
@@ -14106,13 +15729,15 @@
    (d. 13th century/18th-19th century)
 
    **Principle Manuscripts**
-    * University of Tehran, Tehran (#6843), dated 1264/1847
-    * University of Tehran, Tehran (#6849)
+    * Majlis, Tehran (#13455), dated 1281/1964
 
 1. Taqrīrāt al-fiqh wa-l-uṣūl  
    تقريرات الفقه والأصول  
    Muḥammad Riḍā b. ʿAlī al-Gūgadī al-Gulpāygānī  
    (d. 13th century/19th century)
+
+   **Principle Manuscripts**
+    * Gulpāygānī, Qum (#31/43-6163), dated 1247-53/1831-7
 
 1. Taqrīrāt al-uṣūl  
    تقريرات الأصول  
@@ -14120,8 +15745,7 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * University of Tehran, Tehran (#6843), dated 1264/1847
-    * University of Tehran, Tehran (#6849)
+    * Ilāhiyyāt, Tehran (#50), dated 1244/1828-30
 
 1. ʿIbādat al-jāhil  
    عبادة الجاهل  
@@ -14137,8 +15761,9 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * University of Tehran, Tehran (#6843), dated 1264/1847
-    * University of Tehran, Tehran (#6849)
+    * Majlis, Tehran (#16887)
+    * Majlis, Tehran (#16888)
+    * Majlis, Tehran (#16889)
 
 1. Taqrīrāt al-uṣūl  
    تقريرات الأصول  
@@ -14146,13 +15771,16 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * University of Tehran, Tehran (#6843), dated 1264/1847
-    * University of Tehran, Tehran (#6849)
+    * Majlis, Tehran (#14524), dated 13th century/19th century
 
 1. al-Fiqh wa-l-uṣūl  
    الفقه و الأصول  
    unknown  
    (d. 1299/1882)
+
+   **Principle Manuscripts**
+    * University of Tehran, Tehran (#4/1489), dated 13th century/19th century
+    * Millī, Tehran (#2157), dated 13th century/19th century
 
 1. Taqrīrāt al-uṣūl  
    تقريرات الأصول  
@@ -14160,27 +15788,33 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * University of Tehran, Tehran (#6843), dated 1264/1847
-    * University of Tehran, Tehran (#6849)
+    * Jamʿiyyat Nashr-i Farhang, Rasht (#64), dated 13th century/19th century
 
 1. Taqrīrāt al-fiqh wa-l-uṣūl  
    تقريرات الفقه والأصول  
    unknown  
    (d. 1299/1882)
 
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#862), dated 1297/1880
+    * ʿAbd al-ʿAẓīm, Tehran (#68), dated 13th century/19th century
+    * University of Tehran, Tehran (#6430), dated 13th century/19th century
+    * Dāʾirat al-Maʿārif, Tehran (#960), dated 13th century/19th century
+    * Millī, Tehran (#3861/8), dated 13th century/19th century
+
 1. Dalīl al-Insidād  
    دليل الانسداد  
    Aḥmad b. Muḥammad Muḥsin al-Fayḍī  
    (d. 13th century/18th-19th century)
 
+   **Principle Manuscripts**
+    * Markaz-i Iḥyāʾ, Qum (#223)
+    * Fāḍil Khwānsārī, Khwansar (#218)
+
 1. Taqrīrāt al-uṣūl  
    تقريرات الأصول  
    Muḥammad Taqī al-Tabrīzī al-Ṭabāṭabāʾī  
    (d. 13th century/19th century)
-
-   **Principle Manuscripts**
-    * University of Tehran, Tehran (#6843), dated 1264/1847
-    * University of Tehran, Tehran (#6849)
 
 1. Taqrīrāt al-uṣūl  
    تقريرات الأصول  
@@ -14188,8 +15822,7 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * University of Tehran, Tehran (#6843), dated 1264/1847
-    * University of Tehran, Tehran (#6849)
+    * Ilāhiyyāt, Mashhad (#22488), dated 1272/1856
 
 1. Taqrīrāt al-uṣūl  
    تقريرات الأصول  
@@ -14197,8 +15830,7 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * University of Tehran, Tehran (#6843), dated 1264/1847
-    * University of Tehran, Tehran (#6849)
+    * Ḥujjatiyya, Qum (#660)
 
 1. al-Adilla al-ʿaqliyya  
    الأدلة العقلية  
@@ -14206,12 +15838,19 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Gulpāygānī, Qum (#14/129-2679/1)
+    * Gawharshād, Mashhad (#785/5), dated 1295/1878-9
 
 1. al-Taʿādul wa-l-tarājīḥ  
    التعادل والتراجيح  
    unknown  
    (d. 1299/1882)
+
+   **Principle Manuscripts**
+    * AQR, Mashhad (#11214), dated 1223/1808-9
+    * Malek, Tehran (#5797/5), dated 14th century/20th century
+    * Adabiyyāt, Tehran (#115/10), dated 13th century/19th century
+    * Gulpāygānī, Qum (#7/110-1210), dated 13th century/19th century
+    * Marʿashī, Qum (#10993/14), dated 13th century/19th century
 
 1. Taqrīrāt al-uṣūl  
    تقريرات الأصول  
@@ -14219,8 +15858,7 @@
    (d. 1300/1883)
 
    **Principle Manuscripts**
-    * University of Tehran, Tehran (#6843), dated 1264/1847
-    * University of Tehran, Tehran (#6849)
+    * Marʿashī, Qum (#8105)
 
 1. Taqrīrāt al-uṣūl  
    تقريرات الأصول  
@@ -14228,8 +15866,7 @@
    (d. 1304/1887)
 
    **Principle Manuscripts**
-    * University of Tehran, Tehran (#6843), dated 1264/1847
-    * University of Tehran, Tehran (#6849)
+    * Marʿashī, Qum (#14649), dated 13th century/19th century
 
 1. Jawāmiʿ al-shatāt  
    جوامع الشتات  
@@ -14254,10 +15891,16 @@
    Zayn al-ʿĀbidīn b. Muslim al-Ḥāʾirī al-Māzandarānī  
    (d. 1309/1892)
 
+   **Principle Manuscripts**
+    * al-Rawḍa al-Ḥusayniyya (Maktaba), Karbala (#9756)
+
 1. Taqrīrat  
    تقريرات  
    Mullā Luṭfallāh al-Lārījānī  
    (d. 1311/1894)
+
+   **Principle Manuscripts**
+    * Ḥusayniyya-yi Shūshtarīhā, Najaf (#455)
 
 1. Taqrīrāt fī l-uṣūl  
    تقريرات في الأصول  
@@ -14265,12 +15908,16 @@
    (d. 1313/1896)
 
    **Principle Manuscripts**
-    * Kāshif al-Ghiṭāʾ, Najaf (#197), dated 1242/1826
+    * Maktabat Kāshif al-Ghitāʾ (ʿAlī wa-l-Ḥussayn), Najaf (#370), dated 13th century/19th century
 
 1. Ghāyat al-masʾūl wa-nihāyat al-maʾmūl fī ʿilm al-uṣūl  
    غاية المسؤول ونهاية المأمول في علم الأصول  
    Muḥammad Ḥusayn b. Muḥammad ʿAlī al-Shahristānī  
    (d. 1315Sh/1898)
+
+   **Principle Manuscripts**
+    * Marʿashī, Qum (#14928/2), dated late 13th century/19th century
+    * Maktabat Āl Marʿashī, Karbala (#106/2)
 
 1. Taqrīrāt al-uṣūl  
    تقريرات الأصول  
@@ -14278,8 +15925,7 @@
    (d. *c.* 13th century/19th century)
 
    **Principle Manuscripts**
-    * University of Tehran, Tehran (#6843), dated 1264/1847
-    * University of Tehran, Tehran (#6849)
+    * Majlis, Tehran (#9730), dated 1281/1864
 
 1. Taqrīrāt al-uṣūl  
    تقريرات الأصول  
@@ -14287,13 +15933,15 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * University of Tehran, Tehran (#6843), dated 1264/1847
-    * University of Tehran, Tehran (#6849)
+    * Masjid-i Aʿẓam, Qum (#4/300)
 
 1. al-Ijtihād  
    الاجتهاد  
    Mullā Maḥmūd al-Ṭabāṭabāʾī al-Burūjirdī  
    (d. 13th century/19th century)
+
+   **Principle Manuscripts**
+    * Imām Ṣādiq, Qum (#29/2), dated 13th century/19th century
 
 1. Taqrīrāt al-uṣūl  
    تقريرات الأصول  
@@ -14301,8 +15949,8 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * University of Tehran, Tehran (#6843), dated 1264/1847
-    * University of Tehran, Tehran (#6849)
+    * Majlis, Tehran (#5860/3), dated 14th century/20th century
+    * Majlis, Tehran (#5860/2), dated 14th century/20th century
 
 1. Taqrīrāt al-uṣūl  
    تقريرات الأصول  
@@ -14310,13 +15958,16 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * University of Tehran, Tehran (#6843), dated 1264/1847
-    * University of Tehran, Tehran (#6849)
+    * Marʿashī, Qum (#8108)
+    * Marʿashī, Qum (#8107)
 
 1. Taqrīrāt al-fiqh wa-l-uṣūl  
    تقريرات الفقه والأصول  
    Muḥammad ʿĪsā b. Yūsuf al-Rashtī  
    (d. 1317/1900)
+
+   **Principle Manuscripts**
+    * Maʿṣūmiyya, Qum (#410), dated 1283-84/1866-67
 
 1. Taqrīrāt al-uṣūl  
    تقريرات الأصول  
@@ -14324,13 +15975,19 @@
    (d. 1322/1904)
 
    **Principle Manuscripts**
-    * University of Tehran, Tehran (#6843), dated 1264/1847
-    * University of Tehran, Tehran (#6849)
+    * Maktabat al-Imām Amīr al-Muʾminīn al-ʿĀmma, Najaf (#752)
 
 1. Bushrā l-wuṣūl ilā asrār ʿilm al-uṣūl  
    بشرى الوصول إلى أسرار علم الأصول  
    Muḥammad Ḥasan b. ʿAbdallāh al-Māmaqānī  
    (d. 1323/1905)
+
+   **Principle Manuscripts**
+    * University of Tehran, Tehran (#804), dated 1276/1859-60
+    * KG, Najaf (#6283), dated 1276/1859-60
+    * KG, Najaf (#6323), dated 1277/1860-1
+    * University of Tehran, Tehran (#805), dated 1277/1860
+    * KG, Najaf (#6356), dated 1280/1863-4
 
 1. Taqrīrāt fī l-uṣūl  
    تقريرات في الأصول  
@@ -14338,7 +15995,7 @@
    (d. 1323/1905)
 
    **Principle Manuscripts**
-    * Kāshif al-Ghiṭāʾ, Najaf (#197), dated 1242/1826
+    * KG, Najaf (#727)
 
 1. Taqrīrāt al-uṣūl  
    تقريرات الأصول  
@@ -14346,13 +16003,16 @@
    (d. 1324/1905)
 
    **Principle Manuscripts**
-    * University of Tehran, Tehran (#6843), dated 1264/1847
-    * University of Tehran, Tehran (#6849)
+    * Markaz-i Iḥyāʾ, Qum (#3315), dated 1289/1872
+    * Marʿashī, Qum (#2352/1), dated 1289/1872
 
 1. Khulāṣat al-uṣūl  
    خلاصة الأصول  
    ʿAbdallāh b. Muḥammad ʿAlī al-Kirmānī al-Rāyinī  
    (d. 1327/1909)
+
+   **Principle Manuscripts**
+    * Ḥuqūq, Tehran (#128)
 
 1. Taqrīrāt al-uṣūl  
    تقريرات الأصول  
@@ -14360,8 +16020,7 @@
    (d. 1329/1911)
 
    **Principle Manuscripts**
-    * University of Tehran, Tehran (#6843), dated 1264/1847
-    * University of Tehran, Tehran (#6849)
+    * Majlis, Tehran (#14187), dated 6 Shawwāl 1278/6 April 1862
 
 1. Taqrīrāt al-uṣūl  
    تقريرات الأصول  
@@ -14369,8 +16028,7 @@
    (d. 1334/1916)
 
    **Principle Manuscripts**
-    * University of Tehran, Tehran (#6843), dated 1264/1847
-    * University of Tehran, Tehran (#6849)
+    * AQR, Mashhad (#9956)
 
 1. Taqrīrāt al-uṣūl  
    تقريرات الأصول  
@@ -14378,8 +16036,7 @@
    (d. *c.* 14th century/20th century)
 
    **Principle Manuscripts**
-    * University of Tehran, Tehran (#6843), dated 1264/1847
-    * University of Tehran, Tehran (#6849)
+    * Marʿashī, Qum (#2817), dated 1297/1879-80
 
 1. Taqrīrāt al-uṣūl  
    تقريرات الأصول  
@@ -14387,8 +16044,8 @@
    (d. 14th century/20th century)
 
    **Principle Manuscripts**
-    * University of Tehran, Tehran (#6843), dated 1264/1847
-    * University of Tehran, Tehran (#6849)
+    * Maktabat al-Imām Amīr al-Muʾminīn al-ʿĀmma, Najaf (#458)
+    * Maktabat al-Imām Amīr al-Muʾminīn al-ʿĀmma, Najaf (#460)
 
 ```{=openxml}
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
@@ -14401,10 +16058,21 @@
    Maḥmūd al-Ḥusaynī al-Ṭabāṭabāʾī  
    (d. 11th century/17th century)
 
+   **Principle Manuscripts**
+    * Gulpāygānī, Qum (#36/166-6796/3)
+
 1. Maʿālim al-uṣūl  
    معالم الأصول  
    Muḥammad Hādī b. Muḥammad Ṣāliḥ al-Māzandarānī  
    (d. 1120/1708-9)
+
+   **Principle Manuscripts**
+    * Gulpāygānī, Qum (#6/73-983), dated 11th century/17th century
+    * Markaz-i Iḥyāʾ, Qum (#3935), dated 1149/1736
+    * Saryazdī, Yazd (#173/2), dated 13th century/19th century
+
+   **Editions**
+    * *Maʿālim al-uṣul*, ed. Murtaḍā Mudarissī Chāhārdahī (Tehran: Kitābfurūshī-yi Shafīʿī; Muʾssasat ʿAbd al-Raḥīm ʿIlmī, 1379/1959)
 
 1. Asās al-uṣūl  
    أساس الأصول  
@@ -14412,20 +16080,8 @@
    (d. 13th century/19th century)
 
    **Principle Manuscripts**
-    * Maktabat al-Imām al-Ḥakīm al-ʿĀmma, Najaf (#1542/1), dated 1216/1801
-    * Marʿashī, Qum (#11004/8), dated 13th century/19th century
-    * Marʿashī, Qum (#14662), dated 13th century/19th century
-    * al-Rawḍa al-Ḥusayniyya, Karbala (#14201/39), dated 1329/1911
-    * Khizānat Āl Jamāl al-Dīn, Qaryat al-Muʾminīn (Sūq al-Shyūkh) (#275/4)
-
-   **Editions**
-    * *Asās al-uṣūl* (Lucknow: Muhammadiya Press, 1848)
-    * *Asās al-uṣūl*, ed. Abū Aḥmad b. Aḥmad Āl-Uṣfūr (Karbala: Manshūrāt Dār al-Ḥusayn, 1440/2018)
-
-   **Commentaries**
-    * *Maʿāwil al-ʿuqūl fī qalʿ Asās al-uṣūl*, Jamāl al-Dīn b. ʿAbd al-Nabī b. ʿAbd al-Ṣāniʿ al-Nayshābūrī al-Astarābādī (d. 1232 or 1233/1817 or 1818)
-    * *Bughyat al-fuḥūl*, Jamāl al-Dīn b. ʿAbd al-Nabī b. ʿAbd al-Ṣāniʿ al-Nayshābūrī al-Astarābādī (d. 1232 or 1233/1817 or 1818)
-    * *Asās al-uṣūl*, Ḥimāyat Ḥusayn al-Nīshābūrī al-Kantūrī (d. 13th century/19th century)
+    * AQR, Mashhad (#22134), dated 13th century/19th century
+    * AQR, Mashhad (#19045), dated 13th century/19th century
 
 1. Fiqh-i istidlālī/Tarjuma-yi bakhsh-i Ghunyat al-nuzūʿ ilā ʿilmay al-uṣūl wa-l-furūʿ  
    فقه استدلالی/ترجمه بخش فقه غنیة النزوع إلی علمی الأصول والفروع  
@@ -14440,19 +16096,8 @@
    Muḥammad Riḍā al-Tafrīshī al-Nāqūsānī  
    (d. 1364/1944)
 
-   **Principle Manuscripts**
-    * Madrasa-yi Sulaymāniyya, Mashhad (#110/2), dated 1063/1653
-    * Marʿashī, Qum (#11585/2), dated 1068/1657
-    * Millī, Tehran (#1386/1), dated 1069/1658
-    * Ḥuqūq, Tehran (#111/22), dated 1073/1662
-    * Millī, Tehran (#3153/2), dated 1076/1665
-
    **Editions**
-    * *Safīnat al-najāt*, ed. Muḥammad Riḍā al-Tafrīshī al-Nāqūsānī (n.plac., n.p., 1379/1959)
-    * *Safīnat al-najāt*, ed. ʻAlī Jabbār Gulbāghī (Tehran: Madrasa-yi ʿĀlī-yi Shahīd Muṭahharī, 1387Sh/2008)
-
-   **Commentaries**
-    * *Safīnat al-najāt*, Muḥammad Riḍā al-Tafrīshī al-Nāqūsānī (d. 1364/1944)
+    * *Safīnat al-najāt*, ed. Muḥammad Riḍā al-Tafrishī al-Naqūsānī (n.plac., n.p, 1379/1959)
 
 1. Anwār al-uṣūl fī Maʿālim al-uṣūl  
    أنوار الأصول في معالم الأصول  

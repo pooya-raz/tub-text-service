@@ -1,15 +1,14 @@
 package org.tub.tubtextservice.adapter.out.semanticmediawiki;
 
-import org.springframework.stereotype.Component;
-import org.tub.tubtextservice.application.usecase.docx.dto.in.CreateDocxDto;
-import org.tub.tubtextservice.application.usecase.docx.dto.out.MarkdownDto;
-import org.tub.tubtextservice.application.usecase.docx.port.CreateDocxPort;
-
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.logging.Logger;
+import org.springframework.stereotype.Component;
+import org.tub.tubtextservice.application.usecase.docx.dto.in.CreateDocxDto;
+import org.tub.tubtextservice.application.usecase.docx.dto.out.MarkdownDto;
+import org.tub.tubtextservice.application.usecase.docx.port.CreateDocxPort;
 
 @Component
 public class CreateDocx implements CreateDocxPort {

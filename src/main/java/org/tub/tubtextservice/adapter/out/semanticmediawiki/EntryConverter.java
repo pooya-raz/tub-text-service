@@ -56,12 +56,12 @@ class EntryConverter {
      * @return an {@link TubEntry}
      */
     ArrayList<TubEntry> convert(final TubPrintouts tubPrintouts) {
-        return tubPrintouts.titles().values().stream()
-                .map(title -> convertTitle(title, tubPrintouts))
+        return tubPrintouts.titles().entrySet().stream()
+                .map(entry -> convertTitle(entry.getKey(), entry.getValue(), tubPrintouts))
                 .collect(Collectors.toCollection(ArrayList::new));
     }
 
-    private TubEntry convertTitle(TitlePrintouts title, final TubPrintouts tubPrintouts) {
+    private TubEntry convertTitle(String key, TitlePrintouts title, final TubPrintouts tubPrintouts) {
         final var author = title.author().stream().findFirst().orElse(null);
         final var authorPrintouts = Optional.ofNullable(author)
                 .map(MediaWikiPageDetails::fulltext)
@@ -78,9 +78,9 @@ class EntryConverter {
         final var sortTimeStamp = getSortTimeStamp(authorPrintouts);
         final var titleName = title.titleTransliterated().stream().findFirst().orElse("");
         final var titleOriginal = title.titleArabic().stream().findFirst().orElse("");
-        final var manuscripts = getManuscripts(tubPrintouts.manuscripts(), titleName);
-        final var editions = getEditions(tubPrintouts.editions(), titleName);
-        final var commentaries = getCommentaries(tubPrintouts, titleName);
+        final var manuscripts = getManuscripts(tubPrintouts.manuscripts(), key);
+        final var editions = getEditions(tubPrintouts.editions(), key);
+        final var commentaries = getCommentaries(tubPrintouts, key);
         final var titleType =
                 TitleType.valueOfTub(title.bookType().stream().findFirst().orElse("Unknown"));
 
