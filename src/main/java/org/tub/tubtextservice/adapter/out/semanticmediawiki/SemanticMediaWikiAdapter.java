@@ -24,7 +24,7 @@ public class SemanticMediaWikiAdapter implements GetEntriesPort {
      * @return A list of {@link TubEntry}
      */
     public EntriesDto getEntries() {
-        var printouts = tubDataFetcher.get();
+        final var printouts = tubDataFetcher.get();
         final var entries = entryConverter.convert(printouts);
         final var comp = new EntryComparator();
         entries.sort(comp);
