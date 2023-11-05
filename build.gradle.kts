@@ -1,6 +1,6 @@
 import net.ltgt.gradle.errorprone.CheckSeverity
 import net.ltgt.gradle.errorprone.errorprone
-import org.gradle.api.JavaVersion.VERSION_20
+import org.gradle.api.JavaVersion.VERSION_21
 
 plugins {
     java
@@ -15,7 +15,7 @@ plugins {
 
 group = "org.tub"
 version = "0.0.1-SNAPSHOT"
-java.sourceCompatibility = VERSION_20
+java.sourceCompatibility = VERSION_21
 
 repositories {
     mavenCentral()
