@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.Arrays;
 import java.util.logging.Logger;
 import org.springframework.stereotype.Component;
 import org.tub.tubtextservice.application.usecase.docx.dto.in.CreateDocxDto;
@@ -18,11 +19,7 @@ public class CreateDocx implements CreateDocxPort {
     @Override
     public CreateDocxDto createDocx(MarkdownDto markdownDto, String directory) {
         final var markdownPath = saveMarkdown(markdownDto, directory);
-        final var system = System.getProperty("os.name").toLowerCase();
         final var outputFilePath = directory + "tub.docx";
-        if (system.contains("windows")) {
-            return null;
-        }
         try {
             String[] cmd = {
                 "pandoc",
@@ -33,6 +30,7 @@ public class CreateDocx implements CreateDocxPort {
                 "--table-of-contents",
                 markdownPath
             };
+            log.info("Creating docx file: " + Arrays.toString(cmd));
             Runtime.getRuntime().exec(cmd);
         } catch (IOException e) {
             log.info("Error while creating docx file");
