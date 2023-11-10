@@ -16,7 +16,7 @@ function downloadFile() {
             const url = window.URL.createObjectURL(blob);
             const a = document.createElement('a');
             a.href = url;
-            a.download = 'downloaded_file.docx';
+            a.download = 'tub.docx';
             document.body.appendChild(a);
             a.click();
 
