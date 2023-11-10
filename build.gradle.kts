@@ -10,7 +10,7 @@ plugins {
     id("jacoco")
     id("net.ltgt.errorprone") version "3.0.1"
     id("net.ltgt.nullaway") version "1.5.0"
-    id("com.diffplug.spotless") version "6.19.0"
+    id("com.diffplug.spotless") version "6.22.0"
 }
 
 group = "org.tub"
@@ -100,6 +100,6 @@ spotless {
     java {
         importOrder()
         removeUnusedImports()
-        palantirJavaFormat()
+        palantirJavaFormat("2.38.0")
     }
 }
