@@ -43,4 +43,5 @@ generated/.DS_Store
 ## Output Files ##
 src/main/resources/output/*
 src/test/resources/output/*
+output/*
 

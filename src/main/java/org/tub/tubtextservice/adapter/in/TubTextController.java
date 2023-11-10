@@ -22,7 +22,6 @@ public class TubTextController {
     public byte[] getEntry() throws IOException {
         final var user = new UserDto("test");
         final var path = docxUseCase.createDocx(user);
-
         return Files.readAllBytes(path);
     }
 }

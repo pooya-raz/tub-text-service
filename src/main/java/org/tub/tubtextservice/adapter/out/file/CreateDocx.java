@@ -1,10 +1,13 @@
 package org.tub.tubtextservice.adapter.out.file;
 
-import java.io.File;
-import java.io.FileWriter;
+import static org.tub.tubtextservice.adapter.out.file.FileWatcher.waitForFile;
+
 import java.io.IOException;
-import java.io.PrintWriter;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.logging.Logger;
 import org.springframework.stereotype.Component;
 import org.tub.tubtextservice.application.usecase.docx.dto.in.CreateDocxDto;
@@ -16,10 +19,27 @@ public class CreateDocx implements CreateDocxPort {
 
     private static final Logger log = Logger.getLogger(CreateDocx.class.getName());
 
+    private static void prepareDirectory(String directoryString, Path outputFile) {
+        final var directory = Path.of(directoryString);
+        if (!directory.toFile().exists()) {
+            try {
+                Files.createDirectories(directory);
+            } catch (IOException e) {
+                log.info("Error while creating directory: " + directory);
+                e.printStackTrace();
+            }
+        }
+        if (outputFile.toFile().exists()) {
+            outputFile.toFile().delete();
+        }
+    }
+
     @Override
     public CreateDocxDto createDocx(MarkdownDto markdownDto, String directory) {
-        final var markdownPath = saveMarkdown(markdownDto, directory);
         final var outputFilePath = directory + "tub.docx";
+        final var outputFile = Path.of(outputFilePath);
+        prepareDirectory(directory, outputFile);
+        final var markdownPath = saveMarkdown(markdownDto, directory);
         try {
             String[] cmd = {
                 "pandoc",
@@ -32,6 +52,8 @@ public class CreateDocx implements CreateDocxPort {
             };
             log.info("Creating docx file: " + Arrays.toString(cmd));
             Runtime.getRuntime().exec(cmd);
+            waitForFile(outputFile, 0);
+
         } catch (IOException e) {
             log.info("Error while creating docx file");
             e.printStackTrace();
@@ -42,12 +64,9 @@ public class CreateDocx implements CreateDocxPort {
     private String saveMarkdown(MarkdownDto markdownDto, String directory) {
         var filePath = "";
         try {
-            final var file = new File(directory + "markdown.md");
-            final var fileWriter = new FileWriter(file);
-            final var printWriter = new PrintWriter(fileWriter);
-            printWriter.print(markdownDto.body());
-            printWriter.close();
-            filePath = file.getAbsolutePath();
+            final var file = Path.of(directory + "markdown.md");
+            Files.write(file, Collections.singleton(markdownDto.body()), StandardCharsets.UTF_8);
+            filePath = file.toAbsolutePath().toString();
         } catch (IOException e) {
             log.info("Error while saving markdown file");
             e.printStackTrace();

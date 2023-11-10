@@ -13,7 +13,7 @@ import org.tub.tubtextservice.application.usecase.docx.port.GetEntriesPort;
  */
 @Service
 public class DocxUseCase {
-    public static final String DIRECTORY = "src/main/resources/output/";
+    public static final String DIRECTORY = "output/";
     public static final String FILENAME = "tub.docx";
     private final MarkdownConverter markdownConverter;
     private final GetEntriesPort getEntriesPort;
