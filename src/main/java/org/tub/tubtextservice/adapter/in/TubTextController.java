@@ -16,7 +16,7 @@ public class TubTextController {
         this.docxUseCase = docxUseCase;
     }
 
-    @GetMapping("/entry")
+    @GetMapping(value = "/entry", produces = "application/vnd.openxmlformats-officedocument.wordprocessingml.document")
     public void getEntry() {
         final var user = new UserDto("test");
         docxUseCase.createDocx(user);
