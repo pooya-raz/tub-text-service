@@ -4,7 +4,7 @@ import java.nio.file.Path;
 
 public class FileWatcher {
     public static void waitForFile(Path path, int attempts) {
-        if (attempts == 4) {
+        if (attempts == 11) {
             throw new RuntimeException("File not found: " + path.toAbsolutePath());
         }
         if (!path.toFile().exists()) {
