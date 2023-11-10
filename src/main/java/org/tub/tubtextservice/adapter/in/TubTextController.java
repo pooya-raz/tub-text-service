@@ -1,5 +1,7 @@
 package org.tub.tubtextservice.adapter.in;
 
+import java.io.IOException;
+import java.nio.file.Files;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -17,8 +19,10 @@ public class TubTextController {
     }
 
     @GetMapping(value = "/entry", produces = "application/vnd.openxmlformats-officedocument.wordprocessingml.document")
-    public void getEntry() {
+    public byte[] getEntry() throws IOException {
         final var user = new UserDto("test");
-        docxUseCase.createDocx(user);
+        final var path = docxUseCase.createDocx(user);
+
+        return Files.readAllBytes(path);
     }
 }

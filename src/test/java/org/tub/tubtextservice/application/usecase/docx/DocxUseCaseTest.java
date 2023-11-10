@@ -1,5 +1,9 @@
 package org.tub.tubtextservice.application.usecase.docx;
 
+import static org.mockito.Mockito.any;
+import static org.mockito.Mockito.when;
+
+import java.util.List;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -12,13 +16,7 @@ import org.tub.tubtextservice.application.usecase.docx.dto.in.UserDto;
 import org.tub.tubtextservice.application.usecase.docx.markdownconverter.MarkdownConverter;
 import org.tub.tubtextservice.application.usecase.docx.port.CreateDocxPort;
 import org.tub.tubtextservice.application.usecase.docx.port.GetEntriesPort;
-import org.tub.tubtextservice.application.usecase.docx.port.SendDocxPort;
 import org.tub.tubtextservice.domain.TubEntry;
-
-import java.util.List;
-
-import static org.mockito.Mockito.any;
-import static org.mockito.Mockito.when;
 
 @ExtendWith(MockitoExtension.class)
 class DocxUseCaseTest {
@@ -32,14 +30,11 @@ class DocxUseCaseTest {
     private CreateDocxPort createDocxPort;
 
     @Mock
-    private SendDocxPort sendDocxPort;
-
-    @Mock
     private MarkdownConverter markdownConverter;
 
     @BeforeEach
     void setUp() {
-        subject = new DocxUseCase(markdownConverter, getEntriesPort, createDocxPort, sendDocxPort);
+        subject = new DocxUseCase(markdownConverter, getEntriesPort, createDocxPort);
     }
 
     @Test
