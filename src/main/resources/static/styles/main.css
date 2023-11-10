@@ -3,3 +3,14 @@
     margin: 0 auto;
     padding: 0 2rem 0 2rem;
 }
+
+#loader {
+    display: none;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.spinner {
+    width: 50px;
+    height: auto;
+}
