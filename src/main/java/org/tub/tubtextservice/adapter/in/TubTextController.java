@@ -3,22 +3,22 @@ package org.tub.tubtextservice.adapter.in;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.tub.tubtextservice.application.usecase.docx.CreateAndSendDocx;
+import org.tub.tubtextservice.application.usecase.docx.DocxUseCase;
 import org.tub.tubtextservice.application.usecase.docx.dto.in.UserDto;
 
 @RestController
 @RequestMapping()
 public class TubTextController {
 
-    private final CreateAndSendDocx createAndSendDocx;
+    private final DocxUseCase docxUseCase;
 
-    public TubTextController(CreateAndSendDocx createAndSendDocx) {
-        this.createAndSendDocx = createAndSendDocx;
+    public TubTextController(DocxUseCase docxUseCase) {
+        this.docxUseCase = docxUseCase;
     }
 
     @GetMapping("/entry")
     public void getEntry() {
         final var user = new UserDto("test");
-        createAndSendDocx.createDocx(user);
+        docxUseCase.createDocx(user);
     }
 }

@@ -13,13 +13,13 @@ import org.tub.tubtextservice.application.usecase.docx.port.SendDocxPort;
  * This class is the use case for creating and sending a docx file.
  */
 @Service
-public class CreateAndSendDocx {
+public class DocxUseCase {
     private final MarkdownConverter markdownConverter;
     private final GetEntriesPort getEntriesPort;
     private final CreateDocxPort createDocxPort;
     private final SendDocxPort sendDocxPort;
 
-    public CreateAndSendDocx(
+    public DocxUseCase(
             MarkdownConverter markdownConverter,
             GetEntriesPort getEntriesPort,
             CreateDocxPort createDocxPort,
