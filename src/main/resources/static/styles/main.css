@@ -14,3 +14,8 @@
     width: 50px;
     height: auto;
 }
+
+#download-error {
+    display: none;
+    background-color: red;
+}
