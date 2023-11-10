@@ -1,3 +1,7 @@
+spring:
+  web:
+    resources:
+      static-locations: [ file:src/main/resources/static/,classpath:/static/ ]
 tub:
   api-url: 'http://10.164.39.147:8080/tub/api.php'
   retry-max-attempts: 2
